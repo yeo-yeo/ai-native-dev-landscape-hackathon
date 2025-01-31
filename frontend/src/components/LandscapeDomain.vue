@@ -9,7 +9,7 @@ const props = defineProps<{
 }>()
 
 // Function to generate HSL colors with good contrast
-const generateColor = (index: number, total: number): string => {
+const generateColor = (index: number): string => {
   // Use golden ratio for even color distribution
   const goldenRatio = 0.618033988749895
   
@@ -40,7 +40,7 @@ const colorPool = [
 const toolLandscapeStore = useToolLandscapeStore()
 const categories = toolLandscapeStore.getCategoriesByDomainId(props.domain.uid)
 
-const backgroundColor = generateColor(props.index, colorPool.length)
+const backgroundColor = generateColor(props.index)
 //const backgroundColor = colorPool[props.index % colorPool.length]
 </script>
 
