@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #F4EEE2;
+  --color-foreground: #000000;
+
+
+  --border-primary: #C9C3B9;
+  --border-secondary: #000000;
+
+  --font-inter: var(--font-inter);
+  --font-dm-mono: var(--font-dm-mono);
+  --font-instrument-sans: var(--font-instrument-sans);
+  --font-instrument-serif: var(--font-instrument-serif);
+
+  --animate-mobile-slidein: mobile-slidein 500ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-mobile-slideout: mobile-slideout 300ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+ 
+  @keyframes mobile-slidein {
+    0% {opacity: 0; transform: translateY(400px);}
+    100% {opacity: 1; transform: translateY(0);}
+  }
+  
+  @keyframes mobile-slideout {
+    0% {opacity: 1; transform: translateY(0);}
+    100% {opacity: 0; transform: translateY(200px);}
+  }
+
+}
+
+
+/* typography utilities */
+@utility menuItem {
+  @apply font-instrument-sans text-sm font-normal leading-[130%];
+}
+
+@utility heading {
+  @apply font-instrument-serif text-[64px] font-normal leading-[110%] tracking-[-1.28px];
+}
+
+@utility heading-2xl {
+  @apply font-instrument-sans text-[30px] font-normal leading-[110%] tracking-[-0.6px];
+}
+
+@utility heading-xl {
+  @apply font-inter text-[20px] font-normal leading-[110%] tracking-[-0.4px];
+}
+
+@utility body {
+  @apply font-dm-mono font-normal leading-[150%];
+}
+
+@utility body-sm {
+  @apply font-dm-mono text-sm font-normal leading-[150%];
+}
+
+@utility label {
+  @apply font-dm-mono text-sm font-normal leading-[130%] ;
+}
+
+@utility label-sm {
+  @apply font-instrument-sans text-sm font-normal leading-[130%];
+}
+
+@utility body-xs {
+  @apply  text-xs leading-[120%] tracking-[0.1em];
+}
+
+
+
+@utility body-xxs {
+  @apply font-dm-mono text-[12px] leading-[130%] tracking-[1.1px] uppercase;
+}
+@utility body-lg {
+  @apply font-inter text-base leading-[150%];
+}
+
+
+
+body {
+  overscroll-behavior: none;
+  background: var(--color-background);
+  color: var(--color-foreground);
+}
