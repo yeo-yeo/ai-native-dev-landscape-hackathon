@@ -18,7 +18,11 @@ export default function Catalog() {
                   );
 
               return filteredTools.map((tool) => (
-                <CatalogCard key={tool.name} tool={tool} />
+                <CatalogCard
+                  key={tool.name}
+                  tool={tool}
+                  category={category.name}
+                />
               ));
             })
           )}

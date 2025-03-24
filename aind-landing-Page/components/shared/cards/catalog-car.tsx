@@ -2,54 +2,79 @@ import React from "react";
 import { Button } from "../button";
 import { Tool } from "@/type/tools-type";
 import Link from "next/link";
+import { Icon } from "../icons";
 
-export default function CatalogCard({ tool }: { tool: Tool }) {
+export default function CatalogCard({
+  tool,
+  category,
+}: {
+  tool: Tool;
+  category: string;
+}) {
   return (
     <div className="outline outline-[#C9C3B9] p-6 rounded-lg lg:rounded-none">
-      <div className="w-full h-[427px] flex flex-col justify-between">
+      <div className="w-full flex flex-col justify-between">
         <div className="flex flex-col gap-6">
-          <div className="flex items-center gap-6">
-            {tool.icon_url ? (
-              <Link href={tool.website_url} target="_blank">
-                <img
-                  src={tool.icon_url}
-                  alt={tool.name}
-                  className="w-14 h-14 object-contain"
-                  onError={(e) => {
-                    const target = e.target as HTMLImageElement;
-                    const div = document.createElement("div");
-                    div.className = "w-14 h-14 bg-gray-300";
-                    target.parentNode?.replaceChild(div, target);
-                  }}
-                />
-              </Link>
-            ) : (
-              <div className="w-14 h-14 bg-gray-300" />
-            )}
-            <div className="uppercase text-[10px] w-fit font-dm-mono font-medium leading-[130%] text-[#F4EEE2] bg-[#F45757] py-1 px-2.5 rounded-2xl">
-              New
+          <div className="flex items-start justify-between">
+            <div className="flex  gap-3 ">
+              {tool.icon_url ? (
+                <Link href={tool.website_url} target="_blank">
+                  <img
+                    src={tool.icon_url}
+                    alt={tool.name}
+                    className="w-16 h-16 object-contain"
+                  />
+                </Link>
+              ) : (
+                <Icon name="placeholder" className="size-16" />
+              )}
+              <div className="flex flex-col max-w-[130px] min-h-full justify-between">
+                <div className="uppercase text-[10px] w-fit font-dm-mono font-medium leading-[130%] text-[#F4EEE2] bg-[#F45757] py-1 px-2.5 rounded-2xl">
+                  New
+                </div>
+                <p className="body-xxs font-medium pb-0.5">{tool.name}</p>
+              </div>
+            </div>
+            <div className="flex gap-2 flex-col">
+              <Button variant="primary" size="small" className="" linkIcon>
+                <Link
+                  href={tool.website_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Website
+                </Link>
+              </Button>
+              <Button variant="secondary" size="small" arrow="black">
+                <Link
+                  href={tool.website_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Update
+                </Link>
+              </Button>
             </div>
           </div>
           <div className="flex items-start justify-start gap-6">
-            <div className="flex gap-6 body-xxs">
-              {/* todo: Replace this annd mapa round data */}
+            <div className="flex gap-6 justify-between w-full">
               <div className="flex items-start flex-col gap-2">
-                <p className="body-xxs text-[#999999]">Name</p>
-                <p className="body-xxs">{tool.name}</p>
+                <p className="body-xxs text-[#999999]">Domaine</p>
+                <p className="body-xxs">domain</p>
               </div>
               <div className="flex items-start flex-col gap-2">
-                <p className="body-xxs text-[#999999]">Data</p>
-                <p className="body-xxs">1m USERS</p>
+                <p className="body-xxs text-[#999999]">Category</p>
+                <p className="body-xxs">{category}</p>
               </div>
               <div className="flex items-start flex-col gap-2">
-                <p className="body-xxs text-[#999999]">Funding</p>
-                <p className="body-xxs">$143m</p>
+                <p className="body-xxs text-[#999999]">Date added</p>
+                <p className="body-xxs">{tool.date_added}</p>
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-2 body-xxs">
+          <div className="flex flex-col gap-2">
             <p className="body-xxs text-[#999999]">Description</p>
-            <p className="body-xxs text-clamp-5 leading-[160%]">
+            <p className="text-xs font-dm-mono tracking-[1.1px] line-clamp-3 leading-[160%]">
               {tool.description}
             </p>
           </div>
@@ -66,7 +91,7 @@ export default function CatalogCard({ tool }: { tool: Tool }) {
             </div>
           )}
         </div>
-        <div className="flex gap-4">
+        {/* <div className="flex gap-4">
           <Button variant="primary" className="w-fit mt-6" linkIcon>
             <Link
               href={tool.website_url}
@@ -85,7 +110,7 @@ export default function CatalogCard({ tool }: { tool: Tool }) {
               Update
             </Link>
           </Button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

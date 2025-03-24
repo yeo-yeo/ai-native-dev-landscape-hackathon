@@ -27,18 +27,17 @@ export const navLinks = [
   },
 ];
 
-// Footer
-
+// Footer Social Links
 export const footerSocialLinks = [
   {
     id: 1,
     icon: "discord",
-    href: "/discord",
+    href: "https://tessl.co/4ilBftZ",
   },
   {
     id: 2,
     icon: "linkedIn",
-    href: "/linkedin",
+    href: "https://tessl.co/41VIaUV",
   },
   {
     id: 3,
@@ -48,7 +47,7 @@ export const footerSocialLinks = [
   {
     id: 4,
     icon: "x",
-    href: "/x",
+    href: "https://tessl.co/41XjBqL",
   },
   {
     id: 5,
@@ -58,34 +57,17 @@ export const footerSocialLinks = [
   {
     id: 6,
     icon: "youtube",
-    href: "/youtube",
+    href: "https://tessl.co/3DL3QtE",
   },
   {
     id: 7,
     icon: "applePodcast",
-    href: "/apple-podcasts",
+    href: "https://tessl.co/41JJbOC",
   },
   {
     id: 8,
     icon: "spotify",
-    href: "/spotify",
-  },
-];
-
-// Layout
-
-export const info = [
-  {
-    id: 1,
-    title: "Stats",
-    description: "423 companies",
-    label: "Submit",
-    icon: "plusBlack",
-  },
-  {
-    id: 2,
-    title: "Last updated",
-    description: "9:36am CET Yesterday",
+    href: "https://tessl.co/3XIEROp",
   },
 ];
 

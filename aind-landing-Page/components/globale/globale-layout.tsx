@@ -2,9 +2,8 @@
 
 import type React from "react";
 
-import { Icon, type IconName } from "@/components/shared/icons";
+import { Icon } from "@/components/shared/icons";
 import Tags from "@/components/shared/tags";
-import { info } from "@/constant/moc-data";
 import initialToolsData from "@/public/tools-data.json";
 import type { ToolsData } from "@/type/tools-type";
 import { cx } from "cva";
@@ -138,6 +137,10 @@ export default function GlobalLayout({
   };
 
   const numberActiveTags = activeTags.length;
+  const numberTools = filteredData?.domains.flatMap((domain) =>
+    domain.categories.flatMap((category) => category.tools)
+  ).length;
+
   return (
     <div className="max-w-[1240px] min-h-[calc(100vh-355px)] mx-auto flex flex-col gap-4 lg:gap-12 my-6 lg:my-12">
       <section className="flex flex-col lg:flex-row justify-between w-full  px-4 mb-4 lg:mb-0 lg:px-0 gap-10 lg:gap-0 lg:items-end">
@@ -148,20 +151,20 @@ export default function GlobalLayout({
           </p>
         </div>
         <div className="flex gap-12 items-start justify-between lg:justify-end ">
-          {info.map((item) => (
-            <div key={item.id} className="body-sm">
-              <div className="text-[#999999]">{item.title}</div>
-              <div>{item.description}</div>
-              {item.label && (
-                <div className="flex gap-1 items-center">
-                  <Icon name={item.icon as IconName} />
-                  <Link href={"/"} className="underline">
-                    {item.label}
-                  </Link>
-                </div>
-              )}
+          <div className="body-sm">
+            <div className="text-[#999999]">Stats</div>
+            <div>{numberTools} tools</div>
+            <div className="flex gap-1 items-center">
+              <Icon name="plusBlack" />
+              <Link href={"/"} className="underline">
+                Submit
+              </Link>
             </div>
-          ))}
+          </div>
+          <div className="body-sm">
+            <div className="text-[#999999]">Last updated</div>
+            <div>9:36am CET Yesterday</div>
+          </div>
         </div>
       </section>
       <section className="hidden lg:flex justify-between w-full items-end gap-12">

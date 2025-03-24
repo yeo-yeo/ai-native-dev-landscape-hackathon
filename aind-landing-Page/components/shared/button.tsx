@@ -14,13 +14,14 @@ const buttonVariants = cva(
         true: "w-full",
       },
       size: {
-        small: "px-4 py-2.75 ",
-        medium: "px-6 py-3.75  ",
+        small: "px-2.25 py-1.25 text-[11px] h-fit",
+        medium: "px-4 py-2.75 ",
+        large: "px-6 py-3.75  ",
       },
     },
     defaultVariants: {
       variant: "primary",
-      size: "small",
+      size: "medium",
     },
   }
 );

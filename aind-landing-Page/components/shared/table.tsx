@@ -102,13 +102,10 @@ const TableCell = React.forwardRef<
   <TableTooltip text={props.children}>
     <td
       ref={ref}
-      className={cx(
-        "px-3 py-4 body-sm align-middle truncate relative",
-        className
-      )}
+      className={cx("px-3 py-4 body-sm align-top relative", className)}
       {...props}
     >
-      {props.children}
+      <span className="line-clamp-2">{props.children}</span>
     </td>
   </TableTooltip>
 ));

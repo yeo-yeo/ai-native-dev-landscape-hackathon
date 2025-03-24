@@ -27,7 +27,7 @@ export default function MobileDrawer({
       <Dialog.Trigger asChild>
         <Button
           variant="primary"
-          size="small"
+          size="large"
           className={cx(
             "flex items-center gap-4 font-instrument-sans",
             className
@@ -66,7 +66,7 @@ export default function MobileDrawer({
           </div>
           <Button
             variant="primary"
-            size="medium"
+            size="large"
             fullWidth
             arrow="white"
             onClick={() => setOpen(false)}

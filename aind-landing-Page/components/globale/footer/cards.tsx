@@ -48,7 +48,7 @@ export default function Cards({
         )}
         <Button
           variant="primary"
-          size="medium"
+          size="large"
           arrow="white"
           className="w-full lg:w-auto"
         >

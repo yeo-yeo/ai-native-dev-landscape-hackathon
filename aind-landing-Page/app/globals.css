@@ -69,7 +69,7 @@
 
 
 @utility body-xxs {
-  @apply font-dm-mono text-[12px] leading-[130%] tracking-[1.1px] uppercase;
+  @apply font-dm-mono text-xs leading-[130%] tracking-[1.1px] uppercase;
 }
 @utility body-lg {
   @apply font-inter text-base leading-[150%];

@@ -6,6 +6,7 @@ import { ToolsData } from "@/type/tools-type";
 import { cx } from "cva";
 import { useState } from "react";
 import { getConsistentColor } from "@/util/get-consistent-color";
+import Link from "next/link";
 
 export default function GridCard({
   categories,
@@ -19,7 +20,7 @@ export default function GridCard({
 
   return (
     <div className="flex flex-col w-full border-b first:border-t first:lg:border-t-0 first:rounded-t-lg first:lg:rounded-t-none overflow-hidden lg:last:border-b-0 border-[#C9C3B9]">
-      <div className="p-4 lg:p-6 border-x border-[#C9C3B9] lg:border-x-0 border-b lg:border-b-0 w-full text-[27px] flex items-start lg:items-center gap-2">
+      <div className="p-4 lg:p-6 border-x border-[#C9C3B9] lg:border-x-0 border-b  w-full text-[27px] flex items-start lg:items-center gap-2">
         <div
           className="size-4 shrink-0 rounded-full mt-0.5 lg:mt-0"
           style={{
@@ -40,17 +41,17 @@ export default function GridCard({
             <div
               key={category.name}
               className={cx(
-                "border-[#C9C3B9] border border-t-0 lg:border-l-0 last:border-b-0 last:lg:border-b",
+                "border-[#C9C3B9] border border-t-0 lg:border-l-0 last:border-b-0 last:lg:border-b ",
                 {
                   "lg:border-r-0 ": index % 3 === 2,
-                  "lg:border-b-0 ":
+                  "lg:!border-b-0 ":
                     index >= categories.length - (categories.length % 3 || 3),
                 }
               )}
             >
               <div
                 className={cx(
-                  "text-lg py-4 px-6 border-t-0 lg:border-y border-b border-[#C9C3B9]  flex justify-between items-center",
+                  "text-lg py-4 px-6 border-t-0 lg:border-b border-b border-[#C9C3B9]  flex justify-between items-center",
                   {
                     "border-t-0 ": index > 2,
                   }
@@ -67,7 +68,7 @@ export default function GridCard({
                   .map((tool) => (
                     <div
                       key={tool.name}
-                      className="text-sm flex-1 outline outline-[#C9C3B9] h-[120px]  "
+                      className="text-sm flex-1 outline outline-[#C9C3B9]  h-[120px]  "
                     >
                       <div
                         className={cx(
@@ -78,20 +79,17 @@ export default function GridCard({
                         )}
                       >
                         {tool.icon_url ? (
-                          <img
-                            src={tool.icon_url}
-                            alt={tool.name}
-                            className="w-12 h-12 object-contain"
-                            onError={(e) => {
-                              const target = e.target as HTMLImageElement;
-                              const div = document.createElement("div");
-                              div.className = "w-12 h-12 bg-gray-300";
-                              target.parentNode?.replaceChild(div, target);
-                            }}
-                          />
+                          <Link href={tool.website_url} target="_blank">
+                            <img
+                              src={tool.icon_url}
+                              alt={tool.name}
+                              className="w-12 h-12 object-contain"
+                            />
+                          </Link>
                         ) : (
-                          <div className="w-12 h-12 bg-gray-300" />
+                          <Icon name="placeholder" className="size-12" />
                         )}
+
                         <p className="uppercase font-dm-mono text-[10px] lg:text-xs leading-[150%] text-center tracking-[1.54px] line-clamp-2 overflow-hidden text-ellipsis">
                           {tool.name}
                         </p>
