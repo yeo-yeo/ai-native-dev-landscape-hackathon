@@ -9,7 +9,7 @@ import type { ToolsData } from "@/type/tools-type";
 import { cx } from "cva";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Search from "../shared/search";
 import { getConsistentColor } from "@/util/get-consistent-color";
 import { GlobaleContext, type GlobaleContextType } from "./globale-context";
@@ -23,12 +23,15 @@ export default function GlobalLayout({
 }) {
   const pathname = usePathname();
   const [searchTerm, setSearchTerm] = useState("");
+  const [contentHeight, setContentHeight] = useState(0);
+  const tagsContainerRef = useRef<HTMLDivElement>(null);
   const [data, setData] = useState<ToolsData>(
     initialToolsData as unknown as ToolsData
   );
   const [activeTags, setActiveTags] = useState(["all"]);
   const [isMounted, setIsMounted] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [showAllTags, setShowAllTags] = useState(false);
 
   // Client-side only code
   useEffect(() => {
@@ -59,6 +62,11 @@ export default function GlobalLayout({
     fetchData();
   }, [searchTerm, isMounted]);
 
+  useEffect(() => {
+    if (tagsContainerRef.current) {
+      setContentHeight(tagsContainerRef.current.scrollHeight);
+    }
+  }, []);
   // Update search handler to be passed to Search component
   const handleSearch = (value: string) => {
     setSearchTerm(value);
@@ -167,17 +175,39 @@ export default function GlobalLayout({
           </div>
         </div>
       </section>
-      <section className="hidden lg:flex justify-between w-full items-end gap-12">
-        <div className="w-full flex gap-1 flex-wrap items-center justify-start">
-          {tagsWithAll.map((tag) => (
-            <Tags
-              key={tag.id}
-              name={tag.name}
-              color={tag.color}
-              active={activeTags.includes(tag.id.toString())}
-              onClick={() => handleTagClick(tag.id.toString())}
-            />
-          ))}
+      <section className="hidden lg:flex justify-between w-full items-start gap-12">
+        <div className="w-full">
+          <div
+            ref={tagsContainerRef}
+            className={cx(
+              "flex gap-1 flex-wrap items-center justify-start  transition-all duration-500 ease-in-out relative overflow-hidden"
+            )}
+            style={{ height: showAllTags ? contentHeight : 73 }}
+          >
+            <button
+              onClick={() => setShowAllTags(!showAllTags)}
+              className="p-2 bg-black rounded-full relative cursor-pointer text-white h-[34px] w-[34px] flex items-center justify-center"
+            >
+              <span
+                className={cx(
+                  "w-0.5 h-3 bg-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full transition-all duration-500 ease-in-out",
+                  {
+                    "rotate-90": showAllTags,
+                  }
+                )}
+              />
+              <span className="w-3 h-0.5 bg-white rounded-full" />
+            </button>
+            {tagsWithAll.map((tag) => (
+              <Tags
+                key={tag.id}
+                name={tag.name}
+                color={tag.color}
+                active={activeTags.includes(tag.id.toString())}
+                onClick={() => handleTagClick(tag.id.toString())}
+              />
+            ))}
+          </div>
         </div>
         <div className="flex shrink-0 flex-col justify-between gap-2 items-center">
           {(pathname === "/catalog" || pathname === "/list") && (

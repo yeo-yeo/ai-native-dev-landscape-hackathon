@@ -3,6 +3,7 @@ import { Button } from "../button";
 import { Tool } from "@/type/tools-type";
 import Link from "next/link";
 import { Icon } from "../icons";
+import ToolStatus from "../tool-status";
 
 export default function CatalogCard({
   tool,
@@ -29,9 +30,7 @@ export default function CatalogCard({
                 <Icon name="placeholder" className="size-16" />
               )}
               <div className="flex flex-col max-w-[130px] min-h-full justify-between">
-                <div className="uppercase text-[10px] w-fit font-dm-mono font-medium leading-[130%] text-[#F4EEE2] bg-[#F45757] py-1 px-2.5 rounded-2xl">
-                  New
-                </div>
+                <ToolStatus date={tool.date_added} />
                 <p className="body-xxs font-medium pb-0.5">{tool.name}</p>
               </div>
             </div>
@@ -91,26 +90,6 @@ export default function CatalogCard({
             </div>
           )}
         </div>
-        {/* <div className="flex gap-4">
-          <Button variant="primary" className="w-fit mt-6" linkIcon>
-            <Link
-              href={tool.website_url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View website
-            </Link>
-          </Button>
-          <Button variant="secondary" className="w-fit mt-6" arrow="black">
-            <Link
-              href={tool.website_url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Update
-            </Link>
-          </Button>
-        </div> */}
       </div>
     </div>
   );

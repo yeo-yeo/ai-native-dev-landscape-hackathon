@@ -15,7 +15,7 @@ export default function Tags({
     <button
       onClick={onClick}
       className={cx(
-        "flex gap-1 label-sm cursor-pointer items-center justify-center py-1.75 px-4 rounded-full border border-black",
+        "flex gap-1 label-sm cursor-pointer hover:bg-black hover:text-white transition-all duration-300 ease-in-out items-center justify-center py-1.75 px-4 rounded-full border border-black",
         {
           "bg-black text-white": active,
           "bg-transparent text-black ": !active,

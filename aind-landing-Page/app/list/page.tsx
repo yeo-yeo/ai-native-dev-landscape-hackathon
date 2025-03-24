@@ -11,6 +11,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/shared/table";
+import ToolStatus from "@/components/shared/tool-status";
 import Link from "next/link";
 
 export default function LandscapeList() {
@@ -64,9 +65,7 @@ export default function LandscapeList() {
                     </Link>
                   </TableCell>
                   <TableCell className="">
-                    <div className="uppercase text-xs w-fit mx-auto font-dm-mono font-medium leading-[130%] text-[#F4EEE2] bg-[#F45757] py-1 px-2.5 rounded-2xl">
-                      New
-                    </div>
+                    <ToolStatus date={tool.date_added} />
                   </TableCell>
                 </TableRow>
               ));

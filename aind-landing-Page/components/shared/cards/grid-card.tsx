@@ -32,6 +32,7 @@ export default function GridCard({
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3">
         {categories.map((category, index) => {
+          if (category.tools.length === 0) return null;
           const hasDevTag = activeTags.includes("all")
             ? true
             : category.tools.some((tool) =>
@@ -68,7 +69,7 @@ export default function GridCard({
                   .map((tool) => (
                     <div
                       key={tool.name}
-                      className="text-sm flex-1 outline outline-[#C9C3B9]  h-[120px]  "
+                      className="text-sm flex-1 outline outline-[#C9C3B9] h-[120px]  "
                     >
                       <div
                         className={cx(
