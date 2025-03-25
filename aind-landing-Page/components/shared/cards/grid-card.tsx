@@ -6,7 +6,7 @@ import { ToolsData } from "@/type/tools-type";
 import { cx } from "cva";
 import { useState } from "react";
 import { getConsistentColor } from "@/util/get-consistent-color";
-import Link from "next/link";
+import { PopupCard } from "../popup-card";
 
 export default function GridCard({
   categories,
@@ -67,35 +67,36 @@ export default function GridCard({
                 {category.tools
                   .slice(0, expanded ? category.tools.length : 11)
                   .map((tool) => (
-                    <div
+                    <PopupCard
                       key={tool.name}
-                      className="text-sm flex-1 outline outline-[#C9C3B9] h-[120px]  "
+                      tool={tool}
+                      category={category.name}
                     >
-                      <div
-                        className={cx(
-                          "items-center flex flex-col gap-2 transition-all duration-300 px-2 py-4",
-                          {
-                            "opacity-30": !hasDevTag,
-                          }
-                        )}
-                      >
-                        {tool.icon_url ? (
-                          <Link href={tool.website_url} target="_blank">
+                      <div className="text-sm flex-1 outline outline-[#C9C3B9] h-[120px]  ">
+                        <div
+                          className={cx(
+                            "items-center flex flex-col gap-2 transition-all duration-300 px-2 py-4",
+                            {
+                              "opacity-30": !hasDevTag,
+                            }
+                          )}
+                        >
+                          {tool.icon_url ? (
                             <img
                               src={tool.icon_url}
                               alt={tool.name}
                               className="w-12 h-12 object-contain"
                             />
-                          </Link>
-                        ) : (
-                          <Icon name="placeholder" className="size-12" />
-                        )}
+                          ) : (
+                            <Icon name="placeholder" className="size-12" />
+                          )}
 
-                        <p className="uppercase font-dm-mono text-[10px] lg:text-xs leading-[150%] text-center tracking-[1.54px] line-clamp-2 overflow-hidden text-ellipsis">
-                          {tool.name}
-                        </p>
+                          <p className="uppercase font-dm-mono text-[10px] lg:text-xs leading-[150%] text-center tracking-[1.54px] line-clamp-2 overflow-hidden text-ellipsis">
+                            {tool.name}
+                          </p>
+                        </div>
                       </div>
-                    </div>
+                    </PopupCard>
                   ))}
                 {category.tools.length > 12 && (
                   <button
