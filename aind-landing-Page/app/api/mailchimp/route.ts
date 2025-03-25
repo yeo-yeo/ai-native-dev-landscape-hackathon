@@ -1,4 +1,4 @@
-import type { NextApiRequest, NextApiResponse } from "next";
+import { NextResponse } from "next/server";
 import mailchimp from "@mailchimp/mailchimp_marketing";
 
 interface MailchimpError extends Error {
@@ -16,21 +16,17 @@ mailchimp.setConfig({
   server: process.env.MAILCHIMP_SERVER_PREFIX,
 });
 
-export default async function handler(
-  req: NextApiRequest,
-  res: NextApiResponse
-) {
-  if (req.method !== "POST") {
-    return res.status(405).json({ message: "Method not allowed" });
-  }
-
-  const { email } = req.body;
-
-  if (!email) {
-    return res.status(400).json({ message: "Email is required" });
-  }
-
+export async function POST(request: Request) {
   try {
+    const { email } = await request.json();
+
+    if (!email) {
+      return NextResponse.json(
+        { message: "Email is required" },
+        { status: 400 }
+      );
+    }
+
     // Add member to list
     await mailchimp.lists.addListMember(
       process.env.MAILCHIMP_AUDIENCE_ID as string,
@@ -40,26 +36,33 @@ export default async function handler(
       }
     );
 
-    return res
-      .status(201)
-      .json({ message: "Success! You are now subscribed." });
+    return NextResponse.json(
+      { message: "Success! You are now subscribed." },
+      { status: 201 }
+    );
   } catch (error: unknown) {
     const mailchimpError = error as MailchimpError;
     console.log(mailchimpError);
+
     if (mailchimpError.response?.body) {
       const { title, detail, status } = mailchimpError.response.body;
 
       if (status === 400 && title.includes("Member Exists")) {
-        return res
-          .status(400)
-          .json({ message: "You are already subscribed to our newsletter." });
+        return NextResponse.json(
+          { message: "You are already subscribed to our newsletter." },
+          { status: 400 }
+        );
       }
 
-      return res.status(status).json({ message: detail || title });
+      return NextResponse.json(
+        { message: detail || title },
+        { status: status || 500 }
+      );
     }
 
-    return res
-      .status(500)
-      .json({ message: "An error occurred. Please try again later." });
+    return NextResponse.json(
+      { message: "An error occurred. Please try again later." },
+      { status: 500 }
+    );
   }
 }
