@@ -46,7 +46,7 @@ export default function CatalogCard({
               </Button>
               <Button variant="secondary" size="small" arrow="black">
                 <Link
-                  href={tool.website_url}
+                  href="https://github.com/AI-Native-Dev-Community/ai-native-dev-landscape/blob/main/CONTRIBUTING.md"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

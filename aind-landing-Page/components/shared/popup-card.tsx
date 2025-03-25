@@ -110,7 +110,7 @@ export function PopupCard({
               className="w-fit"
             >
               <Link
-                href={tool.website_url}
+                href="https://github.com/AI-Native-Dev-Community/ai-native-dev-landscape/blob/main/CONTRIBUTING.md"
                 target="_blank"
                 rel="noopener noreferrer"
               >
