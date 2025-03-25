@@ -31,7 +31,7 @@ export default function LandscapeList() {
             <TableHead className="w-[250px] lg:w-[30%]">Description</TableHead>
             <TableHead className="w-[100px] lg:w-[7%]">Domain</TableHead>
             <TableHead className="w-[150px] lg:w-[10%]">Category</TableHead>
-            <TableHead className="w-[150px] lg:w-[10%]">url</TableHead>
+            <TableHead className="w-[150px] lg:w-[10%]">Url</TableHead>
             <TableHead className="w-[75px] lg:w-[5%]"></TableHead>
           </TableRow>
         </TableHeader>
@@ -50,7 +50,7 @@ export default function LandscapeList() {
                     {tool.name}
                   </TableCell>
                   <TableCell className="">{tool.description}</TableCell>
-                  <TableCell>domaine</TableCell>
+                  <TableCell>domain</TableCell>
                   <TableCell>{category.name}</TableCell>
                   <TableCell>
                     <Link

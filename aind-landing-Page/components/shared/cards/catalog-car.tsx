@@ -58,7 +58,7 @@ export default function CatalogCard({
           <div className="flex items-start justify-start gap-6">
             <div className="flex gap-6 justify-between w-full">
               <div className="flex items-start flex-col gap-2">
-                <p className="body-xxs text-[#999999]">Domaine</p>
+                <p className="body-xxs text-[#999999]">Domain</p>
                 <p className="body-xxs">domain</p>
               </div>
               <div className="flex items-start flex-col gap-2">
