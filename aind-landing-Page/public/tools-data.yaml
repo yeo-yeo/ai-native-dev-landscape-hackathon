@@ -1,2733 +1,2785 @@
 domains:
-  - categories:
-      - description: Managing requirements to build the product
-        level: 1
-        name: Requirements
-        tools:
-          - date_added: 12/03/2025
-            description:
-              A specification language for AI-first development that shifts focus
-              from implementation to intent through structured solution space reduction.
-            icon_url: ""
-            name: AIspec
-            oss: true
-            tags:
-              - oss
-              - GA
-              - Requirements
-              - Product
-            verified: false
-            website_url: https://github.com/cbora/aispec
-          - date_added: 12/03/2025
-            description: "Carrot: Simplifying and Enhancing PRD Creation"
-            icon_url: ""
-            name: Carrot
-            oss: true
-            tags:
-              - oss
-              - GA
-              - Requirements
-              - Product
-            verified: false
-            website_url: https://github.com/talvinder/carrot-product-requirements-document-prd
-          - date_added: 12/03/2025
-            description:
-              "the #1 AI tool for product managers & their teams.Write great\
-              \ product docs\u2014fast, and use AI to become an elite PM."
-            icon_url: https://chatprd.ai/favicon.ico
-            name: Chat PRD
-            oss: false
-            tags:
-              - GA
-              - Requirements
-              - Product
-            verified: false
-            website_url: https://chatprd.ai/
-          - date_added: 12/03/2025
-            description: "Your AI Companion To
-
-              Help You Code Anything
-
-              CodeGuide creates detailed Documentation for your AI Coding Projects."
-            icon_url: https://www.codeguide.dev/icon.png?754055a3ebc2f898
-            name: CodeGuide
-            oss: false
-            tags:
-              - GA
-              - Requirements
-              - Product
-            verified: false
-            website_url: https://www.codeguide.dev/
-          - date_added: 12/03/2025
-            description:
-              Go from idea and feedback to a crisp document linked to Jira tickets
-              with the help of a generative AI assistant.
-            icon_url: https://cdn.prod.website-files.com/607405e57d7f7c6426ed0d07/607563f221a2b8a25f336625_favicon.png
-            name: Delibr
-            oss: false
-            tags:
-              - GA
-              - Requirements
-              - Product
-            verified: false
-            website_url: https://delibr.com/
-          - date_added: 12/03/2025
-            description:
-              Spend less time on docs. Let Docuopia AI craft product requirements,
-              help docs, and wikis in a few minutes. Start streamlining now
-            icon_url: https://cdn.prod.website-files.com/65dd4d9e255fe9f3d0990645/65e1839bfcbafca49807425e_favicon-32x32.png
-            name: Docuopia
-            oss: false
-            tags:
-              - GA
-              - Requirements
-              - Product
-            verified: false
-            website_url: https://docuopia.com/
-          - date_added: 12/03/2025
-            description: "Transform Your Ideas Into Full-Stack Apps
-
-              Get AI-powered architecture plans, documentation, and UI designs in minutes"
-            icon_url: https://www.fullstackroadmap.com/favicon.ico
-            name: Full Stack Roadmap
-            oss: false
-            tags:
-              - GA
-              - Requirements
-              - Product
-            verified: false
-            website_url: https://www.fullstackroadmap.com/
-          - date_added: 12/03/2025
-            description:
-              Convert product design and wireframe images to drafts of Product
-              Requirements Documents and Engineering Task Tickets in seconds
-            icon_url: https://productmonkey.ai/favicon.ico
-            name: Product Monkey
-            oss: false
-            tags:
-              - GA
-              - Requirements
-              - Product
-            verified: false
-            website_url: https://productmonkey.ai/
-          - date_added: 12/03/2025
-            description:
-              An online requirements management tool for systems engineering
-              to bring your teams together in one simple platform. Built for project teams,
-              systems engineers, and asset owners
-            icon_url: https://reqi.io/favicon.ico
-            name: Reqi
-            oss: false
-            tags:
-              - GA
-              - Requirements
-              - Product
-            verified: false
-            website_url: https://reqi.io/
-          - date_added: 12/03/2025
-            description: Capture, search and learn from every AI coding journey
-            icon_url: https://specstory.com/favicon.ico
-            name: SpecStory
-            oss: false
-            tags:
-              - GA
-              - Requirements
-              - Product
-            verified: false
-            website_url: https://specstory.com/
-          - date_added: 12/03/2025
-            description: Make Writing PRDs a Breeze with ChatGPT
-            icon_url: https://writemyprd.com/favicon.ico
-            name: Write my PRD
-            oss: false
-            tags:
-              - GA
-              - Requirements
-              - Product
-            verified: false
-            website_url: https://writemyprd.com/
-      - description: Help convert design into code
-        level: 2
-        name: Design
-        tools:
-          - date_added: 12/03/2025
-            description: "Turn your design into a live web app
-
-              Generate, preview, and edit code instantly."
-            icon_url: ""
-            name: Anima
-            oss: false
-            tags:
-              - GA
-              - Design
-              - Product
-            verified: false
-            website_url: https://www.animaapp.com/
-          - date_added: 12/03/2025
-            description:
-              Take Ideas to Production in Seconds, Not Sprints. Accelerate your
-              digital teams with AI-powered design-to-code, visual editing, and enterprise
-              CMS, all in our Visual Development Platform.
-            icon_url: https://builder.io/favicon.ico
-            name: Builder
-            oss: false
-            tags:
-              - GA
-              - Design
-              - Product
-            verified: false
-            website_url: https://builder.io/
-          - date_added: 24/03/2025
-            description: "AI Copilot for UX design
-
-              Chordio learns your product and best practices, helping you define, design,
-              and refine faster."
-            icon_url: ""
-            name: Chordio
-            oss: false
-            tags:
-              - GA
-              - Design
-              - Product
-            verified: false
-            website_url: https://chordio.com/
-          - date_added: 12/03/2025
-            description:
-              Convert your figma, sketch and adobe xd design to flutter, react,
-              vue and more.
-            icon_url: ""
-            name: Code
-            oss: true
-            tags:
-              - oss
-              - GA
-              - Design
-              - Product
-            verified: false
-            website_url: https://github.com/gridaco/code
-          - date_added: 12/03/2025
-            description: "Generate Beautiful UI Designs with AI
-
-              Figma logoDownload Figma Plugin
-
-              Create designs in seconds not hours or days
-
-              Auto generate Figma Variables with Light + Dark Modes
-
-              1 Free Generation per day"
-            icon_url: ""
-            name: Codeflash
-            oss: false
-            tags:
-              - GA
-              - Design
-              - Product
-            verified: false
-            website_url: https://www.codeflash.ai/
-          - date_added: 12/03/2025
-            description: converting visual design (screenshot) into code implementation
-            icon_url: ""
-            name: Design2Code
-            oss: true
-            tags:
-              - oss
-              - GA
-              - Design
-              - Product
-            verified: false
-            website_url: https://github.com/NoviScl/Design2Code
-          - date_added: 12/03/2025
-            description:
-              A CLI tool that uses AI to generate design rules and documentation
-              from your Figma files. It analyzes your Figma designs and automatically extracts
-              design tokens, components, and layout information into a structured format.
-            icon_url: ""
-            name: Fig4AI
-            oss: true
-            tags:
-              - oss
-              - GA
-              - Design
-              - Product
-            verified: false
-            website_url: https://github.com/f/fig4ai
-          - date_added: 12/03/2025
-            description: "Generate Beautiful UI Designs with AI
-
-              Figma logoDownload Figma Plugin
-
-              Create designs in seconds not hours or days
-
-              Auto generate Figma Variables with Light + Dark Modes"
-            icon_url: ""
-            name: Figma.ai
-            oss: false
-            tags:
-              - GA
-              - Design
-              - Product
-            verified: false
-            website_url: https://figma.ai
-          - date_added: 12/03/2025
-            description:
-              Ready to generate designs at lightning speed? Galileo generates
-              beautiful and functional interface designs tailored to your needs.
-            icon_url: https://www.usegalileo.ai/assets/favicon/apple-touch-icon-57x57.png
-            name: Galileo
-            oss: false
-            tags:
-              - GA
-              - Design
-              - Product
-            verified: false
-            website_url: https://www.usegalileo.ai/
-          - date_added: 12/03/2025
-            description:
-              Turn your designs into developer-friendly frontend <code> for mobile
-              apps and web
-            icon_url: https://www.locofy.ai/favicon.ico
-            name: Locofy
-            oss: false
-            tags:
-              - GA
-              - Design
-              - Product
-            verified: false
-            website_url: https://www.locofy.ai/convert/design-to-code
-          - date_added: 12/03/2025
-            description:
-              "Visily\u2019s AI converts any user design input\u2014text prompt,\
-              \ screenshot, and more\u2014to a fully customizable high-fidelity design.\
-              \ Unlike other software, getting started is the easiest part!"
-            icon_url: ""
-            name: Visily
-            oss: true
-            tags:
-              - oss
-              - GA
-              - Design
-              - Product
-            verified: false
-            website_url: https://github.com/visily-ai/visily
-      - description: Build applications with no code & fast prototyping
-        level: 3
-        name: Nocode
-        tools:
-          - date_added: 12/03/2025
-            description:
-              Turn your ideas into products, in minutes. The first all-in-one
-              AI platform to easily build fully functioning apps - without coding.
-            icon_url: https://base44.com/favicon.ico
-            name: Base44
-            oss: false
-            tags:
-              - GA
-              - Nocode
-              - Product
-            verified: false
-            website_url: https://base44.com/
-          - date_added: 12/03/2025
-            description:
-              "Databutton's agent is the perfect AI developer for non-techies.\
-              \ You talk about your app and needs \u2013 Databutton's reasoning agent learns,\
-              \ plans, and executes on big tasks. Our core users are small business owners\
-              \ and non-technical founders. \n\nDatabutton's agent is fully web based and\
-              \ comes with an online developer environment. It has all the capabilities\
-              \ of a real professional developer \u2013 it writes React frontends, Python\
-              \ FastAPI backends, can install packages, write scripts to test code, and\
-              \ more.\n\nIt produces full fledged SaaS and business applications, integrated\
-              \ with business systems, tools, and APIs you need. The applications are often\
-              \ AI spins on the most valuable apps and use cases today and imbued with business\
-              \ logic relevant to the business building them."
-            icon_url: https://drive.google.com/uc?export=view&id=1jTDgVQf_kvfz0O04o_6iOHEeHrGs7DFw
-            name: Data Button
-            oss: false
-            social_urls:
-              - https://www.youtube.com/@databutton
-              - https://www.linkedin.com/company/databutton
-              - https://x.com/DatabuttonHQ
-            tags:
-              - verified
-              - GA
-              - Nocode
-              - Product
-            verified: true
-            website_url: https://databutton.com/
-          - date_added: 12/03/2025
-            description: AI-powered website builder with design components and code generation
-            icon_url: https://www.framer.com/favicon.ico
-            name: Framer
-            oss: false
-            tags:
-              - GA
-              - Nocode
-              - Product
-            verified: false
-            website_url: https://www.framer.com/ai/
-          - date_added: 12/03/2025
-            description:
-              Higher conversionrates driven by AI. The first AI agent that continuously
-              improves your website
-            icon_url: https://framerusercontent.com/images/7O25asSN8XNyGB2KZM1hjlOLpBU.png
-            name: Keak
-            oss: false
-            tags:
-              - GA
-              - Nocode
-              - Product
-            verified: false
-            website_url: https://keak.com/
-          - date_added: 12/03/2025
-            description: Visual builder for React applications with code export
-            icon_url: https://www.plasmic.app/favicon.ico
-            name: Plasmic
-            oss: false
-            tags:
-              - GA
-              - Nocode
-              - Product
-            verified: false
-            website_url: https://www.plasmic.app/
-          - date_added: 12/03/2025
-            description: Convert wireframes and sketches into React components with AI
-            icon_url: https://uidrafter.com/favicon.ico
-            name: Uxtly
-            oss: false
-            tags:
-              - GA
-              - Nocode
-              - Product
-            verified: false
-            website_url: https://uidrafter.com/
-          - date_added: 12/03/2025
-            description: No-code tool for creating dynamic web interfaces with AI assistance
-            icon_url: https://www.wized.com/favicon.ico
-            name: Wized
-            oss: false
-            tags:
-              - GA
-              - Nocode
-              - Product
-            verified: false
-            website_url: https://www.wized.com/
-      - description: Application Prototyping tools
-        level: 4
-        name: Prototyping
-        tools:
-          - date_added: 12/03/2025
-            description: Claude Artefacts
-            icon_url: https://www.anthropic.com/favicon.ico
-            name: Claude Code
-            oss: false
-            tags:
-              - GA
-              - Prototyping
-              - Product
-            verified: false
-            website_url: https://www.anthropic.com/en/blog/introducing-claude-artefacts
-          - date_added: 12/03/2025
-            description: Generate your full-stack web app in Wasp, React, Node.js and Prisma
-            icon_url: https://usemage.ai/favicon.ico
-            name: Mage
-            oss: true
-            tags:
-              - oss
-              - GA
-              - Prototyping
-              - Product
-            verified: false
-            website_url: https://usemage.ai/
-          - date_added: 12/03/2025
-            description: A new way of working with ChatGPT to write and code
-            icon_url: ""
-            name: OpenAI Canvas
-            oss: false
-            tags:
-              - GA
-              - Prototyping
-              - Product
-            verified: false
-            website_url: https://openai.com/index/introducing-canvas/
-    description: Product related
+- categories:
+  - description: Managing requirements to build the product
     level: 1
-    name: Product
-  - categories:
-      - description: Agents that code autonomously
-        level: 10
-        name: Autonomous Agent
-        tools:
-          - date_added: 12/03/2025
-            description:
-              "Agentless is an agentless approach to automatically solve software
-              development problems. To solve each issue, Agentless follows a simple three
-              phase process: localization, repair, and patch validation."
-            icon_url: ""
-            name: Agentless
-            oss: true
-            tags:
-              - oss
-              - GA
-              - Autonomous Agent
-              - Code
-            verified: false
-            website_url: https://github.com/OpenAutoCoder/Agentless
-          - date_added: 12/03/2025
-            description:
-              AutoCodeRover is a technology we are building for enterprises and
-              developers to maintain reliable and performant software systems through autonomous
-              program improvement.
-            icon_url: https://www.autocoderover.net/favicon.ico
-            name: Auto Code Rover
-            oss: false
-            tags:
-              - GA
-              - Autonomous Agent
-              - Code
-            verified: false
-            website_url: https://www.autocoderover.net/
-          - date_added: 12/03/2025
-            description:
-              Devin is a collaborative AI teammate. Built to help ambitious engineering
-              teams achieve more.
-            icon_url: https://devin.ai/favicon.ico
-            name: Devin
-            oss: false
-            tags:
-              - GA
-              - Autonomous Agent
-              - Code
-            verified: false
-            website_url: https://devin.ai/
-          - date_added: 12/03/2025
-            description:
-              "penHands (formerly OpenDevin), a platform for software development\
-              \ agents powered by AI. OpenHands agents can do anything a human developer\
-              \ can: modify code, run commands, browse the web, call APIs, and yes\u2014\
-              even copy code snippets from StackOverflow."
-            icon_url: https://www.all-hands.dev/all-hands-logo-1.svg
-            name: Open Hands
-            oss: false
-            tags:
-              - GA
-              - Autonomous Agent
-              - Code
-            verified: false
-            website_url: https://www.all-hands.dev/
-      - description: Terminal based completion
-        level: 11
-        name: Terminal
-        tools:
-          - date_added: 12/03/2025
-            description: AI pair programming in your terminal
-            icon_url: https://www.aider.chat/assets/icons/favicon-32x32.png
-            name: Aider
-            oss: true
-            tags:
-              - oss
-              - GA
-              - Terminal
-              - Code
-            verified: false
-            website_url: https://www.aider.chat/
-          - date_added: 12/03/2025
-            description:
-              "Amazon Q Developer CLI provides enhanced CLI agent capabilities
-              within the command line that is powered by Amazon Bedrock, using the power
-              of Claude 3.7 Sonnet step-by-step reasoning. With Amazon Q for command line,
-              you can engage in natural language conversations, ask questions, and receive
-              responses from Amazon Q within your terminal environment. It also adds IDE-style
-              completions to hundreds of popular CLIs like git, npm, docker, and aws. When
-              you start typing in the CLI, and Amazon Q suggests contextually relevant subcommands,
-              options, and arguments.
+    name: Requirements
+    tools:
+    - date_added: 12/03/2025
+      description: A specification language for AI-first development that shifts focus
+        from implementation to intent through structured solution space reduction.
+      icon_url: ''
+      name: AIspec
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Requirements
+      - Product
+      verified: false
+      website_url: https://github.com/cbora/aispec
+    - date_added: 12/03/2025
+      description: 'Carrot: Simplifying and Enhancing PRD Creation'
+      icon_url: ''
+      name: Carrot
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Requirements
+      - Product
+      verified: false
+      website_url: https://github.com/talvinder/carrot-product-requirements-document-prd
+    - date_added: 12/03/2025
+      description: "The #1 AI tool for product managers & their teams.Write great\
+        \ product docs\u2014fast, and use AI to become an elite PM."
+      icon_url: https://chatprd.ai/favicon.ico
+      name: Chat PRD
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Requirements
+      - Product
+      verified: false
+      website_url: https://chatprd.ai/
+    - date_added: 12/03/2025
+      description: 'Your AI Companion To Help You Code Anything Code
 
-              "
-            icon_url: https://d1.awsstatic.com/getting-started-guides/learning/amazon-q/icon_amazon-q.a5c38564734b6e9f611e9599eb271142389313a4.png
-            name: Amazon Q Developer CLI
-            oss: true
-            social_urls:
-              - https://www.linkedin.com/showcase/aws-developers/posts/?feedView=all
-            tags:
-              - oss
-              - GA
-              - Terminal
-              - Code
-            verified: false
-            website_url: https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html
-          - date_added: 12/03/2025
-            description:
-              "The intelligent terminal.\nBecome a command line power user on\
-              \ day one. Warp combines AI and your dev team\u2019s knowledge in one fast,\
-              \ intuitive terminal."
-            icon_url: ""
-            name: Warp
-            oss: false
-            tags:
-              - GA
-              - Terminal
-              - Code
-            verified: false
-            website_url: https://www.warp.dev/
-      - description: General Code generation tools
-        level: 5
-        name: Editor
-        tools:
-          - date_added: 12/03/2025
-            description:
-              "The Amazon Q Developer IDE plugin helps developers build faster
-              by generating code suggestions and recommendations in near real time. Amazon
-              Q Developer agents can autonomously perform a range of tasks: implementing
-              new features, creating documentation, adding tests, and refactoring code.
-              Beyond generating code, Q Developer shifts left security by scanning code
-              for hard-to-detect vulnerabilities, such as exposed credentials and log injection.
-              With a single click, Q Developer automatically suggests remediations tailored
-              to the application code, allowing developers to quickly accept fixes with
-              confidence."
-            icon_url: https://d1.awsstatic.com/getting-started-guides/learning/amazon-q/icon_amazon-q.a5c38564734b6e9f611e9599eb271142389313a4.png
-            keywords:
-              - amazon q developer
-            name: Amazon Q Developer IDE plugin
-            oss: false
-            social_urls:
-              - https://www.linkedin.com/showcase/aws-developers/posts/?feedView=all
-            tags:
-              - verified
-              - GA
-              - Editor
-              - Code
-            verified: true
-            website_url: https://aws.amazon.com/q/developer/
-          - date_added: 12/03/2025
-            description:
-              "Augment Code is the AI-powered coding platform built for production-grade
-              codebases.
+        Guide creates detailed Documentation for your AI Coding Projects.'
+      icon_url: https://www.codeguide.dev/icon.png?754055a3ebc2f898
+      name: CodeGuide
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Requirements
+      - Product
+      verified: false
+      website_url: https://www.codeguide.dev/
+    - date_added: 12/03/2025
+      description: Go from idea and feedback to a crisp document linked to Jira tickets
+        with the help of a generative AI assistant.
+      icon_url: https://cdn.prod.website-files.com/607405e57d7f7c6426ed0d07/607563f221a2b8a25f336625_favicon.png
+      name: Delibr
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Requirements
+      - Product
+      verified: false
+      website_url: https://delibr.com/
+    - date_added: 12/03/2025
+      description: Spend less time on docs. Let Docuopia AI craft product requirements,
+        help docs, and wikis in a few minutes. Start streamlining now
+      icon_url: https://cdn.prod.website-files.com/65dd4d9e255fe9f3d0990645/65e1839bfcbafca49807425e_favicon-32x32.png
+      name: Docuopia
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Requirements
+      - Product
+      verified: false
+      website_url: https://docuopia.com/
+    - date_added: 12/03/2025
+      description: 'Transform Your Ideas Into Full-Stack Apps
 
-
-              Secure
-
-              + Zero-trust architecture - AI only sees code you explicitly authorize
-
-              + Proof-of-possession via SHA256 hashes makes unauthorized access mathematically
-              impossible
-
-              + Complete tenant isolation for Enterprise with no possibility of data leakage
-
-
-              Fast
-
-              + Millisecond completions powered by low-latency retrieval
-
-              + Optimized indexing handles massive codebases without breaking a sweat
-
-              + Local processing minimizes network round-trips
-
-
-              Flow
-
-              + Works where you work: VS Code, JetBrains, Vim, Cursor + more
-
-              + Context engine understands relationships across your entire project, not
-              just visible files
-
-              + Suggestions that match your patterns and conventions, not generic StackOverflow
-              copies
-
-
-              Unlike conventional assistants, Augment sees beyond the current file using
-              codebase-wide indexing and specialized retrieval models. Try Augment Code
-              for free to see the power of superior context and deep codebase understanding. "
-            icon_url: https://drive.google.com/uc?export=view&id=1ikcZy7sXl8E_oJuWb3cPV0fp3Wkw_ksg
-            keywords:
-              - AI coding assistant
-              - AI coding
-              - IDE extension
-              - AI for Vim
-              - AI for VS Code
-              - AI for JetBrains
-              - AI for IntelliJ
-              - coding assistant
-              - coding agent
-            name: Augment Code
-            oss: false
-            social_urls:
-              - https://x.com/augmentcode
-              - https://www.linkedin.com/company/augmentinc
-              - https://bsky.app/profile/augmentcode.com
-              - https://www.youtube.com/@Augment-Code
-            tags:
-              - verified
-              - GA
-              - Editor
-              - Code
-            verified: true
-            website_url: https://augmentcode.com/
-          - date_added: 12/03/2025
-            description:
-              Welcome to bolt.diy, the official open source version of Bolt.new
-              (previously known as oTToDev and bolt.new ANY LLM), which allows you to choose
-              the LLM that you use for each prompt! Currently, you can use OpenAI, Anthropic,
-              Ollama, OpenRouter, Gemini, LMStudio, Mistral, xAI, HuggingFace, DeepSeek,
-              or Groq models - and it is easily extended to use any other model supported
-              by the Vercel AI SDK! See the instructions below for running this locally
-              and extending it to include more models.
-            icon_url: ""
-            name: Bolt.diy
-            oss: true
-            tags:
-              - oss
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://github.com/stackblitz-labs/bolt.diy
-          - date_added: 24/03/2025
-            description:
-              "Claude Code is an agentic coding tool that lives in your terminal,\
-              \ understands your codebase, and helps you code faster through natural language\
-              \ commands. By integrating directly with your development environment, Claude\
-              \ Code streamlines your workflow without requiring additional servers or complex\
-              \ setup.\n\nClaude Code\u2019s key capabilities include:\n\nEditing files\
-              \ and fixing bugs across your codebase\nAnswering questions about your code\u2019\
-              s architecture and logic\nExecuting and fixing tests, linting, and other commands\n\
-              Searching through git history, resolving merge conflicts, and creating commits\
-              \ and PRs"
-            icon_url: ""
-            name: Claude Code
-            oss: false
-            tags:
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview
-          - date_added: 12/03/2025
-            description: Meet Cline, an AI assistant that can use your CLI aNd Editor.
-            icon_url: ""
-            name: Cline
-            oss: true
-            tags:
-              - oss
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://github.com/cline/cline
-          - date_added: 12/03/2025
-            description: Open-source local LLM integration for VS Code
-            icon_url: ""
-            name: CodeLlama VSCode
-            oss: true
-            tags:
-              - oss
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://github.com/codellama/vscode-extension
-          - date_added: 12/03/2025
-            description:
-              The enterprise AI code assistant. Sourcegraph goes beyond individual
-              dev productivity, helping enterprises achieve consistency and quality at scale
-              with AI.
-            icon_url: https://cdn.prod.website-files.com/673f71b4ebbb99190437de75/679a3e4d8b05843d7a83fb51_favicon.png
-            name: Cody
-            oss: false
-            tags:
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://sourcegraph.com/cody
-          - date_added: 12/03/2025
-            description:
-              Create, share, and use custom AI code assistants with our open-source
-              IDE extensions and hub of models, rules, prompts, docs, and other building
-              blocks
-            icon_url: https://avatars.githubusercontent.com/u/127876214?s=200&v=4
-            keywords:
-              - Continue
-              - Continue.dev
-              - custom
-              - hub
-              - flexible
-            name: Continue
-            oss: true
-            social_urls:
-              - https://x.com/continuedev
-              - https://www.linkedin.com/company/continuedev
-              - https://bsky.app/profile/continue.dev
-            tags:
-              - verified
-              - oss
-              - GA
-              - Editor
-              - Code
-            verified: true
-            website_url: https://continue.dev/
-          - date_added: 12/03/2025
-            description: ""
-            icon_url: https://githubnext.com/favicon/favicon.png
-            name: Copilot Workspace
-            oss: false
-            tags:
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://githubnext.com/projects/copilot-workspace
-          - date_added: 12/03/2025
-            description:
-              The AI Code Editor. Built to make you extraordinarily productive,
-              Cursor is the best way to code with AI.
-            icon_url: https://www.cursor.com/favicon.ico
-            name: Cursor
-            oss: false
-            tags:
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://www.cursor.com/
-          - date_added: 12/03/2025
-            description: "From idea to production-ready software;
-
-              autonomously.
-
-              All without touching any code."
-            icon_url: https://durable.ai/favicon.ico
-            name: Durable
-            oss: false
-            tags:
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://durable.ai/
-          - date_added: 12/03/2025
-            description: The AI editor for everyone
-            icon_url: https://github.com/favicon.ico
-            name: Github Copilot
-            oss: false
-            tags:
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://github.com/features/copilot
-          - date_added: 12/03/2025
-            description: AI coding assistant integrated across all JetBrains IDEs
-            icon_url: https://www.jetbrains.com/favicon.ico
-            name: JetBrains AI Assistant
-            oss: false
-            tags:
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://www.jetbrains.com/ai/
-          - date_added: 12/03/2025
-            description:
-              AI-powered platform that enables users of any skill level to create
-              full-stack web applications without requiring coding expertise by simply describing
-              what they want in plain English. Instead of hiring developers, users can generate
-              web apps or websites instantly.
-            icon_url: https://pbs.twimg.com/profile_images/1866804521571155968/K_9D7fXF_400x400.jpg
-            keywords:
-              - AI code generation
-              - low-code
-              - no-code
-              - software development
-              - full-stack development
-              - rapid prototyping
-              - automation
-              - app builder
-              - web application
-              - product management
-              - developer tools
-              - AI-assisted coding
-              - workflow automation
-              - prototyping
-              - SaaS
-              - PLG
-              - product-led growth
-              - community-driven development
-              - AI-driven software
-              - developer experience
-              - API integration
-              - frontend development
-              - backend development
-              - UX/UI design
-              - AI-assisted development
-              - MVP development
-              - digital transformation
-              - agile development
-              - idea to app
-              - idea to code
-              - prompt engineering
-              - continuous deployment
-              - CI/CD
-              - DevOps
-              - scalability
-              - cloud computing
-              - API-first development
-              - AI-assisted prototyping
-              - innovation
-              - tech startups
-              - developer productivity
-              - AI-powered development
-              - software automation
-              - creative coding
-              - AI-assisted UX
-              - startup acceleration
-              - product-market fit
-              - app automation.
-            name: Lovable
-            oss: false
-            social_urls:
-              - https://x.com/lovable_dev
-            tags:
-              - verified
-              - GA
-              - Editor
-              - Code
-            verified: true
-            website_url: https://lovable.dev/
-          - date_added: 24/03/2025
-            description:
-              "Welcome to Marblism - the platform to generate, edit and host\
-              \ your fullstack application in minutes \u2728\n\nDrop any idea into it and\
-              \ you get a fully functional back-end and front-end as an output.\n\nPerfect\
-              \ for CTOs, indie hackers, freelancers, agencies, or developer with a project\
-              \ \u2013 with Marblism, you can bring it to life in 15 minutes."
-            icon_url: ""
-            name: Marblism
-            oss: false
-            tags:
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://dev.marblism.com/
-          - date_added: 12/03/2025
-            description: Changing the game of software development
-            icon_url: ""
-            name: MarsX
-            oss: false
-            tags:
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://marsx.dev/
-          - date_added: 12/03/2025
-            description:
-              The Curated AI Code Editor. Supercharge your development with an
-              up-to-date, curated inventory of the best AI tools, natively integrated for
-              effortless AI-powered coding. Always open source.
-            icon_url: https://trypear.ai/favicon.ico
-            name: Pear AI
-            oss: false
-            tags:
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://trypear.ai/
-          - date_added: 12/03/2025
-            description:
-              Project IDX is an AI-assisted workspace for full-stack, multiplatform
-              app development in the cloud.
-            icon_url: https://idx.dev/favicon.ico
-            name: Project IDX
-            oss: false
-            tags:
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://idx.dev/
-          - date_added: 24/03/2025
-            description: "Build. Debug. Deploy. All in one tool
-
-              Prompt, run, edit and deploy full-stack web apps."
-            icon_url: ""
-            name: Pythagora
-            oss: false
-            tags:
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://www.pythagora.ai
-          - date_added: 12/03/2025
-            description:
-              "Replit turns your ideas into apps, fast. With Replit, anyone\u2014\
-              technical or non-technical\u2014can build and deploy fully-functional, full-stack\
-              \ apps directly from their browser, without any installation, setup, or configuration.\
-              \ \n\nReplit's Agent and Assistant enable you to create entire applications\
-              \ from natural language, turning bullet points into working apps in minutes.\
-              \ Its built-in tools, including databases and deployment features, allow you\
-              \ to launch\_with a single click. \n\nReplit bridges the gap between non-technical\
-              \ and technical users,\_driving collaboration on everything from product roadmaps\
-              \ and prototypes to custom APIs and internal tools. Apps are the new websites,\
-              \ and Replit empowers everyone to not just consume software but to create\
-              \ it, transforming app development into an accessible, instant, and impactful\
-              \ process. \n\nGo from \"\"why doesn\u2019t this app exist?\"\" to building\
-              \ it for yourself."
-            icon_url: https://cdn.replit.com/dotcom/favicon-196.png
-            keywords:
-              - Vibe Coding
-              - Agent
-              - Development
-              - Apps
-            name: Replit
-            oss: false
-            social_urls:
-              - https://x.com/@replit
-              - https://youtube.com/@replit
-              - https://www.linkedin.com/company/repl-it
-            tags:
-              - verified
-              - GA
-              - Editor
-              - Code
-            verified: true
-            website_url: https://replit.com/
-          - date_added: 12/03/2025
-            description:
-              Roo Code is an AI-powered autonomous coding agent that lives in
-              your editor
-            icon_url: ""
-            name: Roo-Code
-            oss: true
-            tags:
-              - oss
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://github.com/RooVetGit/Roo-Code
-          - date_added: 24/03/2025
-            description:
-              Our flagship agent, Runner H, will be available in private beta
-              on our platform. It allows, through simple natural language commands, automatic
-              design of web automation pipelines, eliminating multi-step, tedious, manual
-              work and revolutionizing how developers and teams approach the likes of web
-              testing and process automation.
-            icon_url: ""
-            name: Runner H
-            oss: false
-            tags:
-              - beta
-              - Editor
-              - Code
-            verified: false
-            website_url: https://www.hcompany.ai/
-          - date_added: 12/03/2025
-            description: ""
-            icon_url: https://sourceai.dev/favicon.ico
-            name: Source AI
-            oss: false
-            tags:
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://sourceai.dev/
-          - date_added: 12/03/2025
-            description:
-              Sourcegraph is a platform to automate and accelerate the SDLC for
-              large production codebases. It provides AI code generation, technical Q&A,
-              code search, and large scale code migration tools to some of the largest and
-              most forward looking software orgs in the world, including Stripe, Uber, Booking.com,
-              Palo Alto Networks, and the US government.
-            icon_url: https://cdn.prod.website-files.com/673f71b4ebbb99190437de75/679a3e4d8b05843d7a83fb51_favicon.png
-            name: Source Graph
-            oss: false
-            social_urls:
-              - https://x.com/sourcegraph
-              - https://www.youtube.com/c/sourcegraph
-              - https://www.linkedin.com/company/sourcegraph/
-            tags:
-              - verified
-              - GA
-              - Editor
-              - Code
-            verified: true
-            website_url: https://sourcegraph.com/
-          - date_added: 12/03/2025
-            description:
-              Self-hosted coding assistant for JetBrains IDEs. Accelerate your
-              JetBrains developers with the latest in AI coding intelligence. No data ever
-              leaves your VPC.
-            icon_url: https://sweep.dev/favicon.ico
-            name: Sweep
-            oss: false
-            tags:
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://sweep.dev/
-          - date_added: 12/03/2025
-            description:
-              AI code assistant supporting multiple IDEs and privacy-focused
-              deployment options
-            icon_url: https://www.tabnine.com/favicon.ico
-            name: Tabnine
-            oss: false
-            tags:
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://www.tabnine.com/
-          - date_added: 12/03/2025
-            description:
-              Ship Faster with Trae. Trae is an adaptive AI IDE that transforms
-              how you work, collaborating with you to run faster.
-            icon_url: https://lf-cdn.trae.ai/obj/trae-ai-us/trae_website_prod/static/image/favicon.ico
-            name: Trae
-            oss: false
-            tags:
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://trae.ai/
-          - date_added: 12/03/2025
-            description: What can I help you ship?
-            icon_url: https://vercel.com/favicon.ico
-            name: Vercel v0
-            oss: false
-            tags:
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://v0.dev/
-          - date_added: 12/03/2025
-            description: Microsoft's AI-powered code completion for Visual Studio
-            icon_url: https://visualstudio.microsoft.com/favicon.ico
-            name: Visual Studio IntelliCode
-            oss: false
-            tags:
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://visualstudio.microsoft.com/services/intellicode/
-          - date_added: 12/03/2025
-            description:
-              Built to keep you in flow state . The first agentic IDE, and then
-              some. The Windsurf Editor is where the work of developers and AI truly flow
-              together, allowing for a coding experience that feels like literal magic.
-            icon_url: https://codeium.com/favicon.ico
-            name: Windsurf
-            oss: false
-            tags:
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://codeium.com/windsurf/
-          - date_added: 12/03/2025
-            description:
-              Make your own AI tools without any coding. Share them or embed
-              into your website to get more traffic and turn visitors into customers.
-            icon_url: ""
-            name: Wrapifai
-            oss: false
-            tags:
-              - GA
-              - Editor
-              - Code
-            verified: false
-            website_url: https://wrapifai.com/
-      - description: Specialized in Frontend and Mobile code generation
-        level: 6
-        name: Frontend & Mobile
-        tools:
-          - date_added: 12/03/2025
-            description: Mobile Apps in minutes. Quickly prototype a react native screen
-            icon_url: https://a0.dev/favicon.ico
-            name: A0
-            oss: false
-            tags:
-              - GA
-              - Frontend & Mobile
-              - Code
-            verified: false
-            website_url: https://a0.dev/
-          - date_added: 24/03/2025
-            description: The Most Powerful AI For Xcode.
-            icon_url: ""
-            name: Alex
-            oss: false
-            tags:
-              - GA
-              - Frontend & Mobile
-              - Code
-            verified: false
-            website_url: https://alexcodes.app
-          - date_added: 12/03/2025
-            description: Build React apps 10x Faster with AI
-            icon_url: https://tempolabs.ai/favicon.ico
-            name: Tempo
-            oss: false
-            tags:
-              - GA
-              - Frontend & Mobile
-              - Code
-            verified: false
-            website_url: https://tempolabs.ai/
-      - description: Migration tools for large and legacy code bases
-        level: 7
-        name: Migration
-        tools:
-          - date_added: 24/03/2025
-            description:
-              AI Powered Legacy Code Conversion That Produces Readable Java.
-              Broadening the modernisation paths available and helping to solve legacy code
-              for the long term
-            icon_url: ""
-            name: Bloop
-            oss: false
-            tags:
-              - GA
-              - Migration
-              - Code
-            verified: false
-            website_url: https://bloop.ai/
-          - date_added: 12/03/2025
-            description:
-              Making AI understand massive custom software systems CAST technology
-              can analyze 40 KLOC per minute, mapping the explicit and implicit interactions
-              between all elements, across all layers, into deterministic metadata of the
-              entire application
-            icon_url: https://learn.castsoftware.com/hubfs/favicon-96x96.png
-            name: Cast Software
-            oss: false
-            tags:
-              - GA
-              - Migration
-              - Code
-            verified: false
-            website_url: https://learn.castsoftware.com/ai-assisted-code-transformation
-          - date_added: 12/03/2025
-            description: "Your Ideas, Built by AI
-
-              Prompt, run, and deploy fully functional apps. Fine is your AI full-stack
-              engineer, handling everything from UI to deployment."
-            icon_url: ""
-            name: Fine
-            oss: false
-            tags:
-              - GA
-              - Migration
-              - Code
-            verified: false
-            website_url: https://www.fine.dev/
-          - date_added: 12/03/2025
-            description:
-              "Easily migrate your codebase from one framework or language to
-              another. "
-            icon_url: ""
-            name: GPT Migrate
-            oss: true
-            tags:
-              - oss
-              - GA
-              - Migration
-              - Code
-            verified: false
-            website_url: https://github.com/joshpxyne/gpt-migrate
-          - date_added: 12/03/2025
-            description:
-              "OpenRewrite is an open-source automated refactoring ecosystem\
-              \ for source code, enabling developers to effectively eliminate technical\
-              \ debt within their repositories.\n\nIt consists of an auto-refactoring engine\
-              \ that runs prepackaged, open-source refactoring recipes for common framework\
-              \ migrations, security fixes, and stylistic consistency tasks \u2013 reducing\
-              \ your coding effort from hours or days to minutes.\n\nOpenRewrite works by\
-              \ making changes to Lossless Semantic Trees (LSTs) that represent your source\
-              \ code and printing the modified trees back into source code. You can then\
-              \ review the changes in your code and commit the results. Modifications to\
-              \ the LST are performed in Visitors and visitors are aggregated into Recipes.\
-              \ OpenRewrite recipes make minimally invasive changes to your source code\
-              \ that honor the original formatting."
-            icon_url: https://docs.openrewrite.org/img/favicon.svg
-            keywords:
-              - Refactoring
-              - Application Modernization
-              - Security Vulnerability Remediation
-            name: Open Rewrite
-            oss: true
-            tags:
-              - verified
-              - oss
-              - GA
-              - Migration
-              - Code
-            verified: true
-            website_url: https://docs.openrewrite.org/
-      - description: Collections of prompts and generating prompts
-        level: 8
-        name: Prompting
-        tools:
-          - date_added: 12/03/2025
-            description:
-              "Build Features. 100x Faster with Cursor. Supercharge Cursor with\
-              \ AI-ready rules and requirements\u2014 so it builds exactly what you need,\
-              \ 100x faster."
-            icon_url: ""
-            name: Brain Grid
-            oss: false
-            tags:
-              - GA
-              - Prompting
-              - Code
-            verified: false
-            website_url: https://www.braingrid.ai/
-          - date_added: 12/03/2025
-            description:
-              Built for the next generation of AI coders. Upload images of full
-              applications, UI mockups, or custom designs and use our generated prompts
-              to build your apps faster.
-            icon_url: https://copycoder.ai/favicon.ico
-            name: Copycoder
-            oss: false
-            tags:
-              - GA
-              - Prompting
-              - Code
-            verified: false
-            website_url: https://copycoder.ai/
-          - date_added: 12/03/2025
-            description:
-              "The home for Cursor enthusiasts where you can explore and generate
-              rules, browse MCPs, post and follow
-
-              the latest news on the board, learn, connect, and discover jobs all in one
-              place."
-            icon_url: https://cursor.directory/favicon.ico
-            name: Cursor Directory
-            oss: false
-            tags:
-              - GA
-              - Prompting
-              - Code
-            verified: false
-            website_url: https://cursor.directory/
-          - date_added: 12/03/2025
-            description:
-              Cursor Rules to customize AI behavior, streamline the development
-              and tailor code generation, suggestions and queries to your framework and
-              language.
-            icon_url: https://dotcursorrules.com/favicon.ico
-            name: Cursor Rules
-            oss: false
-            tags:
-              - GA
-              - Prompting
-              - Code
-            verified: false
-            website_url: https://dotcursorrules.com/
-          - date_added: 12/03/2025
-            description: Give Cursor Agent an AI team and advanced skills
-            icon_url: ""
-            name: Cursor Tools
-            oss: true
-            tags:
-              - oss
-              - GA
-              - Prompting
-              - Code
-            verified: false
-            website_url: https://github.com/eastlondoner/cursor-tools
-          - date_added: 12/03/2025
-            description:
-              A powerful tool for analyzing GitHub repositories and providing
-              valuable insights about code quality, dependencies, and more.
-            icon_url: https://github.gg/static/images/favicon/apple-touch-icon.png
-            name: Github GG
-            oss: true
-            tags:
-              - oss
-              - GA
-              - Prompting
-              - Code
-            verified: false
-            website_url: https://github.gg/
-          - date_added: 24/03/2025
-            description: "Level up your prompts
-
-              Latitude helps you refine your prompts with data to deliver reliable AI products
-              with confidence"
-            icon_url: ""
-            name: Latitude
-            oss: false
-            tags:
-              - GA
-              - Prompting
-              - Code
-            verified: false
-            website_url: https://latitude.so/
-          - date_added: 12/03/2025
-            description:
-              A macOS native app designed to remove all the friction involved
-              in iterating on your local files with the most powerful language models
-            icon_url: https://repoprompt.com/favicon.ico
-            name: RepoPrompt
-            oss: false
-            tags:
-              - GA
-              - Prompting
-              - Code
-            verified: false
-            website_url: https://repoprompt.com/
-          - date_added: 12/03/2025
-            description: Easily Ask Your LLM Coding Questions
-            icon_url: https://uithub.com/favicon.ico
-            name: Uithub
-            oss: false
-            tags:
-              - GA
-              - Prompting
-              - Code
-            verified: false
-            website_url: https://uithub.com/
-      - description: Driving the code generation with specifications only
-        level: 9
-        name: Spec Driven
-        tools:
-          - date_added: 12/03/2025
-            description:
-              AI-powered code generation. Prompt, run, edit, and deploy full-stack
-              web apps.
-            icon_url: https://bolt.new/static/favicon.svg
-            name: Bolt
-            oss: false
-            tags:
-              - GA
-              - Spec Driven
-              - Code
-            verified: false
-            website_url: https://bolt.new
-          - date_added: 12/03/2025
-            description:
-              "AI-Supercharged Modernization . Transform legacy applications\
-              \ through an AI-powered, requirements-driven approach \u2014 speeding up delivery\
-              \ and reducing risk."
-            icon_url: https://crowdbotics.com/favicon.ico
-            name: Crowdbotics
-            oss: false
-            tags:
-              - GA
-              - Spec Driven
-              - Code
-            verified: false
-            website_url: https://crowdbotics.com/
-          - date_added: 12/03/2025
-            description:
-              Can we enable anyone to create or adapt software for themselves,
-              using AI and a fully-managed runtime?
-            icon_url: https://githubnext.com/favicon/favicon.png
-            name: Github Spark
-            oss: false
-            tags:
-              - GA
-              - Spec Driven
-              - Code
-            verified: false
-            website_url: https://githubnext.com/projects/github-spark/
-          - date_added: 12/03/2025
-            description: "Software-as-a-Utility: integrate anything, automate everything."
-            icon_url: https://squillo.io/branding/square/SVG/square-green.svg
-            name: Squillo
-            oss: false
-            social_urls:
-              - https://www.linkedin.com/company/squillo/
-            tags:
-              - verified
-              - GA
-              - Spec Driven
-              - Code
-            verified: true
-            website_url: https://squillo.io/
-          - date_added: 12/03/2025
-            description: Code written by AI, powered by your specs
-            icon_url: https://cdn.prod.website-files.com/67192008f31ee7b52371fe29/6733c87768b5bfe41ab30e63_Favicon.png
-            name: Tessl
-            oss: false
-            tags:
-              - GA
-              - Spec Driven
-              - Code
-            verified: false
-            website_url: https://tessl.io
-    description: Code related
+        Get AI-powered architecture plans, documentation, and UI designs in minutes'
+      icon_url: https://www.fullstackroadmap.com/favicon.ico
+      name: Full Stack Roadmap
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Requirements
+      - Product
+      verified: false
+      website_url: https://www.fullstackroadmap.com/
+    - date_added: 12/03/2025
+      description: Convert product design and wireframe images to drafts of Product
+        Requirements Documents and Engineering Task Tickets in seconds
+      icon_url: https://productmonkey.ai/favicon.ico
+      name: Product Monkey
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Requirements
+      - Product
+      verified: false
+      website_url: https://productmonkey.ai/
+    - date_added: 12/03/2025
+      description: An online requirements management tool for systems engineering
+        to bring your teams together in one simple platform. Built for project teams,
+        systems engineers, and asset owners
+      icon_url: https://reqi.io/favicon.ico
+      name: Reqi
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Requirements
+      - Product
+      verified: false
+      website_url: https://reqi.io/
+    - date_added: 12/03/2025
+      description: Capture, search and learn from every AI coding journey
+      icon_url: https://specstory.com/favicon.ico
+      name: SpecStory
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Requirements
+      - Product
+      verified: false
+      website_url: https://specstory.com/
+    - date_added: 12/03/2025
+      description: Make Writing PRDs a Breeze with ChatGPT
+      icon_url: https://writemyprd.com/favicon.ico
+      name: Write my PRD
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Requirements
+      - Product
+      verified: false
+      website_url: https://writemyprd.com/
+  - description: Help convert design into code
     level: 2
-    name: Code
-  - categories:
-      - description: Writing and executing tests
-        level: 12
-        name: Testing
-        tools:
-          - date_added: 12/03/2025
-            description: software simulator that accelerates software teams
-            icon_url: https://codeyam.com/favicon.ico
-            name: CodeYam
-            oss: false
-            tags:
-              - GA
-              - Testing
-              - Quality Assurance
-            verified: false
-            website_url: https://codeyam.com/
-          - date_added: 12/03/2025
-            description:
-              Test Gru delivers enterprise-grade unit test automation services,
-              empowering you to achieve superior test coverage. Harness the expertise of
-              AI engineers to boost your team's testing efficiency while reducing costs
-              and ensuring top-notch quality.
-            icon_url: ""
-            name: Gru
-            oss: false
-            tags:
-              - GA
-              - Testing
-              - Quality Assurance
-            verified: false
-            website_url: https://gru.ai
-          - date_added: 24/03/2025
-            description: "Lightning fast QA testing
+    name: Design
+    tools:
+    - date_added: 12/03/2025
+      description: 'Turn your design into a live web app
 
-              powered by AI
+        Generate, preview, and edit code instantly.'
+      icon_url: ''
+      name: Anima
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Design
+      - Product
+      verified: false
+      website_url: https://www.animaapp.com/
+    - date_added: 12/03/2025
+      description: Take Ideas to Production in Seconds, Not Sprints. Accelerate your
+        digital teams with AI-powered design-to-code, visual editing, and enterprise
+        CMS, all in our Visual Development Platform.
+      icon_url: https://builder.io/favicon.ico
+      name: Builder
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Design
+      - Product
+      verified: false
+      website_url: https://builder.io/
+    - date_added: 24/03/2025
+      description: 'AI Copilot for UX design
 
-              Heal's agent writes and maintains tests.
+        Chordio learns your product and best practices, helping you define, design,
+        and refine faster.'
+      icon_url: ''
+      name: Chordio
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Design
+      - Product
+      verified: false
+      website_url: https://chordio.com/
+    - date_added: 12/03/2025
+      description: Convert your Figma, sketch and adobe xd design to Flutter, React,
+        Vue and more.
+      icon_url: ''
+      name: Code
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Design
+      - Product
+      verified: false
+      website_url: https://github.com/gridaco/code
+    - date_added: 12/03/2025
+      description: 'Generate Beautiful UI Designs with AI
 
-              Our team refines them.
+        Create designs in seconds not hours or days
 
-              You focus on shipping.
+        Auto generate Figma Variables with Light + Dark Modes
 
+        1 Free Generation per day'
+      icon_url: ''
+      name: Codeflash
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Design
+      - Product
+      verified: false
+      website_url: https://www.codeflash.ai/
+    - date_added: 12/03/2025
+      description: Converting visual design (screenshot) into code implementation
+      icon_url: ''
+      name: Design2Code
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Design
+      - Product
+      verified: false
+      website_url: https://github.com/NoviScl/Design2Code
+    - date_added: 12/03/2025
+      description: A CLI tool that uses AI to generate design rules and documentation
+        from your Figma files. It analyzes your Figma designs and automatically extracts
+        design tokens, components, and layout information into a structured format.
+      icon_url: ''
+      name: Fig4AI
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Design
+      - Product
+      verified: false
+      website_url: https://github.com/f/fig4ai
+    - date_added: 12/03/2025
+      description: 'Generate Beautiful UI Designs with AI
 
-              80% coverage in weeks.
+        Create designs in seconds not hours or days
 
-              No flakes. No maintenance."
-            icon_url: ""
-            name: Heal
-            oss: false
-            tags:
-              - GA
-              - Testing
-              - Quality Assurance
-            verified: false
-            website_url: https://www.heal.dev/
-          - date_added: 12/03/2025
-            description: Low-code test automation with AI healing capabilities
-            icon_url: https://www.mabl.com/favicon.ico
-            name: Mabl
-            oss: false
-            tags:
-              - GA
-              - Testing
-              - Quality Assurance
-            verified: false
-            website_url: https://www.mabl.com/
-          - date_added: 24/03/2025
-            description:
-              Find bugs before your customers do. Give us your URL and we automatically
-              discover, generate and run your Playwright end-to-end tests.
-            icon_url: ""
-            name: Octomind
-            oss: false
-            tags:
-              - GA
-              - Testing
-              - Quality Assurance
-            verified: false
-            website_url: https://www.octomind.dev/
-          - date_added: 12/03/2025
-            description:
-              AI Agents for Debugging Testing System Design OnboardingC ode review
-              DocumentationYour Codebase. Build custom agents using simple prompts that
-              are expert on your codebase to perform engineering tasks for you
-            icon_url: ""
-            name: Potpie
-            oss: false
-            tags:
-              - GA
-              - Testing
-              - Quality Assurance
-            verified: false
-            website_url: https://potpie.ai
-          - date_added: 24/03/2025
-            description:
-              "Ship faster with AI agents that create and run your QA tests
-
-              Scale your end-to-end testing without increasing headcount or maintaining
-              a test suite.
-
-              "
-            icon_url: ""
-            name: QA Tech
-            oss: false
-            tags:
-              - GA
-              - Testing
-              - Quality Assurance
-            verified: false
-            website_url: https://qa.tech
-          - date_added: 12/03/2025
-            description:
-              "Agentic AI for Writing, Testing, and Reviewing Code\nModern software\
-              \ development needs efficient, high-quality, and well-tested code. Qodo\u2019\
-              s code integrity platform integrates AI into development workflows to help\
-              \ teams write, test, and review code faster and more reliably.\nQodo Merge:\
-              \ AI-Powered Code Reviews\n Qodo Merge automates code reviews with AI that\
-              \ spots errors, suggests improvements, and enforces best practices. It scans\
-              \ for issues, flags areas for optimization, and provides direct feedback to\
-              \ ensure consistent, high-quality reviews.\nQodo Gen: Agentic Coding in the\
-              \ IDE\n Qodo Gen is an IDE plugin that helps generate code and tests based\
-              \ on context and intent. It assists with complex tasks, automates repetitive\
-              \ work, and supports top IDEs like VSCode and JetBrains. It works with leading\
-              \ models such as OpenAI o3 and DeepSeek-R1.\nQodo Cover: Test Coverage in\
-              \ Pull Requests\n Qodo Cover identifies gaps in test coverage during pull\
-              \ requests by analyzing code changes and existing tests. It ensures all functionality\
-              \ is tested before merging and makes it easy to add missing tests without\
-              \ leaving the development workflow."
-            icon_url: https://www.qodo.ai/wp-content/uploads/2024/09/favicon.png
-            keywords:
-              - Agentic AI
-              - AI code reviews
-              - code testing
-            name: Qodo
-            oss: false
-            social_urls:
-              - https://x.com/QodoAI/highlights
-              - https://www.linkedin.com/company/qodoai/posts/?feedView=all
-            tags:
-              - verified
-              - GA
-              - Testing
-              - Quality Assurance
-            verified: true
-            website_url: https://qodo.ai/
-          - date_added: 24/03/2025
-            description: "Fast, reliable QA testing
-
-              Powered by AI, perfected by humans. Ranger writes and maintains QA tests that
-              find real bugs so you can keep moving forward."
-            icon_url: ""
-            name: Ranger
-            oss: false
-            tags:
-              - GA
-              - Testing
-              - Quality Assurance
-            verified: false
-            website_url: https://www.ranger.net/
-          - date_added: 12/03/2025
-            description: Code quality and security with AI remediation
-            icon_url: https://www.sonarqube.org/favicon.ico
-            name: SonarQube AI Code Fix
-            oss: false
-            tags:
-              - GA
-              - Testing
-              - Quality Assurance
-            verified: false
-            website_url: https://www.sonarqube.org/
-          - date_added: 12/03/2025
-            description:
-              "Transform your API Specs into Executable Contracts with #NoCode
-              in Seconds. With Specmatic experience the power of Contract-Driven Development
-              to confidently develop and independently deploy your Microservices and Microfrontends
-              faster."
-            icon_url: https://specmatic.io/wp-content/uploads/2022/09/specmatic.png
-            keywords:
-              - contract-testing
-              - service-virtualisation
-              - backward-compatibility
-              - contract-driven-development
-              - executable-contracts
-              - openAPI
-              - aysncAPI
-              - grpc
-              - graphql
-            name: Specmatic
-            oss: true
-            social_urls:
-              - https://www.linkedin.com/company/specmatic/
-              - https://x.com/specmatic
-            tags:
-              - verified
-              - oss
-              - GA
-              - Testing
-              - Quality Assurance
-            verified: true
-            website_url: https://specmatic.io/
-          - date_added: 12/03/2025
-            description:
-              Your AI QA Engineer. Spur lets you test your website with Natural
-              Language.
-            icon_url: https://cdn.prod.website-files.com/66c3e4ffe16480b253b3458d/66c4c6e18ad2a54fc53beb44_Favicon.png
-            name: Spur
-            oss: false
-            tags:
-              - GA
-              - Testing
-              - Quality Assurance
-            verified: false
-            website_url: https://www.spurtest.com/
-          - date_added: 12/03/2025
-            description: AI-driven no-code test automation platform
-            icon_url: https://testsigma.com/favicon.ico
-            name: TestSigma
-            oss: false
-            tags:
-              - GA
-              - Testing
-              - Quality Assurance
-            verified: false
-            website_url: https://testsigma.com/
-          - date_added: 12/03/2025
-            description: AI-powered test automation tool
-            icon_url: https://www.testim.io/favicon.ico
-            name: Testim
-            oss: false
-            tags:
-              - GA
-              - Testing
-              - Quality Assurance
-            verified: false
-            website_url: https://www.testim.io/
-          - date_added: 12/03/2025
-            description: Imagine a world where every developer has a dedicated test resource.
-            icon_url: https://ventrilo.ai/favicon.svg
-            name: Ventrilo
-            oss: false
-            tags:
-              - beta
-              - Testing
-              - Quality Assurance
-            verified: false
-            website_url: https://ventrilo.ai/
-      - description: Review and asses generated code
-        level: 13
-        name: Review
-        tools:
-          - date_added: 12/03/2025
-            description:
-              "Baz performs contextual AI code reviews\u2014analyzing code changes,\
-              \ detecting breaking API changes, enforcing consistency, and highlighting\
-              \ misaligned coding patterns. Make every review faster, more accurate, and\
-              \ closely aligned with the real-world impact of code changes.\n\nIt groups\
-              \ complex changes into clear Topics, making PRs easy to follow. Baz also provides\
-              \ Usage insights, pinpointing exactly how your code is impacted.\n\nFully\
-              \ integrated with GitHub, Baz is designed to streamline collaboration, reduce\
-              \ manual effort, and help your engineering team ship high-quality code faster."
-            icon_url: https://avatars.githubusercontent.com/u/140384842?s=200&v=4
-            keywords:
-              - code review
-              - AI code review
-              - breaking changes
-              - code analysis
-              - API changes
-              - GitHub integration
-              - coding consistency
-              - AST analysis
-              - developer productivity
-              - merge conflicts
-              - modular development
-              - automated review
-              - pull requests
-              - static analysis
-              - software quality
-              - developer tools
-            name: Baz
-            oss: false
-            social_urls:
-              - https://github.com/baz-scm
-              - https://x.com/baz_scm
-              - https://www.linkedin.com/company/101408096/
-              - https://www.youtube.com/@baz-scm
-            tags:
-              - verified
-              - GA
-              - Review
-              - Quality Assurance
-            verified: true
-            website_url: https://baz.co/
-          - date_added: 12/03/2025
-            description:
-              "Bismuth is an AI agent that tackles the crushing tech debt drowning
-              engineering teams everywhere. We've built an autonomous development solution
-              that seamlessly integrates with your existing workflow in under 5 minutes.
-              We connect to GitHub, Jira, and other tools you already use.
-
-
-              Unlike other solutions that focus on the inner loop, we're tackling the outer
-              loop - that overflowing backlog of P2 bugs and features that never get addressed
-              because your team is constantly chasing the next deadline. You simply assign
-              Bismuth to a ticket, and it autonomously produces high-quality PRs that fix
-              issues or implement features. Bismuth also prevents issues from ever getting
-              to prod, we scan your codebase and review pull requests for bugs and logic
-              issues.
-
-
-              What makes us different is our background in code analysis, reverse engineering,
-              and bug hunting. Our custom code search and special testing methodologies
-              catch entire classes of bugs that other solutions miss. We don't just generate
-              code, we create reliable, tested PRs that won't break your codebase.
-
-
-              Tech debt cost businesses $1.52T in 2024 alone, with 63% spent on reactive
-              fixes after incidents occurred. We're changing that equation."
-            icon_url: https://bismuth.sh/favicon.svg
-            keywords:
-              - tech debt
-              - AI coding assistant
-              - developer productivity tools
-              - automated bug fixing
-              - software development automation
-              - bug scanning
-            name: Bismuth
-            oss: false
-            social_urls:
-              - https://www.linkedin.com/company/bismuthcloud/
-              - https://x.com/kinglycrow
-              - https://www.linkedin.com/in/kallsyms/
-              - https://bsky.app/profile/kinglycrow.bsky.social
-            tags:
-              - verified
-              - GA
-              - Review
-              - Quality Assurance
-            verified: true
-            website_url: https://bismuth.sh/
-          - date_added: 24/03/2025
-            description: "Cut Code Review Time & Bugs in Half
-
-              Supercharge your entire team with AI-driven contextual feedback. Supports
-              all languages."
-            icon_url: ""
-            name: CodeRabbit
-            oss: false
-            tags:
-              - GA
-              - Review
-              - Quality Assurance
-            verified: false
-            website_url: https://www.coderabbit.ai/
-          - date_added: 12/03/2025
-            description:
-              AI Code Reviews & Bug Fixes. Ellipsis is an AI developer tool that
-              automatically reviews code and fixes bugs on pull requests.
-            icon_url: ""
-            name: Ellipsis
-            oss: false
-            tags:
-              - GA
-              - Review
-              - Quality Assurance
-            verified: false
-            website_url: https://www.ellipsis.dev/
-          - date_added: 24/03/2025
-            description: "The AI Code Review Bot
-
-              Greptile reviews your PRs with full context of your codebase.
-
-              3X more bugs caught, 4X faster merges"
-            icon_url: ""
-            name: Greptile
-            oss: false
-            tags:
-              - GA
-              - Review
-              - Quality Assurance
-            verified: false
-            website_url: https://www.greptile.com/
-      - description: Help with mananging documentation
-        level: 14
-        name: Documentation
-        tools:
-          - date_added: 24/03/2025
-            description:
-              Architect with AI expertise. Excel with your tech stack. Drive
-              your business. Achieve it all with your Copilot for Tech Architecture
-            icon_url: ""
-            name: Catio
-            oss: false
-            tags:
-              - GA
-              - Documentation
-              - Quality Assurance
-            verified: false
-            website_url: https://www.catio.tech/
-          - date_added: 12/03/2025
-            description:
-              DevDocs combines multiple API documentations in a fast, organized,
-              and searchable interface.
-            icon_url: https://devdocs.io/favicon.ico
-            name: DevDocs
-            oss: false
-            tags:
-              - GA
-              - Documentation
-              - Quality Assurance
-            verified: false
-            website_url: https://devdocs.io/
-          - date_added: 12/03/2025
-            description: Documentation site generator with AI content creation
-            icon_url: https://doctave.com/favicon.ico
-            name: Doctave
-            oss: false
-            tags:
-              - GA
-              - Documentation
-              - Quality Assurance
-            verified: false
-            website_url: https://doctave.com/
-          - date_added: 12/03/2025
-            description:
-              "Dosu documents while developers build, giving teams the complete,\
-              \ up-to-date docs they\u2019ve always wanted. With Dosu, documentation is\
-              \ automatic, not arduous. Code changes and learnings from new conversations\
-              \ are instantly reflected back into Dosu and relevant documentation. Dosu\
-              \ makes knowledge accessible to whomever needs it, whenever it's needed, adapting\
-              \ content to the current context and the audience. \n\nEveryone benefits from\
-              \ Dosu. Developers move faster, cross-team collaboration is easier, and existing\
-              \ AI tools become smarter."
-            icon_url: https://dosu.dev/logomark.svg
-            keywords:
-              - documentation
-              - Q&A
-              - chat
-              - issue triage
-              - knowledge management
-              - knowledge provider
-            name: Dosu
-            oss: false
-            social_urls:
-              - https://x.com/dosu_ai
-            tags:
-              - verified
-              - GA
-              - Documentation
-              - Quality Assurance
-            verified: true
-            website_url: https://dosu.dev/
-          - date_added: 24/03/2025
-            description:
-              AI-powered platform that automates technical documentation. Spend
-              less time understanding code and writing documentation and more time building
-              extraordinary things.
-            icon_url: ""
-            name: Driver
-            oss: false
-            tags:
-              - GA
-              - Documentation
-              - Quality Assurance
-            verified: false
-            website_url: https://driver.ai/
-          - date_added: 12/03/2025
-            description:
-              "Our mission is simple: Spread knowledge over your entire organisation\
-              \ starting from the source of truth, your codebases.\n\nCritical knowledge\
-              \ is often hidden in codebases, leading to inefficiencies and risks. FirstMate\
-              \ ensures business continuity by:\n- Generating and keeping documentation\
-              \ up to date automatically.\n- Answering team questions instantly as a bot\
-              \ in your chat.\n- Providing context to (support) tickets, reducing back-and-forth.\n\
-              \nWith FirstMate, your team always has the right knowledge at the right time\u2014\
-              minimizing disruptions and maximizing efficiency.\n\nAI tools are 10xing developer\
-              \ output\u2014without 10x knowledge sharing, chaos follows."
-            icon_url: https://media.licdn.com/dms/image/v2/D4E0BAQEvyrRph5h2wA/company-logo_200_200/company-logo_200_200/0/1726043941614/firstmatecloud_logo?e=1747872000&v=beta&t=w832pp3j7nC6DT_Csh9vbrQrkGSH0i_Hp5DGkuO4g74
-            keywords:
-              - Documentation
-              - Knowledge sharing
-            name: FirstMate
-            oss: false
-            tags:
-              - verified
-              - GA
-              - Documentation
-              - Quality Assurance
-            verified: true
-            website_url: https://firstmate.io/
-          - date_added: 12/03/2025
-            description: Documentation platform with AI assistance
-            icon_url: https://www.gitbook.com/favicon.ico
-            name: GitBook AI
-            oss: false
-            tags:
-              - GA
-              - Documentation
-              - Quality Assurance
-            verified: false
-            website_url: https://www.gitbook.com/
-          - date_added: 12/03/2025
-            description:
-              Ship faster with self-healing wikis. Unlock rich insights about
-              any codebase in minutes. Speed up onboarding. Break knowledge silos. Boost
-              team productivity.
-            icon_url: ""
-            name: Komment
-            oss: false
-            tags:
-              - GA
-              - Documentation
-              - Quality Assurance
-            verified: false
-            website_url: https://komment.ai/
-          - date_added: 12/03/2025
-            description: AI-powered documentation generation and management
-            icon_url: https://mintlify.com/favicon.ico
-            name: Mintlify
-            oss: false
-            tags:
-              - GA
-              - Documentation
-              - Quality Assurance
-            verified: false
-            website_url: https://mintlify.com/
-          - date_added: 12/03/2025
-            description: API documentation with AI-powered suggestions
-            icon_url: https://readme.com/favicon.ico
-            name: ReadMe
-            oss: false
-            tags:
-              - GA
-              - Documentation
-              - Quality Assurance
-            verified: false
-            website_url: https://readme.com/
-          - date_added: 12/03/2025
-            description: Automate code diagram generation with LLMs
-            icon_url: ""
-            name: Swark
-            oss: true
-            tags:
-              - oss
-              - GA
-              - Documentation
-              - Quality Assurance
-            verified: false
-            website_url: https://github.com/swark-io/swark
-          - date_added: 12/03/2025
-            description: AI-powered docs generation and ongoing updates
-            icon_url: https://swimm.io/favicon.ico
-            name: Swimm
-            oss: false
-            tags:
-              - GA
-              - Documentation
-              - Quality Assurance
-            verified: false
-            website_url: https://swimm.io/
-    description: Quality Assurance related
+        Auto generate Figma Variables with Light + Dark Modes'
+      icon_url: ''
+      name: Figma.ai
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Design
+      - Product
+      verified: false
+      website_url: https://figma.ai
+    - date_added: 12/03/2025
+      description: Ready to generate designs at lightning speed? Galileo generates
+        beautiful and functional interface designs tailored to your needs.
+      icon_url: https://www.usegalileo.ai/assets/favicon/apple-touch-icon-57x57.png
+      name: Galileo
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Design
+      - Product
+      verified: false
+      website_url: https://www.usegalileo.ai/
+    - date_added: 12/03/2025
+      description: Turn your designs into developer-friendly frontend <code> for mobile
+        apps and web
+      icon_url: https://www.locofy.ai/favicon.ico
+      name: Locofy
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Design
+      - Product
+      verified: false
+      website_url: https://www.locofy.ai/convert/design-to-code
+    - date_added: 12/03/2025
+      description: "Visily\u2019s AI converts any user design input\u2014text prompt,\
+        \ screenshot, and more\u2014to a fully customizable high-fidelity design.\
+        \ Unlike other software, getting started is the easiest part!"
+      icon_url: ''
+      name: Visily
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Design
+      - Product
+      verified: false
+      website_url: https://github.com/visily-ai/visily
+  - description: Build applications with no code & fast prototyping
     level: 3
-    name: Quality Assurance
-  - categories:
-      - description: Infrastructure as code tools
-        level: 15
-        name: Infrastructure As Code
-        tools:
-          - date_added: 12/03/2025
-            description: Artificial Intelligence Infrastructure-as-Code Generator
-            icon_url: https://aiac.dev/favicon.ico
-            name: AIaC
-            oss: true
-            tags:
-              - oss
-              - GA
-              - Infrastructure As Code
-              - DevOps
-            verified: false
-            website_url: https://aiac.dev/
-          - date_added: 12/03/2025
-            description:
-              GPTScript is a framework that allows Large Language Models (LLMs)
-              to operate and interact with various systems.
-            icon_url: https://docs.gptscript.ai/img/favicon.ico
-            name: GPTScript
-            oss: false
-            tags:
-              - GA
-              - Infrastructure As Code
-              - DevOps
-            verified: false
-            website_url: https://docs.gptscript.ai/
-          - date_added: 12/03/2025
-            description: The Intelligent Infra-as-Code Editor
-            icon_url: https://infracopilot.io/favicon.ico
-            name: InfraCopilot
-            oss: true
-            tags:
-              - oss
-              - GA
-              - Infrastructure As Code
-              - DevOps
-            verified: false
-            website_url: https://infracopilot.io/
-          - date_added: 12/03/2025
-            description:
-              "Pulumi Copilot is an AI assistant that streamlines cloud infrastructure
-              management by combining large language models with semantic cloud understanding.
-              Available through both Pulumi Cloud console and CLI, it enables engineers
-              to find information and take action on cloud resources using a familiar GPT-like
-              interface.
-
-
-              The tool understands over 160 cloud platforms including AWS, Azure, Google
-              Cloud, Kubernetes, and SaaS providers. Key capabilities include generating
-              infrastructure code from simple prompts, identifying cost-saving opportunities,
-              running compliance checks, and debugging failed stack updates.
-
-
-              Additionally, Copilot now offers an API that extends its capabilities beyond
-              the Pulumi Console. This REST API allows developers to integrate Copilot's
-              infrastructure AI into custom tools, collaboration platforms like Slack and
-              Teams, automated workflows, and mobile clients. The API supports multi-turn
-              conversations through conversation IDs and requires only basic configuration
-              with organization context and resource URLs to function. Currently in preview,
-              Pulumi is actively seeking feedback to refine the API before general availability."
-            icon_url: https://www.pulumi.com/favicon.ico
-            name: Pulumi Copilot
-            oss: false
-            social_urls:
-              - https://www.linkedin.com/in/artur-laksberg/
-            tags:
-              - verified
-              - GA
-              - Infrastructure As Code
-              - DevOps
-            verified: true
-            website_url: https://www.pulumi.com/product/copilot/
-          - date_added: 12/03/2025
-            description:
-              Stakpak is a DevOps IDE and API with built-in AI capabilities that
-              helps developers quickly build, maintain and self-serve their software infrastructure.
-            icon_url: https://drive.google.com/uc?export=view&id=1B1NyqVmIYVUibSZY9jHflYQqFPGHOeYt
-            keywords:
-              - devops agents
-              - code generation
-              - IDE
-            name: Stakpak
-            oss: false
-            social_urls:
-              - https://www.linkedin.com/company/dvpzla
-              - https://x.com/stakpak_dev
-              - https://discord.com/invite/QTZjETP7GB
-            tags:
-              - verified
-              - GA
-              - Infrastructure As Code
-              - DevOps
-            verified: true
-            website_url: https://stakpak.dev/
-      - description: Site Reliability tools
-        level: 16
-        name: SRE
-        tools:
-          - date_added: 12/03/2025
-            description:
-              'Anyshift is an AI-SRE assistant that immediately responds to urgent
-              queries like "Why can''t I access the RDS instance?" or "Why did my deployment
-              fail?" during incidents or day-to-day issues, enabling instant answers to
-              critical infrastructure questions and reducing DevOps interruptions.
-
-
-              Built on a comprehensive knowledge graph of your live infrastructure, Anyshift
-              captures every layer of your environment in real-time. This deep understanding
-              allows it to provide AI agents with rich context through Slack or MCP servers,
-              enabling accurate infrastructure-as-code generation and empowering teams to
-              troubleshoot independently.'
-            icon_url: https://media.anyshift.io/logo_anyshift.svg
-            name: Ask Annie
-            oss: false
-            social_urls:
-              - https://www.linkedin.com/company/103824568/admin/dashboard/
-            tags:
-              - verified
-              - GA
-              - SRE
-              - DevOps
-            verified: true
-            website_url: https://anyshift.io
-          - date_added: 12/03/2025
-            description:
-              Cleric is an AI SRE teammate for platform engineering teams to
-              diagnose production alerts. It autonomously executes diagnostic commands across
-              your stack (Datadog, Kubernetes, Grafana) to surface evidence-based findings,
-              mimicking experienced on-call engineer investigations. It continuously improves
-              by building a knowledge base from past investigations and engineer feedback.
-            icon_url: https://cdn.prod.website-files.com/65840bae4da744feef0ea01f/66549a6a5a8bc6388f822492_favicon-32x32.png
-            name: Cleric
-            oss: false
-            social_urls:
-              - https://x.com/cleric_io
-              - https://www.linkedin.com/company/101224919
-            tags:
-              - GA
-              - SRE
-              - DevOps
-            verified: false
-            website_url: https://cleric.io/
-          - date_added: 12/03/2025
-            description:
-              Clio is an AI-powered copilot designed to help you with DevOps-related
-              tasks using CLI programs. It leverages OpenAI's capabilities to provide intelligent
-              assistance directly from your command line.
-            icon_url: ""
-            name: Clio
-            oss: true
-            tags:
-              - oss
-              - GA
-              - SRE
-              - DevOps
-            verified: false
-            website_url: https://github.com/gptscript-ai/clio
-          - date_added: 12/03/2025
-            description:
-              Bits AI is a platform-wide copilot that helps you identify and
-              remediate issues in your applications and infrastructure. You can query Bits
-              AI in the Datadog web app, the Datadog mobile app, and in Slack.
-            icon_url: ""
-            name: DataDog Bits AI
-            oss: false
-            tags:
-              - GA
-              - SRE
-              - DevOps
-            verified: false
-            website_url: https://docs.datadoghq.com/bits_ai/
-          - date_added: 12/03/2025
-            description:
-              "Watchdog is Datadog\u2019s AI engine, providing you with automated\
-              \ alerts, insights, and root cause analyses that draw from observability data\
-              \ across the entire Datadog platform. Watchdog continuously monitors your\
-              \ infrastructure and calls attention to the signals that matter most, helping\
-              \ you to detect, troubleshoot, and resolve issues."
-            icon_url: ""
-            name: DataDog Watchdog
-            oss: false
-            tags:
-              - GA
-              - SRE
-              - DevOps
-            verified: false
-            website_url: https://www.datadoghq.com/product/platform/watchdog/
-          - date_added: 24/03/2025
-            description:
-              "The all-in-one AI platform for on-call, incident response, and\
-              \ status pages\u2014built for fast-moving teams."
-            icon_url: ""
-            name: Incident.io
-            oss: false
-            tags:
-              - GA
-              - SRE
-              - DevOps
-            verified: false
-            website_url: "https://incident.io
-
-              "
-          - date_added: 12/03/2025
-            description:
-              "With Kubiya, the Agent Platform handles every dependency and every
-              layer, seamlessly integrating with your environments, infrastructure, and
-              tools. Build and manage secure, scalable, and predictable AI agents at the
-              speed of development. "
-            icon_url: https://drive.google.com/uc?export=view&id=1Xmpp0z8RXjJ_12YvtQvF_KT2WrgwaF9J
-            name: Kubiya
-            oss: false
-            tags:
-              - verified
-              - GA
-              - SRE
-              - DevOps
-            verified: true
-            website_url: https://docs.kubiya.ai/docs
-          - date_added: 12/03/2025
-            description: AI Agent for Application Maintenance
-            icon_url: https://logicstar.ai/assets/images/website/icons/favicon.ico
-            name: Logic Star
-            oss: false
-            tags:
-              - GA
-              - SRE
-              - DevOps
-            verified: false
-            website_url: https://logicstar.ai/
-          - date_added: 12/03/2025
-            description: ChatGPT for DevOps. Don`t ask AI, do with AI.
-            icon_url: https://otto8.ai/favicon.png
-            name: Otto8
-            oss: false
-            tags:
-              - GA
-              - SRE
-              - DevOps
-            verified: false
-            website_url: https://otto8.ai/
-          - date_added: 12/03/2025
-            description:
-              'Overmind provides predictive root cause analysis for cloud changes.
-              With no changes to your Terraform code or workflow, Overmind automatically
-              discovers the dependencies from your infrastructure in real-time, and uncovers
-              risks that could cause production outages.
-
-
-              Overmind is used in production to:
-
-
-              * Reduce the burden on human reviewers
-
-              * Catch issues before they are deployed that couldn''t be caught without countless
-              hours of manual work
-
-              * Automatically tag pre-approved changes and skip human review
-
-              * Quickly debug production incidents by answer the question "What Changed?"'
-            icon_url: https://cdn.prod.website-files.com/6241e92445c21f9c1245a940/6242132abc15217cbca24084_Logo-02.png
-            keywords:
-              - terrafrom
-              - cloud
-              - AWS
-              - kubernetes
-              - k8s
-              - devops
-              - sre
-            name: Overmind
-            oss: false
-            social_urls:
-              - https://www.linkedin.com/company/overmindtech/
-            tags:
-              - verified
-              - GA
-              - SRE
-              - DevOps
-            verified: true
-            website_url: https://overmind.tech/
-          - date_added: 24/03/2025
-            description: "Your AI Production Engineer
-
-              Handles all alerts, performs root cause analysis, resolves incidents and makes
-              on-call stress free."
-            icon_url: ""
-            name: Resolve
-            oss: false
-            tags:
-              - GA
-              - SRE
-              - DevOps
-            verified: false
-            website_url: https://resolve.ai/
-          - date_added: 12/03/2025
-            description:
-              RunWhen streamlines repetitive operations tasks 100x faster than
-              traditional automation with AI responses for alerts, tickets, and chats.
-            icon_url: https://cdn.prod.website-files.com/64f9646ad0f39e9ee5c116c4/64f97d8d9f16d9a1af9296aa_Favicon.png
-            name: RunWhen
-            oss: false
-            social_urls:
-              - https://www.linkedin.com/company/runwhen/
-              - https://www.youtube.com/@whatdoirunwhen
-            tags:
-              - verified
-              - GA
-              - SRE
-              - DevOps
-            verified: true
-            website_url: https://www.runwhen.com/
-          - date_added: 12/03/2025
-            description:
-              DevOps Notebooks. Built with Markdown. Codify your operational
-              process as cloud-native, testable, interactive documentation.
-            icon_url: https://runme.dev/favicon.ico
-            name: Runme
-            oss: false
-            tags:
-              - GA
-              - SRE
-              - DevOps
-            verified: false
-            website_url: https://runme.dev/
-          - date_added: 12/03/2025
-            description: SRE AI
-            icon_url: https://cdn.prod.website-files.com/66d14bf912cb9ef1ebeabe13/672ff1d81bb7070409cd3a1d_Group%20116046599.svg
-            name: SRE AI
-            oss: false
-            tags:
-              - beta
-              - SRE
-              - DevOps
-            verified: false
-            website_url: https://sre.ai/
-          - date_added: 12/03/2025
-            description: Autnomnous operaetor (see video)
-            icon_url: ""
-            name: Sailplane
-            oss: false
-            tags:
-              - beta
-              - SRE
-              - DevOps
-            verified: false
-            website_url: https://sailplane.ai/
-          - date_added: 12/03/2025
-            description:
-              You can also enjoy AI-driven chat support for instant coding assistance,
-              making your coding experience more efficient and enjoyable
-            icon_url: ""
-            name: Spec Coder
-            oss: true
-            tags:
-              - oss
-              - GA
-              - SRE
-              - DevOps
-            verified: false
-            website_url: https://github.com/qirolab/spec-coder-issues
-          - date_added: 12/03/2025
-            description: "Untangle system failures
-
-              AI-first site reliability trained on your telemetry"
-            icon_url: ""
-            name: Traversal
-            oss: false
-            tags:
-              - GA
-              - SRE
-              - DevOps
-            verified: false
-            website_url: https://traversal.com/
-          - date_added: 12/03/2025
-            description:
-              "Unblocked brings all the context about your codebase together,\
-              \ so your team gets expert-level answers, no matter where they\u2019re working."
-            icon_url: https://getunblocked.com/favicon.ico
-            name: Unblocked
-            oss: false
-            tags:
-              - GA
-              - SRE
-              - DevOps
-            verified: false
-            website_url: https://getunblocked.com/
-      - description: Monitoring and observability tools
-        level: 17
-        name: Observability
-        tools:
-          - date_added: 24/03/2025
-            description: "Upgrade your company's system monitoring in minutes
-
-              The world's best AI-first observability solution."
-            icon_url: ""
-            name: Sift
-            oss: false
-            tags:
-              - GA
-              - Observability
-              - DevOps
-            verified: false
-            website_url: https://runsift.com/
-    description: DevOps related
+    name: Nocode
+    tools:
+    - date_added: 12/03/2025
+      description: Turn your ideas into products, in minutes. The first all-in-one
+        AI platform to easily build fully functioning apps - without coding.
+      icon_url: https://base44.com/favicon.ico
+      name: Base44
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Nocode
+      - Product
+      verified: false
+      website_url: https://base44.com/
+    - date_added: 12/03/2025
+      description: "Databutton's agent is the perfect AI developer for non-techies.\
+        \ You talk about your app and needs \u2013 Databutton's reasoning agent learns,\
+        \ plans, and executes on big tasks. Our core users are small business owners\
+        \ and non-technical founders. \n\nDatabutton's agent is fully web based and\
+        \ comes with an online developer environment. It has all the capabilities\
+        \ of a real professional developer \u2013 it writes React frontends, Python\
+        \ FastAPI backends, can install packages, write scripts to test code, and\
+        \ more.\n\nIt produces full fledged SaaS and business applications, integrated\
+        \ with business systems, tools, and APIs you need. The applications are often\
+        \ AI spins on the most valuable apps and use cases today and imbued with business\
+        \ logic relevant to the business building them."
+      icon_url: https://drive.google.com/uc?export=view&id=1jTDgVQf_kvfz0O04o_6iOHEeHrGs7DFw
+      name: Data Button
+      oss: false
+      popular: false
+      social_urls:
+      - https://www.youtube.com/@databutton
+      - https://www.linkedin.com/company/databutton
+      - https://x.com/DatabuttonHQ
+      tags:
+      - Verified
+      - GA
+      - Nocode
+      - Product
+      verified: true
+      website_url: https://databutton.com/
+    - date_added: 12/03/2025
+      description: AI-powered website builder with design components and code generation
+      icon_url: https://www.framer.com/favicon.ico
+      name: Framer
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Nocode
+      - Product
+      verified: false
+      website_url: https://www.framer.com/ai/
+    - date_added: 12/03/2025
+      description: Higher conversionrates driven by AI. The first AI agent that continuously
+        improves your website
+      icon_url: https://framerusercontent.com/images/7O25asSN8XNyGB2KZM1hjlOLpBU.png
+      name: Keak
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Nocode
+      - Product
+      verified: false
+      website_url: https://keak.com/
+    - date_added: 12/03/2025
+      description: Visual builder for React applications with code export
+      icon_url: https://www.plasmic.app/favicon.ico
+      name: Plasmic
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Nocode
+      - Product
+      verified: false
+      website_url: https://www.plasmic.app/
+    - date_added: 12/03/2025
+      description: Convert wireframes and sketches into React components with AI
+      icon_url: https://uidrafter.com/favicon.ico
+      name: Uxtly
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Nocode
+      - Product
+      verified: false
+      website_url: https://uidrafter.com/
+    - date_added: 12/03/2025
+      description: No-code tool for creating dynamic web interfaces with AI assistance
+      icon_url: https://www.wized.com/favicon.ico
+      name: Wized
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Nocode
+      - Product
+      verified: false
+      website_url: https://www.wized.com/
+  - description: Application Prototyping tools
     level: 4
-    name: DevOps
-  - categories:
-      - description: Code vulnerability scanning tools
-        level: 18
-        name: Vuln Scanning
-        tools:
-          - date_added: 12/03/2025
-            description:
-              CodeGate is an agent designed to make AI applications, coding assistants
-              and agentic frameworks, safer and easier to consume and manage. It provides
-              a centralized, abstracted environment for managing prompts, model provider
-              configurations, model muxing, and more. Additionally, CodeGate offers security
-              analysis of AI-generated code, ensuring that recommendations follow best practices
-              and safeguard your code's integrity.
-            icon_url: ""
-            name: Code Gate
-            oss: true
-            tags:
-              - oss
-              - GA
-              - Vuln Scanning
-              - DevSecOps
-            verified: false
-            website_url: https://github.com/stacklok/codegate
-          - date_added: 12/03/2025
-            description:
-              "DryRun Security delivers cutting-edge, contextual security analysis\
-              \ for every pull request using our innovative CSA methodology. We prioritize\
-              \ risks and surface the most critical issues, ensuring that both developers\
-              \ and security teams get the clear, actionable insights they need.\n\nOur\
-              \ platform leverages Natural Language Code Policies and deep Code Insights\
-              \ to transform traditional SAST methods\u2014used for the last 30 years\u2014\
-              into a modern, efficient approach. Integrated seamlessly with GitHub and soon\
-              \ to support GitLab, ADO, and BitBucket, DryRun Security is incredibly fast\
-              \ and built by engineers, for engineers.\n\nFocused on signal rather than\
-              \ noise, our tool empowers developers with actionable recommendations while\
-              \ informing security professionals of what truly matters. Experience a new\
-              \ era of code analysis that not only enhances security but also accelerates\
-              \ your development workflow."
-            icon_url: https://cdn.prod.website-files.com/645932d9286e9c20dd8e0fca/645d576fcd2b8845137f43e1_favicon.png
-            keywords:
-              - CAST
-              - SAST
-              - Contextual Security Analysis
-              - AppSec
-              - ProdSec
-              - Application Security
-              - Software Security
-              - Product Security
-              - DevSecOps
-              - NLCP
-            name: Dryrun Security
-            oss: false
-            social_urls:
-              - https://www.linkedin.com/company/dryrun-security/
-              - https://twitter.com/dryrunsecurity
-            tags:
-              - verified
-              - GA
-              - Vuln Scanning
-              - DevSecOps
-            verified: true
-            website_url: https://app.dryrun.security
-          - date_added: 12/03/2025
-            description:
-              Meet Your New AI AppSec Engineer. Get all of the insights from
-              static analysis, and none of the noise.
-            icon_url: https://semgrep.dev/favicon.ico
-            name: Semgrep
-            oss: false
-            tags:
-              - GA
-              - Vuln Scanning
-              - DevSecOps
-            verified: false
-            website_url: https://semgrep.dev/
-          - date_added: 12/03/2025
-            description:
-              the fastest, most accurate, and most intelligently prioritized
-              SAST and AI code review tool on the market
-            icon_url: https://snyk.io/favicon.ico
-            name: Snyk DeepCode
-            oss: false
-            tags:
-              - GA
-              - Vuln Scanning
-              - DevSecOps
-            verified: false
-            website_url: https://snyk.io/platform/deepcode-ai/
-      - description: Check compliance and regulations
-        level: 19
-        name: Compliance
-        tools: []
-    description: DevSecOps related
+    name: Prototyping
+    tools:
+    - date_added: 12/03/2025
+      description: Claude Artefacts
+      icon_url: https://www.anthropic.com/favicon.ico
+      name: Claude Code
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Prototyping
+      - Product
+      verified: false
+      website_url: https://www.anthropic.com/en/blog/introducing-claude-artefacts
+    - date_added: 12/03/2025
+      description: Generate your full-stack web app in Wasp, React, Node.js and Prisma
+      icon_url: https://usemage.ai/favicon.ico
+      name: Mage
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Prototyping
+      - Product
+      verified: false
+      website_url: https://usemage.ai/
+    - date_added: 12/03/2025
+      description: A new way of working with ChatGPT to write and code
+      icon_url: ''
+      name: OpenAI Canvas
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Prototyping
+      - Product
+      verified: false
+      website_url: https://openai.com/index/introducing-canvas/
+  description: Product related
+  level: 1
+  name: Product
+- categories:
+  - description: Agents that code autonomously
+    level: 10
+    name: Autonomous Agent
+    tools:
+    - date_added: 12/03/2025
+      description: 'Agentless is an agentless approach to automatically solve software
+        development problems. To solve each issue, Agentless follows a simple three
+        phase process: localization, repair, and patch validation.'
+      icon_url: ''
+      name: Agentless
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Autonomous Agent
+      - Code
+      verified: false
+      website_url: https://github.com/OpenAutoCoder/Agentless
+    - date_added: 12/03/2025
+      description: AutoCodeRover is a technology we are building for enterprises and
+        developers to maintain reliable and performant software systems through autonomous
+        program improvement.
+      icon_url: https://www.autocoderover.net/favicon.ico
+      name: Auto Code Rover
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Autonomous Agent
+      - Code
+      verified: false
+      website_url: https://www.autocoderover.net/
+    - date_added: 12/03/2025
+      description: Devin is a collaborative AI teammate. Built to help ambitious engineering
+        teams achieve more.
+      icon_url: https://devin.ai/favicon.ico
+      name: Devin
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Autonomous Agent
+      - Code
+      verified: false
+      website_url: https://devin.ai/
+    - date_added: 12/03/2025
+      description: "penHands (formerly OpenDevin), a platform for software development\
+        \ agents powered by AI. OpenHands agents can do anything a human developer\
+        \ can: modify code, run commands, browse the web, call APIs, and yes\u2014\
+        even copy code snippets from StackOverflow."
+      icon_url: https://www.all-hands.dev/all-hands-logo-1.svg
+      name: Open Hands
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Autonomous Agent
+      - Code
+      verified: false
+      website_url: https://www.all-hands.dev/
+  - description: Terminal based completion
+    level: 11
+    name: Terminal
+    tools:
+    - date_added: 12/03/2025
+      description: AI pair programming in your terminal
+      icon_url: https://www.aider.chat/assets/icons/favicon-32x32.png
+      name: Aider
+      oss: true
+      popular: true
+      tags:
+      - OSS
+      - GA
+      - Terminal
+      - Code
+      verified: false
+      website_url: https://www.aider.chat/
+    - date_added: 12/03/2025
+      description: 'Amazon Q Developer CLI provides enhanced CLI agent capabilities
+        within the command line that is powered by Amazon Bedrock, using the power
+        of Claude 3.7 Sonnet step-by-step reasoning. With Amazon Q for command line,
+        you can engage in natural language conversations, ask questions, and receive
+        responses from Amazon Q within your terminal environment. It also adds IDE-style
+        completions to hundreds of popular CLIs like git, npm, docker, and aws. When
+        you start typing in the CLI, and Amazon Q suggests contextually relevant subcommands,
+        options, and arguments.
+
+        '
+      icon_url: https://d1.awsstatic.com/getting-started-guides/learning/amazon-q/icon_amazon-q.a5c38564734b6e9f611e9599eb271142389313a4.png
+      name: Amazon Q Developer CLI
+      oss: true
+      popular: false
+      social_urls:
+      - https://www.linkedin.com/showcase/aws-developers/posts/?feedView=all
+      tags:
+      - OSS
+      - GA
+      - Terminal
+      - Code
+      verified: false
+      website_url: https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html
+    - date_added: 12/03/2025
+      description: "The intelligent terminal.\nBecome a command line power user on\
+        \ day one. Warp combines AI and your dev team\u2019s knowledge in one fast,\
+        \ intuitive terminal."
+      icon_url: https://github.com/warpdotdev/Warp/files/10822991/Warp.icns.zip
+      name: Warp
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Terminal
+      - Code
+      verified: false
+      website_url: https://www.warp.dev/
+  - description: General Code generation tools
     level: 5
-    name: DevSecOps
-  - categories:
-      - description: Models specialized in code generation
-        level: 20
-        name: Model
-        tools:
-          - date_added: 12/03/2025
-            description: Code Llama
-            icon_url: https://codellama.dev/favicon.ico
-            name: Code Llama
-            oss: false
-            tags:
-              - GA
-              - Model
-              - AIE
-            verified: false
-            website_url: https://codellama.dev/about
-          - date_added: 12/03/2025
-            description: Jina
-            icon_url: https://huggingface.co/favicon.ico
-            name: Jina
-            oss: false
-            tags:
-              - GA
-              - Model
-              - AIE
-            verified: false
-            website_url: https://huggingface.co/jinaai/jina-embeddings-v2-base-code
-          - date_added: 12/03/2025
-            description:
-              building frontier code models to automate software engineering
-              and research.
-            icon_url: https://magic.dev/favicon/favicon.ico
-            name: Magic
-            oss: false
-            tags:
-              - GA
-              - Model
-              - AIE
-            verified: false
-            website_url: https://magic.dev/
-          - date_added: 12/03/2025
-            description:
-              We've created an improved version of OpenAI Codex, our AI system
-              that translates natural language to code, and we are releasing it through
-              our API in private beta starting today.
-            icon_url: https://images.ctfassets.net/kftzwdyauwt9/44acb746-bccc-4a2d-9cb2acf9475b/47a13b8efdee3822388ed209e06abcfd/openai-codex.png?w=2048&q=90&fm=webp
-            name: OpenAI Codex
-            oss: false
-            tags:
-              - GA
-              - Model
-              - AIE
-            verified: false
-            website_url: https://openai.com/index/openai-codex/
-          - date_added: 12/03/2025
-            description:
-              Poolside is building next generation AI for software engineering.
-              We're building foundation models, an API, and an Assistant to bring the power
-              of generative AI to your developers
-            icon_url: ""
-            name: Poolside
-            oss: false
-            tags:
-              - GA
-              - Model
-              - AIE
-            verified: false
-            website_url: https://poolside.ai/
-          - date_added: 12/03/2025
-            description: Starcoder
-            icon_url: https://huggingface.co/favicon.ico
-            name: Starcoder
-            oss: false
-            tags:
-              - GA
-              - Model
-              - AIE
-            verified: false
-            website_url: https://huggingface.co/bigcode/starcoder
-      - description: Benchmarks for code generation
-        level: 21
-        name: Code Benchmark
-        tools:
-          - date_added: 12/03/2025
-            description: SWE Bench
-            icon_url: https://www.swebench.com/favicon.ico
-            name: SWE Bench
-            oss: false
-            tags:
-              - GA
-              - Code Benchmark
-              - AIE
-            verified: false
-            website_url: https://www.swebench.com/
-      - description: Safe execution of generated code
-        level: 22
-        name: Execution Sandbox
-        tools:
-          - date_added: 12/03/2025
-            description:
-              Built for when performance, security, and reliability matter, wrapped
-              with a delightful developer experience.
-            icon_url: https://baseten.co/icon.png?65f0e6c4c057d471
-            name: Baseten
-            oss: false
-            tags:
-              - GA
-              - Execution Sandbox
-              - AIE
-            verified: false
-            website_url: https://www.baseten.co/
-          - date_added: 12/03/2025
-            description:
-              Daytona is a Secure and Elastic Infrastructure for Running AI-Generated
-              Code.
-            icon_url: https://drive.google.com/uc?export=view&id=1p4_HltOmsD24q2gilgN1Q1jYgMCDCPTO
-            name: Daytona
-            oss: false
-            tags:
-              - verified
-              - GA
-              - Execution Sandbox
-              - AIE
-            verified: true
-            website_url: https://www.daytona.io/
-          - date_added: 12/03/2025
-            description: RUN AI-GENERATED code SECURELY in your APP
-            icon_url: https://e2b.dev/favicon.ico
-            name: E2B
-            oss: false
-            tags:
-              - GA
-              - Execution Sandbox
-              - AIE
-            verified: false
-            website_url: https://e2b.dev/
-          - date_added: 12/03/2025
-            description:
-              The sessionless code interpreter. Securely run AI-generated code
-              in stateful sandboxes that run forever.
-            icon_url: https://forevervm.com/icon.png?3e41cd107354ef72
-            name: ForeverVM
-            oss: false
-            tags:
-              - GA
-              - Execution Sandbox
-              - AIE
-            verified: false
-            website_url: https://forevervm.com/
-          - date_added: 12/03/2025
-            description:
-              "Gitpod SDK: infrastructure for software engineering agents. The
-              infrastructure building blocks for orchestrating and building software engineering
-              (SWE) agents at scale."
-            icon_url: ""
-            name: Gitpod SDK
-            oss: false
-            tags:
-              - GA
-              - Execution Sandbox
-              - AIE
-            verified: false
-            website_url: https://www.gitpod.io/blog/introducing-gitpod-sdk
-          - date_added: 12/03/2025
-            description:
-              Restack backend framework provides long-running workflows and infrastructure
-              for reliable & accurate AI agents.
-            icon_url: https://www.restack.io/favicon.ico
-            name: Restack
-            oss: false
-            tags:
-              - GA
-              - Execution Sandbox
-              - AIE
-            verified: false
-            website_url: https://www.restack.io/
-          - date_added: 24/03/2025
-            description: "Run your apps
+    name: Editor
+    tools:
+    - date_added: 12/03/2025
+      description: 'The Amazon Q Developer IDE plugin helps developers build faster
+        by generating code suggestions and recommendations in near real time. Amazon
+        Q Developer agents can autonomously perform a range of tasks: implementing
+        new features, creating documentation, adding tests, and refactoring code.
+        Beyond generating code, Q Developer shifts left security by scanning code
+        for hard-to-detect vulnerabilities, such as exposed credentials and log injection.
+        With a single click, Q Developer automatically suggests remediations tailored
+        to the application code, allowing developers to quickly accept fixes with
+        confidence.'
+      icon_url: https://d1.awsstatic.com/getting-started-guides/learning/amazon-q/icon_amazon-q.a5c38564734b6e9f611e9599eb271142389313a4.png
+      keywords:
+      - amazon q developer
+      name: Amazon Q Developer IDE plugin
+      oss: false
+      popular: true
+      social_urls:
+      - https://www.linkedin.com/showcase/aws-developers/posts/?feedView=all
+      tags:
+      - Verified
+      - GA
+      - Editor
+      - Code
+      verified: true
+      website_url: https://aws.amazon.com/q/developer/
+    - date_added: 12/03/2025
+      description: 'Augment Code is the AI-powered coding platform built for production-grade
+        codebases.
 
-              Secure. Fast. At Scale
 
-              Experience the new container technology powered by WebAssembly that runs your
-              programs safely, anywhere.
+        Secure
 
-              Locally or in the cloud"
-            icon_url: ""
-            name: Wasmer
-            oss: false
-            tags:
-              - GA
-              - Execution Sandbox
-              - AIE
-            verified: false
-            website_url: https://wasmer.io/
-    description: AIE related
+        + Zero-trust architecture - AI only sees code you explicitly authorize
+
+        + Proof-of-possession via SHA256 hashes makes unauthorized access mathematically
+        impossible
+
+        + Complete tenant isolation for Enterprise with no possibility of data leakage
+
+
+        Fast
+
+        + Millisecond completions powered by low-latency retrieval
+
+        + Optimized indexing handles massive codebases without breaking a sweat
+
+        + Local processing minimizes network round-trips
+
+
+        Flow
+
+        + Works where you work: VS Code, JetBrains, Vim, Cursor + more
+
+        + Context engine understands relationships across your entire project, not
+        just visible files
+
+        + Suggestions that match your patterns and conventions, not generic StackOverflow
+        copies
+
+
+        Unlike conventional assistants, Augment sees beyond the current file using
+        codebase-wide indexing and specialized retrieval models. Try Augment Code
+        for free to see the power of superior context and deep codebase understanding. '
+      icon_url: https://drive.google.com/uc?export=view&id=1ikcZy7sXl8E_oJuWb3cPV0fp3Wkw_ksg
+      keywords:
+      - AI coding assistant
+      - AI coding
+      - IDE extension
+      - AI for Vim
+      - AI for VS Code
+      - AI for JetBrains
+      - AI for IntelliJ
+      - coding assistant
+      - coding agent
+      name: Augment Code
+      oss: false
+      popular: true
+      social_urls:
+      - https://x.com/augmentcode
+      - https://www.linkedin.com/company/augmentinc
+      - https://bsky.app/profile/augmentcode.com
+      - https://www.youtube.com/@Augment-Code
+      tags:
+      - Verified
+      - GA
+      - Editor
+      - Code
+      verified: true
+      website_url: https://augmentcode.com/
+    - date_added: 12/03/2025
+      description: Welcome to bolt.diy, the official open source version of Bolt.new
+        (previously known as oTToDev and bolt.new ANY LLM), which allows you to choose
+        the LLM that you use for each prompt! Currently, you can use OpenAI, Anthropic,
+        Ollama, OpenRouter, Gemini, LMStudio, Mistral, xAI, HuggingFace, DeepSeek,
+        or Groq models - and it is easily extended to use any other model supported
+        by the Vercel AI SDK! See the instructions below for running this locally
+        and extending it to include more models.
+      icon_url: ''
+      name: Bolt.diy
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://github.com/stackblitz-labs/bolt.diy
+    - date_added: 24/03/2025
+      description: "Claude Code is an agentic coding tool that lives in your terminal,\
+        \ understands your codebase, and helps you code faster through natural language\
+        \ commands. By integrating directly with your development environment, Claude\
+        \ Code streamlines your workflow without requiring additional servers or complex\
+        \ setup.\n\nClaude Code\u2019s key capabilities include:\n\nEditing files\
+        \ and fixing bugs across your codebase\nAnswering questions about your code\u2019\
+        s architecture and logic\nExecuting and fixing tests, linting, and other commands\n\
+        Searching through git history, resolving merge conflicts, and creating commits\
+        \ and PRs"
+      icon_url: ''
+      name: Claude Code
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview
+    - date_added: 12/03/2025
+      description: Meet Cline, an AI assistant that can use your CLI aNd Editor.
+      icon_url: ''
+      name: Cline
+      oss: true
+      popular: true
+      tags:
+      - OSS
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://github.com/cline/cline
+    - date_added: 12/03/2025
+      description: Open-source local LLM integration for VS Code
+      icon_url: ''
+      name: CodeLlama VSCode
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://github.com/codellama/vscode-extension
+    - date_added: 12/03/2025
+      description: The enterprise AI code assistant. Sourcegraph goes beyond individual
+        dev productivity, helping enterprises achieve consistency and quality at scale
+        with AI.
+      icon_url: https://cdn.prod.website-files.com/673f71b4ebbb99190437de75/679a3e4d8b05843d7a83fb51_favicon.png
+      name: Cody
+      oss: false
+      popular: true
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://sourcegraph.com/cody
+    - date_added: 12/03/2025
+      description: Create, share, and use custom AI code assistants with our open-source
+        IDE extensions and hub of models, rules, prompts, docs, and other building
+        blocks
+      icon_url: https://avatars.githubusercontent.com/u/127876214?s=200&v=4
+      keywords:
+      - Continue
+      - Continue.dev
+      - custom
+      - hub
+      - flexible
+      name: Continue
+      oss: true
+      popular: true
+      social_urls:
+      - https://x.com/continuedev
+      - https://www.linkedin.com/company/continuedev
+      - https://bsky.app/profile/continue.dev
+      tags:
+      - Verified
+      - OSS
+      - GA
+      - Editor
+      - Code
+      verified: true
+      website_url: https://continue.dev/
+    - date_added: 12/03/2025
+      description: ''
+      icon_url: https://githubnext.com/favicon/favicon.png
+      name: Copilot Workspace
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://githubnext.com/projects/copilot-workspace
+    - date_added: 12/03/2025
+      description: The AI Code Editor. Built to make you extraordinarily productive,
+        Cursor is the best way to code with AI.
+      icon_url: https://www.cursor.com/favicon.ico
+      name: Cursor
+      oss: false
+      popular: true
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://www.cursor.com/
+    - date_added: 12/03/2025
+      description: The AI editor for everyone
+      icon_url: https://github.com/favicon.ico
+      name: Github Copilot
+      oss: false
+      popular: true
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://github.com/features/copilot
+    - date_added: 12/03/2025
+      description: AI coding assistant integrated across all JetBrains IDEs
+      icon_url: https://www.jetbrains.com/favicon.ico
+      name: JetBrains AI Assistant
+      oss: false
+      popular: true
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://www.jetbrains.com/ai/
+    - date_added: 12/03/2025
+      description: AI-powered platform that enables users of any skill level to create
+        full-stack web applications without requiring coding expertise by simply describing
+        what they want in plain English. Instead of hiring developers, users can generate
+        web apps or websites instantly.
+      icon_url: https://pbs.twimg.com/profile_images/1866804521571155968/K_9D7fXF_400x400.jpg
+      keywords:
+      - AI code generation
+      - low-code
+      - no-code
+      - software development
+      - full-stack development
+      - rapid prototyping
+      - automation
+      - app builder
+      - web application
+      - product management
+      - developer tools
+      - AI-assisted coding
+      - workflow automation
+      - prototyping
+      - SaaS
+      - PLG
+      - product-led growth
+      - community-driven development
+      - AI-driven software
+      - developer experience
+      - API integration
+      - frontend development
+      - backend development
+      - UX/UI design
+      - AI-assisted development
+      - MVP development
+      - digital transformation
+      - agile development
+      - idea to app
+      - idea to code
+      - prompt engineering
+      - continuous deployment
+      - CI/CD
+      - DevOps
+      - scalability
+      - cloud computing
+      - API-first development
+      - AI-assisted prototyping
+      - innovation
+      - tech startups
+      - developer productivity
+      - AI-powered development
+      - software automation
+      - creative coding
+      - AI-assisted UX
+      - startup acceleration
+      - product-market fit
+      - app automation.
+      name: Lovable
+      oss: false
+      popular: true
+      social_urls:
+      - https://x.com/lovable_dev
+      tags:
+      - Verified
+      - GA
+      - Editor
+      - Code
+      verified: true
+      website_url: https://lovable.dev/
+    - date_added: 24/03/2025
+      description: "Welcome to Marblism - the platform to generate, edit and host\
+        \ your fullstack application in minutes \u2728\n\nDrop any idea into it and\
+        \ you get a fully functional back-end and front-end as an output.\n\nPerfect\
+        \ for CTOs, indie hackers, freelancers, agencies, or developer with a project\
+        \ \u2013 with Marblism, you can bring it to life in 15 minutes."
+      icon_url: ''
+      name: Marblism
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://dev.marblism.com/
+    - date_added: 12/03/2025
+      description: Changing the game of software development
+      icon_url: ''
+      name: MarsX
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://marsx.dev/
+    - date_added: 12/03/2025
+      description: The Curated AI Code Editor. Supercharge your development with an
+        up-to-date, curated inventory of the best AI tools, natively integrated for
+        effortless AI-powered coding. Always open source.
+      icon_url: https://trypear.ai/favicon.ico
+      name: Pear AI
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://trypear.ai/
+    - date_added: 12/03/2025
+      description: Project IDX is an AI-assisted workspace for full-stack, multiplatform
+        app development in the cloud.
+      icon_url: https://idx.dev/favicon.ico
+      name: Project IDX
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://idx.dev/
+    - date_added: 24/03/2025
+      description: 'Build. Debug. Deploy. All in one tool
+
+        Prompt, run, edit and deploy full-stack web apps.'
+      icon_url: ''
+      name: Pythagora
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://www.pythagora.ai
+    - date_added: 12/03/2025
+      description: "Replit turns your ideas into apps, fast. With Replit, anyone\u2014\
+        technical or non-technical\u2014can build and deploy fully-functional, full-stack\
+        \ apps directly from their browser, without any installation, setup, or configuration.\
+        \ \n\nReplit's Agent and Assistant enable you to create entire applications\
+        \ from natural language, turning bullet points into working apps in minutes.\
+        \ Its built-in tools, including databases and deployment features, allow you\
+        \ to launch\_with a single click. \n\nReplit bridges the gap between non-technical\
+        \ and technical users,\_driving collaboration on everything from product roadmaps\
+        \ and prototypes to custom APIs and internal tools. Apps are the new websites,\
+        \ and Replit empowers everyone to not just consume software but to create\
+        \ it, transforming app development into an accessible, instant, and impactful\
+        \ process. \n\nGo from \"\"why doesn\u2019t this app exist?\"\" to building\
+        \ it for yourself."
+      icon_url: https://cdn.replit.com/dotcom/favicon-196.png
+      keywords:
+      - Vibe Coding
+      - Agent
+      - Development
+      - Apps
+      name: Replit
+      oss: false
+      popular: true
+      social_urls:
+      - https://x.com/@replit
+      - https://youtube.com/@replit
+      - https://www.linkedin.com/company/repl-it
+      tags:
+      - Verified
+      - GA
+      - Editor
+      - Code
+      verified: true
+      website_url: https://replit.com/
+    - date_added: 12/03/2025
+      description: Roo Code is an AI-powered autonomous coding agent that lives in
+        your editor
+      icon_url: ''
+      name: Roo-Code
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://github.com/RooVetGit/Roo-Code
+    - date_added: 24/03/2025
+      description: Our flagship agent, Runner H, will be available in private beta
+        on our platform. It allows, through simple natural language commands, automatic
+        design of web automation pipelines, eliminating multi-step, tedious, manual
+        work and revolutionizing how developers and teams approach the likes of web
+        testing and process automation.
+      icon_url: ''
+      name: Runner H
+      oss: false
+      popular: false
+      tags:
+      - Beta
+      - Editor
+      - Code
+      verified: false
+      website_url: https://www.hcompany.ai/
+    - date_added: 12/03/2025
+      description: ''
+      icon_url: https://sourceai.dev/favicon.ico
+      name: Source AI
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://sourceai.dev/
+    - date_added: 12/03/2025
+      description: Sourcegraph is a platform to automate and accelerate the SDLC for
+        large production codebases. It provides AI code generation, technical Q&A,
+        code search, and large scale code migration tools to some of the largest and
+        most forward looking software orgs in the world, including Stripe, Uber, Booking.com,
+        Palo Alto Networks, and the US government.
+      icon_url: https://cdn.prod.website-files.com/673f71b4ebbb99190437de75/679a3e4d8b05843d7a83fb51_favicon.png
+      name: Source Graph
+      oss: false
+      popular: false
+      social_urls:
+      - https://x.com/sourcegraph
+      - https://www.youtube.com/c/sourcegraph
+      - https://www.linkedin.com/company/sourcegraph/
+      tags:
+      - Verified
+      - GA
+      - Editor
+      - Code
+      verified: true
+      website_url: https://sourcegraph.com/
+    - date_added: 12/03/2025
+      description: Self-hosted coding assistant for JetBrains IDEs. Accelerate your
+        JetBrains developers with the latest in AI coding intelligence. No data ever
+        leaves your VPC.
+      icon_url: https://sweep.dev/favicon.ico
+      name: Sweep
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://sweep.dev/
+    - date_added: 12/03/2025
+      description: AI code assistant supporting multiple IDEs and privacy-focused
+        deployment options
+      icon_url: https://www.tabnine.com/favicon.ico
+      name: Tabnine
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://www.tabnine.com/
+    - date_added: 12/03/2025
+      description: Ship Faster with Trae. Trae is an adaptive AI IDE that transforms
+        how you work, collaborating with you to run faster.
+      icon_url: https://lf-cdn.trae.ai/obj/trae-ai-us/trae_website_prod/static/image/favicon.ico
+      name: Trae
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://trae.ai/
+    - date_added: 12/03/2025
+      description: What can I help you ship?
+      icon_url: https://vercel.com/favicon.ico
+      name: Vercel v0
+      oss: false
+      popular: true
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://v0.dev/
+    - date_added: 12/03/2025
+      description: Built to keep you in flow state . The first agentic IDE, and then
+        some. The Windsurf Editor is where the work of developers and AI truly flow
+        together, allowing for a coding experience that feels like literal magic.
+      icon_url: https://codeium.com/favicon.ico
+      name: Windsurf
+      oss: false
+      popular: true
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://codeium.com/windsurf/
+    - date_added: 12/03/2025
+      description: Make your own AI tools without any coding. Share them or embed
+        into your website to get more traffic and turn visitors into customers.
+      icon_url: ''
+      name: Wrapifai
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://wrapifai.com/
+  - description: Specialized in Frontend and Mobile code generation
     level: 6
-    name: AIE
+    name: Frontend & Mobile
+    tools:
+    - date_added: 12/03/2025
+      description: Mobile Apps in minutes. Quickly prototype a react native screen
+      icon_url: https://a0.dev/favicon.ico
+      name: A0
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Frontend & Mobile
+      - Code
+      verified: false
+      website_url: https://a0.dev/
+    - date_added: 24/03/2025
+      description: The Most Powerful AI For Xcode.
+      icon_url: ''
+      name: Alex
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Frontend & Mobile
+      - Code
+      verified: false
+      website_url: https://alexcodes.app
+    - date_added: 12/03/2025
+      description: Build React apps 10x Faster with AI
+      icon_url: https://tempolabs.ai/favicon.ico
+      name: Tempo
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Frontend & Mobile
+      - Code
+      verified: false
+      website_url: https://tempolabs.ai/
+  - description: Migration tools for large and legacy code bases
+    level: 7
+    name: Migration
+    tools:
+    - date_added: 24/03/2025
+      description: AI Powered Legacy Code Conversion That Produces Readable Java.
+        Broadening the modernisation paths available and helping to solve legacy code
+        for the long term
+      icon_url: ''
+      name: Bloop
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Migration
+      - Code
+      verified: false
+      website_url: https://bloop.ai/
+    - date_added: 12/03/2025
+      description: Making AI understand massive custom software systems CAST technology
+        can analyze 40 KLOC per minute, mapping the explicit and implicit interactions
+        between all elements, across all layers, into deterministic metadata of the
+        entire application
+      icon_url: https://learn.castsoftware.com/hubfs/favicon-96x96.png
+      name: Cast Software
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Migration
+      - Code
+      verified: false
+      website_url: https://learn.castsoftware.com/ai-assisted-code-transformation
+    - date_added: 12/03/2025
+      description: 'Your Ideas, Built by AI
+
+        Prompt, run, and deploy fully functional apps. Fine is your AI full-stack
+        engineer, handling everything from UI to deployment.'
+      icon_url: ''
+      name: Fine
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Migration
+      - Code
+      verified: false
+      website_url: https://www.fine.dev/
+    - date_added: 12/03/2025
+      description: 'Easily migrate your codebase from one framework or language to
+        another. '
+      icon_url: ''
+      name: GPT Migrate
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Migration
+      - Code
+      verified: false
+      website_url: https://github.com/joshpxyne/gpt-migrate
+    - date_added: 12/03/2025
+      description: "OpenRewrite is an open-source automated refactoring ecosystem\
+        \ for source code, enabling developers to effectively eliminate technical\
+        \ debt within their repositories.\n\nIt consists of an auto-refactoring engine\
+        \ that runs prepackaged, open-source refactoring recipes for common framework\
+        \ migrations, security fixes, and stylistic consistency tasks \u2013 reducing\
+        \ your coding effort from hours or days to minutes.\n\nOpenRewrite works by\
+        \ making changes to Lossless Semantic Trees (LSTs) that represent your source\
+        \ code and printing the modified trees back into source code. You can then\
+        \ review the changes in your code and commit the results. Modifications to\
+        \ the LST are performed in Visitors and visitors are aggregated into Recipes.\
+        \ OpenRewrite recipes make minimally invasive changes to your source code\
+        \ that honor the original formatting."
+      icon_url: https://docs.openrewrite.org/img/favicon.svg
+      keywords:
+      - Refactoring
+      - Application Modernization
+      - Security Vulnerability Remediation
+      name: Open Rewrite
+      oss: true
+      popular: false
+      tags:
+      - Verified
+      - OSS
+      - GA
+      - Migration
+      - Code
+      verified: true
+      website_url: https://docs.openrewrite.org/
+  - description: Collections of prompts and generating prompts
+    level: 8
+    name: Prompting
+    tools:
+    - date_added: 12/03/2025
+      description: "Build Features. 100x Faster with Cursor. Supercharge Cursor with\
+        \ AI-ready rules and requirements\u2014 so it builds exactly what you need,\
+        \ 100x faster."
+      icon_url: ''
+      name: Brain Grid
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Prompting
+      - Code
+      verified: false
+      website_url: https://www.braingrid.ai/
+    - date_added: 12/03/2025
+      description: Built for the next generation of AI coders. Upload images of full
+        applications, UI mockups, or custom designs and use our generated prompts
+        to build your apps faster.
+      icon_url: https://copycoder.ai/favicon.ico
+      name: Copycoder
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Prompting
+      - Code
+      verified: false
+      website_url: https://copycoder.ai/
+    - date_added: 12/03/2025
+      description: 'The home for Cursor enthusiasts where you can explore and generate
+        rules, browse MCPs, post and follow
+
+        the latest news on the board, learn, connect, and discover jobs all in one
+        place.'
+      icon_url: https://cursor.directory/favicon.ico
+      name: Cursor Directory
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Prompting
+      - Code
+      verified: false
+      website_url: https://cursor.directory/
+    - date_added: 12/03/2025
+      description: Cursor Rules to customize AI behavior, streamline the development
+        and tailor code generation, suggestions and queries to your framework and
+        language.
+      icon_url: https://dotcursorrules.com/favicon.ico
+      name: Cursor Rules
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Prompting
+      - Code
+      verified: false
+      website_url: https://dotcursorrules.com/
+    - date_added: 12/03/2025
+      description: Give Cursor Agent an AI team and advanced skills
+      icon_url: ''
+      name: Cursor Tools
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Prompting
+      - Code
+      verified: false
+      website_url: https://github.com/eastlondoner/cursor-tools
+    - date_added: 12/03/2025
+      description: A powerful tool for analyzing GitHub repositories and providing
+        valuable insights about code quality, dependencies, and more.
+      icon_url: https://github.gg/static/images/favicon/apple-touch-icon.png
+      name: Github GG
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Prompting
+      - Code
+      verified: false
+      website_url: https://github.gg/
+    - date_added: 24/03/2025
+      description: 'Level up your prompts
+
+        Latitude helps you refine your prompts with data to deliver reliable AI products
+        with confidence'
+      icon_url: ''
+      name: Latitude
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Prompting
+      - Code
+      verified: false
+      website_url: https://latitude.so/
+    - date_added: 12/03/2025
+      description: A macOS native app designed to remove all the friction involved
+        in iterating on your local files with the most powerful language models
+      icon_url: https://repoprompt.com/favicon.ico
+      name: RepoPrompt
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Prompting
+      - Code
+      verified: false
+      website_url: https://repoprompt.com/
+    - date_added: 12/03/2025
+      description: Easily Ask Your LLM Coding Questions
+      icon_url: https://uithub.com/favicon.ico
+      name: Uithub
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Prompting
+      - Code
+      verified: false
+      website_url: https://uithub.com/
+  - description: Driving the code generation with specifications only
+    level: 9
+    name: Spec Driven
+    tools:
+    - date_added: 12/03/2025
+      description: AI-powered code generation. Prompt, run, edit, and deploy full-stack
+        web apps.
+      icon_url: https://bolt.new/static/favicon.svg
+      name: Bolt
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Spec Driven
+      - Code
+      verified: false
+      website_url: https://bolt.new
+    - date_added: 12/03/2025
+      description: "AI-Supercharged Modernization . Transform legacy applications\
+        \ through an AI-powered, requirements-driven approach \u2014 speeding up delivery\
+        \ and reducing risk."
+      icon_url: https://crowdbotics.com/favicon.ico
+      name: Crowdbotics
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Spec Driven
+      - Code
+      verified: false
+      website_url: https://crowdbotics.com/
+    - date_added: 12/03/2025
+      description: 'From idea to production-ready software;
+
+        autonomously.
+
+        All without touching any code.'
+      icon_url: https://durable.ai/favicon.ico
+      name: Durable
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Spec Driven
+      - Code
+      verified: false
+      website_url: https://durable.ai/
+    - date_added: 12/03/2025
+      description: Can we enable anyone to create or adapt software for themselves,
+        using AI and a fully-managed runtime?
+      icon_url: https://githubnext.com/favicon/favicon.png
+      name: Github Spark
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Spec Driven
+      - Code
+      verified: false
+      website_url: https://githubnext.com/projects/github-spark/
+    - date_added: 12/03/2025
+      description: 'Software-as-a-Utility: integrate anything, automate everything.'
+      icon_url: https://squillo.io/branding/square/SVG/square-green.svg
+      name: Squillo
+      oss: false
+      popular: false
+      social_urls:
+      - https://www.linkedin.com/company/squillo/
+      tags:
+      - Verified
+      - GA
+      - Spec Driven
+      - Code
+      verified: true
+      website_url: https://squillo.io/
+    - date_added: 12/03/2025
+      description: Code written by AI, powered by your specs
+      icon_url: https://cdn.prod.website-files.com/67192008f31ee7b52371fe29/6733c87768b5bfe41ab30e63_Favicon.png
+      name: Tessl
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Spec Driven
+      - Code
+      verified: false
+      website_url: https://tessl.io
+  description: Code related
+  level: 2
+  name: Code
+- categories:
+  - description: Writing and executing tests
+    level: 12
+    name: Testing
+    tools:
+    - date_added: 12/03/2025
+      description: software simulator that accelerates software teams
+      icon_url: https://codeyam.com/favicon.ico
+      name: CodeYam
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://codeyam.com/
+    - date_added: 12/03/2025
+      description: Test Gru delivers enterprise-grade unit test automation services,
+        empowering you to achieve superior test coverage. Harness the expertise of
+        AI engineers to boost your team's testing efficiency while reducing costs
+        and ensuring top-notch quality.
+      icon_url: ''
+      name: Gru
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://gru.ai
+    - date_added: 24/03/2025
+      description: 'Lightning fast QA testing
+
+        powered by AI
+
+        Heal''s agent writes and maintains tests.
+
+        Our team refines them.
+
+        You focus on shipping.
+
+
+        80% coverage in weeks.
+
+        No flakes. No maintenance.'
+      icon_url: ''
+      name: Heal
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://www.heal.dev/
+    - date_added: 12/03/2025
+      description: Low-code test automation with AI healing capabilities
+      icon_url: https://www.mabl.com/favicon.ico
+      name: Mabl
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://www.mabl.com/
+    - date_added: 24/03/2025
+      description: Find bugs before your customers do. Give us your URL and we automatically
+        discover, generate and run your Playwright end-to-end tests.
+      icon_url: ''
+      name: Octomind
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://www.octomind.dev/
+    - date_added: 12/03/2025
+      description: AI Agents for Debugging Testing System Design OnboardingC ode review
+        DocumentationYour Codebase. Build custom agents using simple prompts that
+        are expert on your codebase to perform engineering tasks for you
+      icon_url: ''
+      name: Potpie
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://potpie.ai
+    - date_added: 24/03/2025
+      description: 'Ship faster with AI agents that create and run your QA tests
+
+        Scale your end-to-end testing without increasing headcount or maintaining
+        a test suite.
+
+        '
+      icon_url: ''
+      name: QA Tech
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://qa.tech
+    - date_added: 12/03/2025
+      description: "Agentic AI for Writing, Testing, and Reviewing Code\nModern software\
+        \ development needs efficient, high-quality, and well-tested code. Qodo\u2019\
+        s code integrity platform integrates AI into development workflows to help\
+        \ teams write, test, and review code faster and more reliably.\nQodo Merge:\
+        \ AI-Powered Code Reviews\n Qodo Merge automates code reviews with AI that\
+        \ spots errors, suggests improvements, and enforces best practices. It scans\
+        \ for issues, flags areas for optimization, and provides direct feedback to\
+        \ ensure consistent, high-quality reviews.\nQodo Gen: Agentic Coding in the\
+        \ IDE\n Qodo Gen is an IDE plugin that helps generate code and tests based\
+        \ on context and intent. It assists with complex tasks, automates repetitive\
+        \ work, and supports top IDEs like VSCode and JetBrains. It works with leading\
+        \ models such as OpenAI o3 and DeepSeek-R1.\nQodo Cover: Test Coverage in\
+        \ Pull Requests\n Qodo Cover identifies gaps in test coverage during pull\
+        \ requests by analyzing code changes and existing tests. It ensures all functionality\
+        \ is tested before merging and makes it easy to add missing tests without\
+        \ leaving the development workflow."
+      icon_url: https://www.qodo.ai/wp-content/uploads/2024/09/favicon.png
+      keywords:
+      - Agentic AI
+      - AI code reviews
+      - code testing
+      name: Qodo
+      oss: false
+      popular: false
+      social_urls:
+      - https://x.com/QodoAI/highlights
+      - https://www.linkedin.com/company/qodoai/posts/?feedView=all
+      tags:
+      - Verified
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: true
+      website_url: https://qodo.ai/
+    - date_added: 24/03/2025
+      description: 'Fast, reliable QA testing
+
+        Powered by AI, perfected by humans. Ranger writes and maintains QA tests that
+        find real bugs so you can keep moving forward.'
+      icon_url: ''
+      name: Ranger
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://www.ranger.net/
+    - date_added: 12/03/2025
+      description: Code quality and security with AI remediation
+      icon_url: https://www.sonarqube.org/favicon.ico
+      name: SonarQube AI Code Fix
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://www.sonarqube.org/
+    - date_added: 12/03/2025
+      description: 'Transform your API Specs into Executable Contracts with #NoCode
+        in Seconds. With Specmatic experience the power of Contract-Driven Development
+        to confidently develop and independently deploy your Microservices and Microfrontends
+        faster.'
+      icon_url: https://specmatic.io/wp-content/uploads/2022/09/specmatic.png
+      keywords:
+      - contract-testing
+      - service-virtualisation
+      - backward-compatibility
+      - contract-driven-development
+      - executable-contracts
+      - openAPI
+      - aysncAPI
+      - grpc
+      - graphql
+      name: Specmatic
+      oss: true
+      popular: false
+      social_urls:
+      - https://www.linkedin.com/company/specmatic/
+      - https://x.com/specmatic
+      tags:
+      - Verified
+      - OSS
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: true
+      website_url: https://specmatic.io/
+    - date_added: 12/03/2025
+      description: Your AI QA Engineer. Spur lets you test your website with Natural
+        Language.
+      icon_url: https://cdn.prod.website-files.com/66c3e4ffe16480b253b3458d/66c4c6e18ad2a54fc53beb44_Favicon.png
+      name: Spur
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://www.spurtest.com/
+    - date_added: 12/03/2025
+      description: AI-driven no-code test automation platform
+      icon_url: https://testsigma.com/favicon.ico
+      name: TestSigma
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://testsigma.com/
+    - date_added: 12/03/2025
+      description: AI-powered test automation tool
+      icon_url: https://www.testim.io/favicon.ico
+      name: Testim
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://www.testim.io/
+    - date_added: 12/03/2025
+      description: Imagine a world where every developer has a dedicated test resource.
+      icon_url: https://ventrilo.ai/favicon.svg
+      name: Ventrilo
+      oss: false
+      popular: false
+      tags:
+      - Beta
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://ventrilo.ai/
+  - description: Review and asses generated code
+    level: 13
+    name: Review
+    tools:
+    - date_added: 12/03/2025
+      description: "Baz performs contextual AI code reviews\u2014analyzing code changes,\
+        \ detecting breaking API changes, enforcing consistency, and highlighting\
+        \ misaligned coding patterns. Make every review faster, more accurate, and\
+        \ closely aligned with the real-world impact of code changes.\n\nIt groups\
+        \ complex changes into clear Topics, making PRs easy to follow. Baz also provides\
+        \ Usage insights, pinpointing exactly how your code is impacted.\n\nFully\
+        \ integrated with GitHub, Baz is designed to streamline collaboration, reduce\
+        \ manual effort, and help your engineering team ship high-quality code faster."
+      icon_url: https://avatars.githubusercontent.com/u/140384842?s=200&v=4
+      keywords:
+      - code review
+      - AI code review
+      - breaking changes
+      - code analysis
+      - API changes
+      - GitHub integration
+      - coding consistency
+      - AST analysis
+      - developer productivity
+      - merge conflicts
+      - modular development
+      - automated review
+      - pull requests
+      - static analysis
+      - software quality
+      - developer tools
+      name: Baz
+      oss: false
+      popular: false
+      social_urls:
+      - https://github.com/baz-scm
+      - https://x.com/baz_scm
+      - https://www.linkedin.com/company/101408096/
+      - https://www.youtube.com/@baz-scm
+      tags:
+      - Verified
+      - GA
+      - Review
+      - Quality Assurance
+      verified: true
+      website_url: https://baz.co/
+    - date_added: 12/03/2025
+      description: 'Bismuth is an AI agent that tackles the crushing tech debt drowning
+        engineering teams everywhere. We''ve built an autonomous development solution
+        that seamlessly integrates with your existing workflow in under 5 minutes.
+        We connect to GitHub, Jira, and other tools you already use.
+
+
+        Unlike other solutions that focus on the inner loop, we''re tackling the outer
+        loop - that overflowing backlog of P2 bugs and features that never get addressed
+        because your team is constantly chasing the next deadline. You simply assign
+        Bismuth to a ticket, and it autonomously produces high-quality PRs that fix
+        issues or implement features. Bismuth also prevents issues from ever getting
+        to prod, we scan your codebase and review pull requests for bugs and logic
+        issues.
+
+
+        What makes us different is our background in code analysis, reverse engineering,
+        and bug hunting. Our custom code search and special testing methodologies
+        catch entire classes of bugs that other solutions miss. We don''t just generate
+        code, we create reliable, tested PRs that won''t break your codebase.
+
+
+        Tech debt cost businesses $1.52T in 2024 alone, with 63% spent on reactive
+        fixes after incidents occurred. We''re changing that equation.'
+      icon_url: https://bismuth.sh/favicon.svg
+      keywords:
+      - tech debt
+      - AI coding assistant
+      - developer productivity tools
+      - automated bug fixing
+      - software development automation
+      - bug scanning
+      name: Bismuth
+      oss: false
+      popular: false
+      social_urls:
+      - https://www.linkedin.com/company/bismuthcloud/
+      - https://x.com/kinglycrow
+      - https://www.linkedin.com/in/kallsyms/
+      - https://bsky.app/profile/kinglycrow.bsky.social
+      tags:
+      - Verified
+      - GA
+      - Review
+      - Quality Assurance
+      verified: true
+      website_url: https://bismuth.sh/
+    - date_added: 24/03/2025
+      description: 'Cut Code Review Time & Bugs in Half
+
+        Supercharge your entire team with AI-driven contextual feedback. Supports
+        all languages.'
+      icon_url: ''
+      name: CodeRabbit
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Review
+      - Quality Assurance
+      verified: false
+      website_url: https://www.coderabbit.ai/
+    - date_added: 12/03/2025
+      description: AI Code Reviews & Bug Fixes. Ellipsis is an AI developer tool that
+        automatically reviews code and fixes bugs on pull requests.
+      icon_url: ''
+      name: Ellipsis
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Review
+      - Quality Assurance
+      verified: false
+      website_url: https://www.ellipsis.dev/
+    - date_added: 24/03/2025
+      description: 'The AI Code Review Bot
+
+        Greptile reviews your PRs with full context of your codebase.
+
+        3X more bugs caught, 4X faster merges'
+      icon_url: ''
+      name: Greptile
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Review
+      - Quality Assurance
+      verified: false
+      website_url: https://www.greptile.com/
+  - description: Help with mananging documentation
+    level: 14
+    name: Documentation
+    tools:
+    - date_added: 24/03/2025
+      description: Architect with AI expertise. Excel with your tech stack. Drive
+        your business. Achieve it all with your Copilot for Tech Architecture
+      icon_url: ''
+      name: Catio
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Documentation
+      - Quality Assurance
+      verified: false
+      website_url: https://www.catio.tech/
+    - date_added: 12/03/2025
+      description: DevDocs combines multiple API documentations in a fast, organized,
+        and searchable interface.
+      icon_url: https://devdocs.io/favicon.ico
+      name: DevDocs
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Documentation
+      - Quality Assurance
+      verified: false
+      website_url: https://devdocs.io/
+    - date_added: 12/03/2025
+      description: Documentation site generator with AI content creation
+      icon_url: https://doctave.com/favicon.ico
+      name: Doctave
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Documentation
+      - Quality Assurance
+      verified: false
+      website_url: https://doctave.com/
+    - date_added: 12/03/2025
+      description: "Dosu documents while developers build, giving teams the complete,\
+        \ up-to-date docs they\u2019ve always wanted. With Dosu, documentation is\
+        \ automatic, not arduous. Code changes and learnings from new conversations\
+        \ are instantly reflected back into Dosu and relevant documentation. Dosu\
+        \ makes knowledge accessible to whomever needs it, whenever it's needed, adapting\
+        \ content to the current context and the audience. \n\nEveryone benefits from\
+        \ Dosu. Developers move faster, cross-team collaboration is easier, and existing\
+        \ AI tools become smarter."
+      icon_url: https://dosu.dev/logomark.svg
+      keywords:
+      - documentation
+      - Q&A
+      - chat
+      - issue triage
+      - knowledge management
+      - knowledge provider
+      name: Dosu
+      oss: false
+      popular: false
+      social_urls:
+      - https://x.com/dosu_ai
+      tags:
+      - Verified
+      - GA
+      - Documentation
+      - Quality Assurance
+      verified: true
+      website_url: https://dosu.dev/
+    - date_added: 24/03/2025
+      description: AI-powered platform that automates technical documentation. Spend
+        less time understanding code and writing documentation and more time building
+        extraordinary things.
+      icon_url: ''
+      name: Driver
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Documentation
+      - Quality Assurance
+      verified: false
+      website_url: https://driver.ai/
+    - date_added: 12/03/2025
+      description: "Our mission is simple: Spread knowledge over your entire organisation\
+        \ starting from the source of truth, your codebases.\n\nCritical knowledge\
+        \ is often hidden in codebases, leading to inefficiencies and risks. FirstMate\
+        \ ensures business continuity by:\n- Generating and keeping documentation\
+        \ up to date automatically.\n- Answering team questions instantly as a bot\
+        \ in your chat.\n- Providing context to (support) tickets, reducing back-and-forth.\n\
+        \nWith FirstMate, your team always has the right knowledge at the right time\u2014\
+        minimizing disruptions and maximizing efficiency.\n\nAI tools are 10xing developer\
+        \ output\u2014without 10x knowledge sharing, chaos follows."
+      icon_url: https://media.licdn.com/dms/image/v2/D4E0BAQEvyrRph5h2wA/company-logo_200_200/company-logo_200_200/0/1726043941614/firstmatecloud_logo?e=1747872000&v=beta&t=w832pp3j7nC6DT_Csh9vbrQrkGSH0i_Hp5DGkuO4g74
+      keywords:
+      - Documentation
+      - Knowledge sharing
+      name: FirstMate
+      oss: false
+      popular: false
+      tags:
+      - Verified
+      - GA
+      - Documentation
+      - Quality Assurance
+      verified: true
+      website_url: https://firstmate.io/
+    - date_added: 12/03/2025
+      description: Documentation platform with AI assistance
+      icon_url: https://www.gitbook.com/favicon.ico
+      name: GitBook AI
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Documentation
+      - Quality Assurance
+      verified: false
+      website_url: https://www.gitbook.com/
+    - date_added: 12/03/2025
+      description: Ship faster with self-healing wikis. Unlock rich insights about
+        any codebase in minutes. Speed up onboarding. Break knowledge silos. Boost
+        team productivity.
+      icon_url: ''
+      name: Komment
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Documentation
+      - Quality Assurance
+      verified: false
+      website_url: https://komment.ai/
+    - date_added: 12/03/2025
+      description: AI-powered documentation generation and management
+      icon_url: https://mintlify.com/favicon.ico
+      name: Mintlify
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Documentation
+      - Quality Assurance
+      verified: false
+      website_url: https://mintlify.com/
+    - date_added: 12/03/2025
+      description: API documentation with AI-powered suggestions
+      icon_url: https://readme.com/favicon.ico
+      name: ReadMe
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Documentation
+      - Quality Assurance
+      verified: false
+      website_url: https://readme.com/
+    - date_added: 12/03/2025
+      description: Automate code diagram generation with LLMs
+      icon_url: ''
+      name: Swark
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Documentation
+      - Quality Assurance
+      verified: false
+      website_url: https://github.com/swark-io/swark
+    - date_added: 12/03/2025
+      description: AI-powered docs generation and ongoing updates
+      icon_url: https://swimm.io/favicon.ico
+      name: Swimm
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Documentation
+      - Quality Assurance
+      verified: false
+      website_url: https://swimm.io/
+  description: Quality Assurance related
+  level: 3
+  name: Quality Assurance
+- categories:
+  - description: Infrastructure as code tools
+    level: 15
+    name: Infrastructure As Code
+    tools:
+    - date_added: 12/03/2025
+      description: Artificial Intelligence Infrastructure-as-Code Generator
+      icon_url: https://aiac.dev/favicon.ico
+      name: AIaC
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Infrastructure As Code
+      - DevOps
+      verified: false
+      website_url: https://aiac.dev/
+    - date_added: 12/03/2025
+      description: GPTScript is a framework that allows Large Language Models (LLMs)
+        to operate and interact with various systems.
+      icon_url: https://docs.gptscript.ai/img/favicon.ico
+      name: GPTScript
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Infrastructure As Code
+      - DevOps
+      verified: false
+      website_url: https://docs.gptscript.ai/
+    - date_added: 12/03/2025
+      description: The Intelligent Infra-as-Code Editor
+      icon_url: https://infracopilot.io/favicon.ico
+      name: InfraCopilot
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Infrastructure As Code
+      - DevOps
+      verified: false
+      website_url: https://infracopilot.io/
+    - date_added: 12/03/2025
+      description: 'Pulumi Copilot is an AI assistant that streamlines cloud infrastructure
+        management by combining large language models with semantic cloud understanding.
+        Available through both Pulumi Cloud console and CLI, it enables engineers
+        to find information and take action on cloud resources using a familiar GPT-like
+        interface.
+
+
+        The tool understands over 160 cloud platforms including AWS, Azure, Google
+        Cloud, Kubernetes, and SaaS providers. Key capabilities include generating
+        infrastructure code from simple prompts, identifying cost-saving opportunities,
+        running compliance checks, and debugging failed stack updates.
+
+
+        Additionally, Copilot now offers an API that extends its capabilities beyond
+        the Pulumi Console. This REST API allows developers to integrate Copilot''s
+        infrastructure AI into custom tools, collaboration platforms like Slack and
+        Teams, automated workflows, and mobile clients. The API supports multi-turn
+        conversations through conversation IDs and requires only basic configuration
+        with organization context and resource URLs to function. Currently in preview,
+        Pulumi is actively seeking feedback to refine the API before general availability.'
+      icon_url: https://www.pulumi.com/favicon.ico
+      name: Pulumi Copilot
+      oss: false
+      popular: false
+      social_urls:
+      - https://www.linkedin.com/in/artur-laksberg/
+      tags:
+      - Verified
+      - GA
+      - Infrastructure As Code
+      - DevOps
+      verified: true
+      website_url: https://www.pulumi.com/product/copilot/
+    - date_added: 12/03/2025
+      description: Stakpak is a DevOps IDE and API with built-in AI capabilities that
+        helps developers quickly build, maintain and self-serve their software infrastructure.
+      icon_url: https://drive.google.com/uc?export=view&id=1B1NyqVmIYVUibSZY9jHflYQqFPGHOeYt
+      keywords:
+      - devops agents
+      - code generation
+      - IDE
+      name: Stakpak
+      oss: false
+      popular: false
+      social_urls:
+      - https://www.linkedin.com/company/dvpzla
+      - https://x.com/stakpak_dev
+      - https://discord.com/invite/QTZjETP7GB
+      tags:
+      - Verified
+      - GA
+      - Infrastructure As Code
+      - DevOps
+      verified: true
+      website_url: https://stakpak.dev/
+  - description: Site Reliability tools
+    level: 16
+    name: SRE
+    tools:
+    - date_added: 12/03/2025
+      description: 'Anyshift is an AI-SRE assistant that immediately responds to urgent
+        queries like "Why can''t I access the RDS instance?" or "Why did my deployment
+        fail?" during incidents or day-to-day issues, enabling instant answers to
+        critical infrastructure questions and reducing DevOps interruptions.
+
+
+        Built on a comprehensive knowledge graph of your live infrastructure, Anyshift
+        captures every layer of your environment in real-time. This deep understanding
+        allows it to provide AI agents with rich context through Slack or MCP servers,
+        enabling accurate infrastructure-as-code generation and empowering teams to
+        troubleshoot independently.'
+      icon_url: https://media.anyshift.io/logo_anyshift.svg
+      name: Ask Annie
+      oss: false
+      popular: false
+      social_urls:
+      - https://www.linkedin.com/company/103824568/admin/dashboard/
+      tags:
+      - Verified
+      - GA
+      - SRE
+      - DevOps
+      verified: true
+      website_url: https://anyshift.io
+    - date_added: 12/03/2025
+      description: Cleric is an AI SRE teammate for platform engineering teams to
+        diagnose production alerts. It autonomously executes diagnostic commands across
+        your stack (Datadog, Kubernetes, Grafana) to surface evidence-based findings,
+        mimicking experienced on-call engineer investigations. It continuously improves
+        by building a knowledge base from past investigations and engineer feedback.
+      icon_url: https://cdn.prod.website-files.com/65840bae4da744feef0ea01f/66549a6a5a8bc6388f822492_favicon-32x32.png
+      name: Cleric
+      oss: false
+      popular: false
+      social_urls:
+      - https://x.com/cleric_io
+      - https://www.linkedin.com/company/101224919
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://cleric.io/
+    - date_added: 12/03/2025
+      description: Clio is an AI-powered copilot designed to help you with DevOps-related
+        tasks using CLI programs. It leverages OpenAI's capabilities to provide intelligent
+        assistance directly from your command line.
+      icon_url: ''
+      name: Clio
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://github.com/gptscript-ai/clio
+    - date_added: 12/03/2025
+      description: Bits AI is a platform-wide copilot that helps you identify and
+        remediate issues in your applications and infrastructure. You can query Bits
+        AI in the Datadog web app, the Datadog mobile app, and in Slack.
+      icon_url: ''
+      name: DataDog Bits AI
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://docs.datadoghq.com/bits_ai/
+    - date_added: 12/03/2025
+      description: "Watchdog is Datadog\u2019s AI engine, providing you with automated\
+        \ alerts, insights, and root cause analyses that draw from observability data\
+        \ across the entire Datadog platform. Watchdog continuously monitors your\
+        \ infrastructure and calls attention to the signals that matter most, helping\
+        \ you to detect, troubleshoot, and resolve issues."
+      icon_url: ''
+      name: DataDog Watchdog
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://www.datadoghq.com/product/platform/watchdog/
+    - date_added: 24/03/2025
+      description: "The all-in-one AI platform for on-call, incident response, and\
+        \ status pages\u2014built for fast-moving teams."
+      icon_url: ''
+      name: Incident.io
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: 'https://incident.io
+
+        '
+    - date_added: 12/03/2025
+      description: 'With Kubiya, the Agent Platform handles every dependency and every
+        layer, seamlessly integrating with your environments, infrastructure, and
+        tools. Build and manage secure, scalable, and predictable AI agents at the
+        speed of development. '
+      icon_url: https://drive.google.com/uc?export=view&id=1Xmpp0z8RXjJ_12YvtQvF_KT2WrgwaF9J
+      name: Kubiya
+      oss: false
+      popular: false
+      tags:
+      - Verified
+      - GA
+      - SRE
+      - DevOps
+      verified: true
+      website_url: https://docs.kubiya.ai/docs
+    - date_added: 12/03/2025
+      description: AI Agent for Application Maintenance
+      icon_url: https://logicstar.ai/assets/images/website/icons/favicon.ico
+      name: Logic Star
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://logicstar.ai/
+    - date_added: 12/03/2025
+      description: ChatGPT for DevOps. Don`t ask AI, do with AI.
+      icon_url: https://otto8.ai/favicon.png
+      name: Otto8
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://otto8.ai/
+    - date_added: 12/03/2025
+      description: 'Overmind provides predictive root cause analysis for cloud changes.
+        With no changes to your Terraform code or workflow, Overmind automatically
+        discovers the dependencies from your infrastructure in real-time, and uncovers
+        risks that could cause production outages.
+
+
+        Overmind is used in production to:
+
+
+        * Reduce the burden on human reviewers
+
+        * Catch issues before they are deployed that couldn''t be caught without countless
+        hours of manual work
+
+        * Automatically tag pre-approved changes and skip human review
+
+        * Quickly debug production incidents by answer the question "What Changed?"'
+      icon_url: https://cdn.prod.website-files.com/6241e92445c21f9c1245a940/6242132abc15217cbca24084_Logo-02.png
+      keywords:
+      - terrafrom
+      - cloud
+      - AWS
+      - kubernetes
+      - k8s
+      - devops
+      - sre
+      name: Overmind
+      oss: false
+      popular: false
+      social_urls:
+      - https://www.linkedin.com/company/overmindtech/
+      tags:
+      - Verified
+      - GA
+      - SRE
+      - DevOps
+      verified: true
+      website_url: https://overmind.tech/
+    - date_added: 24/03/2025
+      description: 'Your AI Production Engineer
+
+        Handles all alerts, performs root cause analysis, resolves incidents and makes
+        on-call stress free.'
+      icon_url: ''
+      name: Resolve
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://resolve.ai/
+    - date_added: 12/03/2025
+      description: RunWhen streamlines repetitive operations tasks 100x faster than
+        traditional automation with AI responses for alerts, tickets, and chats.
+      icon_url: https://cdn.prod.website-files.com/64f9646ad0f39e9ee5c116c4/64f97d8d9f16d9a1af9296aa_Favicon.png
+      name: RunWhen
+      oss: false
+      popular: false
+      social_urls:
+      - https://www.linkedin.com/company/runwhen/
+      - https://www.youtube.com/@whatdoirunwhen
+      tags:
+      - Verified
+      - GA
+      - SRE
+      - DevOps
+      verified: true
+      website_url: https://www.runwhen.com/
+    - date_added: 12/03/2025
+      description: DevOps Notebooks. Built with Markdown. Codify your operational
+        process as cloud-native, testable, interactive documentation.
+      icon_url: https://runme.dev/favicon.ico
+      name: Runme
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://runme.dev/
+    - date_added: 12/03/2025
+      description: SRE AI
+      icon_url: https://cdn.prod.website-files.com/66d14bf912cb9ef1ebeabe13/672ff1d81bb7070409cd3a1d_Group%20116046599.svg
+      name: SRE AI
+      oss: false
+      popular: false
+      tags:
+      - Beta
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://sre.ai/
+    - date_added: 12/03/2025
+      description: Autnomnous operaetor (see video)
+      icon_url: ''
+      name: Sailplane
+      oss: false
+      popular: false
+      tags:
+      - Beta
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://sailplane.ai/
+    - date_added: 12/03/2025
+      description: You can also enjoy AI-driven chat support for instant coding assistance,
+        making your coding experience more efficient and enjoyable
+      icon_url: ''
+      name: Spec Coder
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://github.com/qirolab/spec-coder-issues
+    - date_added: 12/03/2025
+      description: 'Untangle system failures
+
+        AI-first site reliability trained on your telemetry'
+      icon_url: ''
+      name: Traversal
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://traversal.com/
+    - date_added: 12/03/2025
+      description: "Unblocked brings all the context about your codebase together,\
+        \ so your team gets expert-level answers, no matter where they\u2019re working."
+      icon_url: https://getunblocked.com/favicon.ico
+      name: Unblocked
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://getunblocked.com/
+  - description: Monitoring and observability tools
+    level: 17
+    name: Observability
+    tools:
+    - date_added: 24/03/2025
+      description: 'Upgrade your company''s system monitoring in minutes
+
+        The world''s best AI-first observability solution.'
+      icon_url: ''
+      name: Sift
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Observability
+      - DevOps
+      verified: false
+      website_url: https://runsift.com/
+  description: DevOps related
+  level: 4
+  name: DevOps
+- categories:
+  - description: Code vulnerability scanning tools
+    level: 18
+    name: Vuln Scanning
+    tools:
+    - date_added: 12/03/2025
+      description: CodeGate is an agent designed to make AI applications, coding assistants
+        and agentic frameworks, safer and easier to consume and manage. It provides
+        a centralized, abstracted environment for managing prompts, model provider
+        configurations, model muxing, and more. Additionally, CodeGate offers security
+        analysis of AI-generated code, ensuring that recommendations follow best practices
+        and safeguard your code's integrity.
+      icon_url: ''
+      name: Code Gate
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Vuln Scanning
+      - DevSecOps
+      verified: false
+      website_url: https://github.com/stacklok/codegate
+    - date_added: 12/03/2025
+      description: "DryRun Security delivers cutting-edge, contextual security analysis\
+        \ for every pull request using our innovative CSA methodology. We prioritize\
+        \ risks and surface the most critical issues, ensuring that both developers\
+        \ and security teams get the clear, actionable insights they need.\n\nOur\
+        \ platform leverages Natural Language Code Policies and deep Code Insights\
+        \ to transform traditional SAST methods\u2014used for the last 30 years\u2014\
+        into a modern, efficient approach. Integrated seamlessly with GitHub and soon\
+        \ to support GitLab, ADO, and BitBucket, DryRun Security is incredibly fast\
+        \ and built by engineers, for engineers.\n\nFocused on signal rather than\
+        \ noise, our tool empowers developers with actionable recommendations while\
+        \ informing security professionals of what truly matters. Experience a new\
+        \ era of code analysis that not only enhances security but also accelerates\
+        \ your development workflow."
+      icon_url: https://cdn.prod.website-files.com/645932d9286e9c20dd8e0fca/645d576fcd2b8845137f43e1_favicon.png
+      keywords:
+      - CAST
+      - SAST
+      - Contextual Security Analysis
+      - AppSec
+      - ProdSec
+      - Application Security
+      - Software Security
+      - Product Security
+      - DevSecOps
+      - NLCP
+      name: Dryrun Security
+      oss: false
+      popular: false
+      social_urls:
+      - https://www.linkedin.com/company/dryrun-security/
+      - https://twitter.com/dryrunsecurity
+      tags:
+      - Verified
+      - GA
+      - Vuln Scanning
+      - DevSecOps
+      verified: true
+      website_url: https://app.dryrun.security
+    - date_added: 12/03/2025
+      description: Meet Your New AI AppSec Engineer. Get all of the insights from
+        static analysis, and none of the noise.
+      icon_url: https://semgrep.dev/favicon.ico
+      name: Semgrep
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Vuln Scanning
+      - DevSecOps
+      verified: false
+      website_url: https://semgrep.dev/
+    - date_added: 12/03/2025
+      description: the fastest, most accurate, and most intelligently prioritized
+        SAST and AI code review tool on the market
+      icon_url: https://snyk.io/favicon.ico
+      name: Snyk DeepCode
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Vuln Scanning
+      - DevSecOps
+      verified: false
+      website_url: https://snyk.io/platform/deepcode-ai/
+  - description: Check compliance and regulations
+    level: 19
+    name: Compliance
+    tools: []
+  description: DevSecOps related
+  level: 5
+  name: DevSecOps
+- categories:
+  - description: Models specialized in code generation
+    level: 20
+    name: Model
+    tools:
+    - date_added: 12/03/2025
+      description: Code Llama
+      icon_url: https://codellama.dev/favicon.ico
+      name: Code Llama
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://codellama.dev/about
+    - date_added: 12/03/2025
+      description: Jina
+      icon_url: https://huggingface.co/favicon.ico
+      name: Jina
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://huggingface.co/jinaai/jina-embeddings-v2-base-code
+    - date_added: 12/03/2025
+      description: building frontier code models to automate software engineering
+        and research.
+      icon_url: https://magic.dev/favicon/favicon.ico
+      name: Magic
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://magic.dev/
+    - date_added: 12/03/2025
+      description: We've created an improved version of OpenAI Codex, our AI system
+        that translates natural language to code, and we are releasing it through
+        our API in private beta starting today.
+      icon_url: https://images.ctfassets.net/kftzwdyauwt9/44acb746-bccc-4a2d-9cb2acf9475b/47a13b8efdee3822388ed209e06abcfd/openai-codex.png?w=2048&q=90&fm=webp
+      name: OpenAI Codex
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://openai.com/index/openai-codex/
+    - date_added: 12/03/2025
+      description: Poolside is building next generation AI for software engineering.
+        We're building foundation models, an API, and an Assistant to bring the power
+        of generative AI to your developers
+      icon_url: ''
+      name: Poolside
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://poolside.ai/
+    - date_added: 12/03/2025
+      description: Starcoder
+      icon_url: https://huggingface.co/favicon.ico
+      name: Starcoder
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://huggingface.co/bigcode/starcoder
+  - description: Benchmarks for code generation
+    level: 21
+    name: Code Benchmark
+    tools:
+    - date_added: 12/03/2025
+      description: SWE Bench
+      icon_url: https://www.swebench.com/favicon.ico
+      name: SWE Bench
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Code Benchmark
+      - AIE
+      verified: false
+      website_url: https://www.swebench.com/
+  - description: Safe execution of generated code
+    level: 22
+    name: Execution Sandbox
+    tools:
+    - date_added: 12/03/2025
+      description: Built for when performance, security, and reliability matter, wrapped
+        with a delightful developer experience.
+      icon_url: https://baseten.co/icon.png?65f0e6c4c057d471
+      name: Baseten
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Execution Sandbox
+      - AIE
+      verified: false
+      website_url: https://www.baseten.co/
+    - date_added: 12/03/2025
+      description: Daytona is a Secure and Elastic Infrastructure for Running AI-Generated
+        Code.
+      icon_url: https://drive.google.com/uc?export=view&id=1p4_HltOmsD24q2gilgN1Q1jYgMCDCPTO
+      name: Daytona
+      oss: false
+      popular: false
+      tags:
+      - Verified
+      - GA
+      - Execution Sandbox
+      - AIE
+      verified: true
+      website_url: https://www.daytona.io/
+    - date_added: 12/03/2025
+      description: RUN AI-GENERATED code SECURELY in your APP
+      icon_url: https://e2b.dev/favicon.ico
+      name: E2B
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Execution Sandbox
+      - AIE
+      verified: false
+      website_url: https://e2b.dev/
+    - date_added: 12/03/2025
+      description: The sessionless code interpreter. Securely run AI-generated code
+        in stateful sandboxes that run forever.
+      icon_url: https://forevervm.com/icon.png?3e41cd107354ef72
+      name: ForeverVM
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Execution Sandbox
+      - AIE
+      verified: false
+      website_url: https://forevervm.com/
+    - date_added: 12/03/2025
+      description: 'Gitpod SDK: infrastructure for software engineering agents. The
+        infrastructure building blocks for orchestrating and building software engineering
+        (SWE) agents at scale.'
+      icon_url: ''
+      name: Gitpod SDK
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Execution Sandbox
+      - AIE
+      verified: false
+      website_url: https://www.gitpod.io/blog/introducing-gitpod-sdk
+    - date_added: 12/03/2025
+      description: Restack backend framework provides long-running workflows and infrastructure
+        for reliable & accurate AI agents.
+      icon_url: https://www.restack.io/favicon.ico
+      name: Restack
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Execution Sandbox
+      - AIE
+      verified: false
+      website_url: https://www.restack.io/
+    - date_added: 24/03/2025
+      description: 'Run your apps
+
+        Secure. Fast. At Scale
+
+        Experience the new container technology powered by WebAssembly that runs your
+        programs safely, anywhere.
+
+        Locally or in the cloud'
+      icon_url: ''
+      name: Wasmer
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Execution Sandbox
+      - AIE
+      verified: false
+      website_url: https://wasmer.io/
+  description: AIE related
+  level: 6
+  name: AIE
+
