@@ -19,6 +19,11 @@ export const navLinks = [
     id: 4,
     label: "About",
     href: "https://ainativedev.io/about",
+  },
+  {
+    id: 4,
+    label: "Landscape",
+    href: "https://landscape.ainativedev.io/",
   }
 ];
 
