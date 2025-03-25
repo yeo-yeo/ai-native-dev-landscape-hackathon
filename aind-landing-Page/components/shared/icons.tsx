@@ -21,6 +21,7 @@ const icons = {
   chevronBWhite: "/icons/chevron-b-white.svg",
   closeWhite: "/icons/close-white.svg",
   placeholder: "/icons/placeholder.svg",
+  githubNew: "/github.svg",
 
   spotify: "/social/spotify.svg",
   instagram: "/social/instagram.svg",

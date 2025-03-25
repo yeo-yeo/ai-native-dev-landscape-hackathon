@@ -33,10 +33,9 @@ const instrumentSerif = Instrument_Serif({
   weight: ["400"],
 });
 
-// TODO: Update metadata
 export const metadata: Metadata = {
-  title: "Tessl Landscape",
-  description: "Tessl Landscape",
+  title: "AI Native Developer Tools Landscape",
+  description: "Your Guide to the AI Development Ecosystem",
 };
 
 export default function RootLayout({

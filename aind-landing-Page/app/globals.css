@@ -3,7 +3,7 @@
 @theme inline {
   --color-background: #F4EEE2;
   --color-foreground: #000000;
-
+  --max-width: 1366px;
 
   --border-primary: #C9C3B9;
   --border-secondary: #000000;

@@ -110,34 +110,35 @@ export default function GlobalLayout({
     });
   };
 
-  const filteredData = searchTerm
-    ? {
-        ...data,
-        domains:
-          data?.domains
-            .map((domain) => ({
-              ...domain,
-              categories: domain.categories
-                .map((category) => ({
-                  ...category,
-                  tools: category.tools.filter(
-                    (tool) =>
-                      tool.name
-                        .toLowerCase()
-                        .includes(searchTerm.toLowerCase()) ||
-                      tool.description
-                        ?.toLowerCase()
-                        .includes(searchTerm.toLowerCase()) ||
-                      tool.tags?.some((tag) =>
-                        tag.toLowerCase().includes(searchTerm.toLowerCase())
-                      )
-                  ),
-                }))
-                .filter((category) => category.tools.length > 0),
-            }))
-            .filter((domain) => domain.categories.length > 0) || [],
-      }
-    : data;
+  const filteredData =
+    searchTerm && pathname !== "/"
+      ? {
+          ...data,
+          domains:
+            data?.domains
+              .map((domain) => ({
+                ...domain,
+                categories: domain.categories
+                  .map((category) => ({
+                    ...category,
+                    tools: category.tools.filter(
+                      (tool) =>
+                        tool.name
+                          .toLowerCase()
+                          .includes(searchTerm.toLowerCase()) ||
+                        tool.description
+                          ?.toLowerCase()
+                          .includes(searchTerm.toLowerCase()) ||
+                        tool.tags?.some((tag) =>
+                          tag.toLowerCase().includes(searchTerm.toLowerCase())
+                        )
+                    ),
+                  }))
+                  .filter((category) => category.tools.length > 0),
+              }))
+              .filter((domain) => domain.categories.length > 0) || [],
+        }
+      : data;
 
   const contextValue: GlobaleContextType = {
     activeTags,
@@ -145,12 +146,12 @@ export default function GlobalLayout({
   };
 
   const numberActiveTags = activeTags.length;
-  const numberTools = filteredData?.domains.flatMap((domain) =>
+  const numberTools = data?.domains.flatMap((domain) =>
     domain.categories.flatMap((category) => category.tools)
   ).length;
 
   return (
-    <div className="max-w-[1240px] min-h-[calc(100vh-355px)] mx-auto flex flex-col gap-4 lg:gap-12 my-6 lg:my-12">
+    <div className="max-w-[var(--max-width)] lg:px-12 min-h-[calc(100vh-355px)] mx-auto flex flex-col gap-4 lg:gap-12 my-6 lg:my-12">
       <section className="flex flex-col lg:flex-row justify-between w-full  px-4 mb-4 lg:mb-0 lg:px-0 gap-10 lg:gap-0 lg:items-end">
         <div className="flex flex-col gap-4 lg:gap-6 ">
           <h1 className="heading">Landscape</h1>
@@ -210,10 +211,10 @@ export default function GlobalLayout({
           </div>
         </div>
         <div className="flex shrink-0 flex-col justify-between gap-2 items-center">
+          <TabSelector pathname={pathname} />
           {(pathname === "/catalog" || pathname === "/list") && (
             <Search onSearch={handleSearch} initialValue={searchTerm} />
           )}
-          <TabSelector pathname={pathname} />
         </div>
       </section>
       <section className="lg:hidden relative px-4 flex items-center justify-between">

@@ -3,7 +3,7 @@ import { forwardRef } from "react";
 import { Icon } from "./icons";
 
 const buttonVariants = cva(
-  "flex items-center gap-2 font-medium menuItem font-instrument-sans cursor-pointer outline-none border border-black justify-center rounded-full",
+  "flex items-center gap-2 font-medium menuItem font-instrument-sans cursor-pointer outline-none border border-black justify-center items-center rounded-full",
   {
     variants: {
       variant: {
@@ -14,7 +14,7 @@ const buttonVariants = cva(
         true: "w-full",
       },
       size: {
-        small: "px-2.25 py-1.25 text-[11px] h-fit",
+        small: "px-2.25 py-1.25 text-[11px] h-fit leading-[100%]",
         medium: "px-4 py-2.75 ",
         large: "px-6 py-3.75  ",
       },
