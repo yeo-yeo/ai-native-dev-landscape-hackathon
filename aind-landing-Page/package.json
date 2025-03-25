@@ -1,5 +1,5 @@
 {
-  "name": "tessl",
+  "name": "ainativedev-landscape",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -42,13 +42,13 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tinloof/tessl.git"
+    "url": "git+https://github.com/AI-Native-Dev-Community/ai-native-dev-landscape.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tinloof/tessl/issues"
+    "url": "https://github.com/AI-Native-Dev-Community/ai-native-dev-landscape/issues"
   },
-  "homepage": "https://github.com/tinloof/tessl#readme"
+  "homepage": "https://landscape.ainativedev.io"
 }
