@@ -104,7 +104,7 @@ export default function GridCard({
                     onClick={() => setExpanded(!expanded)}
                   >
                     <p className="text-center">
-                      {expanded ? "Collapse" : "Expand"}
+                      {expanded ? "Show less" : "Show more"}
                       {!expanded && (
                         <>
                           <br />
