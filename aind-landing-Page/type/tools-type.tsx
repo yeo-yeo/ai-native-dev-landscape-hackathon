@@ -7,6 +7,7 @@ export interface Tool {
   tags: string[];
   verified: boolean;
   website_url: string;
+  popular: boolean;
 }
 
 export interface Category {
