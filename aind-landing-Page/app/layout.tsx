@@ -9,6 +9,7 @@ import "./globals.css";
 import Header from "@/components/globale/header";
 import Footer from "@/components/globale/footer";
 import GlobalLayout from "@/components/globale/globale-layout";
+import { PostHogProvider } from './providers';
 
 const inter = Inter({
   variable: "--font-inter",
@@ -48,9 +49,11 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${dmMono.variable} ${instrumentSans.variable} ${instrumentSerif.variable}`}
       >
+        <PostHogProvider>
         <Header />
         <GlobalLayout>{children}</GlobalLayout>
         <Footer />
+        </PostHogProvider>
       </body>
     </html>
   );
