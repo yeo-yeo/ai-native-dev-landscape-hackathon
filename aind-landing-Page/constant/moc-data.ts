@@ -21,7 +21,7 @@ export const navLinks = [
     href: "https://ainativedev.io/about",
   },
   {
-    id: 4,
+    id: 5,
     label: "Landscape",
     href: "https://landscape.ainativedev.io/",
   }
