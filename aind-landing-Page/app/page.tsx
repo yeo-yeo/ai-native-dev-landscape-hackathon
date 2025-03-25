@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <section className="lg:border border-[#C9C3B9] rounded-lg p-4 lg:p-0 ">
       {toolsData?.domains.map((item, index) => (
-        <GridCard key={index} categories={item.categories} title={"WIP"} />
+        <GridCard key={item.name} categories={item.categories} title={item.name} />
       ))}
     </section>
   );

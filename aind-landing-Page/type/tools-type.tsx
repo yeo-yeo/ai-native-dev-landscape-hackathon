@@ -18,6 +18,9 @@ export interface Category {
 
 export interface Domain {
   categories: Category[];
+  description: string;
+  level: number;
+  name: string;
 }
 
 export interface ToolsData {
