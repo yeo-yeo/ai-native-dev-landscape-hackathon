@@ -165,7 +165,7 @@ export default function GlobalLayout({
             <div>{numberTools} tools</div>
             <div className="flex gap-1 items-center">
               <Icon name="plusBlack" />
-              <Link href={"/"} className="underline">
+              <Link href={"https://github.com/AI-Native-Dev-Community/ai-native-dev-landscape/blob/main/CONTRIBUTING.md"} className="underline">
                 Submit
               </Link>
             </div>
