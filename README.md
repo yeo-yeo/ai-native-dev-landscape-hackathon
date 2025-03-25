@@ -1,37 +1,60 @@
-# AI Native Dev Tool Landscape
+# AI Native Dev Landscape - Data
+## Introduction
+The AI Native Dev Landscape is a project by [AI Native Dev](https://ainativedev.io) to help developers keep track of the AI tools and technologies that are available. It is a community curated list and we welcome contributions.
 
-This is the code to display the AI Native Dev Tool Landscape.
+This repository contains the data that powers the [https://landscape.ainativedev.io](https://landscape.ainativedev.io) website.
 
-## Status
+## Terminology
+- The whole dataset is referred to as `Landscape`.
+- The landscape consists of different `Domains`.
+- Each domain has multiple `Categories`.
+- And under categories we have `Tools`
 
-This is very much a work in progress.
+## Contributing to the Landscape
+### Data
+We welcome contributions to the data. Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for more information.
 
-## Development
-- The code is in the `frontend` directory.
-- It's a Vue 3 project. 
-- The landscape data is in the `assets/tool-landscape.yaml` file.
+### Website
+We also welcome contributions to the website. See the [README.md](aind-landing-Page/README.md) file for more information.
 
-### Running it locally
-```bash
-npm install
-npm run dev
+## YAML Structure
+### Domain
+```yaml
+domain:
+  name: string # Name of the domain
+  description: string # Description of the domain
+  level: integer # Level of the domain, this is used for display purposes, the lowest level has the highest priority on the landscape map
+```
+### Category
+```yaml
+category:
+  name: string # Name of the category
+  description: string # Description of the category
+  level: integer # Level of the category, this is used for display purposes, the lowest level has the highest priority on the landscape map
 ```
 
-### Building it
-```bash
-npm run format
-npm run build
+### Tool
+```yaml
+tool:
+  name: string # Name of the tool
+  description: string # Description of the tool
+  icon_url: string # URL to the tool's icon
+  website_url: string # URL to the tool's website
+  tags: list[string] # Array of tags
+  date_added: string # Date when the tool was added to the landscape DD/MM/YYYY
+  oss: boolean # Whether the tool is open source
+  verified: boolean # Whether the tool is vendor verified
+  beta: boolean # Whether the tool is in beta (if false the tool is considered GA)
 ```
 
-### Publishing to Github pages
-- <https://github.com/daiyi/gh-pages-pr-previews/blob/main/.github/workflows/gh-pages.yml>
-- <https://github.com/peaceiris/actions-gh-pages>
-- <https://stackoverflow.com/questions/76267018/how-can-i-protect-a-github-branch-and-allow-only-github-actions-to-push-to-it-an>
-
-## Contributing
-- Changes need to be made using Pull Requests.
-- [Commits need to be signed](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification).
 
 ## License
+This project is licensed under the [MIT License](LICENSE).
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contributors
+
+<a href="https://github.com/ainativedev/aind-landing-Page/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ainativedev/aind-landing-Page" />
+</a>
+
