@@ -37,7 +37,7 @@ export default function Footer() {
               </Link>
             ))}
           </div>
-          <div className="uppercase bodys">© 2025 AI Native Development</div>
+          <div className="uppercase bodys">© 2025 AI Native Development - <a href="https://ainativedev.io/cookie-notice">Cookies</a> - <a href="https://ainativedev.io/privacy-policy">Privacy</a></div>
         </div>
       </div>
     </section>

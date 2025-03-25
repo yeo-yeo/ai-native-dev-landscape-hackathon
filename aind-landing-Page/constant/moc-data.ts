@@ -3,28 +3,23 @@ export const navLinks = [
   {
     id: 1,
     label: "Home",
-    href: "/",
+    href: "https://ainativedev.io/",
   },
   {
     id: 2,
     label: "News",
-    href: "/news",
+    href: "https://ainativedev.io/news",
   },
   {
     id: 3,
     label: "Podcast",
-    href: "/podcast",
+    href: "https://ainativedev.io/podcast",
   },
   {
     id: 4,
     label: "About",
-    href: "/about",
-  },
-  {
-    id: 5,
-    label: "Landscape",
-    href: "landscape",
-  },
+    href: "https://ainativedev.io/about",
+  }
 ];
 
 // Footer Social Links
@@ -32,42 +27,37 @@ export const footerSocialLinks = [
   {
     id: 1,
     icon: "discord",
-    href: "https://tessl.co/4ilBftZ",
+    href: "http://ainativedev.co/fyf",
   },
   {
     id: 2,
     icon: "linkedIn",
-    href: "https://tessl.co/41VIaUV",
+    href: "http://ainativedev.co/e39",
   },
   {
     id: 3,
     icon: "github",
-    href: "/github",
+    href: "https://github.com/AI-Native-Dev-Community/ai-native-dev-landscape",
   },
   {
     id: 4,
     icon: "x",
-    href: "https://tessl.co/41XjBqL",
+    href: "http://ainativedev.co/756",
   },
   {
     id: 5,
-    icon: "threads",
-    href: "/threads",
+    icon: "youtube",
+    href: "http://ainativedev.co/15v",
   },
   {
     id: 6,
-    icon: "youtube",
-    href: "https://tessl.co/3DL3QtE",
+    icon: "applePodcast",
+    href: "https://ainativedev.co/3wx",
   },
   {
     id: 7,
-    icon: "applePodcast",
-    href: "https://tessl.co/41JJbOC",
-  },
-  {
-    id: 8,
     icon: "spotify",
-    href: "https://tessl.co/3XIEROp",
+    href: "https://ainativedev.co/cii",
   },
 ];
 
