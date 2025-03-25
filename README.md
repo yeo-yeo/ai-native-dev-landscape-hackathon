@@ -54,7 +54,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contributors
 
-<a href="https://github.com/ainativedev/aind-landing-Page/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ainativedev/aind-landing-Page" />
+<a href="https://github.com/AI-Native-Dev-Community/ai-native-dev-landscape">
+  <img src="https://contrib.rocks/image?repo=AI-Native-Dev-Community/ai-native-dev-landscape" />
 </a>
 
