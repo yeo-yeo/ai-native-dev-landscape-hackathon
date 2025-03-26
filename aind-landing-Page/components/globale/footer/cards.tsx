@@ -70,6 +70,7 @@ export default function Cards({
           </div>
         ) : (
           <form
+            id="newsletter-subscribe"
             action={action}
             ref={formRef}
             className="flex flex-col relative lg:flex-row items-center justify-start w-full lg:w-auto gap-4 z-20"
