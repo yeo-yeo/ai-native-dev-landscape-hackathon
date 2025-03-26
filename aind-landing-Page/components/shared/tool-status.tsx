@@ -1,6 +1,8 @@
 export default function ToolStatus({ date }: { date: string }) {
   const isNew = false; 
-  //  new Date(date) > new Date(Date.now() - 14 * 24 * 60 * 60 * 1000);
+  // setting date in the future so nothing is new
+  // new Date(date) > new Date(Date.now() - 14 * 24 * 60 * 60 * 1000);
+  new Date(date) > new Date(Date.now() + 14 * 24 * 60 * 60 * 1000);
 
   if (!isNew) {
     return null;
