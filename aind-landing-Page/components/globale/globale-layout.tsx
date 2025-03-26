@@ -24,7 +24,7 @@ export default function GlobalLayout({
 }) {
   const pathname = usePathname();
   const [searchTerm, setSearchTerm] = useState("");
-  const [contentHeight, setContentHeight] = useState(0);
+  const [contentHeight, setContentHeight] = useState("100%");
   const tagsContainerRef = useRef<HTMLDivElement>(null);
   const [data, setData] = useState<ToolsData>(
     initialToolsData as unknown as ToolsData
@@ -32,7 +32,7 @@ export default function GlobalLayout({
   const [activeTags, setActiveTags] = useState(["all"]);
   const [isMounted, setIsMounted] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
-  const [showAllTags, setShowAllTags] = useState(false);
+  const [showAllTags, setShowAllTags] = useState(true);
 
   // Client-side only code
   useEffect(() => {
@@ -65,7 +65,7 @@ export default function GlobalLayout({
 
   useEffect(() => {
     if (tagsContainerRef.current) {
-      setContentHeight(tagsContainerRef.current.scrollHeight);
+      setContentHeight(tagsContainerRef.current.scrollHeight + "px");
     }
   }, []);
   // Update search handler to be passed to Search component
@@ -155,9 +155,13 @@ export default function GlobalLayout({
       .flatMap((category) => category.tools);
 
     const latestDate = allTools
-      .map((tool) => new Date(tool.date_added))
+      .map((tool) => {
+        const [day, month, year] = tool.date_added.split("/").map(Number);
+        return new Date(year, month - 1, day); // Correct date parsing
+      })
       .reduce(
-        (latest, current) => (current > latest ? current : latest),
+        (latest, current) =>
+          current.getTime() > latest.getTime() ? current : latest,
         new Date(0)
       );
 
@@ -187,7 +191,11 @@ export default function GlobalLayout({
               size="small"
             >
               <Icon name="plusBlack" />
-              <Link href="https://github.com/AI-Native-Dev-Community/ai-native-dev-landscape/blob/main/CONTRIBUTING.md">
+              <Link
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://github.com/AI-Native-Dev-Community/ai-native-dev-landscape/blob/main/CONTRIBUTING.md"
+              >
                 Submit
               </Link>
             </Button>
@@ -225,15 +233,23 @@ export default function GlobalLayout({
               />
               <span className="w-3 h-0.5 bg-white rounded-full" />
             </button>
-            {tagsWithAll.map((tag) => (
-              <Tags
-                key={tag.id}
-                name={tag.name}
-                color={tag.color}
-                active={activeTags.includes(tag.id.toString())}
-                onClick={() => handleTagClick(tag.id.toString())}
-              />
-            ))}
+            {[...tagsWithAll]
+              .sort((a, b) =>
+                a.id === "all"
+                  ? -1
+                  : b.id === "all"
+                    ? 1
+                    : a.name.localeCompare(b.name)
+              )
+              .map((tag) => (
+                <Tags
+                  key={tag.id}
+                  name={tag.name}
+                  color={tag.color}
+                  active={activeTags.includes(tag.id.toString())}
+                  onClick={() => handleTagClick(tag.id.toString())}
+                />
+              ))}
           </div>
         </div>
         <div className="flex shrink-0 flex-col justify-between gap-2 items-center">

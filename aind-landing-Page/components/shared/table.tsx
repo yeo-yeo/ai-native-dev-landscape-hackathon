@@ -84,11 +84,12 @@ const TableCell = React.forwardRef<
   HTMLTableCellElement,
   React.TdHTMLAttributes<HTMLTableCellElement> & {
     showTooltip?: boolean;
+    type?: "string" | "html";
   }
->(({ className, showTooltip = false, ...props }, ref) => (
+>(({ className, showTooltip = false, type = "string", ...props }, ref) => (
   <>
     {showTooltip ? (
-      <TableTooltip text={props.children as string}>
+      <TableTooltip text={props.children} type={type}>
         <td
           ref={ref}
           className={cx("px-3 py-4 body-sm align-top relative", className)}

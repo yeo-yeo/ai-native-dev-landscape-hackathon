@@ -22,12 +22,16 @@ export default function CatalogCard({
         <div className="flex flex-col gap-6">
           <div className="flex items-start justify-between">
             <div className="flex  gap-3">
-              <Logo tool={tool} size="large" className="relative z-20" />
+              <Link
+                href={tool.website_url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Logo tool={tool} size="large" className="relative z-20" />
+              </Link>
               <div className="flex flex-col max-w-[130px] min-h-full justify-between">
                 <ToolStatus date={tool.date_added} />
-                <p className="body-xxs font-medium pb-0.5 relative z-20">
-                  {tool.name}
-                </p>
+                <p className="body-xxs font-medium pb-0.5">{tool.name}</p>
               </div>
             </div>
 
@@ -49,26 +53,22 @@ export default function CatalogCard({
           <div className="flex items-start justify-start gap-6">
             <div className="flex gap-6 justify-between w-full">
               <div className="flex items-start flex-col gap-2">
-                <p className="body-xxs text-[#999999] relative z-20">Domain</p>
-                <p className="body-xxs relative z-20">{domain}</p>
+                <p className="body-xxs text-[#999999]">Domain</p>
+                <p className="body-xxs">{domain}</p>
               </div>
               <div className="flex items-start flex-col gap-2">
-                <p className="body-xxs text-[#999999] relative z-20">
-                  Category
-                </p>
-                <p className="body-xxs relative z-20">{category}</p>
+                <p className="body-xxs text-[#999999]">Category</p>
+                <p className="body-xxs">{category}</p>
               </div>
               <div className="flex items-start flex-col gap-2">
-                <p className="body-xxs text-[#999999] relative z-20">
-                  Date added
-                </p>
-                <p className="body-xxs relative z-20">{tool.date_added}</p>
+                <p className="body-xxs text-[#999999]">Date added</p>
+                <p className="body-xxs">{tool.date_added}</p>
               </div>
             </div>
           </div>
           <div className="flex flex-col gap-2">
-            <p className="body-xxs text-[#999999] relative z-20">Description</p>
-            <p className="text-xs font-dm-mono tracking-[1.1px] line-clamp-3 leading-[160%] relative z-20">
+            <p className="body-xxs text-[#999999]">Description</p>
+            <p className="text-xs font-dm-mono tracking-[1.1px] line-clamp-3 leading-[160%]">
               {tool.description.split("\\n\\n").map((paragraph, index) => (
                 <React.Fragment key={index}>
                   {paragraph}
@@ -81,7 +81,7 @@ export default function CatalogCard({
           </div>
           {tool.tags && (
             <div className="flex flex-col gap-2">
-              <p className="body-xxs text-[#999999] relative z-20">Tags</p>
+              <p className="body-xxs text-[#999999]">Tags</p>
               <div className="flex gap-4 flex-wrap">
                 {tool.tags?.map((tag, index) => (
                   <p key={tag + index} className=" body-xxs">
@@ -92,18 +92,13 @@ export default function CatalogCard({
             </div>
           )}
           <div className="flex flex-col gap-2">
-            <p className="body-xxs text-[#999999] relative z-20 max-w-3/4">
-              Url
-            </p>
+            <p className="body-xxs text-[#999999] max-w-3/4">Url</p>
             <Link
-              className="body-xxs relative z-20"
+              className="body-xxs relative z-20 lowercase"
               href={tool.website_url}
               target="_blank"
             >
-              {tool.website_url
-                .replace(/^https?:\/\//, "")
-                .replace(/^www\./, "")
-                .replace(/\/$/, "")}
+              {tool.website_url}
             </Link>
           </div>
         </div>
@@ -111,13 +106,18 @@ export default function CatalogCard({
           href="https://github.com/AI-Native-Dev-Community/ai-native-dev-landscape/blob/main/CONTRIBUTING.md"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-xs font-instrument-sans font-medium  underline self-end relative z-20"
+          className="text-xs font-instrument-sans mt-1 font-medium  underline self-end relative z-20"
         >
           Suggest Edits
         </Link>
       </div>
 
-      <PopupCard key={tool.name} tool={tool} category={category}>
+      <PopupCard
+        key={tool.name}
+        tool={tool}
+        category={category}
+        domain={domain}
+      >
         <div
           className="absolute inset-0 cursor-pointer z-[1]"
           role="button"

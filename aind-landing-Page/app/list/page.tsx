@@ -11,7 +11,6 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/shared/table";
-import ToolStatus from "@/components/shared/tool-status";
 import Link from "next/link";
 
 export default function LandscapeList() {
@@ -31,8 +30,9 @@ export default function LandscapeList() {
             <TableHead className="w-[250px] lg:w-[30%]">Description</TableHead>
             <TableHead className="w-[100px] lg:w-[7%]">Domain</TableHead>
             <TableHead className="w-[150px] lg:w-[10%]">Category</TableHead>
-            <TableHead className="w-[150px] lg:w-[10%]">Url</TableHead>
-            <TableHead className="w-[75px] lg:w-[5%]"></TableHead>
+            <TableHead className="w-[150px] lg:w-[13%]">Url</TableHead>
+            {/* TODO: uncomment when you add tool status back */}
+            {/* <TableHead className="w-[75px] lg:w-[5%]"></TableHead> */}
           </TableRow>
         </TableHeader>
 
@@ -69,7 +69,9 @@ export default function LandscapeList() {
                 >
                   {tool.name}
                 </TableCell>
-                <TableCell showTooltip={true}>{tool.description}</TableCell>
+                <TableCell showTooltip={true} type="html">
+                  {tool.description}
+                </TableCell>
                 <TableCell>{tool.domainName}</TableCell>
                 <TableCell>{tool.categoryName}</TableCell>
                 <TableCell showTooltip={true}>
@@ -84,9 +86,10 @@ export default function LandscapeList() {
                       .replace(/\/$/, "")}
                   </Link>
                 </TableCell>
-                <TableCell className="">
+                {/* TODO: uncomment when you add tool status back */}
+                {/* <TableCell className="">
                   <ToolStatus date={tool.date_added} />
-                </TableCell>
+                </TableCell> */}
               </TableRow>
             ));
           })()}

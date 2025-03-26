@@ -14,10 +14,12 @@ export function PopupCard({
   children,
   tool,
   category,
+  domain,
 }: {
   children: React.ReactNode;
   tool: Tool;
   category: string;
+  domain: string;
 }) {
   return (
     <Dialog.Root>
@@ -62,8 +64,8 @@ export function PopupCard({
             <div className="flex items-start justify-start gap-6">
               <div className="flex gap-6 justify-between w-full">
                 <div className="flex items-start flex-col gap-2">
-                  <p className="body-xxs text-[#999999]">Domaine</p>
-                  <p className="body-xxs">domain</p>
+                  <p className="body-xxs text-[#999999]">Domain</p>
+                  <p className="body-xxs">{domain}</p>
                 </div>
                 <div className="flex items-start flex-col gap-2">
                   <p className="body-xxs text-[#999999]">Category</p>
@@ -99,14 +101,11 @@ export function PopupCard({
             <div className="flex flex-col gap-2">
               <p className="body-xxs text-[#999999] max-w-3/4">Url</p>
               <Link
-                className="body-xxs"
+                className="body-xxs lowercase"
                 href={tool.website_url}
                 target="_blank"
               >
-                {tool.website_url
-                  .replace(/^https?:\/\//, "")
-                  .replace(/^www\./, "")
-                  .replace(/\/$/, "")}
+                {tool.website_url}
               </Link>
             </div>
           </div>

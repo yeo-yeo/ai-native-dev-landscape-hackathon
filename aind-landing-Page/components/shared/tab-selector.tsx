@@ -18,10 +18,10 @@ export default function TabSelector({
           key={tab.id}
           href={tab.href}
           className={cx(
-            "flex  items-center gap-1 px-4 py-2 nth-[2]:border-x transition-all duration-300 border-black",
+            "flex items-center gap-1 px-4  nth-[2]:border-x transition-all duration-300 border-black",
             {
-              "bg-black text-white": pathname === tab.href,
-              "w-full py-3 justify-center": variant === "mobile",
+              "bg-black text-white py-2": pathname === tab.href,
+              "w-full py-3 justify-center min-h-14 ": variant === "mobile",
             }
           )}
         >
