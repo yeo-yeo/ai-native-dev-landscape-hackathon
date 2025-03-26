@@ -14,12 +14,10 @@ export default function GridCard({
   categories,
   title,
   description,
-  item,
 }: {
   categories: ToolsData["domains"][0]["categories"];
   title: string;
   description: string;
-  item: ToolsData["domains"];
 }) {
   const [expanded, setExpanded] = useState(false);
   const { activeTags } = useGlobaleContext();
@@ -34,7 +32,6 @@ export default function GridCard({
           }}
         />
         <p className="heading-xl lg:heading-2xl w-full">{title} </p>
-        {item.length}
         <TableTooltip text={description}>
           <Icon name="infoBlack" className="cursor-pointer size-5" />
         </TableTooltip>

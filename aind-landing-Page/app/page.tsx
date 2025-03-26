@@ -10,7 +10,6 @@ export default function Home() {
       {toolsData?.domains
         .sort((a, b) => a.level - b.level)
         .map((item) => {
-          // Check if any tools in any category match the active tags
           const hasMatchingTools = item.categories.some((category) => {
             const filteredTools = activeTags.includes("all")
               ? category.tools
@@ -20,7 +19,6 @@ export default function Home() {
             return filteredTools.length > 0;
           });
 
-          // Return null if no matching tools or empty categories
           if (item.categories.length === 0 || !hasMatchingTools) return null;
 
           return (
@@ -29,7 +27,6 @@ export default function Home() {
               categories={item.categories}
               title={item.name}
               description={item.description}
-              item={toolsData?.domains}
             />
           );
         })}
