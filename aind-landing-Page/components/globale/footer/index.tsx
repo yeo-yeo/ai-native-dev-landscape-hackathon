@@ -37,7 +37,23 @@ export default function Footer() {
               </Link>
             ))}
           </div>
-          <div className="uppercase bodys">© 2025 AI Native Development - <a href="https://ainativedev.io/cookie-notice">Cookies</a> - <a href="https://ainativedev.io/privacy-policy">Privacy</a></div>
+          <div className="flex items-start flex-col justify-between gap-4">
+            <div className="flex items-center gap-4">
+              <Link
+                href="https://ainativedev.io/cookie-notice"
+                className="hover:underline"
+              >
+                Cookies
+              </Link>
+              <Link
+                href="https://ainativedev.io/privacy-policy"
+                className="hover:underline"
+              >
+                Privacy
+              </Link>
+            </div>
+            <p className="uppercase bodys">© 2025 AI Native Development</p>
+          </div>
         </div>
       </div>
     </section>

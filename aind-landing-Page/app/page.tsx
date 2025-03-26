@@ -7,9 +7,16 @@ export default function Home() {
   const { toolsData } = useGlobaleContext();
   return (
     <section className="lg:border border-[#C9C3B9] rounded-lg p-4 lg:p-0 ">
-      {toolsData?.domains.map((item) => (
-        <GridCard key={item.name} categories={item.categories} title={item.name} />
-      ))}
+      {toolsData?.domains
+        .sort((a, b) => a.level - b.level)
+        .map((item) => (
+          <GridCard
+            key={item.name}
+            categories={item.categories}
+            title={item.name}
+            description={item.description}
+          />
+        ))}
     </section>
   );
 }

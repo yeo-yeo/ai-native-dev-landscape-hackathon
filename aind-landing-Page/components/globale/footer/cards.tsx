@@ -3,6 +3,7 @@
 import { subscribeToNewsletter } from "@/app/action/newsletter";
 import { Button } from "@/components/shared/button";
 import { cx } from "cva";
+import Link from "next/link";
 import { useActionState, useRef } from "react";
 
 export default function Cards({
@@ -103,7 +104,7 @@ export default function Cards({
           arrow="white"
           className="w-full lg:w-auto z-20"
         >
-          {label}
+          <Link href={"https://ainativedev.co/fyf"}>{label}</Link>
         </Button>
       )}
     </div>

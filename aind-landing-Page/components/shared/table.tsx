@@ -82,17 +82,31 @@ TableHead.displayName = "TableHead";
 
 const TableCell = React.forwardRef<
   HTMLTableCellElement,
-  React.TdHTMLAttributes<HTMLTableCellElement>
->(({ className, ...props }, ref) => (
-  <TableTooltip text={props.children}>
-    <td
-      ref={ref}
-      className={cx("px-3 py-4 body-sm align-top relative", className)}
-      {...props}
-    >
-      <span className="line-clamp-2">{props.children}</span>
-    </td>
-  </TableTooltip>
+  React.TdHTMLAttributes<HTMLTableCellElement> & {
+    showTooltip?: boolean;
+  }
+>(({ className, showTooltip = false, ...props }, ref) => (
+  <>
+    {showTooltip ? (
+      <TableTooltip text={props.children as string}>
+        <td
+          ref={ref}
+          className={cx("px-3 py-4 body-sm align-top relative", className)}
+          {...props}
+        >
+          <span className="line-clamp-2">{props.children}</span>
+        </td>
+      </TableTooltip>
+    ) : (
+      <td
+        ref={ref}
+        className={cx("px-3 py-4 body-sm align-top relative", className)}
+        {...props}
+      >
+        <span className="line-clamp-2">{props.children}</span>
+      </td>
+    )}
+  </>
 ));
 TableCell.displayName = "TableCell";
 

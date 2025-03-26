@@ -24,7 +24,7 @@ export const navLinks = [
     id: 5,
     label: "Landscape",
     href: "https://landscape.ainativedev.io/",
-  }
+  },
 ];
 
 // Footer Social Links
@@ -32,12 +32,12 @@ export const footerSocialLinks = [
   {
     id: 1,
     icon: "discord",
-    href: "http://ainativedev.co/fyf",
+    href: "https://ainativedev.co/fyf",
   },
   {
     id: 2,
     icon: "linkedIn",
-    href: "http://ainativedev.co/e39",
+    href: "https://ainativedev.co/e39",
   },
   {
     id: 3,
@@ -47,12 +47,12 @@ export const footerSocialLinks = [
   {
     id: 4,
     icon: "x",
-    href: "http://ainativedev.co/756",
+    href: "https://ainativedev.co/756",
   },
   {
     id: 5,
     icon: "youtube",
-    href: "http://ainativedev.co/15v",
+    href: "https://ainativedev.co/15v",
   },
   {
     id: 6,

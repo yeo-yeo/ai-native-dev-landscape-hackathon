@@ -72,10 +72,10 @@ export default function Search({
           className="w-full py-2 label-sm  outline-none pl-6"
         />
       </div>
-      <div className=" w-11 h-11 lg:hidden">
+      <div className=" w-12 h-12 lg:hidden">
         {!isSearchOpen && (
           <button
-            className="h-full w-11 bg-black rounded-full z-30 relative flex items-center justify-center"
+            className="h-full w-12 bg-black rounded-full z-30 relative flex items-center justify-center"
             onClick={() => setIsSearchOpen?.(true)}
           >
             <Icon name="searchWhite" className="shrink-0" />
@@ -83,7 +83,7 @@ export default function Search({
         )}
         <div
           className={cx(
-            "absolute right-4 top-0 w-11 h-full transition-all p-0 rounded-full bg-black duration-300 flex items-center justify-start",
+            "absolute right-4 top-0 w-12 h-full transition-all p-0 rounded-full bg-black duration-300 flex items-center justify-start",
             {
               "w-[calc(100vw-32px)] px-4 py-3": isSearchOpen,
             }

@@ -37,40 +37,59 @@ export default function LandscapeList() {
         </TableHeader>
 
         <TableBody>
-          {toolsData?.domains.map((domain) =>
-            domain.categories.map((category) => {
-              const filteredTools = activeTags.includes("all")
-                ? category.tools
-                : category.tools.filter((tool) =>
-                    tool.tags?.some((tag) => activeTags.includes(tag))
-                  );
-              return filteredTools.map((tool) => (
-                <TableRow key={tool.name}>
-                  <TableCell className="sticky lg:relative left-0 z-20 bg-background lg:bg-transparent">
-                    {tool.name}
-                  </TableCell>
-                  <TableCell className="">{tool.description}</TableCell>
-                  <TableCell>domain</TableCell>
-                  <TableCell>{category.name}</TableCell>
-                  <TableCell>
-                    <Link
-                      href={tool.website_url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {tool.website_url
-                        .replace(/^https?:\/\//, "")
-                        .replace(/^www\./, "")
-                        .replace(/\/$/, "")}
-                    </Link>
-                  </TableCell>
-                  <TableCell className="">
-                    <ToolStatus date={tool.date_added} />
-                  </TableCell>
-                </TableRow>
-              ));
-            })
-          )}
+          {(() => {
+            const allTools =
+              toolsData?.domains.flatMap((domain) =>
+                domain.categories.flatMap((category) =>
+                  category.tools.map((tool) => ({
+                    ...tool,
+                    domainName: domain.name,
+                    categoryName: category.name,
+                  }))
+                )
+              ) || [];
+
+            const filteredTools = activeTags.includes("all")
+              ? allTools
+              : allTools.filter((tool) =>
+                  tool.tags?.some((tag) => activeTags.includes(tag))
+                );
+
+            const sortedTools = [...filteredTools].sort((a, b) =>
+              a.popular === b.popular ? 0 : a.popular ? -1 : 1
+            );
+
+            return sortedTools.map((tool) => (
+              <TableRow
+                key={`${tool.domainName}-${tool.categoryName}-${tool.name}`}
+              >
+                <TableCell
+                  className="sticky lg:relative left-0 z-20 bg-background lg:bg-transparent"
+                  showTooltip={true}
+                >
+                  {tool.name}
+                </TableCell>
+                <TableCell showTooltip={true}>{tool.description}</TableCell>
+                <TableCell>{tool.domainName}</TableCell>
+                <TableCell>{tool.categoryName}</TableCell>
+                <TableCell showTooltip={true}>
+                  <Link
+                    href={tool.website_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {tool.website_url
+                      .replace(/^https?:\/\//, "")
+                      .replace(/^www\./, "")
+                      .replace(/\/$/, "")}
+                  </Link>
+                </TableCell>
+                <TableCell className="">
+                  <ToolStatus date={tool.date_added} />
+                </TableCell>
+              </TableRow>
+            ));
+          })()}
         </TableBody>
       </Table>
     </section>

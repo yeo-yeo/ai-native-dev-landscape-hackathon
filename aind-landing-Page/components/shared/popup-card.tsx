@@ -8,6 +8,7 @@ import ToolStatus from "./tool-status";
 import { Tool } from "@/type/tools-type";
 import Link from "next/link";
 import { Button } from "./button";
+import React from "react";
 
 export function PopupCard({
   children,
@@ -76,9 +77,12 @@ export function PopupCard({
             </div>
             <div className="flex flex-col gap-2">
               <p className="body-xxs text-[#999999]">Description</p>
-              <p className="text-xs font-dm-mono tracking-[1.1px] leading-[160%]">
-                {tool.description}
-              </p>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: tool.description.replace(/\n/g, "<br />"),
+                }}
+                className="text-xs font-dm-mono tracking-[1.1px] leading-[160%]"
+              />
             </div>
             {tool.tags && (
               <div className="flex flex-col gap-4">
@@ -92,8 +96,22 @@ export function PopupCard({
                 </div>
               </div>
             )}
+            <div className="flex flex-col gap-2">
+              <p className="body-xxs text-[#999999] max-w-3/4">Url</p>
+              <Link
+                className="body-xxs"
+                href={tool.website_url}
+                target="_blank"
+              >
+                {tool.website_url
+                  .replace(/^https?:\/\//, "")
+                  .replace(/^www\./, "")
+                  .replace(/\/$/, "")}
+              </Link>
+            </div>
           </div>
-          <div className="flex gap-2 mt-10">
+
+          <div className="flex justify-between gap-2 mt-10">
             <Button variant="primary" size="large" className="w-fit" linkIcon>
               <Link
                 href={tool.website_url}
@@ -103,20 +121,14 @@ export function PopupCard({
                 Website
               </Link>
             </Button>
-            <Button
-              variant="secondary"
-              size="large"
-              arrow="black"
-              className="w-fit"
+            <Link
+              href="https://github.com/AI-Native-Dev-Community/ai-native-dev-landscape/blob/main/CONTRIBUTING.md"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs font-instrument-sans font-medium  underline self-end"
             >
-              <Link
-                href="https://github.com/AI-Native-Dev-Community/ai-native-dev-landscape/blob/main/CONTRIBUTING.md"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Update
-              </Link>
-            </Button>
+              Suggest Edits
+            </Link>
           </div>
         </Dialog.Content>
       </Dialog.Portal>

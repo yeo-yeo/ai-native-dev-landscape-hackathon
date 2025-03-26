@@ -15,6 +15,7 @@ import { getConsistentColor } from "@/util/get-consistent-color";
 import { GlobaleContext, type GlobaleContextType } from "./globale-context";
 import MobileDrawer from "../shared/mobile-drawer";
 import TabSelector from "../shared/tab-selector";
+import { Button } from "../shared/button";
 
 export default function GlobalLayout({
   children,
@@ -109,36 +110,34 @@ export default function GlobalLayout({
       }
     });
   };
-
-  const filteredData =
-    searchTerm && pathname !== "/"
-      ? {
-          ...data,
-          domains:
-            data?.domains
-              .map((domain) => ({
-                ...domain,
-                categories: domain.categories
-                  .map((category) => ({
-                    ...category,
-                    tools: category.tools.filter(
-                      (tool) =>
-                        tool.name
-                          .toLowerCase()
-                          .includes(searchTerm.toLowerCase()) ||
-                        tool.description
-                          ?.toLowerCase()
-                          .includes(searchTerm.toLowerCase()) ||
-                        tool.tags?.some((tag) =>
-                          tag.toLowerCase().includes(searchTerm.toLowerCase())
-                        )
-                    ),
-                  }))
-                  .filter((category) => category.tools.length > 0),
-              }))
-              .filter((domain) => domain.categories.length > 0) || [],
-        }
-      : data;
+  const filteredData = searchTerm
+    ? {
+        ...data,
+        domains:
+          data?.domains
+            .map((domain) => ({
+              ...domain,
+              categories: domain.categories
+                .map((category) => ({
+                  ...category,
+                  tools: category.tools.filter(
+                    (tool) =>
+                      tool.name
+                        .toLowerCase()
+                        .includes(searchTerm.toLowerCase()) ||
+                      tool.description
+                        ?.toLowerCase()
+                        .includes(searchTerm.toLowerCase()) ||
+                      tool.tags?.some((tag) =>
+                        tag.toLowerCase().includes(searchTerm.toLowerCase())
+                      )
+                  ),
+                }))
+                .filter((category) => category.tools.length > 0),
+            }))
+            .filter((domain) => domain.categories.length > 0) || [],
+      }
+    : data;
 
   const contextValue: GlobaleContextType = {
     activeTags,
@@ -150,9 +149,28 @@ export default function GlobalLayout({
     domain.categories.flatMap((category) => category.tools)
   ).length;
 
+  const lastUpdated = (() => {
+    const allTools = initialToolsData.domains
+      .flatMap((domain) => domain.categories)
+      .flatMap((category) => category.tools);
+
+    const latestDate = allTools
+      .map((tool) => new Date(tool.date_added))
+      .reduce(
+        (latest, current) => (current > latest ? current : latest),
+        new Date(0)
+      );
+
+    return {
+      weekday: latestDate.toLocaleDateString("en-US", { weekday: "long" }),
+      date: `${latestDate.getDate()} ${latestDate.toLocaleDateString("en-US", {
+        month: "long",
+      })}`,
+    };
+  })();
   return (
     <div className="max-w-[var(--max-width)] lg:px-12 min-h-[calc(100vh-355px)] mx-auto flex flex-col gap-4 lg:gap-12 my-6 lg:my-12">
-      <section className="flex flex-col lg:flex-row justify-between w-full  px-4 mb-4 lg:mb-0 lg:px-0 gap-10 lg:gap-0 lg:items-end">
+      <section className="flex flex-col lg:flex-row justify-between w-full  px-4 mb-4 lg:mb-0 lg:px-0 gap-10 lg:gap-0 lg:items-start">
         <div className="flex flex-col gap-4 lg:gap-6 ">
           <h1 className="heading">Landscape</h1>
           <p className="body-sm lg:body">
@@ -163,16 +181,24 @@ export default function GlobalLayout({
           <div className="body-sm">
             <div className="text-[#999999]">Stats</div>
             <div>{numberTools} tools</div>
-            <div className="flex gap-1 items-center">
+            <Button
+              className="flex gap-1 items-center mt-2 hover:bg-black/30"
+              variant="secondary"
+              size="small"
+            >
               <Icon name="plusBlack" />
-              <Link href={"https://github.com/AI-Native-Dev-Community/ai-native-dev-landscape/blob/main/CONTRIBUTING.md"} className="underline">
+              <Link href="https://github.com/AI-Native-Dev-Community/ai-native-dev-landscape/blob/main/CONTRIBUTING.md">
                 Submit
               </Link>
-            </div>
+            </Button>
           </div>
           <div className="body-sm">
             <div className="text-[#999999]">Last updated</div>
-            <div>9:36am CET Yesterday</div>
+            <div className="ml-2">
+              {lastUpdated.weekday}
+              <br />
+              {lastUpdated.date}
+            </div>
           </div>
         </div>
       </section>
@@ -212,9 +238,7 @@ export default function GlobalLayout({
         </div>
         <div className="flex shrink-0 flex-col justify-between gap-2 items-center">
           <TabSelector pathname={pathname} />
-          {(pathname === "/catalog" || pathname === "/list") && (
-            <Search onSearch={handleSearch} initialValue={searchTerm} />
-          )}
+          <Search onSearch={handleSearch} initialValue={searchTerm} />
         </div>
       </section>
       <section className="lg:hidden relative px-4 flex items-center justify-between">
@@ -235,14 +259,12 @@ export default function GlobalLayout({
             />
           ))}
         </MobileDrawer>
-        {(pathname === "/catalog" || pathname === "/list") && (
-          <Search
-            onSearch={handleSearch}
-            initialValue={searchTerm}
-            isSearchOpen={isSearchOpen}
-            setIsSearchOpen={setIsSearchOpen}
-          />
-        )}
+        <Search
+          onSearch={handleSearch}
+          initialValue={searchTerm}
+          isSearchOpen={isSearchOpen}
+          setIsSearchOpen={setIsSearchOpen}
+        />
       </section>
       <GlobaleContext.Provider value={contextValue}>
         {children}

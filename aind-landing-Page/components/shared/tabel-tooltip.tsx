@@ -5,7 +5,7 @@ export function TableTooltip({
   text,
 }: {
   children: React.ReactNode;
-  text: React.ReactNode;
+  text: string;
 }) {
   return (
     <TooltipPrimitive.Provider>
@@ -16,9 +16,17 @@ export function TableTooltip({
             <TooltipPrimitive.Content
               sideOffset={8}
               align="start"
-              className="select-none bg-[#E5DDC7] border label border-black/30 max-w-[400px] p-3 rounded-lg text-black shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,_hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] will-change-[transform,opacity] "
+              className="select-none bg-[#E5DDC7] z-[500] border label border-black/30 max-w-[400px] p-3 rounded-lg text-black shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,_hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] will-change-[transform,opacity] "
             >
-              {text}
+              <p
+                dangerouslySetInnerHTML={{
+                  __html:
+                    typeof text === "string"
+                      ? text.replace(/\n/g, "<br />")
+                      : text,
+                }}
+                className="text-xs font-dm-mono tracking-[1.1px] leading-[160%]"
+              />
             </TooltipPrimitive.Content>
           )}
         </TooltipPrimitive.Portal>
