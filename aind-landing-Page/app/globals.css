@@ -15,6 +15,8 @@
 
   --animate-mobile-slidein: mobile-slidein 500ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
   --animate-mobile-slideout: mobile-slideout 300ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-header-slidein: header-slidein 500ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-header-slideout: header-slideout 300ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
  
   @keyframes mobile-slidein {
     0% {opacity: 0; transform: translateY(400px);}
@@ -24,6 +26,16 @@
   @keyframes mobile-slideout {
     0% {opacity: 1; transform: translateY(0);}
     100% {opacity: 0; transform: translateY(200px);}
+  }
+
+  @keyframes header-slidein {
+    0% { height: 0;}
+    100% { height: 100vh;}
+  }
+
+  @keyframes header-slideout {
+    0% {opacity: 1; height: 100vh;}
+    100% {opacity: 0; height: 0;}
   }
 
 }
