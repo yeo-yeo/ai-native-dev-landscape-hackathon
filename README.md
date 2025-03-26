@@ -45,7 +45,7 @@ tool:
   oss: boolean # Whether the tool is open source
   verified: boolean # Whether the tool is vendor verified
   beta: boolean # Whether the tool is in beta (if false the tool is considered GA)
-  popular: boolen # Indicates the tool being popular resulting it being sorted first in a category
+  popular: boolean # Indicates the tool being popular resulting it being sorted first in a category
 ```
 
 
