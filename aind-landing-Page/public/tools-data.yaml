@@ -94,7 +94,7 @@ domains:
       description: 'Transform Your Ideas Into Full-Stack Apps
 
         Get AI-powered architecture plans, documentation, and UI designs in minutes'
-      icon_url: https://www.fullstackroadmap.com/favicon.ico
+      icon_url: https://www.fullstackroadmap.com/logo.png
       name: Full Stack Roadmap
       oss: false
       popular: false
@@ -168,7 +168,7 @@ domains:
       description: 'Turn your design into a live web app
 
         Generate, preview, and edit code instantly.'
-      icon_url: ''
+      icon_url: https://a.storyblok.com/f/89137/x/e1adbda50a/anima-logo.svg
       name: Anima
       oss: false
       popular: false
@@ -185,7 +185,7 @@ domains:
       icon_url: https://builder.io/favicon.ico
       name: Builder
       oss: false
-      popular: false
+      popular: true
       tags:
       - GA
       - Design
@@ -213,7 +213,7 @@ domains:
 
 
         As simple as % designto react https://www.figma.com/files/XXX -o mypage.tsx'
-      icon_url: ''
+      icon_url: https://avatars.githubusercontent.com/u/86340715?s=48&v=4
       name: Code
       oss: true
       popular: false
@@ -264,7 +264,7 @@ domains:
         Create designs in seconds not hours or days
 
         Auto generate Figma Variables with Light + Dark Modes'
-      icon_url: ''
+      icon_url: https://figma.ai/img/logo.png
       name: Figma.ai
       oss: false
       popular: false
@@ -294,7 +294,7 @@ domains:
       icon_url: https://www.locofy.ai/favicon.ico
       name: Locofy
       oss: false
-      popular: false
+      popular: true
       tags:
       - GA
       - Design
@@ -305,7 +305,7 @@ domains:
       description: "Visily\u2019s AI converts any user design input\u2014text prompt,\
         \ screenshot, and more\u2014to a fully customizable high-fidelity design.\
         \ Unlike other software, getting started is the easiest part!"
-      icon_url: https://cdn.visily.ai/website/images/Visily-logo-white.png
+      icon_url: https://cdn.prod.website-files.com/64f605bdfa749671fed117a9/654d596e21c1641c27f09aaf_Visily%20AI.png
       name: Visily
       oss: false
       popular: false
@@ -331,7 +331,7 @@ domains:
         \ with business systems, tools, and APIs you need. The applications are often\
         \ AI spins on the most valuable apps and use cases today and imbued with business\
         \ logic relevant to the business building them."
-      icon_url: https://drive.google.com/uc?export=view&id=1jTDgVQf_kvfz0O04o_6iOHEeHrGs7DFw
+      icon_url: https://databutton.com/static/apple-icon.png
       name: Data Button
       oss: false
       popular: false
@@ -347,8 +347,8 @@ domains:
       verified: true
       website_url: https://databutton.com/
     - date_added: 12/03/2025
-      description: AI-powered website builder with design components and code generation
-      icon_url: https://www.framer.com/favicon.ico
+      description: AI-powered website builder with design components and code generation.
+      icon_url: https://framerusercontent.com/images/TvJ9grdPgk3sRz6T6XwkpBrFr4k.png?scale-down-to=512
       name: Framer
       oss: false
       popular: false
@@ -384,7 +384,10 @@ domains:
       verified: false
       website_url: https://www.plasmic.app/
     - date_added: 12/03/2025
-      description: Convert wireframes and sketches into React components with AI
+      description: Convert wireframes and sketches into React components with AI.
+        Uxtly is a UI drafting software. With it, you can spec out requirements without
+        graphic design concerns, so you can communicate exactly what you are trying
+        to achieve to designers, developers, and AI.
       icon_url: https://uidrafter.com/favicon.ico
       name: Uxtly
       oss: false
@@ -396,8 +399,9 @@ domains:
       verified: false
       website_url: https://uidrafter.com/
     - date_added: 12/03/2025
-      description: No-code tool for creating dynamic web interfaces with AI assistance
-      icon_url: https://www.wized.com/favicon.ico
+      description: Rapidly write JavaScript in a low-code visual interface built for
+        Webflow. Solve coding challenges quickly with less code.
+      icon_url: https://cdn.prod.website-files.com/665fd2d02f31613150a72451/672505f9a9c3515e96e83da5_logo-wized-white.svg
       name: Wized
       oss: false
       popular: false
@@ -430,13 +434,31 @@ domains:
       icon_url: https://bolt.new/static/favicon.svg
       name: Bolt
       oss: false
-      popular: false
+      popular: true
       tags:
       - GA
       - Prototyping
       - Product
       verified: false
       website_url: https://bolt.new
+    - date_added: 12/03/2025
+      description: Welcome to bolt.diy, the official open source version of Bolt.new,
+        which allows you to choose the LLM that you use for each prompt! Currently,
+        you can use OpenAI, Anthropic, Ollama, OpenRouter, Gemini, LMStudio, Mistral,
+        xAI, HuggingFace, DeepSeek, or Groq models - and it is easily extended to
+        use any other model supported by the Vercel AI SDK! See the instructions below
+        for running this locally and extending it to include more models.
+      icon_url: ''
+      name: Bolt.diy
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Prototyping
+      - Product
+      verified: false
+      website_url: https://github.com/stackblitz-labs/bolt.diy
     - date_added: 12/03/2025
       description: Every team can use Claude to create high-quality work products
         faster than ever before. From code snippets and flowcharts to SVG graphics,
@@ -520,7 +542,7 @@ domains:
       verified: true
       website_url: https://lovable.dev/
     - date_added: 12/03/2025
-      description: Generate your full-stack web app in Wasp, React, Node.js and Prisma
+      description: Generate your full-stack web app in Wasp, React, Node.js and Prisma.
       icon_url: https://usemage.ai/favicon.ico
       name: Mage
       oss: true
@@ -533,8 +555,10 @@ domains:
       verified: false
       website_url: https://usemage.ai/
     - date_added: 12/03/2025
-      description: A new way of working with ChatGPT to write and code.
-      icon_url: ''
+      description: 'Canvas is a new interface for working with ChatGPT on writing
+        and coding projects that go beyond simple chat. Canvas opens in a separate
+        window, allowing you and ChatGPT to collaborate on a project. '
+      icon_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/512px-OpenAI_Logo.svg.png?20230731013808
       name: OpenAI Canvas
       oss: false
       popular: false
@@ -603,7 +627,7 @@ domains:
       icon_url: https://devin.ai/favicon.ico
       name: Devin
       oss: false
-      popular: false
+      popular: true
       tags:
       - GA
       - Autonomous Agent
@@ -670,7 +694,7 @@ domains:
       description: "The intelligent terminal.\nBecome a command line power user on\
         \ day one. Warp combines AI and your dev team\u2019s knowledge in one fast,\
         \ intuitive terminal."
-      icon_url: https://github.com/warpdotdev/Warp/files/10822991/Warp.icns.zip
+      icon_url: https://media2.dev.to/dynamic/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F5382%2Fc1b7ce03-8068-4f25-adfc-c5fcf95acae4.png
       name: Warp
       oss: false
       popular: false
@@ -747,7 +771,7 @@ domains:
         Unlike conventional assistants, Augment sees beyond the current file using
         codebase-wide indexing and specialized retrieval models. Try Augment Code
         for free to see the power of superior context and deep codebase understanding. '
-      icon_url: https://drive.google.com/uc?export=view&id=1ikcZy7sXl8E_oJuWb3cPV0fp3Wkw_ksg
+      icon_url: https://pbs.twimg.com/profile_images/1849169714100269057/YF9iS2wt_400x400.png
       keywords:
       - AI coding assistant
       - AI coding
@@ -773,25 +797,6 @@ domains:
       - Code
       verified: true
       website_url: https://augmentcode.com/
-    - date_added: 12/03/2025
-      description: Welcome to bolt.diy, the official open source version of Bolt.new
-        (previously known as oTToDev and bolt.new ANY LLM), which allows you to choose
-        the LLM that you use for each prompt! Currently, you can use OpenAI, Anthropic,
-        Ollama, OpenRouter, Gemini, LMStudio, Mistral, xAI, HuggingFace, DeepSeek,
-        or Groq models - and it is easily extended to use any other model supported
-        by the Vercel AI SDK! See the instructions below for running this locally
-        and extending it to include more models.
-      icon_url: ''
-      name: Bolt.diy
-      oss: true
-      popular: false
-      tags:
-      - OSS
-      - GA
-      - Editor
-      - Code
-      verified: false
-      website_url: https://github.com/stackblitz-labs/bolt.diy
     - date_added: 24/03/2025
       description: "Claude Code is an agentic coding tool that lives in your terminal,\
         \ understands your codebase, and helps you code faster through natural language\
@@ -802,7 +807,7 @@ domains:
         s architecture and logic\nExecuting and fixing tests, linting, and other commands\n\
         Searching through git history, resolving merge conflicts, and creating commits\
         \ and PRs"
-      icon_url: ''
+      icon_url: https://www.anthropic.com/favicon.ico
       name: Claude Code
       oss: false
       popular: false
@@ -814,7 +819,7 @@ domains:
       website_url: https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview
     - date_added: 12/03/2025
       description: Meet Cline, an AI assistant that can use your CLI and Editor.
-      icon_url: ''
+      icon_url: https://avatars.githubusercontent.com/u/184127137?s=48&v=4
       name: Cline
       oss: true
       popular: true
@@ -825,19 +830,6 @@ domains:
       - Code
       verified: false
       website_url: https://github.com/cline/cline
-    - date_added: 12/03/2025
-      description: Open-source local LLM integration for VS Code.
-      icon_url: ''
-      name: CodeLlama VSCode
-      oss: true
-      popular: false
-      tags:
-      - OSS
-      - GA
-      - Editor
-      - Code
-      verified: false
-      website_url: https://github.com/codellama/vscode-extension
     - date_added: 12/03/2025
       description: The enterprise AI code assistant. Sourcegraph goes beyond individual
         dev productivity, helping enterprises achieve consistency and quality at scale
@@ -910,7 +902,7 @@ domains:
 
         Prompt, run, and deploy fully functional apps. Fine is your AI full-stack
         engineer, handling everything from UI to deployment.'
-      icon_url: ''
+      icon_url: https://www.fine.dev/_next/static/media/logo.76f79362.svg
       name: Fine
       oss: false
       popular: false
@@ -921,9 +913,10 @@ domains:
       verified: false
       website_url: https://www.fine.dev/
     - date_added: 12/03/2025
-      description: The AI editor for everyone.
+      description: The AI editor for everyone. The OG IDE extension that first brought
+        us completions.
       icon_url: https://github.com/favicon.ico
-      name: Github Copilot
+      name: GitHub Copilot
       oss: false
       popular: true
       tags:
@@ -950,7 +943,7 @@ domains:
         \ you get a fully functional back-end and front-end as an output.\n\nPerfect\
         \ for CTOs, indie hackers, freelancers, agencies, or developer with a project\
         \ \u2013 with Marblism, you can bring it to life in 15 minutes."
-      icon_url: ''
+      icon_url: https://dev.marblism.com/img/logofull.png
       name: Marblism
       oss: false
       popular: false
@@ -961,10 +954,10 @@ domains:
       verified: false
       website_url: https://dev.marblism.com/
     - date_added: 12/03/2025
-      description: Mars is a devtool (Dev Tool) that lets you start building using
-        No-Code and zero coding skills as long as you stay within the scope of existing
-        micro apps. For example, you can 100% No-Code an Uber-like marketplace.
-      icon_url: ''
+      description: Mars is a devtool that lets you start building using No-Code and
+        zero coding skills as long as you stay within the scope of existing micro
+        apps. For example, you can 100% No-Code an Uber-like marketplace.
+      icon_url: https://media.licdn.com/dms/image/v2/C4D0BAQF_UGDuGCBKCw/company-logo_200_200/company-logo_200_200/0/1651733476834/marsx_logo?e=1748476800&v=beta&t=0XlTGIE7k0plPxwKQ6aXQ1iAkz11tfm9tyQrPPDq1Po
       name: MarsX
       oss: false
       popular: false
@@ -1005,7 +998,7 @@ domains:
       description: 'Build. Debug. Deploy. All in one tool
 
         Prompt, run, edit and deploy full-stack web apps.'
-      icon_url: ''
+      icon_url: https://cdn.prod.website-files.com/65d1e4e18eca49b7cb4a278e/66fb464d746bfa6514b8b927_frame_10%20(1).png
       name: Pythagora
       oss: false
       popular: false
@@ -1052,7 +1045,7 @@ domains:
     - date_added: 12/03/2025
       description: Roo Code is an AI-powered autonomous coding agent that lives in
         your editor.
-      icon_url: ''
+      icon_url: https://avatars.githubusercontent.com/u/82245679?s=48&v=4
       name: Roo-Code
       oss: true
       popular: false
@@ -1069,7 +1062,7 @@ domains:
         design of web automation pipelines, eliminating multi-step, tedious, manual
         work and revolutionizing how developers and teams approach the likes of web
         testing and process automation.
-      icon_url: ''
+      icon_url: https://storage.googleapis.com/aiagents_1/agent-logos/1732327966084-hcompanyailogo.jpeg
       name: Runner H
       oss: false
       popular: false
@@ -1082,7 +1075,7 @@ domains:
     - date_added: 12/03/2025
       description: A textarea that converts natural language to code. Trained GPT-3
         on high quality code in 40+ programming languages.
-      icon_url: https://sourceai.dev/favicon.ico
+      icon_url: https://sourceai.dev/img/logo/logo-xs.png
       name: Source AI
       oss: false
       popular: false
@@ -1171,7 +1164,7 @@ domains:
     - date_added: 12/03/2025
       description: Make your own AI tools without any coding. Share them or embed
         into your website to get more traffic and turn visitors into customers.
-      icon_url: ''
+      icon_url: https://unicorn-images.b-cdn.net/aa0979b4-99f7-4315-84f4-0fed3417a531?optimizer=gif&width=108&height=30
       name: Wrapifai
       oss: false
       popular: false
@@ -1199,7 +1192,7 @@ domains:
       website_url: https://a0.dev/
     - date_added: 24/03/2025
       description: The Most Powerful AI For Xcode.
-      icon_url: ''
+      icon_url: https://alexcodes.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.3e81a6a2.png&w=48&q=75
       name: Alex
       oss: false
       popular: false
@@ -1229,7 +1222,7 @@ domains:
       description: AI Powered Legacy Code Conversion That Produces Readable Java.
         Broadening the modernisation paths available and helping to solve legacy code
         for the long term
-      icon_url: ''
+      icon_url: https://www.eu-startups.com/wp-content/uploads/2021/12/Bloop.jpg
       name: Bloop
       oss: false
       popular: false
@@ -1243,7 +1236,7 @@ domains:
       description: Making AI understand massive custom software systems CAST technology
         can analyze 40 KLOC per minute, mapping the explicit and implicit interactions
         between all elements, across all layers, into deterministic metadata of the
-        entire application
+        entire application.
       icon_url: https://learn.castsoftware.com/hubfs/favicon-96x96.png
       name: Cast Software
       oss: false
@@ -1302,10 +1295,10 @@ domains:
     name: Prompting
     tools:
     - date_added: 12/03/2025
-      description: "Build Features. 100x Faster with Cursor. Supercharge Cursor with\
-        \ AI-ready rules and requirements\u2014 so it builds exactly what you need,\
-        \ 100x faster."
-      icon_url: ''
+      description: Build Features 100x Faster with Cursor. BrainGrid supercharges
+        Cursor refining requirements and detailing the implementation plan so it builds
+        what you need.
+      icon_url: https://www.braingrid.ai/logos/braingrid-dark.svg
       name: Brain Grid
       oss: false
       popular: false
@@ -1335,7 +1328,7 @@ domains:
 
         the latest news on the board, learn, connect, and discover jobs all in one
         place.'
-      icon_url: https://cursor.directory/favicon.ico
+      icon_url: https://www.cursor.com/favicon.ico
       name: Cursor Directory
       oss: false
       popular: false
@@ -1361,7 +1354,7 @@ domains:
       website_url: https://dotcursorrules.com/
     - date_added: 12/03/2025
       description: Give Cursor Agent an AI team and advanced skills.
-      icon_url: ''
+      icon_url: https://www.cursor.com/favicon.ico
       name: Cursor Tools
       oss: true
       popular: false
@@ -1391,7 +1384,7 @@ domains:
 
         Latitude helps you refine your prompts with data to deliver reliable AI products
         with confidence'
-      icon_url: ''
+      icon_url: https://github.com/latitude-dev/latitude/assets/5465249/4783e122-7150-4bcc-96e0-a3c9c4c1c53b
       name: Latitude
       oss: false
       popular: false
@@ -1404,7 +1397,7 @@ domains:
     - date_added: 12/03/2025
       description: A macOS native app designed to remove all the friction involved
         in iterating on your local files with the most powerful language models.
-      icon_url: https://repoprompt.com/favicon.ico
+      icon_url: https://repoprompt.com/images/RepoPromptLogo_NoBG.png
       name: RepoPrompt
       oss: false
       popular: false
@@ -1415,7 +1408,8 @@ domains:
       verified: false
       website_url: https://repoprompt.com/
     - date_added: 12/03/2025
-      description: Easily Ask Your LLM Coding Questions.
+      description: Easily Ask Your LLM Coding Questions. Just change the 'g' to a
+        'u'!
       icon_url: https://uithub.com/favicon.ico
       name: Uithub
       oss: false
@@ -1434,7 +1428,7 @@ domains:
       description: "AI-Supercharged Modernization . Transform legacy applications\
         \ through an AI-powered, requirements-driven approach \u2014 speeding up delivery\
         \ and reducing risk."
-      icon_url: https://crowdbotics.com/favicon.ico
+      icon_url: https://crowdbotics.com/wp-content/themes/wpx/assets/images/logo-black.svg
       name: Crowdbotics
       oss: false
       popular: false
@@ -1462,7 +1456,7 @@ domains:
     - date_added: 12/03/2025
       description: Can we enable anyone to create or adapt software for themselves,
         using AI and a fully-managed runtime?
-      icon_url: https://githubnext.com/favicon/favicon.png
+      icon_url: https://githubnext.com/assets/images/next-octocat.svg
       name: Github Spark
       oss: false
       popular: false
@@ -1518,7 +1512,9 @@ domains:
       verified: true
       website_url: https://squillo.io/
     - date_added: 12/03/2025
-      description: Code written by AI, powered by your specs.
+      description: "You make the spec, AI codes & maintains.\nTessl\u2019s AI native\
+        \ development platform delivers secure, high-quality, and auto-maintained\
+        \ code \u2014 all built to your specs."
       icon_url: https://cdn.prod.website-files.com/67192008f31ee7b52371fe29/6733c87768b5bfe41ab30e63_Favicon.png
       name: Tessl
       oss: false
@@ -1554,7 +1550,7 @@ domains:
         empowering you to achieve superior test coverage. Harness the expertise of
         AI engineers to boost your team's testing efficiency while reducing costs
         and ensuring top-notch quality.
-      icon_url: ''
+      icon_url: https://media.licdn.com/dms/image/v2/D560BAQET9Q_e4C1sDw/company-logo_200_200/company-logo_200_200/0/1725928982412/gruai_logo?e=1748476800&v=beta&t=OqifWXJn7_wd3RZ_lzw7EHKYsWXAQNTO24k1falJutc
       name: Gru
       oss: false
       popular: false
@@ -1579,7 +1575,7 @@ domains:
         80% coverage in weeks.
 
         No flakes. No maintenance.'
-      icon_url: ''
+      icon_url: https://www.heal.dev/heal-logo.png
       name: Heal
       oss: false
       popular: false
@@ -1604,7 +1600,7 @@ domains:
     - date_added: 24/03/2025
       description: Find bugs before your customers do. Give us your URL and we automatically
         discover, generate and run your Playwright end-to-end tests.
-      icon_url: ''
+      icon_url: https://cdn.prod.website-files.com/647618f73e4f16d380e8eed9/6488aa5d7c6bc8d56efc086e_nav-logo-small.png
       name: Octomind
       oss: false
       popular: false
@@ -1618,7 +1614,7 @@ domains:
       description: AI Agents for Debugging Testing System Design OnboardingC ode review
         DocumentationYour Codebase. Build custom agents using simple prompts that
         are expert on your codebase to perform engineering tasks for you
-      icon_url: ''
+      icon_url: https://cdn.prod.website-files.com/66f16517ab00018286b71576/671b548019a3652a2a2721be_Frame%201000011044.png
       name: Potpie
       oss: false
       popular: false
@@ -1635,7 +1631,7 @@ domains:
         a test suite.
 
         '
-      icon_url: ''
+      icon_url: https://qa.tech/wp-content/uploads/2024/01/logo-q.a-tech@2x.webp
       name: QA Tech
       oss: false
       popular: false
@@ -1669,7 +1665,7 @@ domains:
       - code testing
       name: Qodo
       oss: false
-      popular: false
+      popular: true
       social_urls:
       - https://x.com/QodoAI/highlights
       - https://www.linkedin.com/company/qodoai/posts/?feedView=all
@@ -1685,7 +1681,7 @@ domains:
 
         Powered by AI, perfected by humans. Ranger writes and maintains QA tests that
         find real bugs so you can keep moving forward.'
-      icon_url: ''
+      icon_url: https://cdn.prod.website-files.com/677c89cf6771b25de1d39cbf/677c89cf6771b25de1d39cc9_Ranger%20Logo%20(Transparent)%201.svg
       name: Ranger
       oss: false
       popular: false
@@ -1697,7 +1693,7 @@ domains:
       website_url: https://www.ranger.net/
     - date_added: 12/03/2025
       description: Code quality and security with AI remediation.
-      icon_url: https://www.sonarqube.org/favicon.ico
+      icon_url: https://assets-eu-01.kc-usercontent.com/8c150fae-fba4-0115-ef12-b10a8a4e2715/8e59bcad-6e39-41dc-abd9-a0e251e8d63f/Sonar%20%282%29.svg?w=128&h=32&auto=format&fit=clip
       name: SonarQube AI Code Fix
       oss: false
       popular: false
@@ -1722,7 +1718,7 @@ domains:
       website_url: https://www.spurtest.com/
     - date_added: 12/03/2025
       description: AI-driven no-code test automation platform.
-      icon_url: https://testsigma.com/favicon.ico
+      icon_url: https://website-static.testsigma.com/website-next/nextjs/3cb7b4/images/common/testsigma-logo-v3-dark.svg?format=webp&w=256&q=75
       name: TestSigma
       oss: false
       popular: false
@@ -1854,7 +1850,7 @@ domains:
 
         Supercharge your entire team with AI-driven contextual feedback. Supports
         all languages.'
-      icon_url: ''
+      icon_url: https://avatars.githubusercontent.com/u/132028505?s=200&v=4
       name: CodeRabbit
       oss: false
       popular: false
@@ -1867,7 +1863,7 @@ domains:
     - date_added: 12/03/2025
       description: "Codeflash uses AI to automatically find the most performant version\
         \ of your Python code through benchmarking\u2014while verifying it's correct."
-      icon_url: ''
+      icon_url: https://www.cmu.edu/swartz-center-for-entrepreneurship/education-and-resources/swartz-center-startup-teams/Startup%20Logos/codeflash.png
       name: Codeflash
       oss: false
       popular: false
@@ -1880,7 +1876,7 @@ domains:
     - date_added: 12/03/2025
       description: AI Code Reviews & Bug Fixes. Ellipsis is an AI developer tool that
         automatically reviews code and fixes bugs on pull requests.
-      icon_url: ''
+      icon_url: https://framerusercontent.com/images/fS5LA8uXlfUAL1mU8PbOjwnuBzY.png?scale-down-to=512
       name: Ellipsis
       oss: false
       popular: false
@@ -1896,7 +1892,7 @@ domains:
         Greptile reviews your PRs with full context of your codebase.
 
         3X more bugs caught, 4X faster merges'
-      icon_url: ''
+      icon_url: https://www.greptile.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-balanced.6f4adf82.png&w=1920&q=75
       name: Greptile
       oss: false
       popular: false
@@ -1912,8 +1908,8 @@ domains:
     tools:
     - date_added: 24/03/2025
       description: Architect with AI expertise. Excel with your tech stack. Drive
-        your business. Achieve it all with your Copilot for Tech Architecture
-      icon_url: ''
+        your business. Achieve it all with your Copilot for Tech Architecture.
+      icon_url: https://cdn.prod.website-files.com/655e46679a1a658360207c49/655e70c79b11c4f938d0e1dc_catio-logo-blue.svg
       name: Catio
       oss: false
       popular: false
@@ -1937,8 +1933,8 @@ domains:
       verified: false
       website_url: https://devdocs.io/
     - date_added: 12/03/2025
-      description: Documentation site generator with AI content creation
-      icon_url: https://doctave.com/favicon.ico
+      description: Documentation site generator with AI content creation.
+      icon_url: https://github.com/Doctave/doctave/raw/master/docs/_include/assets/doctave-logo-wide.png
       name: Doctave
       oss: false
       popular: false
@@ -1967,7 +1963,7 @@ domains:
       - knowledge provider
       name: Dosu
       oss: false
-      popular: false
+      popular: true
       social_urls:
       - https://x.com/dosu_ai
       tags:
@@ -1981,7 +1977,7 @@ domains:
       description: AI-powered platform that automates technical documentation. Spend
         less time understanding code and writing documentation and more time building
         extraordinary things.
-      icon_url: ''
+      icon_url: https://media.licdn.com/dms/image/v2/D560BAQGQ5N5I5ZavSQ/company-logo_200_200/company-logo_200_200/0/1727293103668/driver_ai_logo?e=1748476800&v=beta&t=QAu5HAfAk0qAxhKYzcxsh6pjF98j92BVLTNgE9r4zCg
       name: Driver
       oss: false
       popular: false
@@ -2016,8 +2012,8 @@ domains:
       verified: true
       website_url: https://firstmate.io/
     - date_added: 12/03/2025
-      description: Documentation platform with AI assistance
-      icon_url: https://www.gitbook.com/favicon.ico
+      description: Documentation platform with AI assistance.
+      icon_url: https://media.theresanaiforthat.com/icons/gitbook.svg?width=100
       name: GitBook AI
       oss: false
       popular: false
@@ -2031,7 +2027,7 @@ domains:
       description: Ship faster with self-healing wikis. Unlock rich insights about
         any codebase in minutes. Speed up onboarding. Break knowledge silos. Boost
         team productivity.
-      icon_url: ''
+      icon_url: https://www.komment.ai/_next/image?url=%2Fstatic%2Fidentity%2Fmedia-kit%2Fpng%2Fkomment-green.png&w=640&q=75
       name: Komment
       oss: false
       popular: false
@@ -2042,8 +2038,9 @@ domains:
       verified: false
       website_url: https://komment.ai/
     - date_added: 12/03/2025
-      description: AI-powered documentation generation and management
-      icon_url: https://mintlify.com/favicon.ico
+      description: Meet the next generation of documentation. AI-native, beautiful
+        out-of-the-box, and built for developers.
+      icon_url: https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/whdmhoaiiu4qobl5pmpd
       name: Mintlify
       oss: false
       popular: false
@@ -2054,8 +2051,8 @@ domains:
       verified: false
       website_url: https://mintlify.com/
     - date_added: 12/03/2025
-      description: API documentation with AI-powered suggestions
-      icon_url: https://readme.com/favicon.ico
+      description: API documentation with AI-powered suggestions.
+      icon_url: https://readme.com/static/brandkit/readme-blue.png
       name: ReadMe
       oss: false
       popular: false
@@ -2067,7 +2064,7 @@ domains:
       website_url: https://readme.com/
     - date_added: 12/03/2025
       description: Automate code diagram generation with LLMs.
-      icon_url: ''
+      icon_url: https://avatars.githubusercontent.com/u/182284829?s=48&v=4
       name: Swark
       oss: true
       popular: false
@@ -2099,8 +2096,8 @@ domains:
     name: Infrastructure As Code
     tools:
     - date_added: 12/03/2025
-      description: Artificial Intelligence Infrastructure-as-Code Generator
-      icon_url: https://aiac.dev/favicon.ico
+      description: Artificial Intelligence Infrastructure-as-Code Generator.
+      icon_url: https://aiac.dev/assets/logo.svg
       name: AIaC
       oss: true
       popular: false
@@ -2125,8 +2122,8 @@ domains:
       verified: false
       website_url: https://docs.gptscript.ai/
     - date_added: 12/03/2025
-      description: The Intelligent Infra-as-Code Editor
-      icon_url: https://infracopilot.io/favicon.ico
+      description: The Intelligent Infra-as-Code Editor.
+      icon_url: https://klo.dev/wp-content/uploads/2023/04/copilot_text-1-1536x292.png
       name: InfraCopilot
       oss: true
       popular: false
@@ -2158,7 +2155,7 @@ domains:
         conversations through conversation IDs and requires only basic configuration
         with organization context and resource URLs to function. Currently in preview,
         Pulumi is actively seeking feedback to refine the API before general availability.'
-      icon_url: https://www.pulumi.com/favicon.ico
+      icon_url: https://www.pulumi.com/images/logo/logo-on-black.svg
       name: Pulumi Copilot
       oss: false
       popular: false
@@ -2174,7 +2171,7 @@ domains:
     - date_added: 12/03/2025
       description: Stakpak is a DevOps IDE and API with built-in AI capabilities that
         helps developers quickly build, maintain and self-serve their software infrastructure.
-      icon_url: https://drive.google.com/uc?export=view&id=1B1NyqVmIYVUibSZY9jHflYQqFPGHOeYt
+      icon_url: https://media.licdn.com/dms/image/v2/D4D0BAQHybAynVHmCpg/company-logo_200_200/company-logo_200_200/0/1680898495184/dvpzla_logo?e=1748476800&v=beta&t=YIvIHM2h-hsCgeyhpXWpAFXs6ahgRT0XZcDSuaXIsrs
       keywords:
       - devops agents
       - code generation
@@ -2245,7 +2242,7 @@ domains:
       description: Clio is an AI-powered copilot designed to help you with DevOps-related
         tasks using CLI programs. It leverages OpenAI's capabilities to provide intelligent
         assistance directly from your command line.
-      icon_url: ''
+      icon_url: https://avatars.githubusercontent.com/u/158112119?s=48&v=4
       name: Clio
       oss: true
       popular: false
@@ -2260,7 +2257,7 @@ domains:
       description: Bits AI is a platform-wide copilot that helps you identify and
         remediate issues in your applications and infrastructure. You can query Bits
         AI in the Datadog web app, the Datadog mobile app, and in Slack.
-      icon_url: ''
+      icon_url: https://datadog-docs.imgix.net/img/dd_logo_n_70x75.png?ch=Width,DPR&fit=max&auto=format&w=70&h=75
       name: DataDog Bits AI
       oss: false
       popular: false
@@ -2273,7 +2270,7 @@ domains:
     - date_added: 24/03/2025
       description: "The all-in-one AI platform for on-call, incident response, and\
         \ status pages\u2014built for fast-moving teams."
-      icon_url: ''
+      icon_url: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmAk7Hc8DeHecf44kranLb9P7hsf0j-C89OQ&s
       name: Incident.io
       oss: false
       popular: false
@@ -2290,10 +2287,10 @@ domains:
         layer, seamlessly integrating with your environments, infrastructure, and
         tools. Build and manage secure, scalable, and predictable AI agents at the
         speed of development. '
-      icon_url: https://drive.google.com/uc?export=view&id=1Xmpp0z8RXjJ_12YvtQvF_KT2WrgwaF9J
+      icon_url: https://mms.businesswire.com/media/20241113350704/en/2298453/5/kubiya-ai-logo-2024_NEW_Bot_v2-02.jpg?download=1
       name: Kubiya
       oss: false
-      popular: false
+      popular: true
       tags:
       - Verified
       - GA
@@ -2302,7 +2299,7 @@ domains:
       verified: true
       website_url: https://docs.kubiya.ai/docs
     - date_added: 12/03/2025
-      description: AI Agent for Application Maintenance
+      description: AI Agent for Application Maintenance.
       icon_url: https://logicstar.ai/assets/images/website/icons/favicon.ico
       name: Logic Star
       oss: false
@@ -2369,7 +2366,7 @@ domains:
 
         Handles all alerts, performs root cause analysis, resolves incidents and makes
         on-call stress free.'
-      icon_url: ''
+      icon_url: https://resolve.ai/icons/logo.svg
       name: Resolve
       oss: false
       popular: false
@@ -2410,7 +2407,7 @@ domains:
       verified: false
       website_url: https://runme.dev/
     - date_added: 12/03/2025
-      description: SRE AI
+      description: "AI DevOps Agents\u200D for Enterprise Teams."
       icon_url: https://cdn.prod.website-files.com/66d14bf912cb9ef1ebeabe13/672ff1d81bb7070409cd3a1d_Group%20116046599.svg
       name: SRE AI
       oss: false
@@ -2422,7 +2419,7 @@ domains:
       verified: false
       website_url: https://sre.ai/
     - date_added: 12/03/2025
-      description: Autnomnous operaetor (see video)
+      description: Hierarchical Planning AI Research Company.
       icon_url: ''
       name: Sailplane
       oss: false
@@ -2435,7 +2432,7 @@ domains:
       website_url: https://sailplane.ai/
     - date_added: 12/03/2025
       description: You can also enjoy AI-driven chat support for instant coding assistance,
-        making your coding experience more efficient and enjoyable
+        making your coding experience more efficient and enjoyable.
       icon_url: ''
       name: Spec Coder
       oss: true
@@ -2482,7 +2479,7 @@ domains:
       description: 'Upgrade your company''s system monitoring in minutes
 
         The world''s best AI-first observability solution.'
-      icon_url: ''
+      icon_url: https://runsift.com/images/Horizontal_Main_Dark-1.svg
       name: Sift
       oss: false
       popular: false
@@ -2507,7 +2504,7 @@ domains:
         configurations, model muxing, and more. Additionally, CodeGate offers security
         analysis of AI-generated code, ensuring that recommendations follow best practices
         and safeguard your code's integrity.
-      icon_url: ''
+      icon_url: https://avatars.githubusercontent.com/u/110237746?s=48&v=4
       name: Code Gate
       oss: true
       popular: false
@@ -2571,18 +2568,22 @@ domains:
       verified: false
       website_url: https://semgrep.dev/
     - date_added: 12/03/2025
-      description: the fastest, most accurate, and most intelligently prioritized
-        SAST and AI code review tool on the market
-      icon_url: https://snyk.io/favicon.ico
+      description: "Snyk secures AI transformation with Snyk\u2019s trusted AI platform\
+        \ for developing fast, and securing modern applications. Snyk employs advanced\
+        \ Symbolic AI engines and GenAI LLMs to find and fix security vulnerabilities\
+        \ in code."
+      icon_url: https://res.cloudinary.com/snyk/image/upload/snyk-mktg-brandui/brand-logos/default-solid-light.svg
       name: Snyk DeepCode
       oss: false
-      popular: false
+      popular: true
+      social_urls:
+      - https://www.linkedin.com/company/snyk/
       tags:
       - GA
       - Vuln Scanning
       - DevSecOps
       verified: false
-      website_url: https://snyk.io/platform/deepcode-ai/
+      website_url: https://snyk.io/solutions/secure-ai-generated-code/
   - description: Check compliance and regulations
     level: 19
     name: Compliance
@@ -2596,9 +2597,10 @@ domains:
     name: Model
     tools:
     - date_added: 12/03/2025
-      description: Code Llama
-      icon_url: https://codellama.dev/favicon.ico
-      name: Code Llama
+      description: 'The open-source AI models you can fine-tune, distill and deploy
+        anywhere. '
+      icon_url: https://static.xx.fbcdn.net/rsrc.php/y9/r/tL_v571NdZ0.svg
+      name: Llama
       oss: false
       popular: false
       tags:
@@ -2606,19 +2608,7 @@ domains:
       - Model
       - AIE
       verified: false
-      website_url: https://codellama.dev/about
-    - date_added: 12/03/2025
-      description: Jina
-      icon_url: https://huggingface.co/favicon.ico
-      name: Jina
-      oss: false
-      popular: false
-      tags:
-      - GA
-      - Model
-      - AIE
-      verified: false
-      website_url: https://huggingface.co/jinaai/jina-embeddings-v2-base-code
+      website_url: https://www.llama.com/
     - date_added: 12/03/2025
       description: building frontier code models to automate software engineering
         and research.
@@ -2649,8 +2639,8 @@ domains:
     - date_added: 12/03/2025
       description: Poolside is building next generation AI for software engineering.
         We're building foundation models, an API, and an Assistant to bring the power
-        of generative AI to your developers
-      icon_url: ''
+        of generative AI to your developers.
+      icon_url: https://poolside.ai/assets/brand/png/poolside-avatar.png
       name: Poolside
       oss: false
       popular: false
@@ -2661,7 +2651,10 @@ domains:
       verified: false
       website_url: https://poolside.ai/
     - date_added: 12/03/2025
-      description: Starcoder
+      description: The StarCoder models are 15.5B parameter models trained on 80+
+        programming languages from The Stack (v1.2), with opt-out requests excluded.
+        The model uses Multi Query Attention, a context window of 8192 tokens, and
+        was trained using the Fill-in-the-Middle objective on 1 trillion tokens.
       icon_url: https://huggingface.co/favicon.ico
       name: Starcoder
       oss: false
@@ -2677,7 +2670,8 @@ domains:
     name: Code Benchmark
     tools:
     - date_added: 12/03/2025
-      description: SWE Bench
+      description: "SWE Bench answers the question: \nCan Language Models Resolve\
+        \ Real-World GitHub Issues?"
       icon_url: https://www.swebench.com/favicon.ico
       name: SWE Bench
       oss: false
@@ -2708,7 +2702,7 @@ domains:
     - date_added: 12/03/2025
       description: Daytona is a Secure and Elastic Infrastructure for Running AI-Generated
         Code.
-      icon_url: https://drive.google.com/uc?export=view&id=1p4_HltOmsD24q2gilgN1Q1jYgMCDCPTO
+      icon_url: https://mma.prnewswire.com/media/2354935/Daytona_Logo.jpg?p=publish
       name: Daytona
       oss: false
       popular: false
@@ -2720,11 +2714,11 @@ domains:
       verified: true
       website_url: https://www.daytona.io/
     - date_added: 12/03/2025
-      description: RUN AI-GENERATED code SECURELY in your APP
+      description: Run AI generated code securely in your app.
       icon_url: https://e2b.dev/favicon.ico
       name: E2B
       oss: false
-      popular: false
+      popular: true
       tags:
       - GA
       - Execution Sandbox
@@ -2748,7 +2742,7 @@ domains:
       description: 'Gitpod SDK: infrastructure for software engineering agents. The
         infrastructure building blocks for orchestrating and building software engineering
         (SWE) agents at scale.'
-      icon_url: ''
+      icon_url: https://www.gitpod.io/images/media-kit/logo-light-theme.png
       name: Gitpod SDK
       oss: false
       popular: false
@@ -2780,7 +2774,7 @@ domains:
         programs safely, anywhere.
 
         Locally or in the cloud'
-      icon_url: ''
+      icon_url: https://avatars.githubusercontent.com/u/44205449?s=48&v=4
       name: Wasmer
       oss: false
       popular: false
