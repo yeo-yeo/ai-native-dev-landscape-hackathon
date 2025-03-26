@@ -371,6 +371,23 @@ domains:
       - Product
       verified: false
       website_url: https://keak.com/
+    - date_added: 26/03/2025
+      description: Oakie's platform empowers you to build custom AI agents that acts
+        on the most critical business tasks, as you would, ensuring human expertise
+        remains at the center of every step.
+      icon_url: https://media.licdn.com/dms/image/v2/D4D0BAQHwQfXDqkCK5g/company-logo_200_200/company-logo_200_200/0/1732214748113/oakminer_ai_logo?e=2147483647&v=beta&t=SK-ydCHOHa3tiG0-LhqKWiE4jWi4tqILSzFUOKpEaug
+      name: Oakie
+      oss: false
+      popular: false
+      social_urls:
+      - https://www.linkedin.com/company/oakie-ai/
+      tags:
+      - Verified
+      - GA
+      - Nocode
+      - Product
+      verified: true
+      website_url: https://www.oakie.ai/
     - date_added: 12/03/2025
       description: Visual builder for React applications with code export.
       icon_url: https://www.plasmic.app/favicon.ico
@@ -567,6 +584,19 @@ domains:
       - Product
       verified: false
       website_url: https://usemage.ai/
+    - date_added: 26/03/2025
+      description: Build anything in any stack, with just natural language, on your
+        desktop.
+      icon_url: https://memex.tech/images/memex-logo-bl-brandmark-dk-wordmark.svg
+      name: Memex
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Prototyping
+      - Product
+      verified: false
+      website_url: https://memex.tech/
     - date_added: 12/03/2025
       description: 'Canvas is a new interface for working with ChatGPT on writing
         and coding projects that go beyond simple chat. Canvas opens in a separate
@@ -1099,13 +1129,9 @@ domains:
       verified: false
       website_url: https://sourceai.dev/
     - date_added: 12/03/2025
-      description: Sourcegraph is a platform to automate and accelerate the SDLC for
-        large production codebases. It provides AI code generation, technical Q&A,
-        code search, and large scale code migration tools to some of the largest and
-        most forward looking software orgs in the world, including Stripe, Uber, Booking.com,
-        Palo Alto Networks, and the US government.
+      description: \
       icon_url: https://cdn.prod.website-files.com/673f71b4ebbb99190437de75/679a3e4d8b05843d7a83fb51_favicon.png
-      name: Source Graph
+      name: Sourcegraph
       oss: false
       popular: false
       social_urls:
@@ -1187,6 +1213,19 @@ domains:
       - Code
       verified: false
       website_url: https://wrapifai.com/
+    - date_added: 26/03/2025
+      description: A next-generation code editor designed for high-performance collaboration
+        with humans and AI.
+      icon_url: https://zed.dev/favicon_black_64.png
+      name: Zed
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://zed.dev
   - description: Specialized in Frontend and Mobile code generation
     level: 6
     name: Frontend & Mobile
@@ -1234,7 +1273,7 @@ domains:
     - date_added: 24/03/2025
       description: AI Powered Legacy Code Conversion That Produces Readable Java.
         Broadening the modernisation paths available and helping to solve legacy code
-        for the long term
+        for the long term.
       icon_url: https://www.eu-startups.com/wp-content/uploads/2021/12/Bloop.jpg
       name: Bloop
       oss: false
@@ -1274,6 +1313,23 @@ domains:
       - Code
       verified: false
       website_url: https://github.com/joshpxyne/gpt-migrate
+    - date_added: 24/03/2025
+      description: Legacy modernization technology company that applies AI-enhanced
+        tools and disciplined methods to continuously modernize, operate, and innovate
+        on critical business applications, especially those on mainframes.
+      icon_url: https://cdn.prod.website-files.com/6582d7e2f6a63e5e80e6d1b8/65ccf821ffc51234af225ec3_favicon-MO.ico
+      keywords:
+      - Mainframe
+      - Migration
+      name: Mechanical Orchard
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Migration
+      - Code
+      verified: false
+      website_url: https://www.mechanical-orchard.com/
     - date_added: 12/03/2025
       description: "OpenRewrite is an open-source automated refactoring ecosystem\
         \ for source code, enabling developers to effectively eliminate technical\
@@ -1303,6 +1359,21 @@ domains:
       - Code
       verified: true
       website_url: https://docs.openrewrite.org/
+    - date_added: 24/03/2025
+      description: 'Tern automates code migrations, cutting the effort required by
+        90%. By combining deep search, AI-driven transformations, and small, reviewable
+        PRs, Tern finds every line of code to change, automates the fix, and guides
+        you to ship incrementally with minimal disruption. '
+      icon_url: https://tern.sh/tern-logo-filled.png
+      name: Tern
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Migration
+      - Code
+      verified: false
+      website_url: https://tern.sh
   - description: Collections of prompts and generating prompts
     level: 8
     name: Prompting
@@ -1598,6 +1669,19 @@ domains:
       verified: false
       website_url: https://www.mabl.com/
     - date_added: 24/03/2025
+      description: Meticulous monitors your daily interactions with your application
+        as you develop it.
+      icon_url: https://cdn.prod.website-files.com/65310f49fd3cda9049c4e065/65365f72329742981f9b95b7_favicon.png
+      name: Meticulous
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://www.meticulous.ai/
+    - date_added: 24/03/2025
       description: Find bugs before your customers do. Give us your URL and we automatically
         discover, generate and run your Playwright end-to-end tests.
       icon_url: https://cdn.prod.website-files.com/647618f73e4f16d380e8eed9/6488aa5d7c6bc8d56efc086e_nav-logo-small.png
@@ -1845,6 +1929,30 @@ domains:
       - Quality Assurance
       verified: true
       website_url: https://bismuth.sh/
+    - date_added: 26/03/2025
+      description: 'Bito brings contextual awareness to each review, offering insights
+        just like a senior engineer.
+
+
+        Supports GitHub cloud, GitHub Enterprise (self-hosted), GitLab cloud, GitLab
+        (self-hosted), and Bitbucket cloud. AzureDevOps coming soon.
+
+
+        Suggestions and code fixes at the line level and inline. Accept suggestions
+        with 1 click.'
+      icon_url: https://bito.ai/wp-content/uploads/2023/10/Logo-Bito-Black-cropped.svg
+      keywords:
+      - code review
+      - AI code review
+      name: Bito
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Review
+      - Quality Assurance
+      verified: false
+      website_url: https://bito.ai/
     - date_added: 24/03/2025
       description: 'Cut Code Review Time & Bugs in Half
 
@@ -1887,6 +1995,20 @@ domains:
       verified: false
       website_url: https://www.ellipsis.dev/
     - date_added: 24/03/2025
+      description: 'The AI developer productivity platform
+
+        Graphite helps teams on GitHub ship higher quality software, faster.'
+      icon_url: https://graphite.dev/favicon/apple-touch-icon.png
+      name: Graphite
+      oss: false
+      popular: false
+      tags:
+      - Beta
+      - Review
+      - Quality Assurance
+      verified: false
+      website_url: https://graphite.dev
+    - date_added: 24/03/2025
       description: 'The AI Code Review Bot
 
         Greptile reviews your PRs with full context of your codebase.
@@ -1902,6 +2024,27 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://www.greptile.com/
+    - date_added: 26/03/2025
+      description: 'Get code reviews anytime you want in GitHub, GitLab, or your favorite
+        IDE.
+
+
+        Built to understand your full project and adaptable to your review styles,
+        Sourcery can review code in all modern languages.'
+      icon_url: https://avatars.githubusercontent.com/u/36609879?s=200&v=4
+      name: Sourcery
+      oss: false
+      popular: false
+      social_urls:
+      - https://uk.linkedin.com/company/sourcery-ai
+      - https://twitter.com/SourceryAI/
+      tags:
+      - Verified
+      - GA
+      - Review
+      - Quality Assurance
+      verified: true
+      website_url: https://sourcery.ai
   - description: Help with mananging documentation
     level: 14
     name: Documentation
@@ -1919,6 +2062,31 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://www.catio.tech/
+    - date_added: 26/03/2025
+      description: Cloud Architect AI transforms how developers and architects design
+        cloud infrastructure by leveraging AI to generate architecture diagrams and
+        infrastructure-as-code from natural language requirements. Simply describe
+        what you need, and the AI will propose multiple architecture options with
+        cost estimates and ready-to-deploy Terraform code.
+      icon_url: https://github.com/favicon.ico
+      keywords:
+      - Documentation
+      - Knowledge sharing
+      - Architecture
+      - Infrastructure
+      - Cloud
+      name: Cloud Architect AI
+      oss: true
+      popular: false
+      social_urls:
+      - https://x.com/Siddhant_K_code/status/1898696089299271863
+      tags:
+      - OSS
+      - GA
+      - Documentation
+      - Quality Assurance
+      verified: false
+      website_url: https://github.com/Siddhant-K-code/cloud-architect-ai
     - date_added: 12/03/2025
       description: DevDocs combines multiple API documentations in a fast, organized,
         and searchable interface.
@@ -2023,6 +2191,24 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://www.gitbook.com/
+    - date_added: 26/03/2025
+      description: Turn any GitHub repository into an interactive diagram for visualization.
+        It's a great way to see the overall system design!
+      icon_url: https://gitdiagram.com/favicon.ico
+      keywords:
+      - Documentation
+      - Knowledge sharing
+      - GA
+      name: GitDiagram
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Documentation
+      - Quality Assurance
+      verified: false
+      website_url: https://github.gg/
     - date_added: 12/03/2025
       description: Ship faster with self-healing wikis. Unlock rich insights about
         any codebase in minutes. Speed up onboarding. Break knowledge silos. Boost
@@ -2504,6 +2690,27 @@ domains:
       - DevOps
       verified: false
       website_url: https://runsift.com/
+    - date_added: 26/03/2025
+      description: "TargetBoard is an AI-powered KPI management system that eliminates\
+        \ the data hassle, saving managers hours every week. It seamlessly integrates\
+        \ with all your systems, automatically aggregates and customizes KPIs, and\
+        \ provides real-time insights\u2014without relying on a data team. Stay ahead\
+        \ of targets, prevent QBR surprises, and make informed decisions effortlessly.\
+        \ With TargetBoard, managers can focus on execution, align teams around the\
+        \ right metrics, and drive performance\u2014without chasing data. \U0001F680"
+      icon_url: https://cdn.prod.website-files.com/67325f4ab623069509c26a06/67325f4ab623069509c26a92_webclip.png
+      name: Targetboard
+      oss: false
+      popular: false
+      social_urls:
+      - https://www.linkedin.com/company/targetboard/
+      tags:
+      - Verified
+      - GA
+      - Observability
+      - DevOps
+      verified: true
+      website_url: https://www.targetboard.ai
   description: DevOps related
   level: 4
   name: DevOps
@@ -2530,6 +2737,24 @@ domains:
       - DevSecOps
       verified: false
       website_url: https://github.com/stacklok/codegate
+    - date_added: 26/03/2025
+      description: "Corgea helps developers ship code quickly without compromising\
+        \ security. By combining advanced LLMs and deep code analysis, Corgea deeply\
+        \ understands your codebase, detecting and automatically fixing previously\
+        \ undetectable vulnerabilities like business logic flaws, broken authentication,\
+        \ and API security issues\u2014all while significantly reducing false positives.\
+        \ It integrates seamlessly into your workflow, reviewing code directly during\
+        \ pull requests or even within your IDE."
+      icon_url: https://framerusercontent.com/images/CXMvm4EO18HFIwmMLtdSK0qIvyA.png
+      name: Corgea
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Vuln Scanning
+      - DevSecOps
+      verified: false
+      website_url: https://corgea.com
     - date_added: 12/03/2025
       description: "DryRun Security delivers cutting-edge, contextual security analysis\
         \ for every pull request using our innovative CSA methodology. We prioritize\
@@ -2612,6 +2837,95 @@ domains:
     name: Model
     tools:
     - date_added: 12/03/2025
+      description: Hybrid reasoning model, state-of-the-art coding skills, computer
+        use, and 200K context window.
+      icon_url: https://www.anthropic.com/favicon.ico
+      name: Claude Sonnet
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://www.anthropic.com/claude/sonnet
+    - date_added: 12/03/2025
+      description: CodeSage embedding models generate representations that can measure
+        the semantic relatedness of source code snippets. CodeSage-V2 outperforms
+        OpenAI text-embedding-3, text-embedding-ada-002, and Voyage-Code-002 on various
+        code retrieval tasks.
+      icon_url: ''
+      name: CodeSage
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://code-representation-learning.github.io/codesage-v2.html
+    - date_added: 12/03/2025
+      description: Codestral is an open-weight generative AI model explicitly designed
+        for code generation tasks. It helps developers write and interact with code
+        through a shared instruction and completion API endpoint. As it masters code
+        and English, it can be used to design advanced AI applications for software
+        developers.
+      icon_url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Mistral_AI_logo_%282025%E2%80%93%29.svg/1024px-Mistral_AI_logo_%282025%E2%80%93%29.svg.png
+      name: Codestral
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://mistral.ai/news/codestral
+    - date_added: 12/03/2025
+      description: DeepSeek Coder comprises a series of code language models trained
+        from scratch on both 87% code and 13% natural language in English and Chinese,
+        with each model pre-trained on 2T tokens. We provide various sizes of the
+        code model, ranging from 1B to 33B versions. Each model is pre-trained on
+        repo-level code corpus by employing a window size of 16K and a extra fill-in-the-blank
+        task, resulting in foundational models (DeepSeek-Coder-Base). We further fine-tune
+        the base model with 2B tokens of instruction data to get instruction-tuned
+        models, namedly DeepSeek-Coder-Instruct.
+      icon_url: https://cdn.deepseek.com/logo.png?x-image-process=image%2Fresize%2Cw_828
+      name: DeepSeek Coder
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://deepseekcoder.github.io/
+    - date_added: 12/03/2025
+      description: 'Pro: most powerful multi-model thinking model. Flash: low latency.'
+      icon_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/2560px-Google_Gemini_logo.svg.png
+      name: Google Gemini
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://ai.google.dev/gemini-api/docs/models
+    - date_added: 12/03/2025
+      description: A collection of lightweight, state-of-the-art open models built
+        from the same research and technology that powers our Gemini 2.0 models.
+      icon_url: https://ai.google.dev/gemma/images/gemma_sq.png
+      name: Google Gemma
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://ai.google.dev/gemma
+    - date_added: 12/03/2025
       description: 'The open-source AI models you can fine-tune, distill and deploy
         anywhere. '
       icon_url: https://static.xx.fbcdn.net/rsrc.php/y9/r/tL_v571NdZ0.svg
@@ -2652,6 +2966,19 @@ domains:
       verified: false
       website_url: https://openai.com/index/openai-codex/
     - date_added: 12/03/2025
+      description: Foundational models that support code, from reasoning models to
+        raw inteligence.
+      icon_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/512px-OpenAI_Logo.svg.png?20230731013808
+      name: OpenAI Models
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://platform.openai.com/docs/models
+    - date_added: 12/03/2025
       description: Poolside is building next generation AI for software engineering.
         We're building foundation models, an API, and an Assistant to bring the power
         of generative AI to your developers.
@@ -2680,10 +3007,113 @@ domains:
       - AIE
       verified: false
       website_url: https://huggingface.co/bigcode/starcoder
+    - date_added: 12/03/2025
+      description: Grok 3 (Think) also attained 84.6% on graduate-level expert reasoning
+        (GPQA), and 79.4% on LiveCodeBench for code generation and problem-solving.
+        Furthermore, Grok 3 mini reaches a new frontier in cost-efficient reasoning
+        for STEM tasks that don't require as much world knowledge, reaching 95.8%
+        on AIME 2024 and 80.4% on LiveCodeBench.
+      icon_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/XAI_Logo.svg/512px-XAI_Logo.svg.png
+      name: xAI Grok
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://x.ai/news/grok-3
   - description: Benchmarks for code generation
     level: 21
     name: Code Benchmark
     tools:
+    - date_added: 12/03/2025
+      description: CoIR (Code Information Retrieval) benchmark, is designed to evaluate
+        code retrieval capabilities. CoIR includes 10 curated code datasets, covering
+        8 retrieval tasks across 7 domains. In total, it encompasses two million documents.
+        It also provides a common and easy Python framework, installable via pip,
+        and shares the same data schema as benchmarks like MTEB and BEIR for easy
+        cross-benchmark evaluations.
+      icon_url: ''
+      name: CoIR
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Code Benchmark
+      - AIE
+      verified: false
+      website_url: https://github.com/CoIR-team/coir
+    - date_added: 12/03/2025
+      description: 'Many programs are challenging for language models (LMs) to generate
+        using their parametric knowledge alone, yet most works generate programs solely
+        based on problem descriptions. Given the success of retrieval-augmented generation
+        in many text-oriented tasks, providing external resources such as library
+        documentation or tutorials can facilitate code generation as well. Despite
+        a few efforts on this, retrieval-augmented code generation (RACG) is still
+        under-explored on various tasks and retrieval sources.
+
+
+        In this work, we conduct a systematic, large-scale analysis by asking: in
+        what scenarios can current retrievers benefit code generation models? and
+        what challenges do they have? We first curate a comprehensive evaluation benchmark,
+        CodeRAG-Bench, encompassing three categories of code generation tasks, including
+        general programming, open-domain, and repository-level problems. We also aggregate
+        documents from five sources for models to retrieve contexts from: competition
+        solutions, online tutorials, library documentation, StackOverflow posts, and
+        GitHub repositories.
+
+
+        We examine top-performing models on CodeRAG-Bench by providing contexts retrieved
+        from each or multiple sources. Although high-quality contexts can benefit
+        code generation, current retrieval models often struggle to fetch useful contexts,
+        and generation models minimally improve when having limited context lengths
+        or RAG abilities. We hope the community uses CodeRAG-Bench as an effective
+        testbed and continues to build better code-oriented RAG systems to leverage
+        the full power of RACG.'
+      icon_url: ''
+      name: CodeRAG-Bench
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Code Benchmark
+      - AIE
+      verified: false
+      website_url: https://code-rag-bench.github.io/
+    - date_added: 12/03/2025
+      description: This is an evaluation harness for the HumanEval problem solving
+        dataset described in the paper "Evaluating Large Language Models Trained on
+        Code".
+      icon_url: ''
+      name: HumanEval
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Code Benchmark
+      - AIE
+      verified: false
+      website_url: https://github.com/openai/human-eval
+    - date_added: 12/03/2025
+      description: The Salesforce/SFR-Embedding-Code is a generalist embedding model
+        family for multilingual and multi-task code and Text retrieval. It demonstrates
+        superior performance compared to various open-source code embedding models
+        across multiple code retrieval tasks.
+      icon_url: ''
+      name: SFR-Embedding-Code
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Code Benchmark
+      - AIE
+      verified: false
+      website_url: https://huggingface.co/Salesforce/SFR-Embedding-Code-2B_R
     - date_added: 12/03/2025
       description: "SWE Bench answers the question: \nCan Language Models Resolve\
         \ Real-World GitHub Issues?"
