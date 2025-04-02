@@ -48,6 +48,31 @@ domains:
       - Product
       verified: false
       website_url: https://chatprd.ai/
+    - date_added: 26/03/2025
+      description: Cloud Architect AI transforms how developers and architects design
+        cloud infrastructure by leveraging AI to generate architecture diagrams and
+        infrastructure-as-code from natural language requirements. Simply describe
+        what you need, and the AI will propose multiple architecture options with
+        cost estimates and ready-to-deploy Terraform code.
+      icon_url: https://github.com/favicon.ico
+      keywords:
+      - Documentation
+      - Knowledge sharing
+      - Architecture
+      - Infrastructure
+      - Cloud
+      name: Cloud Architect AI
+      oss: true
+      popular: false
+      social_urls:
+      - https://x.com/Siddhant_K_code/status/1898696089299271863
+      tags:
+      - OSS
+      - GA
+      - Requirements
+      - Product
+      verified: false
+      website_url: https://github.com/Siddhant-K-code/cloud-architect-ai
     - date_added: 12/03/2025
       description: 'Your AI Companion To Help You Code Anything Code
 
@@ -221,6 +246,20 @@ domains:
       - Product
       verified: false
       website_url: https://chordio.com/
+    - date_added: 02/04/2025
+      description: Clone UI Designs Directly into Code. Screenshots and URLs are immediately
+        converted into code components.
+      icon_url: https://cloneui.org/_nuxt/logo.CpPKxWMh.png
+      name: Clone UI
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Design
+      - Product
+      verified: false
+      website_url: https://cloneui.org/
     - date_added: 12/03/2025
       description: 'Convert your Figma, Sketch and Adobe XD design to Flutter, React,
         Vue and more.
@@ -455,6 +494,18 @@ domains:
       - Product
       verified: false
       website_url: https://www.wized.com/
+    - date_added: 02/04/2025
+      description: Generate stunning websites with AI, no-code, free!
+      icon_url: https://wowslider.com/favicon.ico
+      name: Wowslider
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Nocode
+      - Product
+      verified: false
+      website_url: https://wowslider.com/website-builder/ai-website-cloner.html
   - description: Application Prototyping tools
     level: 4
     name: Prototyping
@@ -827,6 +878,37 @@ domains:
     level: 5
     name: Editor
     tools:
+    - date_added: 02/04/2025
+      description: 'Supercharge your coding workflow with AiderDesk, a sleek desktop
+        application that brings the power of aider to your fingertips with a modern
+        GUI. Leverage AI to accelerate your coding tasks while enjoying seamless project
+        management, cost tracking, and IDE integration.
+
+        '
+      icon_url: https://avatars.githubusercontent.com/u/2045570?s=48&v=4
+      name: Aider Desk
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://github.com/hotovo/aider-desk
+    - date_added: 02/04/2025
+      description: aiXcoder intelligent programming robo helps you develop efficiently
+        Enjoy programming fun.
+      icon_url: https://www.aixcoder.com/en/favicon.ico
+      name: Aix Coder
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://www.aixcoder.com/en/
     - date_added: 12/03/2025
       description: 'The Amazon Q Developer IDE plugin helps developers build faster
         by generating code suggestions and recommendations in near real time. Amazon
@@ -852,6 +934,19 @@ domains:
       - Code
       verified: true
       website_url: https://aws.amazon.com/q/developer/
+    - date_added: 02/04/2025
+      description: ShipBetterCode,Faster! Stop wrestling with documentation and debugging.
+        Start building what matter
+      icon_url: https://www.askcodi.com/favicon.ico
+      name: Ask Codi
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://www.askcodi.com/
     - date_added: 12/03/2025
       description: 'Augment Code is the AI-powered coding platform built for production-grade
         codebases.
@@ -1065,6 +1160,19 @@ domains:
       - Code
       verified: false
       website_url: https://trypear.ai/
+    - date_added: 02/04/2025
+      description: An AI coding agent designed for large tasks and real world projects.
+      icon_url: https://avatars.githubusercontent.com/u/148917357?s=48&v=4
+      name: Plandex
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://github.com/plandex-ai/plandex
     - date_added: 12/03/2025
       description: Project IDX is an AI-assisted workspace for full-stack, multiplatform
         app development in the cloud. From Google.
@@ -1300,6 +1408,20 @@ domains:
       - Code
       verified: false
       website_url: https://trae.ai/
+    - date_added: 02/04/2025
+      description: Void is an open source Cursor alternative. Write code with the
+        best AI tools, use any model, and retain full control over your data.
+      icon_url: https://voideditor.com/icon.png?fe8088bdbfb5a2cf
+      name: Void Editor
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://voideditor.com/
     - date_added: 12/03/2025
       description: Built to keep you in flow state. The first agentic IDE, and then
         some. The Windsurf Editor is where the work of developers and AI truly flow
@@ -2243,6 +2365,21 @@ domains:
       - Quality Assurance
       verified: true
       website_url: https://sourcery.ai
+    - date_added: 02/04/2025
+      description: The AI assistant for your pull requests. What The Diff automatically
+        writes pull request descriptions, sends out summarized notifications to keep
+        non-technical stakeholders in the loop, and helps you to refactor minor issues
+        during the review.
+      icon_url: https://whatthediff.ai/favicon.svg
+      name: What The Diff
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Review
+      - Quality Assurance
+      verified: false
+      website_url: https://whatthediff.ai/
   - description: Help with mananging documentation
     level: 14
     name: Documentation
@@ -2260,31 +2397,6 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://www.catio.tech/
-    - date_added: 26/03/2025
-      description: Cloud Architect AI transforms how developers and architects design
-        cloud infrastructure by leveraging AI to generate architecture diagrams and
-        infrastructure-as-code from natural language requirements. Simply describe
-        what you need, and the AI will propose multiple architecture options with
-        cost estimates and ready-to-deploy Terraform code.
-      icon_url: https://github.com/favicon.ico
-      keywords:
-      - Documentation
-      - Knowledge sharing
-      - Architecture
-      - Infrastructure
-      - Cloud
-      name: Cloud Architect AI
-      oss: true
-      popular: false
-      social_urls:
-      - https://x.com/Siddhant_K_code/status/1898696089299271863
-      tags:
-      - OSS
-      - GA
-      - Documentation
-      - Quality Assurance
-      verified: false
-      website_url: https://github.com/Siddhant-K-code/cloud-architect-ai
     - date_added: 12/03/2025
       description: DevDocs combines multiple API documentations in a fast, organized,
         and searchable interface.
@@ -2912,6 +3024,19 @@ domains:
       - DevOps
       verified: false
       website_url: https://resolve.ai/
+    - date_added: 27/03/2025
+      description: AI-powered on-call and incident response. Trusted by leading companies
+        like NVIDIA, Squarespace, Canva, Figma, and more.
+      icon_url: https://cdn.prod.website-files.com/65eb28a668c15a253c5417a6/673df98239ce27792825c9be_256%20x%20256.png
+      name: Rootly
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://rootly.com
     - date_added: 12/03/2025
       description: RunWhen streamlines repetitive operations tasks 100x faster than
         traditional automation with AI responses for alerts, tickets, and chats.
@@ -3064,6 +3189,29 @@ domains:
       - DevSecOps
       verified: true
       website_url: https://www.aikido.dev/
+    - date_added: 29/03/2025
+      description: Arnica's behavior-based platform for application security provides
+        users with the first comprehensive pipelineless application security approach
+        which, in real-time, identifies and prevents risks in your software by utilizing
+        concepts of ChatOps and Platform Engineering.\n\nThe platform commoditizes
+        full risk visibility (e.g. git posture, secrets, SAST, SCA, IaC, licenses,
+        low package reputation), prioritization and ownership classification in a
+        free forever package.\n\nBy utilizing the pipelineless approach, 78% of all
+        issues flagged to developers are addressed before the code review stage. A
+        contributor to this data point is the AI code suggestion on SAST and IaC findings,
+        which is designed to validate the fix as part of the suggestion generation
+        and provide a short explaination why the generated code fixes the vulnerable
+        code.
+      icon_url: https://avatars.githubusercontent.com/u/82189482
+      name: Arnica
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Vuln Scanning
+      - DevSecOps
+      verified: false
+      website_url: https://www.arnica.io/
     - date_added: 12/03/2025
       description: CodeGate is an agent designed to make AI applications, coding assistants
         and agentic frameworks, safer and easier to consume and manage. It provides
@@ -3140,6 +3288,23 @@ domains:
       verified: true
       website_url: https://app.dryrun.security
     - date_added: 29/03/2025
+      description: "Endor Labs graphs your entire application\u2014including AI models,\
+        \ proprietary code, open source dependencies, containers, and CI/CD workflows\u2014\
+        to deliver precise, prioritized risk insights. By combining multiple AI agents,\
+        \ deep program analysis, and rich security data, it surfaces and helps fix\
+        \ the most critical issues across your stack\u2014whether code written by\
+        \ humans or AI."
+      icon_url: https://cdn.prod.website-files.com/656eaf5c6da3527caf362363/656ecc07555afac40df4c40e_Facicon.png
+      name: Endorlabs
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Vuln Scanning
+      - DevSecOps
+      verified: false
+      website_url: https://www.endorlabs.com/
+    - date_added: 29/03/2025
       description: 'Continuously ship high quality code:  Pixeebot goes with the flow.
         As your engineers or AI-copilots do their thing, Pixeebot monitors your repositories
         and pull requests, providing high quality fixes instantly.'
@@ -3209,6 +3374,21 @@ domains:
       - AIE
       verified: false
       website_url: https://www.anthropic.com/claude/sonnet
+    - date_added: 02/04/2025
+      description: 'Official research release for CodeT5 and CodeT5+ models for Code
+        Understanding and Generation from Salesforce Research, which are introduced
+        by the following papers:'
+      icon_url: ''
+      name: Code T5
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://github.com/salesforce/CodeT5
     - date_added: 12/03/2025
       description: CodeSage embedding models generate representations that can measure
         the semantic relatedness of source code snippets. CodeSage-V2 outperforms
@@ -3892,6 +4072,22 @@ domains:
       - AIE
       verified: false
       website_url: https://www.browserbase.com/
+    - date_added: 02/04/2025
+      description: 'Turn websites into: LLM-ready data , Power your AI apps with clean
+        data crawled from any website. It''s also open source.
+
+        '
+      icon_url: https://www.firecrawl.dev/favicon.ico
+      name: Firecrawl
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Browser
+      - AIE
+      verified: false
+      website_url: https://www.firecrawl.dev
     - date_added: 29/03/2025
       description: 'Automate Browser-Based Workflows with AI
 
