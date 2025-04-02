@@ -104,6 +104,20 @@ domains:
       - Product
       verified: false
       website_url: https://www.fullstackroadmap.com/
+    - date_added: 01/04/2025
+      description: Your AI Program Manager that gives Engineering and Product teams
+        visibility into goals, roadmap cost and ROI, initiative progress, and risks
+        throughout the product lifecycle.
+      icon_url: https://withluna.ai/assets/images/luna-logo-rgb.png
+      name: Luna AI
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Requirements
+      - Product
+      verified: false
+      website_url: https://withluna.ai/
     - date_added: 12/03/2025
       description: Convert product design and wireframe images to drafts of Product
         Requirements Documents and Engineering Task Tickets in seconds.
@@ -225,13 +239,13 @@ domains:
       verified: false
       website_url: https://github.com/gridaco/code
     - date_added: 12/03/2025
-      description: "Converting visual design (screenshot) into code implementation.Design2Code\
-        \ is maintained by the SALT lab from Stanford NLP. It includes two benchmark\
-        \ datasets: \n\nThe Design2Code benchmark dataset for the task of converting\
-        \ visual design (screenshot) into code implementation, which consists of 484\
-        \ real-world webpages from C4. \n\nThe Design2Code-Hard dataset, a subset\
-        \ of 80 extra difficult test cases collected from Github Pages that challenges\
-        \ SoTA VLMs' capabilities of Web UI generation."
+      description: "Converting visual design (screenshot) into code implementation.\L\
+        \LDesign2Code is maintained by the SALT lab from Stanford NLP. It includes\
+        \ two benchmark datasets: \n\nThe Design2Code benchmark dataset for the task\
+        \ of converting visual design (screenshot) into code implementation, which\
+        \ consists of 484 real-world webpages from C4. \n\nThe Design2Code-Hard dataset,\
+        \ a subset of 80 extra difficult test cases collected from Github Pages that\
+        \ challenges SoTA VLMs' capabilities of Web UI generation."
       icon_url: ''
       name: Design2Code
       oss: true
@@ -504,6 +518,23 @@ domains:
       - Product
       verified: false
       website_url: https://www.anthropic.com/news/artifacts
+    - date_added: 12/03/2025
+      description: Fine is your AI full-stack engineer, handling everything from UI
+        to deployment.
+      icon_url: https://www.fine.dev/_next/static/media/logo.76f79362.svg
+      name: Fine
+      oss: false
+      popular: false
+      social_urls:
+      - https://x.com/finedotdev
+      - https://www.linkedin.com/company/finedotdev
+      tags:
+      - Verified
+      - GA
+      - Prototyping
+      - Product
+      verified: true
+      website_url: https://fine.dev
     - date_added: 12/03/2025
       description: Can we enable anyone to create or adapt software for themselves,
         using AI and a fully-managed runtime?
@@ -966,21 +997,6 @@ domains:
       verified: false
       website_url: https://www.cursor.com/
     - date_added: 12/03/2025
-      description: 'Your Ideas, Built by AI
-
-        Prompt, run, and deploy fully functional apps. Fine is your AI full-stack
-        engineer, handling everything from UI to deployment.'
-      icon_url: https://www.fine.dev/_next/static/media/logo.76f79362.svg
-      name: Fine
-      oss: false
-      popular: false
-      tags:
-      - GA
-      - Editor
-      - Code
-      verified: false
-      website_url: https://www.fine.dev/
-    - date_added: 12/03/2025
       description: The AI editor for everyone. The OG IDE extension that first brought
         us completions.
       icon_url: https://github.com/favicon.ico
@@ -1076,6 +1092,51 @@ domains:
       - Code
       verified: false
       website_url: https://www.pythagora.ai
+    - date_added: 12/03/2025
+      description: "Agentic AI for Writing, Testing, and Reviewing Code\nModern software\
+        \ development needs efficient, high-quality, and well-tested code. Qodo\u2019\
+        s code integrity platform integrates AI into development workflows to help\
+        \ teams write, test, and review code faster and more reliably.\n\nQodo Gen:\
+        \ Agentic Coding in the IDE\nQodo Gen is an IDE plugin that helps generate\
+        \ code and tests based on context and intent. It assists with complex tasks,\
+        \ automates repetitive work, and supports top IDEs like VSCode and JetBrains.\
+        \ It works with leading models such as OpenAI o3 and DeepSeek-R1."
+      icon_url: https://pbs.twimg.com/profile_images/1891442891190304768/MINu6Uxr_400x400.png
+      keywords:
+      - Agentic AI
+      - AI code reviews
+      - code testing
+      name: Qodo Gen
+      oss: false
+      popular: true
+      social_urls:
+      - https://x.com/QodoAI/highlights
+      - https://www.linkedin.com/company/qodoai/posts/?feedView=all
+      tags:
+      - Verified
+      - GA
+      - Editor
+      - Code
+      verified: true
+      website_url: https://www.qodo.ai/products/qodo-gen/
+    - date_added: 30/03/2025
+      description: Open-source Autonomous AI Agent that handles engineering tasks
+        end-to-end. It deeply understands your codebase and integrates with your tools,
+        databases, and browsers to automate complex, multi-step tasks.
+      icon_url: https://refact.ai/favicon.png
+      name: Refact
+      oss: true
+      popular: true
+      social_urls:
+      - https://www.linkedin.com/company/86284492/
+      - https://x.com/refact_ai/
+      tags:
+      - OSS
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://refact.ai/
     - date_added: 12/03/2025
       description: "Replit turns your ideas into apps, fast. With Replit, anyone\u2014\
         technical or non-technical\u2014can build and deploy fully-functional, full-stack\
@@ -1518,6 +1579,19 @@ domains:
       - Code
       verified: false
       website_url: https://github.com/eastlondoner/cursor-tools
+    - date_added: 01/04/2025
+      description: Automatable GenAI using JavaScript.
+      icon_url: https://microsoft.github.io/genaiscript/images/logo.png
+      name: GenAIScript
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Prompting
+      - Code
+      verified: false
+      website_url: https://microsoft.github.io/genaiscript/
     - date_added: 12/03/2025
       description: A powerful tool for analyzing GitHub repositories and providing
         valuable insights about code quality, dependencies, and more.
@@ -1811,41 +1885,6 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://qa.tech
-    - date_added: 12/03/2025
-      description: "Agentic AI for Writing, Testing, and Reviewing Code\nModern software\
-        \ development needs efficient, high-quality, and well-tested code. Qodo\u2019\
-        s code integrity platform integrates AI into development workflows to help\
-        \ teams write, test, and review code faster and more reliably.\n\nQodo Merge:\
-        \ AI-Powered Code Reviews\nQodo Merge automates code reviews with AI that\
-        \ spots errors, suggests improvements, and enforces best practices. It scans\
-        \ for issues, flags areas for optimization, and provides direct feedback to\
-        \ ensure consistent, high-quality reviews.\n\nQodo Gen: Agentic Coding in\
-        \ the IDE\nQodo Gen is an IDE plugin that helps generate code and tests based\
-        \ on context and intent. It assists with complex tasks, automates repetitive\
-        \ work, and supports top IDEs like VSCode and JetBrains. It works with leading\
-        \ models such as OpenAI o3 and DeepSeek-R1.\n\nQodo Cover: Test Coverage in\
-        \ Pull Requests\nQodo Cover identifies gaps in test coverage during pull requests\
-        \ by analyzing code changes and existing tests. It ensures all functionality\
-        \ is tested before merging and makes it easy to add missing tests without\
-        \ leaving the development workflow."
-      icon_url: https://www.qodo.ai/wp-content/uploads/2024/09/favicon.png
-      keywords:
-      - Agentic AI
-      - AI code reviews
-      - code testing
-      name: Qodo
-      oss: false
-      popular: true
-      social_urls:
-      - https://x.com/QodoAI/highlights
-      - https://www.linkedin.com/company/qodoai/posts/?feedView=all
-      tags:
-      - Verified
-      - GA
-      - Testing
-      - Quality Assurance
-      verified: true
-      website_url: https://qodo.ai/
     - date_added: 24/03/2025
       description: 'Fast, reliable QA testing
 
@@ -2053,6 +2092,21 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://bito.ai/
+    - date_added: 01/04/2025
+      description: "AI Code Review Platform: \n- Understands your entire codebase\
+        \ and provides one-click fixes for code quality & security issues.\n- Supports\
+        \ GitHub, BitBucket, GitLab(Cloud & Self-Hosted), Azure DevOps(Cloud & Self-Hosted)\n\
+        - Supports all languages, integrates with IDEs and CI/CD tools(Jenkins, etc)."
+      icon_url: https://avatars.githubusercontent.com/u/151810221?s=96&v=4
+      name: CodeAnt AI
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Review
+      - Quality Assurance
+      verified: false
+      website_url: https://www.codeant.ai/
     - date_added: 24/03/2025
       description: 'Cut Code Review Time & Bugs in Half
 
@@ -2124,6 +2178,37 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://www.greptile.com/
+    - date_added: 12/03/2025
+      description: "Agentic AI for Writing, Testing, and Reviewing Code\nModern software\
+        \ development needs efficient, high-quality, and well-tested code. Qodo\u2019\
+        s code integrity platform integrates AI into development workflows to help\
+        \ teams write, test, and review code faster and more reliably.\n\nQodo Merge:\
+        \ AI-Powered Code Reviews\nQodo Merge automates code reviews with AI that\
+        \ spots errors, suggests improvements, and enforces best practices. It scans\
+        \ for issues, flags areas for optimization, and provides direct feedback to\
+        \ ensure consistent, high-quality reviews.\n\nQodo Cover: Test Coverage in\
+        \ Pull Requests\nQodo Cover identifies gaps in test coverage during pull requests\
+        \ by analyzing code changes and existing tests. It ensures all functionality\
+        \ is tested before merging and makes it easy to add missing tests without\
+        \ leaving the development workflow."
+      icon_url: https://pbs.twimg.com/profile_images/1891442891190304768/MINu6Uxr_400x400.png
+      keywords:
+      - Agentic AI
+      - AI code reviews
+      - code testing
+      name: Qodo Merge
+      oss: false
+      popular: true
+      social_urls:
+      - https://x.com/QodoAI/highlights
+      - https://www.linkedin.com/company/qodoai/posts/?feedView=all
+      tags:
+      - Verified
+      - GA
+      - Review
+      - Quality Assurance
+      verified: true
+      website_url: https://www.qodo.ai/products/qodo-merge/
     - date_added: 27/03/2025
       description: Making AI safe, secure and resilient with automatic verification
         and robustification
@@ -2599,11 +2684,12 @@ domains:
       verified: true
       website_url: https://anyshift.io
     - date_added: 12/03/2025
-      description: Cleric is an AI SRE teammate for platform engineering teams to
-        diagnose production alerts. It autonomously executes diagnostic commands across
-        your stack (Datadog, Kubernetes, Grafana) to surface evidence-based findings,
-        mimicking experienced on-call engineer investigations. It continuously improves
-        by building a knowledge base from past investigations and engineer feedback.
+      description: Cleric is an AI SRE teammate that helps software engineering quickly
+        diagnose production alerts. It investigates like an experienced engineer,
+        autonomously executing commands using your existing tools (Datadog, Kubernetes,
+        Grafana, etc) to quickly surface evidence based findings. Cleric continuously
+        improves by building a knowledge base of past investigations and engineering
+        feedback.
       icon_url: https://cdn.prod.website-files.com/65840bae4da744feef0ea01f/66549a6a5a8bc6388f822492_favicon-32x32.png
       name: Cleric
       oss: false
@@ -2616,7 +2702,7 @@ domains:
       - SRE
       - DevOps
       verified: false
-      website_url: https://cleric.io/
+      website_url: https://cleric.ai/
     - date_added: 12/03/2025
       description: Clio is an AI-powered copilot designed to help you with DevOps-related
         tasks using CLI programs. It leverages OpenAI's capabilities to provide intelligent
@@ -2955,6 +3041,29 @@ domains:
     level: 18
     name: Vuln Scanning
     tools:
+    - date_added: 01/04/2025
+      description: "Aikido is the get-it-done security platform for developers. Aikido\
+        \ centralizes all necessary code and cloud security scanners in one place.\n\
+        \nCreated by pragmatic engineers, we put open-source solutions and the developer\
+        \ experience first in what we build and how we build it. We focus on finding\
+        \ what matters, so you aren\u2019t bothered by what doesn\u2019t.\n\nWin customers,\
+        \ grow up-market, and ace compliance. Aikido makes security simple for SMEs\
+        \ and doable for developers without industry jargon, red tape, and frankly,\
+        \ BS."
+      icon_url: https://cdn.prod.website-files.com/642adcaf364024654c71df23/64340058f90820fbecde2973_symbol%20full%20color.svg
+      name: Aikido Security
+      oss: false
+      popular: false
+      social_urls:
+      - https://www.linkedin.com/company/aikido-security
+      - https://x.com/AikidoSecurity
+      tags:
+      - Verified
+      - GA
+      - Vuln Scanning
+      - DevSecOps
+      verified: true
+      website_url: https://www.aikido.dev/
     - date_added: 12/03/2025
       description: CodeGate is an agent designed to make AI applications, coding assistants
         and agentic frameworks, safer and easier to consume and manage. It provides
@@ -3482,7 +3591,7 @@ domains:
       website_url: https://modal.com/
     - date_added: 27/03/2025
       description: Open source SDK to build predictable, controllable and authenticated
-        I agents.
+        AI agents.
       icon_url: https://www.portialabs.ai/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F9hg81km3xjcr%2F7Ex7mg9gqhbeMNdq6wFMUF%2F6a8205b22d57863ea239d4646c892fe1%2FLogo_Portia_Line_Black.png&w=384&q=75
       name: Portia AI
       oss: true
@@ -3508,6 +3617,28 @@ domains:
       - AIE
       verified: false
       website_url: https://www.restack.io/
+    - date_added: 01/04/2025
+      description: 'AI writes code. Riza runs it.
+
+
+        Fast & API-first. Code starts running in <10ms. No sandbox start-up or deploy
+        needed.'
+      icon_url: https://mintlify.s3.us-west-1.amazonaws.com/rizainc/logo/light.svg
+      name: Riza
+      oss: false
+      popular: false
+      social_urls:
+      - https://www.youtube.com/@Riza-Inc
+      - https://linkedin.com/company/riza-inc
+      - https://x.com/rizaio
+      - https://bsky.app/profile/riza.io
+      - https://github.com/riza-io
+      tags:
+      - GA
+      - Execution Sandbox
+      - AIE
+      verified: false
+      website_url: https://riza.io/
     - date_added: 24/03/2025
       description: 'Run your apps
 
@@ -3665,6 +3796,22 @@ domains:
       - AIE
       verified: false
       website_url: https://mcp.so/
+    - date_added: 29/03/2025
+      description: Natoma's Hosted MCP Platform gives you a fast, easy, and intuitive
+        way to connect AI agents and LLMs with your applications and data. Our platform
+        removes the burden of complex API integrations, version management, and tedious
+        server configurations. In a few short clicks, you can start using our cloud-hosted
+        MCP servers to deploy agentic AI at scale.
+      icon_url: https://docs.natoma.ai/~gitbook/image?url=https%3A%2F%2F3162272256-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252FonKs2ajkjODmpcJhLaOW%252Fsites%252Fsite_8eF9B%252Flogo%252Fq0gC8gjrAp7wxUw9gWJV%252Flogo-docs.png%3Falt%3Dmedia%26token%3Dd14cbb80-2075-45db-82f1-08372ab3d7fe&width=260&dpr=2&quality=100&sign=de435d86&sv=2
+      name: Natoma
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - MCP
+      - AIE
+      verified: false
+      website_url: https://mcp.natoma.id/
     - date_added: 12/03/2025
       description: Extend your language via Model Context Protocol providers.
       icon_url: https://smithery.ai/icon.svg?d16eab68faeeea71
@@ -3677,6 +3824,41 @@ domains:
       - AIE
       verified: false
       website_url: https://smithery.ai/
+    - date_added: 29/03/2025
+      description: 'mcp.run is a registry of AI tools that can be developed by anyone
+        and used inside any AI application. These tools give AI models and applications
+        the capability to actually understand and affect the world in real-time.
+
+
+        Once you create an mcp.run account, you can install and configure tools from
+        the registry into named bundles we call profiles. You only need to do this
+        once, and your configured tools will follow you to any AI application you
+        have connected to mcp.run.'
+      icon_url: https://docs.mcp.run/img/mcp.run-logomark.svg
+      name: mcp.run
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - MCP
+      - AIE
+      verified: false
+      website_url: https://mcp.run/
+    - date_added: 29/03/2025
+      description: "The MCP Generator is a CLI tool that generates an MCP server based\
+        \ on your company\u2019s documentation & OpenAPI specification if available.\
+        \ It takes in your documentation and a OpenAPI spec and outputs an MCP server\
+        \ that can be used with any MCP client."
+      icon_url: https://www.mcpt.com/favicon.ico
+      name: mcpt
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - MCP
+      - AIE
+      verified: false
+      website_url: https://mintlify.com/docs/advanced/mcp/quickstart
   - description: Browser controlled tools
     level: 25
     name: Browser
@@ -3725,6 +3907,21 @@ domains:
       - AIE
       verified: false
       website_url: https://www.skyvern.com/
+    - date_added: 01/04/2025
+      description: Integrate external apps using function calling with connectors
+        that deeply understand the underlying systems. We provide the UI, flow, and
+        securely manage API keys and access tokens. Works with all LLMs and agentic
+        frameworks.
+      icon_url: https://framerusercontent.com/images/NX5IIq05l8xGvP5MuaAQ2xZliB8.svg
+      name: Superface
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Browser
+      - AIE
+      verified: false
+      website_url: https://superface.ai/
   description: AIE related
   level: 6
   name: AIE
