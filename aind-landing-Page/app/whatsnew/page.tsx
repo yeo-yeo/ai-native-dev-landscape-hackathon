@@ -1,5 +1,6 @@
 "use client";
 
+import { Suspense } from "react";
 import { useGlobaleContext } from "@/components/globale/globale-context";
 import CatalogCard from "@/components/shared/cards/catalog-car";
 import { useSearchParams } from "next/navigation";
@@ -18,11 +19,11 @@ const getSinceDate = (searchParams: URLSearchParams) => {
       sinceDate = new Date(Date.now());
     }
     return sinceDate;
-  };
+};
 
-export default function WhatsNew() {
+function WhatsNewContent() {
   const { toolsData } = useGlobaleContext();
-  const searchParams = useSearchParams();  
+  const searchParams = useSearchParams();
 
   const sinceDate = getSinceDate(searchParams);
   const sinceFormat = searchParams.get("format") || "html";
@@ -57,33 +58,34 @@ export default function WhatsNew() {
 
     const maxDescriptionLength = 250;
     if (sinceFormat === "html") {
-  return (
-    <section className="p-4 lg:px-0">
-      <div className="flex justify-between items-center mb-8">
-        <h1 className="heading-xl">What&apos;s New</h1>
-        {sinceDate && (
-          <p className="text-sm text-gray-600">
-            Showing {toolsAddedSinceDate.length} tools added since {new Date(sinceDate).toLocaleDateString()}
-          </p>
-        )}
-      </div>
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-px lg:border border-[#C9C3B9] rounded-lg overflow-hidden">
-        {latestTools.length > 0 ? (
-          latestTools.map((tool) => (
-            <CatalogCard
-              key={`${tool.domainName}-${tool.categoryName}-${tool.name}`}
-              tool={tool}
-              category={tool.categoryName}
-              domain={tool.domainName}
-            />
-          ))
-        ) : (
-          <div className="col-span-full text-center py-8">
-            No tools found for the selected date range
+      return (
+        <section className="p-4 lg:px-0">
+          <div className="flex justify-between items-center mb-8">
+            <h1 className="heading-xl">What&apos;s New</h1>
+            {sinceDate && (
+              <p className="text-sm text-gray-600">
+                Showing {toolsAddedSinceDate.length} tools added since {new Date(sinceDate).toLocaleDateString()}
+              </p>
+            )}
           </div>
-        )}
-      </div>
-    </section> )
+          <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-px lg:border border-[#C9C3B9] rounded-lg overflow-hidden">
+            {latestTools.length > 0 ? (
+              latestTools.map((tool) => (
+                <CatalogCard
+                  key={`${tool.domainName}-${tool.categoryName}-${tool.name}`}
+                  tool={tool}
+                  category={tool.categoryName}
+                  domain={tool.domainName}
+                />
+              ))
+            ) : (
+              <div className="col-span-full text-center py-8">
+                No tools found for the selected date range
+              </div>
+            )}
+          </div>
+        </section>
+      );
     } else {
       return (
         <div className="text-sm text-gray-600 whitespace-pre-wrap font-mono">
@@ -106,5 +108,13 @@ export default function WhatsNew() {
           </div>
         </div>
       );
-    };
-} 
+    }
+}
+
+export default function WhatsNew() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <WhatsNewContent />
+    </Suspense>
+  );
+}
