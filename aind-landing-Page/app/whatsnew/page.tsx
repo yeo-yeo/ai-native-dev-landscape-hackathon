@@ -60,7 +60,7 @@ export default function WhatsNew() {
   return (
     <section className="p-4 lg:px-0">
       <div className="flex justify-between items-center mb-8">
-        <h1 className="heading-xl">What's New</h1>
+        <h1 className="heading-xl">What&apos;s New</h1>
         {sinceDate && (
           <p className="text-sm text-gray-600">
             Showing {toolsAddedSinceDate.length} tools added since {new Date(sinceDate).toLocaleDateString()}
