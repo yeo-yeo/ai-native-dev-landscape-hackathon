@@ -133,7 +133,7 @@ domains:
       description: Your AI Program Manager that gives Engineering and Product teams
         visibility into goals, roadmap cost and ROI, initiative progress, and risks
         throughout the product lifecycle.
-      icon_url: https://withluna.ai/assets/images/luna-logo-rgb.png
+      icon_url: https://storage.googleapis.com/assets.withluna.ai/luna-logo-blue-background.png
       name: Luna AI
       oss: false
       popular: false
@@ -372,6 +372,20 @@ domains:
     level: 3
     name: Nocode
     tools:
+    - date_added: 09/04/2025
+      description: 'Self-Improving Websites:  Dalton runs experiments 10x faster,
+        learns what works, and improves your website 24/7. Better results, zero extra
+        effort.'
+      icon_url: https://cdn.prod.website-files.com/67ac916cbb2d7864353aa101/67ac916cbb2d7864353aa272_Fav.png
+      name: Dalton
+      oss: false
+      popular: false
+      tags:
+      - Beta
+      - Nocode
+      - Product
+      verified: false
+      website_url: https://www.getdalton.com/
     - date_added: 12/03/2025
       description: "Databutton's agent is the perfect AI developer for non-techies.\
         \ You talk about your app and needs \u2013 Databutton's reasoning agent learns,\
@@ -1146,6 +1160,20 @@ domains:
       - Code
       verified: false
       website_url: https://marsx.dev/
+    - date_added: 06/04/2025
+      description: Combines static analysis with AI to give coding tools deeper understanding
+        of code behavior. Provides a semantic understanding layer for AI coding tools
+        to help them make better decisions by providing deeper context.
+      icon_url: https://mintlify.s3.us-west-1.amazonaws.com/nuanced/logo/nuanced-dark.svg
+      name: Nuanced
+      oss: false
+      popular: false
+      tags:
+      - Beta
+      - Editor
+      - Code
+      verified: false
+      website_url: https://www.nuanced.dev/
     - date_added: 12/03/2025
       description: The Curated AI Code Editor. Supercharge your development with an
         up-to-date, curated inventory of the best AI tools, natively integrated for
@@ -2085,6 +2113,21 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://www.testim.io/
+    - date_added: 06/04/2025
+      description: AI-powered tool for generating unit and integration tests. Helps
+        engineering teams increase code coverage and prevent regressions with automated
+        test generation that runs in CI/CD pipelines. Creates happy path and edge
+        case tests with one-click commit to PRs and self-healing capabilities
+      icon_url: https://storage.googleapis.com/use-tusk-dev-static/favicon-32x32.png
+      name: Tusk
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://www.usetusk.ai/
     - date_added: 12/03/2025
       description: Imagine a world where every developer has a dedicated test resource.
       icon_url: https://ventrilo.ai/favicon.svg
@@ -2465,6 +2508,23 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://driver.ai/
+    - date_added: 09/04/2025
+      description: "Dyad is an open-source, standalone AI tool that levels up your\
+        \ coding skills and helps you build real-world software. It\u2019s more than\
+        \ a code generator\u2014it\u2019s a dedicated mentor and practical companion\
+        \ that runs locally, connects to your codebase, and complements\u2014not replaces\u2014\
+        your IDE."
+      icon_url: https://www.dyad.sh/favicon.ico
+      name: Dyad
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Documentation
+      - Quality Assurance
+      verified: false
+      website_url: https://www.dyad.sh/
     - date_added: 12/03/2025
       description: "Our mission is simple: Spread knowledge over your entire organisation\
         \ starting from the source of truth, your codebases.\n\nCritical knowledge\
@@ -3883,6 +3943,34 @@ domains:
       - AIE
       verified: false
       website_url: https://www.datadoghq.com/product/platform/watchdog/
+    - date_added: 07/04/2025
+      description: 'Datadog LLM Observability provides end-to-end tracing of LLM chains
+        with visibility into input-output, errors, token usage, and latency at each
+        step, along with robust output quality and security evaluations. By seamlessly
+        correlating LLM traces with APM and utilizing cluster visualization to identify
+        drifts, Datadog LLM Observability enables you to swiftly resolve issues and
+        scale AI applications in production, all while ensuring accuracy and safety.
+
+
+        * Quickly pinpoint root causes of errors and failures in the LLM chain with
+        full visibility into end-to-end traces for each user request
+
+        * Resolve issues like failed LLM calls, tasks, and service interactions by
+        analyzing inputs and outputs at each step of the LLM chain
+
+        * Enhance the relevance of information obtained through Retrieval-Augmented
+        Generation (RAG) by evaluating accuracy and identifying errors in the embedding
+        and retrieval steps'
+      icon_url: https://imgix.datadoghq.com/img/about/presskit/logo-v/dd_vertical_white.png
+      name: Datadog LLM Observability
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Observability
+      - AIE
+      verified: false
+      website_url: https://www.datadoghq.com/product/llm-observability/
     - date_added: 24/03/2025
       description: 'Open Source LLM Engineering Platform
 
@@ -3914,6 +4002,19 @@ domains:
       - AIE
       verified: false
       website_url: https://nexos.ai/
+    - date_added: 05/04/2025
+      description: "Orq.ai is the #1 AI engineering platform for product teams. Control\
+        \ GenAI at scale. No blind spots \u2013 no vibe checks."
+      icon_url: https://cdn.brandfetch.io/idtBhDRr2x/theme/dark/idHU0tpP2L.svg?c=1bxid64Mup7aczewSAYMX&t=1724528854349
+      name: Orq
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Observability
+      - AIE
+      verified: false
+      website_url: https://orq.ai/
     - date_added: 27/03/2025
       description: "Future-proof your observability.  Eliminate the need for multiple\
         \ tools. Logfire offers native AI integrations\u2014from LLM API calls to\
