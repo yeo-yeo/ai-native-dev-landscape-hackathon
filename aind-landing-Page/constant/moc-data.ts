@@ -25,6 +25,11 @@ export const navLinks = [
     label: "Landscape",
     href: "https://landscape.ainativedev.io/",
   },
+  {
+    id: 6,
+    label: "AINDCon2025",
+    href: "http://ainativedev.co/t4c",
+  },
 ];
 
 // Footer Social Links
