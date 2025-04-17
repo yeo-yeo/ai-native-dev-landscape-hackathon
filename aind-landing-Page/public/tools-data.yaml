@@ -187,6 +187,21 @@ domains:
       - Product
       verified: false
       website_url: https://specstory.com/
+    - date_added: 14/04/2025
+      description: Specifai is an AI-powered platform that transforms the project
+        requirements management. It combines AI technology with intuitive workflows
+        to automate documentation, generate and manage tasks - all while adapting
+        to your team's specific needs.
+      icon_url: https://avatars.githubusercontent.com/u/188236679?s=128
+      name: Specifai
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Requirements
+      - Product
+      verified: false
+      website_url: https://github.com/presidio-oss/specif-ai
     - date_added: 12/03/2025
       description: Make Writing PRDs a Breeze with ChatGPT.
       icon_url: https://writemyprd.com/favicon.ico
@@ -278,13 +293,13 @@ domains:
       verified: false
       website_url: https://github.com/gridaco/code
     - date_added: 12/03/2025
-      description: "Converting visual design (screenshot) into code implementation.\L\
-        \LDesign2Code is maintained by the SALT lab from Stanford NLP. It includes\
-        \ two benchmark datasets: \n\nThe Design2Code benchmark dataset for the task\
-        \ of converting visual design (screenshot) into code implementation, which\
-        \ consists of 484 real-world webpages from C4. \n\nThe Design2Code-Hard dataset,\
-        \ a subset of 80 extra difficult test cases collected from Github Pages that\
-        \ challenges SoTA VLMs' capabilities of Web UI generation."
+      description: "Converting visual design (screenshot) into code implementation.Design2Code\
+        \ is maintained by the SALT lab from Stanford NLP. It includes two benchmark\
+        \ datasets: \n\nThe Design2Code benchmark dataset for the task of converting\
+        \ visual design (screenshot) into code implementation, which consists of 484\
+        \ real-world webpages from C4. \n\nThe Design2Code-Hard dataset, a subset\
+        \ of 80 extra difficult test cases collected from Github Pages that challenges\
+        \ SoTA VLMs' capabilities of Web UI generation."
       icon_url: ''
       name: Design2Code
       oss: true
@@ -744,6 +759,19 @@ domains:
     level: 10
     name: Autonomous Agent
     tools:
+    - date_added: 14/04/2025
+      description: 'PARALLEL AGENTS . Better than D*vin. SWE-Bench #1 Agent on your
+        Codebase. Formerly known as aide.'
+      icon_url: https://aide.dev/favicon.ico
+      name: Agentfarm
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Autonomous Agent
+      - Code
+      verified: false
+      website_url: https://aide.dev/
     - date_added: 12/03/2025
       description: 'Agentless is an agentless approach to automatically solve software
         development problems. To solve each issue, Agentless follows a simple three
@@ -888,6 +916,20 @@ domains:
       - Code
       verified: false
       website_url: https://www.warp.dev/
+    - date_added: 14/04/2025
+      description: Stop Context Switching by Bringing Context Into Your Terminal Wave
+        is an open-source terminal with superpowers, integrating file previews, file
+        editing, AI, web browsing, and workspace organization.
+      icon_url: https://framerusercontent.com/images/s5BucbxyDs8yx011LSbM8r3zSQ.png
+      name: Wave Term
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Terminal
+      - Code
+      verified: false
+      website_url: https://www.waveterm.dev/
   - description: General Code generation tools
     level: 5
     name: Editor
@@ -1038,6 +1080,21 @@ domains:
       - Code
       verified: false
       website_url: https://github.com/cline/cline
+    - date_added: 17/04/2025
+      description: High accuracy code generation for TypeScript, JavaScript, and Python.
+        Codapt works across your codebase to understand and implement your requests.
+        Each request can explore your entire codebase and modify dozens of files without
+        intervention.
+      icon_url: https://codapt.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogomark-gradient.9fd3a931.png&w=3840&q=75
+      name: Codeapt
+      oss: false
+      popular: false
+      tags:
+      - Beta
+      - Editor
+      - Code
+      verified: false
+      website_url: https://codapt.ai/
     - date_added: 12/03/2025
       description: The enterprise AI code assistant. Sourcegraph goes beyond individual
         dev productivity, helping enterprises achieve consistency and quality at scale
@@ -1105,6 +1162,35 @@ domains:
       - Code
       verified: false
       website_url: https://www.cursor.com/
+    - date_added: 04/04/2025
+      description: Firebase Studio accelerates your entire development lifecycle with
+        AI agents. Build backends, front ends, and mobile apps, all in one place.
+      icon_url: https://firebase.studio/favicon.ico
+      name: Firebase Studio
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: http://firebase.studio/
+    - date_added: 17/04/2025
+      description: GPT Pilot is the core technology for the Pythagora VS Code extension
+        that aims to provide the first real AI developer companion. Not just an autocomplete
+        or a helper for PR messages but rather a real AI developer that can write
+        full features, debug them, talk to you about issues, ask for review, etc.
+      icon_url: https://avatars.githubusercontent.com/u/123263103
+      name: GPT-Pilot
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://github.com/Pythagora-io/gpt-pilot
     - date_added: 12/03/2025
       description: The AI editor for everyone. The OG IDE extension that first brought
         us completions.
@@ -1201,19 +1287,6 @@ domains:
       - Code
       verified: false
       website_url: https://github.com/plandex-ai/plandex
-    - date_added: 12/03/2025
-      description: Project IDX is an AI-assisted workspace for full-stack, multiplatform
-        app development in the cloud. From Google.
-      icon_url: https://idx.dev/favicon.ico
-      name: Project IDX
-      oss: false
-      popular: false
-      tags:
-      - GA
-      - Editor
-      - Code
-      verified: false
-      website_url: https://idx.dev/
     - date_added: 24/03/2025
       description: 'Build. Debug. Deploy. All in one tool
 
@@ -1223,7 +1296,7 @@ domains:
       oss: false
       popular: false
       tags:
-      - GA
+      - Beta
       - Editor
       - Code
       verified: false
@@ -1321,6 +1394,23 @@ domains:
       - Code
       verified: false
       website_url: https://github.com/RooVetGit/Roo-Code
+    - date_added: 17/04/2025
+      description: "Roo Code is an AI-powered autonomous coding agent that lives in\
+        \ your editor. It can:\n- Communicate in natural language\n- Read and write\
+        \ files directly in your workspace\n- Run terminal commands\n- Automate browser\
+        \ actions\n- Integrate with any OpenAI-compatible or custom API/model\n- Adapt\
+        \ its \u201Cpersonality\u201D and capabilities through Custom Modes\n"
+      icon_url: https://avatars.githubusercontent.com/u/82245679
+      name: Roo-Code
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://github.com/RooVetGit/Roo-Code
     - date_added: 24/03/2025
       description: Our flagship agent, Runner H, will be available in private beta
         on our platform. It allows, through simple natural language commands, automatic
@@ -1408,6 +1498,19 @@ domains:
       - Code
       verified: false
       website_url: https://www.tabnine.com/
+    - date_added: 17/04/2025
+      description: Theia AI, an open framework that empowers tool vendors to seamlessly
+        integrate cutting-edge AI capabilities into their custom tools and IDEs
+      icon_url: https://avatars.githubusercontent.com/u/28530323
+      name: Theia
+      oss: false
+      popular: false
+      tags:
+      - Beta
+      - Editor
+      - Code
+      verified: false
+      website_url: https://theia-ide.org/theia-ai/
     - date_added: 29/03/2025
       description: 'AI-Powered Apps - Built by AI. Transform your development workflow
         using natural language. Build enterprise
@@ -1830,6 +1933,21 @@ domains:
       - Code
       verified: false
       website_url: https://durable.ai/
+    - date_added: 14/04/2025
+      description: "t's a revolution of writing software in plain human language that\
+        \ is understandable and executable by both humans and machines \u2013 and\
+        \ it's going to change everything!\n"
+      icon_url: https://avatars.githubusercontent.com/u/148442244?s=128
+      name: Promptbook
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Spec Driven
+      - Code
+      verified: false
+      website_url: https://www.ptbk.io/
     - date_added: 12/03/2025
       description: 'Transform your API Specs into Executable Contracts with #NoCode
         in Seconds. With Specmatic experience the power of Contract-Driven Development
@@ -1875,6 +1993,20 @@ domains:
       - Code
       verified: true
       website_url: https://squillo.io/
+    - date_added: 17/04/2025
+      description: A CLI that turns your Project's Documentation into an autonomous
+        local task management and project implementation system.
+      icon_url: https://avatars.githubusercontent.com/u/200565267
+      name: Task Master
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Spec Driven
+      - Code
+      verified: false
+      website_url: https://github.com/James-Cherished-Inc/AI-task-master
     - date_added: 12/03/2025
       description: "You make the spec, AI codes & maintains.\nTessl\u2019s AI native\
         \ development platform delivers secure, high-quality, and auto-maintained\
@@ -1909,6 +2041,47 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://codeyam.com/
+    - date_added: 17/04/2025
+      description: "CodeceptJS \u2010 supercharged. End 2 End Testing. First AI-powered\
+        \ testing framework \U0001FA84"
+      icon_url: https://codecept.io/logo.svg
+      name: Codecept
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://codecept.io/ai/
+    - date_added: 17/04/2025
+      description: '#1 AI Agent for unit testing complex Java code at scale. Diffblue
+        Cover is an enterprise-grade solution for automating the generation and management
+        of unit tests rapidly and reliably in IntelliJ and CI pipelines.'
+      icon_url: https://www.diffblue.com/favicon/apple-touch-icon.png
+      name: Diff Blue
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://www.diffblue.com/
+    - date_added: 17/04/2025
+      description: Digital Workers for Test Automation. Real AI Test Automation..
+        Proven AI Value & Benefit.
+      icon_url: https://cdn.prod.website-files.com/5eb9845c1d37d7efad64e226/5f8f6c4c9ca3f646d308c11d_fz-favicon-32-big.png
+      name: Functionize
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://www.functionize.com/
     - date_added: 12/03/2025
       description: Test Gru delivers enterprise-grade unit test automation services,
         empowering you to achieve superior test coverage. Harness the expertise of
@@ -1966,6 +2139,20 @@ domains:
       - Quality Assurance
       verified: true
       website_url: https://www.hypertest.co
+    - date_added: 17/04/2025
+      description: Still writing tests in 2025? KushoAI transforms your inputs into
+        a comprehensive ready-to-run test suite. Test both web interfaces and backend
+        APIs in minutes with our AI Agents.
+      icon_url: https://framerusercontent.com/images/Tph6W7fPu1IhgPOPCgwsiD6f2LE.png
+      name: Kusho
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://kusho.ai/
     - date_added: 12/03/2025
       description: Low-code test automation with AI healing capabilities.
       icon_url: https://www.mabl.com/favicon.ico
@@ -1991,6 +2178,21 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://www.meticulous.ai/
+    - date_added: 17/04/2025
+      description: 'Open-Source Language Agnostic LLM-based Mutation Testing.
+
+        '
+      icon_url: https://avatars.githubusercontent.com/u/152569327
+      name: Muta Hunter
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://github.com/codeintegrity-ai/mutahunter
     - date_added: 24/03/2025
       description: Find bugs before your customers do. Give us your URL and we automatically
         discover, generate and run your Playwright end-to-end tests.
@@ -2144,6 +2346,20 @@ domains:
     level: 13
     name: Review
     tools:
+    - date_added: 17/04/2025
+      description: A CLI that writes your git commit messages for you with AI. Never
+        write a commit message again.
+      icon_url: https://avatars.githubusercontent.com/u/63742054
+      name: AI Commits
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Review
+      - Quality Assurance
+      verified: false
+      website_url: https://github.com/Nutlope/aicommits
     - date_added: 12/03/2025
       description: "Baz performs contextual AI code reviews\u2014analyzing code changes,\
         \ detecting breaking API changes, enforcing consistency, and highlighting\
@@ -2313,6 +2529,19 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://www.ellipsis.dev/
+    - date_added: 17/04/2025
+      description: Cut Code Review Time in Half. Supercharge your entire team with
+        AI-driven code reviews. Ship quality code faster.
+      icon_url: https://www.entelligence.ai/assets/ent_logo_new_dark_mode.svg
+      name: Entelligence
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Review
+      - Quality Assurance
+      verified: false
+      website_url: https://www.entelligence.ai/pr
     - date_added: 24/03/2025
       description: 'The AI developer productivity platform
 
@@ -2343,6 +2572,21 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://www.greptile.com/
+    - date_added: 17/04/2025
+      description: 'Auto-generate meaningful commits in a second.
+
+        '
+      icon_url: https://avatars.githubusercontent.com/u/57486732
+      name: Open Commit
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Review
+      - Quality Assurance
+      verified: false
+      website_url: https://github.com/di-sukharev/opencommit
     - date_added: 12/03/2025
       description: "Agentic AI for Writing, Testing, and Reviewing Code\nModern software\
         \ development needs efficient, high-quality, and well-tested code. Qodo\u2019\
@@ -2387,6 +2631,37 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://safeintelligence.ai/
+    - date_added: 10/04/2025
+      description: "Sculptor is a coding agent environment that applies engineering\
+        \ discipline to catch issues, write tests, and improve your code\u2014all\
+        \ while you work in your favorite editor."
+      icon_url: https://imbue.com/favicon.svg
+      keywords:
+      - code review
+      - AI code review
+      - breaking changes
+      - code analysis
+      - API changes
+      - GitHub integration
+      - coding consistency
+      - AST analysis
+      - developer productivity
+      - merge conflicts
+      - modular development
+      - automated review
+      - pull requests
+      - static analysis
+      - software quality
+      - developer tools
+      name: Skulptor
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Review
+      - Quality Assurance
+      verified: false
+      website_url: https://imbue.com/product/sculptor/
     - date_added: 26/03/2025
       description: 'Get code reviews anytime you want in GitHub, GitLab, or your favorite
         IDE.
@@ -2894,7 +3169,7 @@ domains:
       description: Bits AI is a platform-wide copilot that helps you identify and
         remediate issues in your applications and infrastructure. You can query Bits
         AI in the Datadog web app, the Datadog mobile app, and in Slack.
-      icon_url: https://datadog-docs.imgix.net/img/dd_logo_n_70x75.png?ch=Width,DPR&fit=max&auto=format&w=70&h=75
+      icon_url: https://imgix.datadoghq.com/img/about/presskit/logo-v/dd_vertical_white.png
       name: DataDog Bits AI
       oss: false
       popular: false
@@ -3933,7 +4208,7 @@ domains:
         \ across the entire Datadog platform. Watchdog continuously monitors your\
         \ infrastructure and calls attention to the signals that matter most, helping\
         \ you to detect, troubleshoot, and resolve issues."
-      icon_url: ''
+      icon_url: https://imgix.datadoghq.com/img/about/presskit/logo-v/dd_vertical_white.png
       name: DataDog Watchdog
       oss: false
       popular: false
@@ -4105,6 +4380,21 @@ domains:
       - AIE
       verified: false
       website_url: https://smithery.ai/
+    - date_added: 10/04/2025
+      description: A LangChain-based CLI and MCP server that supports dynamic loading
+        of OpenAPI specifications and integration with Langflow.
+      icon_url: ''
+      name: hippycampus
+      oss: true
+      popular: false
+      tags:
+      - Verified
+      - OSS
+      - GA
+      - MCP
+      - AIE
+      verified: true
+      website_url: https://github.com/cromwellian/hippycampus
     - date_added: 29/03/2025
       description: 'mcp.run is a registry of AI tools that can be developed by anyone
         and used inside any AI application. These tools give AI models and applications
