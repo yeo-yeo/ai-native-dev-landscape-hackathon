@@ -902,6 +902,20 @@ domains:
       - Code
       verified: false
       website_url: https://www.codebuff.com/
+    - date_added: 17/04/2025
+      description: 'OpenAI Codex CLI. Lightweight coding agent that runs in your terminal.
+
+        '
+      icon_url: https://avatars.githubusercontent.com/u/14957082?size-200
+      name: Codex
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Terminal
+      - Code
+      verified: false
+      website_url: https://github.com/openai/codex
     - date_added: 12/03/2025
       description: "The intelligent terminal.\nBecome a command line power user on\
         \ day one. Warp combines AI and your dev team\u2019s knowledge in one fast,\
