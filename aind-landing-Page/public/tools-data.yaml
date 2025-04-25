@@ -202,6 +202,21 @@ domains:
       - Product
       verified: false
       website_url: https://github.com/presidio-oss/specif-ai
+    - date_added: 25/04/2025
+      description: 'Align Your Team to Ship the Right Product Fast
+
+        With the help of AI, Wisary keeps product managers & engineers aligned, PRDs
+        clear, and projects on track'
+      icon_url: https://wisary.ai/wp-content/uploads/2025/02/cropped-Wisary-Logo-Filled-Small-192x192.png
+      name: Wisary
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Requirements
+      - Product
+      verified: false
+      website_url: https://wisary.ai/
     - date_added: 12/03/2025
       description: Make Writing PRDs a Breeze with ChatGPT.
       icon_url: https://writemyprd.com/favicon.ico
@@ -916,6 +931,21 @@ domains:
       - Code
       verified: false
       website_url: https://github.com/openai/codex
+    - date_added: 25/04/2025
+      description: OpenCode is a Go-based CLI application that brings AI assistance
+        to your terminal. It provides a TUI (Terminal User Interface) for interacting
+        with various AI models to help with coding tasks, debugging, and more.
+      icon_url: https://avatars.githubusercontent.com/u/208539476?s=48&v=4
+      name: Opencode
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - Beta
+      - Terminal
+      - Code
+      verified: false
+      website_url: https://github.com/opencode-ai/opencode
     - date_added: 12/03/2025
       description: "The intelligent terminal.\nBecome a command line power user on\
         \ day one. Warp combines AI and your dev team\u2019s knowledge in one fast,\
@@ -1110,20 +1140,6 @@ domains:
       verified: false
       website_url: https://codapt.ai/
     - date_added: 12/03/2025
-      description: The enterprise AI code assistant. Sourcegraph goes beyond individual
-        dev productivity, helping enterprises achieve consistency and quality at scale
-        with AI.
-      icon_url: https://cdn.prod.website-files.com/673f71b4ebbb99190437de75/679a3e4d8b05843d7a83fb51_favicon.png
-      name: Cody
-      oss: false
-      popular: true
-      tags:
-      - GA
-      - Editor
-      - Code
-      verified: false
-      website_url: https://sourcegraph.com/cody
-    - date_added: 12/03/2025
       description: Create, share, and use custom AI code assistants with our open-source
         IDE extensions and hub of models, rules, prompts, docs, and other building
         blocks.
@@ -1149,20 +1165,6 @@ domains:
       - Code
       verified: true
       website_url: https://continue.dev/
-    - date_added: 12/03/2025
-      description: 'An agentic dev environment, designed for everyday tasks.
-
-        '
-      icon_url: https://githubnext.com/favicon/favicon.png
-      name: Copilot Workspace
-      oss: false
-      popular: false
-      tags:
-      - GA
-      - Editor
-      - Code
-      verified: false
-      website_url: https://githubnext.com/projects/copilot-workspace
     - date_added: 12/03/2025
       description: The AI Code Editor. Built to make you extraordinarily productive,
         Cursor is the best way to code with AI.
@@ -1219,6 +1221,20 @@ domains:
       verified: false
       website_url: https://github.com/features/copilot
     - date_added: 12/03/2025
+      description: 'An agentic dev environment, designed for everyday tasks.
+
+        '
+      icon_url: https://github.com/favicon.ico
+      name: GitHub Copilot Workspace
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://githubnext.com/projects/copilot-workspace
+    - date_added: 12/03/2025
       description: AI coding assistant integrated across all JetBrains IDEs.
       icon_url: https://www.jetbrains.com/favicon.ico
       name: JetBrains AI Assistant
@@ -1230,6 +1246,18 @@ domains:
       - Code
       verified: false
       website_url: https://www.jetbrains.com/ai/
+    - date_added: 25/04/2025
+      description: AI for 100K+ Line Codebases
+      icon_url: https://cdn.prod.website-files.com/66ba32b7fcaf0541faaddc26/66e7a27fcba03f6f28c26817_favicon.png
+      name: Jolt
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://www.usejolt.ai/
     - date_added: 24/03/2025
       description: "Welcome to Marblism - the platform to generate, edit and host\
         \ your fullstack application in minutes \u2728\n\nDrop any idea into it and\
@@ -1331,7 +1359,7 @@ domains:
       - code testing
       name: Qodo Gen
       oss: false
-      popular: true
+      popular: false
       social_urls:
       - https://x.com/QodoAI/highlights
       - https://www.linkedin.com/company/qodoai/posts/?feedView=all
@@ -1349,7 +1377,7 @@ domains:
       icon_url: https://refact.ai/favicon.png
       name: Refact
       oss: true
-      popular: true
+      popular: false
       social_urls:
       - https://www.linkedin.com/company/86284492/
       - https://x.com/refact_ai/
@@ -1394,20 +1422,6 @@ domains:
       - Code
       verified: true
       website_url: https://replit.com/
-    - date_added: 12/03/2025
-      description: Roo Code is an AI-powered autonomous coding agent that lives in
-        your editor.
-      icon_url: https://avatars.githubusercontent.com/u/82245679?s=48&v=4
-      name: Roo-Code
-      oss: true
-      popular: false
-      tags:
-      - OSS
-      - GA
-      - Editor
-      - Code
-      verified: false
-      website_url: https://github.com/RooVetGit/Roo-Code
     - date_added: 17/04/2025
       description: "Roo Code is an AI-powered autonomous coding agent that lives in\
         \ your editor. It can:\n- Communicate in natural language\n- Read and write\
@@ -1471,6 +1485,19 @@ domains:
       - Code
       verified: true
       website_url: https://sourcegraph.com/
+    - date_added: 25/04/2025
+      description: The fastest copilot. Supermaven lets you write code 2x faster with
+        AI.
+      icon_url: https://supermaven.com/apple-touch-icon.png
+      name: Supermaven
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://supermaven.com/
     - date_added: 12/03/2025
       description: Self-hosted coding assistant for JetBrains IDEs. Accelerate your
         JetBrains developers with the latest in AI coding intelligence. No data ever
@@ -1505,7 +1532,7 @@ domains:
       icon_url: https://www.tabnine.com/favicon.ico
       name: Tabnine
       oss: false
-      popular: false
+      popular: true
       tags:
       - GA
       - Editor
@@ -1873,6 +1900,21 @@ domains:
       - Code
       verified: false
       website_url: https://github.gg/
+    - date_added: 25/04/2025
+      description: LLM Text is a service that provides optimized context extraction
+        for various types of web content. Whether you're dealing with GitHub repositories,
+        npm packages, YouTube videos, or any other web page, LLM Text has got you
+        covered!
+      icon_url: https://llmtext.com/icon.png
+      name: LLMText
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Prompting
+      - Code
+      verified: false
+      website_url: https://llmtext.com/
     - date_added: 24/03/2025
       description: 'Level up your prompts
 
@@ -1901,6 +1943,22 @@ domains:
       - Code
       verified: false
       website_url: https://repoprompt.com/
+    - date_added: 25/04/2025
+      description: Repomix (formerly Repopack) is a powerful tool that packs your
+        entire repository into a single, AI-friendly file. Perfect for when you need
+        to feed your codebase to Large Language Models (LLMs) or other AI tools like
+        Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more
+      icon_url: https://avatars.githubusercontent.com/u/5019072?s=48&v=4
+      name: Repomix
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Prompting
+      - Code
+      verified: false
+      website_url: https://github.com/yamadashy/repomix
     - date_added: 12/03/2025
       description: Easily Ask Your LLM Coding Questions. Just change the 'g' to a
         'u'!
@@ -1918,6 +1976,34 @@ domains:
     level: 9
     name: Spec Driven
     tools:
+    - date_added: 25/04/2025
+      description: A task management system for AI-driven development with Claude,
+        designed to work seamlessly with Cursor AI.
+      icon_url: https://avatars.githubusercontent.com/u/3160046?s=48&v=4
+      name: Claude Task Master
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Spec Driven
+      - Code
+      verified: false
+      website_url: https://github.com/eyaltoledano/claude-task-master
+    - date_added: 17/04/2025
+      description: A CLI that turns your Project's Documentation into an autonomous
+        local task management and project implementation system.
+      icon_url: https://avatars.githubusercontent.com/u/200565267
+      name: Cline Task Master
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Spec Driven
+      - Code
+      verified: false
+      website_url: https://github.com/James-Cherished-Inc/AI-task-master
     - date_added: 12/03/2025
       description: "AI-Supercharged Modernization . Transform legacy applications\
         \ through an AI-powered, requirements-driven approach \u2014 speeding up delivery\
@@ -2007,20 +2093,6 @@ domains:
       - Code
       verified: true
       website_url: https://squillo.io/
-    - date_added: 17/04/2025
-      description: A CLI that turns your Project's Documentation into an autonomous
-        local task management and project implementation system.
-      icon_url: https://avatars.githubusercontent.com/u/200565267
-      name: Task Master
-      oss: true
-      popular: false
-      tags:
-      - OSS
-      - GA
-      - Spec Driven
-      - Code
-      verified: false
-      website_url: https://github.com/James-Cherished-Inc/AI-task-master
     - date_added: 12/03/2025
       description: "You make the spec, AI codes & maintains.\nTessl\u2019s AI native\
         \ development platform delivers secure, high-quality, and auto-maintained\
@@ -2556,6 +2628,22 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://www.entelligence.ai/pr
+    - date_added: 25/04/2025
+      description: Gepetto is a CLI Tools operator for automating QA/DevOps tasks.
+        The Operator controls its own browser or any other tool provided over MCP
+        to autonomously execute tasks. Reports are generated in junit-XML for easy
+        CI/CD integration.
+      icon_url: https://gepetto.sh/gepetto_logo.png
+      name: Gepetto
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Review
+      - Quality Assurance
+      verified: false
+      website_url: https://gepetto.sh/
     - date_added: 24/03/2025
       description: 'The AI developer productivity platform
 
@@ -3040,31 +3128,6 @@ domains:
       verified: true
       website_url: https://www.pulumi.com/product/copilot/
     - date_added: 12/03/2025
-      description: "\u200BRunme is an open-source tool that transforms Markdown documentation\
-        \ into interactive, executable notebooks, enhancing DevOps workflows by allowing\
-        \ users to run code snippets directly within their documentation.\n\nInteractive\
-        \ Execution: Run commands and code blocks directly from Markdown files, facilitating\
-        \ step-by-step execution of instructions.\u200B\n\nIntegration with DevOps\
-        \ Tools: Seamlessly works with tools like Helm, Terraform, Ansible, Docker,\
-        \ and SSH, streamlining infrastructure management.\n\nCloud Console Integration:\
-        \ Access AWS and Google Cloud consoles directly within notebooks, enhancing\
-        \ cloud resource management.\n\nMultiple Interfaces: Available as a Visual\
-        \ Studio Code extension, a command-line interface (CLI), and a web-based application,\
-        \ catering to different user preferences. \n\nBy converting static documentation\
-        \ into dynamic, testable, and executable content, Runme enhances collaboration\
-        \ and ensures that operational procedures remain up-to-date and reliable."
-      icon_url: https://runme.dev/favicon.ico
-      name: Runme
-      oss: false
-      popular: false
-      tags:
-      - Verified
-      - GA
-      - Infrastructure As Code
-      - DevOps
-      verified: true
-      website_url: https://runme.dev/
-    - date_added: 12/03/2025
       description: Stakpak is a DevOps IDE and API with built-in AI capabilities that
         helps developers quickly build, maintain and self-serve their software infrastructure.
       icon_url: https://media.licdn.com/dms/image/v2/D4D0BAQHybAynVHmCpg/company-logo_200_200/company-logo_200_200/0/1680898495184/dvpzla_logo?e=1748476800&v=beta&t=YIvIHM2h-hsCgeyhpXWpAFXs6ahgRT0XZcDSuaXIsrs
@@ -3144,6 +3207,20 @@ domains:
       - DevOps
       verified: true
       website_url: https://anyshift.io
+    - date_added: 25/04/2025
+      description: Runbooks that Run. Atuin Desktop looks like a doc, but runs like
+        your terminal. Script blocks, embedded terminals, database clients and prometheus
+        charts - all in one place.
+      icon_url: https://blog.atuin.sh/content/images/size/w256h256/2024/01/Atuin_Mascot-_01_square.png
+      name: Atuin Desktop
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://blog.atuin.sh/atuin-desktop-runbooks-that-run/
     - date_added: 12/03/2025
       description: Cleric is an AI SRE teammate that helps software engineering quickly
         diagnose production alerts. It investigates like an experienced engineer,
@@ -3404,6 +3481,31 @@ domains:
       verified: true
       website_url: https://www.runwhen.com/
     - date_added: 12/03/2025
+      description: "\u200BRunme is an open-source tool that transforms Markdown documentation\
+        \ into interactive, executable notebooks, enhancing DevOps workflows by allowing\
+        \ users to run code snippets directly within their documentation.\n\nInteractive\
+        \ Execution: Run commands and code blocks directly from Markdown files, facilitating\
+        \ step-by-step execution of instructions.\u200B\n\nIntegration with DevOps\
+        \ Tools: Seamlessly works with tools like Helm, Terraform, Ansible, Docker,\
+        \ and SSH, streamlining infrastructure management.\n\nCloud Console Integration:\
+        \ Access AWS and Google Cloud consoles directly within notebooks, enhancing\
+        \ cloud resource management.\n\nMultiple Interfaces: Available as a Visual\
+        \ Studio Code extension, a command-line interface (CLI), and a web-based application,\
+        \ catering to different user preferences. \n\nBy converting static documentation\
+        \ into dynamic, testable, and executable content, Runme enhances collaboration\
+        \ and ensures that operational procedures remain up-to-date and reliable."
+      icon_url: https://runme.dev/favicon.ico
+      name: Runme
+      oss: false
+      popular: false
+      tags:
+      - Verified
+      - GA
+      - SRE
+      - DevOps
+      verified: true
+      website_url: https://runme.dev/
+    - date_added: 12/03/2025
       description: "AI DevOps Agents\u200D for Enterprise Teams."
       icon_url: https://cdn.prod.website-files.com/66d14bf912cb9ef1ebeabe13/672ff1d81bb7070409cd3a1d_Group%20116046599.svg
       name: SRE AI
@@ -3472,6 +3574,23 @@ domains:
     level: 17
     name: Observability
     tools:
+    - date_added: 25/04/2025
+      description: "An end-to-end, autonomous remediation platform designed to troubleshoot\
+        \ incidents and application-level issues in real time.From the moment a ticket\
+        \ is created, the system intelligently traces the issue through the software\
+        \ development lifecycle (SDLC), automatically analyzing telemetry and context\
+        \ to pinpoint the exact line of code responsible\u2014directly within the\
+        \ developer's IDE."
+      icon_url: https://lightrun.com/wp-content/uploads/2022/11/cropped-fav-1-32x32.png
+      name: Lightrun
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Observability
+      - DevOps
+      verified: false
+      website_url: https://lightrun.com/
     - date_added: 24/03/2025
       description: 'Upgrade your company''s system monitoring in minutes
 
@@ -4523,7 +4642,27 @@ domains:
       - AIE
       verified: false
       website_url: https://superface.ai/
-  description: AIE related
+  - description: LLM Proxy and  Routers
+    level: 26
+    name: Proxy
+    tools:
+    - date_added: 25/04/2025
+      description: "Frosty AI is a multi-LLM routing and observability platform built\
+        \ for AI-native teams.\nIt enables seamless routing of prompts across providers\
+        \ like OpenAI, Anthropic, Mistral, and more\u2014without changing your application\
+        \ code. Frosty lets teams configure routing based on performance or cost and\
+        \ provides detailed analytics on latency, success rate, and token usage."
+      icon_url: https://www.gofrosty.ai/frosty.png
+      name: Frosty AI
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Proxy
+      - AIE
+      verified: false
+      website_url: https://www.gofrosty.ai/
+  description: AI Engineering related
   level: 6
   name: AIE
 
