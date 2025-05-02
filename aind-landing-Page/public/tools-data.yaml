@@ -4745,7 +4745,7 @@ domains:
         a single API key, and get logging, telemetry, observability, prompt management,
         security, unified billing, smart routing and more.'
       icon_url: https://app.requesty.ai/icon.png
-      name: Requestly
+      name: Requesty
       oss: false
       popular: false
       tags:
