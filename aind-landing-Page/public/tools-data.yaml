@@ -87,6 +87,21 @@ domains:
       - Product
       verified: false
       website_url: https://www.codeguide.dev/
+    - date_added: 09/05/2025
+      description: Create MVPs with AI in seconds. The world's first open-source,
+        AI-powered PRD (Product Requirement Document), Technical Specs, and Flowcharts
+        creator designed to bridge the gap between your vision and functional code
+      icon_url: https://createmvps.app/logo.png
+      name: CreateMVP
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Requirements
+      - Product
+      verified: false
+      website_url: https://createmvps.app/
     - date_added: 12/03/2025
       description: 'PRD Copilot for product managers.
 
@@ -308,13 +323,13 @@ domains:
       verified: false
       website_url: https://github.com/gridaco/code
     - date_added: 12/03/2025
-      description: "Converting visual design (screenshot) into code implementation.Design2Code\
-        \ is maintained by the SALT lab from Stanford NLP. It includes two benchmark\
-        \ datasets: \n\nThe Design2Code benchmark dataset for the task of converting\
-        \ visual design (screenshot) into code implementation, which consists of 484\
-        \ real-world webpages from C4. \n\nThe Design2Code-Hard dataset, a subset\
-        \ of 80 extra difficult test cases collected from Github Pages that challenges\
-        \ SoTA VLMs' capabilities of Web UI generation."
+      description: "Converting visual design (screenshot) into code implementation.\L\
+        \LDesign2Code is maintained by the SALT lab from Stanford NLP. It includes\
+        \ two benchmark datasets: \n\nThe Design2Code benchmark dataset for the task\
+        \ of converting visual design (screenshot) into code implementation, which\
+        \ consists of 484 real-world webpages from C4. \n\nThe Design2Code-Hard dataset,\
+        \ a subset of 80 extra difficult test cases collected from Github Pages that\
+        \ challenges SoTA VLMs' capabilities of Web UI generation."
       icon_url: ''
       name: Design2Code
       oss: true
@@ -402,6 +417,20 @@ domains:
     level: 3
     name: Nocode
     tools:
+    - date_added: 09/05/2025
+      description: Stop juggling. Start building. We built Ardor. So you can build
+        full-scale solutions. And manage them from start to finish without having
+        to struggle with the complexities of modern AI software engineering one-by-one.
+      icon_url: https://framerusercontent.com/images/q1H6qCx3tyhhiPXpVgcrBlvV7o.png
+      name: Ardor
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Nocode
+      - Product
+      verified: false
+      website_url: https://ardor.cloud
     - date_added: 09/04/2025
       description: 'Self-Improving Websites:  Dalton runs experiments 10x faster,
         learns what works, and improves your website 24/7. Better results, zero extra
@@ -510,6 +539,20 @@ domains:
       - Product
       verified: false
       website_url: https://www.plasmic.app/
+    - date_added: 09/05/2025
+      description: The best way to build internal software. Seamlessly connect databases,
+        build with elegant components, and customize with code. Accelerate mundane
+        tasks, freeing up time for the work that matters most.
+      icon_url: https://cdn.sanity.io/images/bclf52sw/production/4d5daa27be695d8c4b3ac0b333045d8f4a612683-128x128.svg
+      name: Retool
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Nocode
+      - Product
+      verified: false
+      website_url: https://retool.com/
     - date_added: 12/03/2025
       description: Convert wireframes and sketches into React components with AI.
         Uxtly is a UI drafting software. With it, you can spec out requirements without
@@ -3623,6 +3666,34 @@ domains:
       - DevOps
       verified: false
       website_url: https://getunblocked.com/
+    - date_added: 09/05/2025
+      description: "AI\u2011Powered Production Engineer / SRE - Reducing MTTR with\
+        \ AI-driven triage and root cause analysis. Velocity surfaces the right context\
+        \ \u2014 logs, metrics, runbooks, dashboards and more, in one place so engineers\
+        \ can triage and resolve incidents faster"
+      icon_url: https://cdn.prod.website-files.com/66b46d77aa783eb77179e8d9/66b471ca812b93f192b52282_Velocity%20Logo.svg
+      name: Velocity
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://velocity.tech/
+    - date_added: 09/05/2025
+      description: End downtime before it starts. Fast, efficient root cause analysis
+        that improves with every incident
+      icon_url: https://cdn.prod.website-files.com/673321a9408a76b8c4b4d0c2/675b20226c2bbea11a685525_favicon-wm-big.png
+      name: Wild Moose
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://www.wildmoose.ai/
   - description: Monitoring and observability tools
     level: 17
     name: Observability
