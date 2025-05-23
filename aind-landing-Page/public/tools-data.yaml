@@ -323,13 +323,13 @@ domains:
       verified: false
       website_url: https://github.com/gridaco/code
     - date_added: 12/03/2025
-      description: "Converting visual design (screenshot) into code implementation.\L\
-        \LDesign2Code is maintained by the SALT lab from Stanford NLP. It includes\
-        \ two benchmark datasets: \n\nThe Design2Code benchmark dataset for the task\
-        \ of converting visual design (screenshot) into code implementation, which\
-        \ consists of 484 real-world webpages from C4. \n\nThe Design2Code-Hard dataset,\
-        \ a subset of 80 extra difficult test cases collected from Github Pages that\
-        \ challenges SoTA VLMs' capabilities of Web UI generation."
+      description: "Converting visual design (screenshot) into code implementation.Design2Code\
+        \ is maintained by the SALT lab from Stanford NLP. It includes two benchmark\
+        \ datasets: \n\nThe Design2Code benchmark dataset for the task of converting\
+        \ visual design (screenshot) into code implementation, which consists of 484\
+        \ real-world webpages from C4. \n\nThe Design2Code-Hard dataset, a subset\
+        \ of 80 extra difficult test cases collected from Github Pages that challenges\
+        \ SoTA VLMs' capabilities of Web UI generation."
       icon_url: ''
       name: Design2Code
       oss: true
@@ -497,6 +497,23 @@ domains:
       - Product
       verified: false
       website_url: https://www.framer.com/ai/
+    - date_added: 23/05/2025
+      description: "Jo is your always-on AI user-researcher. Paste any URL\u2014whether\
+        \ it\u2019s a live site, Figma file, prototype, or side project\u2014and Jo\
+        \ instantly hands you a shareable research link. Send that link to users and\
+        \ Jo runs the conversation for you: asking smart follow-ups, probing for the\
+        \ \u201Cwhy,\u201D and distilling every chat into crisp insights that you\
+        \ can use to iterate your product."
+      icon_url: https://ph-files.imgix.net/9595dfb3-556a-4e37-a222-5c225a1a3a81.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=64&h=64&fit=crop&frame=1&dpr=2
+      name: Jo
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Nocode
+      - Product
+      verified: false
+      website_url: https://jo.floto.ai
     - date_added: 12/03/2025
       description: Higher conversionrates driven by AI. The first AI agent that continuously
         improves your website.
@@ -870,6 +887,21 @@ domains:
       - Code
       verified: false
       website_url: https://github.com/OpenAutoCoder/Agentless
+    - date_added: 23/05/2025
+      description: "Amp is an agentic coding tool built by Sourcegraph. It runs in\
+        \ VS Code (and compatible forks like Cursor, Windsurf, and VSCodium) and as\
+        \ a command-line tool. It\u2019s also multiplayer \u2014 you can share threads\
+        \ and collaborate with your team."
+      icon_url: https://ampcode.com/amp-mark-color.svg
+      name: Amp
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Autonomous Agent
+      - Code
+      verified: false
+      website_url: https://ampcode.com/
     - date_added: 12/03/2025
       description: AutoCodeRover is a technology we are building for enterprises and
         developers to maintain reliable and performant software systems through autonomous
@@ -884,6 +916,19 @@ domains:
       - Code
       verified: false
       website_url: https://www.autocoderover.net/
+    - date_added: 23/05/2025
+      description: A cloud-based software engineering agent that answers codebase
+        questions, executes code, and drafts pull requests.
+      icon_url: https://avatars.githubusercontent.com/u/14957082?size-200
+      name: Codex Agents
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Autonomous Agent
+      - Code
+      verified: false
+      website_url: https://chatgpt.com/codex
     - date_added: 12/03/2025
       description: Devin is a collaborative AI teammate. Built to help ambitious engineering
         teams achieve more.
@@ -910,6 +955,21 @@ domains:
       - Code
       verified: false
       website_url: https://www.enginelabs.ai/
+    - date_added: 23/05/2025
+      description: Jules is an asynchronous, agentic coding assistant that integrates
+        directly with your existing repositories. It clones your codebase into a secure
+        Google Cloud virtual machine (VM), understands the full context of your project,
+        and performs tasks.
+      icon_url: https://jules.google/favicon.svg
+      name: Jules
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Autonomous Agent
+      - Code
+      verified: false
+      website_url: https://jules.google/
     - date_added: 12/03/2025
       description: "OpenHands (formerly OpenDevin), a platform for software development\
         \ agents powered by AI. OpenHands agents can do anything a human developer\
@@ -1018,7 +1078,7 @@ domains:
 
         '
       icon_url: https://avatars.githubusercontent.com/u/14957082?size-200
-      name: Codex
+      name: Codex CLI
       oss: false
       popular: false
       tags:
@@ -1207,6 +1267,20 @@ domains:
       - Code
       verified: true
       website_url: https://augmentcode.com/
+    - date_added: 23/05/2025
+      description: 'AI for Large Codebases: The first AI-native code platform that
+        gives large projects compiler-grade context, so LLMs stay useful even when
+        your repo spans millions of lines.'
+      icon_url: https://brokk.ai/favicon.ico
+      name: Brokk
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://brokk.ai/
     - date_added: 12/03/2025
       description: Meet Cline, an AI assistant that can use your CLI and Editor.
       icon_url: https://avatars.githubusercontent.com/u/184127137?s=48&v=4
@@ -2072,6 +2146,21 @@ domains:
     level: 9
     name: Spec Driven
     tools:
+    - date_added: 23/05/2025
+      description: "Cooperate to Autonomously Develop your Software Products: 80%\
+        \ built autonomously, final 20% codified for your engineering team. Works\
+        \ with existing products \u2014 upload your codebase and autonomously add\
+        \ new features. System 2 AI that thinks, builds, then validates your code"
+      icon_url: https://blitzy.com/favicon.ico
+      name: Blitzy
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Spec Driven
+      - Code
+      verified: false
+      website_url: https://blitzy.com/
     - date_added: 25/04/2025
       description: A task management system for AI-driven development with Claude,
         designed to work seamlessly with Cursor AI.
@@ -2264,6 +2353,19 @@ domains:
       - Quality Assurance
       verified: false
       website_url: https://www.functionize.com/
+    - date_added: 23/05/2025
+      description: Have GitAuto write unit test cases.. GitAuto writes code and opens
+        pull requests from GitHub & Jira issues for automated test case creation.
+      icon_url: ''
+      name: GitAuto
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Testing
+      - Quality Assurance
+      verified: false
+      website_url: https://gitauto.ai/
     - date_added: 12/03/2025
       description: Test Gru delivers enterprise-grade unit test automation services,
         empowering you to achieve superior test coverage. Harness the expertise of
@@ -3694,10 +3796,37 @@ domains:
       - DevOps
       verified: false
       website_url: https://www.wildmoose.ai/
+    - date_added: 23/05/2025
+      description: The R&P lab reimagining DevOps
+      icon_url: https://www.a37.ai/favicon.svg
+      name: applied37
+      oss: false
+      popular: false
+      tags:
+      - Beta
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://www.a37.ai/
   - description: Monitoring and observability tools
     level: 17
     name: Observability
     tools:
+    - date_added: 23/05/2025
+      description: Software engineering intelligence platform that collects qualitative
+        and quantitative data from your engineers and tools to understand the impact
+        of various drivers, including GenAI impact, on developer productivity. Built
+        by the researchers behind DORA and SPACE framework.
+      icon_url: https://www.getdx.com/favicon.ico
+      name: DX
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Observability
+      - DevOps
+      verified: false
+      website_url: https://www.getdx.com/
     - date_added: 25/04/2025
       description: "An end-to-end, autonomous remediation platform designed to troubleshoot\
         \ incidents and application-level issues in real time.From the moment a ticket\
@@ -3715,6 +3844,20 @@ domains:
       - DevOps
       verified: false
       website_url: https://lightrun.com/
+    - date_added: 23/05/2025
+      description: "Real-time Behavioral Alerts : Real-time error tracking catches\
+        \ issues fast, while intelligent judges prevent hallucinations and keep outputs\
+        \ accurate and reliable \u2014 even when moving between models."
+      icon_url: https://framerusercontent.com/images/LIx4gar29O1U6mjMzytaLJGx5w.png
+      name: Okareo
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Observability
+      - DevOps
+      verified: false
+      website_url: https://okareo.com/
     - date_added: 24/03/2025
       description: 'Upgrade your company''s system monitoring in minutes
 
@@ -4054,6 +4197,21 @@ domains:
       - AIE
       verified: false
       website_url: https://deepseekcoder.github.io/
+    - date_added: 23/05/2025
+      description: "Devstral is built under a collaboration between Mistral AI and\
+        \ All Hands AI \U0001F64C, and outperforms all open-source models on SWE-Bench\
+        \ Verified by a large margin. We release Devstral under the Apache 2.0 license. "
+      icon_url: ''
+      name: DevStral
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://mistral.ai/news/devstral
     - date_added: 12/03/2025
       description: 'Pro: most powerful multi-model thinking model. Flash: low latency.'
       icon_url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/2560px-Google_Gemini_logo.svg.png
@@ -4161,6 +4319,60 @@ domains:
       - AIE
       verified: false
       website_url: https://huggingface.co/bigcode/starcoder
+    - date_added: 23/05/2025
+      description: Toto (Time Series Optimized Transformer for Observability) is a
+        state-of-the-art time-series foundation model designed for multi-variate time
+        series forecasting, emphasizing observability metrics. Toto efficiently handles
+        high-dimensional, sparse, and non-stationary data commonly encountered in
+        observability scenarios.
+      icon_url: ''
+      name: Toto
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://huggingface.co/Datadog/Toto-Open-Base-1.0
+    - date_added: 23/05/2025
+      description: 'This family is currently comprised of three distinct models:
+
+
+        SWE-1: Approximately Claude 3.5 Sonnet levels of tool-call reasoning while
+        being cheaper to serve. It will be available to all paid users for a promotional
+        period of 0 credits per user prompt.
+
+
+        SWE-1-lite: A smaller model that replaces Cascade Base at better quality.
+        It is available for unlimited use to all users, free or paid.
+
+
+        SWE-1-mini: A small, extremely fast model that powers the Windsurf Tab passive
+        experience for all users, free or paid.'
+      icon_url: ''
+      name: Wave9
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://windsurf.com/blog/windsurf-wave-9-swe-1
+    - date_added: 23/05/2025
+      description: "Specialized web-dev knowledge\n\u2022 OpenAI-compatible API\n\u2022\
+        \ Use in Cursor, Codex, or your own app"
+      icon_url: ''
+      name: v0-1.0-md
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://v0.dev/pricing
     - date_added: 12/03/2025
       description: Grok 3 (Think) also attained 84.6% on graduate-level expert reasoning
         (GPQA), and 79.4% on LiveCodeBench for code generation and problem-solving.
@@ -4808,6 +5020,20 @@ domains:
       - AIE
       verified: false
       website_url: https://www.gofrosty.ai/
+    - date_added: 23/05/2025
+      description: Smarter, faster, more cost-effectiveway to run AI. AI teams from
+        startups to enterprises use Parasail to get infrastructure out of the way
+        and bring products to market faster.
+      icon_url: https://cdn.prod.website-files.com/671d29fd286084754823a724/6721d3891b9baf10a1bd0b3f_Parasail%20Webclip.png
+      name: Parasail
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Gateway
+      - AIE
+      verified: false
+      website_url: https://www.parasail.io/
     - date_added: 02/05/2025
       description: 'Requesty is an LLM Gateway that functions as an intelligent middleware
         for all your LLM needsIn less than 5 minutes, integrate with 200+ LLM providers
