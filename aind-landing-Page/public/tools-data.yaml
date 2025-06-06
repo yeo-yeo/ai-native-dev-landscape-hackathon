@@ -542,6 +542,19 @@ domains:
       - Product
       verified: false
       website_url: https://keak.com/
+    - date_added: 06/06/2025
+      description: AI that helps you build scalable backends. Leap helps you build
+        and deploy apps to your cloud on AWS or GCP, with your code under your control.
+      icon_url: https://leap.new/favicon.ico
+      name: Leap
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Nocode
+      - Product
+      verified: false
+      website_url: https://leap.new/
     - date_added: 26/03/2025
       description: Oakie's platform empowers you to build custom AI agents that acts
         on the most critical business tasks, as you would, ensuring human expertise
@@ -585,6 +598,19 @@ domains:
       - Product
       verified: false
       website_url: https://retool.com/
+    - date_added: 06/06/2025
+      description: Build Custom Apps in Minutes. Create tailor-made business applications
+        instantly with AI.
+      icon_url: https://spring.new/horizontal-logo.svg
+      name: Spring
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Nocode
+      - Product
+      verified: false
+      website_url: https://spring.new/
     - date_added: 12/03/2025
       description: Convert wireframes and sketches into React components with AI.
         Uxtly is a UI drafting software. With it, you can spec out requirements without
@@ -866,6 +892,18 @@ domains:
       - Product
       verified: false
       website_url: https://v0.dev/
+    - date_added: 06/06/2025
+      description: First AI Coding Community Where Creators Build
+      icon_url: https://www.youware.com/favicon.ico
+      name: Youware
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Prototyping
+      - Product
+      verified: false
+      website_url: https://www.youware.com/
   description: Product related
   level: 1
   name: Product
@@ -1076,6 +1114,21 @@ domains:
       - Code
       verified: false
       website_url: https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview
+    - date_added: 05/06/2025
+      description: 'Manage multiple AI agents like Claude Code, Codex, and Aider.
+
+        10x your productivity'
+      icon_url: https://smtg-ai.github.io/claude-squad/favicon.ico
+      name: Claude Squad
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Terminal
+      - Code
+      verified: false
+      website_url: https://smtg-ai.github.io/claude-squad/
     - date_added: 29/03/2025
       description: Simple. Fast. Powerful. Codebuff works in your terminal.
       icon_url: https://www.codebuff.com/favicon/favicon.ico
@@ -1503,6 +1556,21 @@ domains:
       - Code
       verified: false
       website_url: https://marsx.dev/
+    - date_added: 05/06/2025
+      description: "Our goal with Mistral Code is simple: deliver best-in-class coding\
+        \ models to enterprise developers, enabling everything from instant completions\
+        \ to multi-step refactoring\u2014through an integrated platform deployable\
+        \ in the cloud, on reserved capacity, or air-gapped on-prem GPUs."
+      icon_url: https://mistral.ai/favicon.ico
+      name: Mistral Code
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://mistral.ai/news/mistral-code
     - date_added: 06/04/2025
       description: Combines static analysis with AI to give coding tools deeper understanding
         of code behavior. Provides a semantic understanding layer for AI coding tools
@@ -1517,6 +1585,21 @@ domains:
       - Code
       verified: false
       website_url: https://www.nuanced.dev/
+    - date_added: 05/06/2025
+      description: Ona is the privacy-first software engineering agent specifically
+        designed for enterprise. Ona operates entirely within your network, tightly
+        integrated into your existing enterprise infrastructure. The code Ona writes
+        never leaves your premises.
+      icon_url: https://ona.com/ona-dark.ico
+      name: Ona
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://ona.com/
     - date_added: 12/03/2025
       description: The Curated AI Code Editor. Supercharge your development with an
         up-to-date, curated inventory of the best AI tools, natively integrated for
@@ -1849,6 +1932,18 @@ domains:
       - Code
       verified: false
       website_url: https://zed.dev
+    - date_added: 05/06/2025
+      description: An open-source AI agent that builds full-stack apps.
+      icon_url: https://www.app.build/favicon/favicon.png
+      name: app.build
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Editor
+      - Code
+      verified: false
+      website_url: https://www.app.build/
   - description: Specialized in Frontend and Mobile code generation
     level: 6
     name: Frontend & Mobile
@@ -3011,7 +3106,7 @@ domains:
       - static analysis
       - software quality
       - developer tools
-      name: Skulptor
+      name: Sculptor
       oss: false
       popular: false
       tags:
@@ -3492,6 +3587,20 @@ domains:
       - DevOps
       verified: false
       website_url: https://blog.atuin.sh/atuin-desktop-runbooks-that-run/
+    - date_added: 05/06/2025
+      description: 'Become an SRE Superhero!
+
+        Reduce toil, investigate incidents faster, and drive autonomous operations'
+      icon_url: https://cdn.prod.website-files.com/682d03f5302c7c8ce215aaa5/683914102936c65b867e4ea4_android-chrome-256x256.png
+      name: Ciroos
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://ciroos.ai/
     - date_added: 12/03/2025
       description: Cleric is an AI SRE teammate that helps software engineering quickly
         diagnose production alerts. It investigates like an experienced engineer,
@@ -3541,6 +3650,19 @@ domains:
       - DevOps
       verified: false
       website_url: https://docs.datadoghq.com/bits_ai/
+    - date_added: 05/06/2025
+      description: AI for Production Code Errors . Debug in seconds, not hours or
+        days
+      icon_url: ''
+      name: Foam
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://foam.ai/
     - date_added: 26/03/2025
       description: 'Ship more secure software faster with AI throughout the entire
         software development lifecycle.
@@ -3613,6 +3735,20 @@ domains:
       - DevOps
       verified: true
       website_url: https://docs.kubiya.ai/docs
+    - date_added: 05/06/2025
+      description: DevOps Simplified. Through Conversation. Deploy, monitor, and scale
+        cloud apps using natural language. Let Limo handle your infrastructure while
+        you focus on building.
+      icon_url: ''
+      name: Limo
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - SRE
+      - DevOps
+      verified: false
+      website_url: https://www.limo.dev/
     - date_added: 12/03/2025
       description: AI Agent for Application Maintenance.
       icon_url: https://logicstar.ai/assets/images/website/icons/favicon.ico
@@ -4143,6 +4279,19 @@ domains:
       - DevSecOps
       verified: false
       website_url: https://snyk.io/solutions/secure-ai-generated-code/
+    - date_added: 06/06/2025
+      description: "Reimagined development needs redefined security\nDeploy application\
+        \ security that\u2019s fit for the rapidly changing world of AI."
+      icon_url: https://res.cloudinary.com/snyk/image/upload/snyk-mktg-brandui/brand-logos/default-solid-light.svg
+      name: Snyk Workflow
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Vuln Scanning
+      - DevSecOps
+      verified: false
+      website_url: https://snyk.io/platform/workflows/
   - description: Check compliance and regulations
     level: 19
     name: Compliance
@@ -4322,6 +4471,20 @@ domains:
       - AIE
       verified: false
       website_url: https://magic.dev/
+    - date_added: 05/06/2025
+      description: 'The world-class way to apply code edits - FAST.
+
+        '
+      icon_url: https://morphllm.com/favicon.ico
+      name: Morphllm
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Model
+      - AIE
+      verified: false
+      website_url: https://morphllm.com/
     - date_added: 12/03/2025
       description: We've created an improved version of OpenAI Codex, our AI system
         that translates natural language to code, and we are releasing it through
@@ -4569,6 +4732,36 @@ domains:
     level: 22
     name: Execution Sandbox
     tools:
+    - date_added: 06/06/2025
+      description: The cloud, built for AI agents. Deploy, run, and scale autonomous
+        agents on infrastructure designed for the future, not the past.
+      icon_url: https://agentuity.com/favicon.ico
+      name: Agentuity
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Execution Sandbox
+      - AIE
+      verified: false
+      website_url: https://agentuity.com/
+    - date_added: 05/06/2025
+      description: 'Arrakis provides a secure, fully customizable, and self-hosted
+        solution to spawn and manage Sandboxes for code execution and computer use.
+        It has out-of-the box support for backtracking via snapshot-and-restore.
+
+        '
+      icon_url: ''
+      name: Arrakis
+      oss: true
+      popular: false
+      tags:
+      - OSS
+      - GA
+      - Execution Sandbox
+      - AIE
+      verified: false
+      website_url: https://github.com/abshkbh/arrakis
     - date_added: 12/03/2025
       description: Built for when performance, security, and reliability matter, wrapped
         with a delightful developer experience.
@@ -4582,6 +4775,20 @@ domains:
       - AIE
       verified: false
       website_url: https://www.baseten.co/
+    - date_added: 06/06/2025
+      description: "Build your modern software factory. Define software delivery workflows\
+        \ and dev environments with reusable components \u2014 including LLMs \u2014\
+        \ and run them anywhere. Built by the creators of Docker."
+      icon_url: https://framerusercontent.com/images/GFfkccjP5MxjJoCDsMXSaA0mY.svg
+      name: Dagger
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Execution Sandbox
+      - AIE
+      verified: false
+      website_url: https://dagger.io/
     - date_added: 12/03/2025
       description: Daytona is a Secure and Elastic Infrastructure for Running AI-Generated
         Code.
@@ -4621,6 +4828,22 @@ domains:
       - AIE
       verified: false
       website_url: https://forevervm.com/
+    - date_added: 06/06/2025
+      description: 'The anti-framework for agents and workflows. No magic. Write plain
+        TypeScript functions.
+
+        GenSX takes care of infra, built-in observability, and all of the APIs you
+        need to build long running agents that stream from start to end.'
+      icon_url: https://www.gensx.com/logo.svg
+      name: GenSX
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Execution Sandbox
+      - AIE
+      verified: false
+      website_url: https://www.gensx.com/
     - date_added: 12/03/2025
       description: 'Gitpod SDK: infrastructure for software engineering agents. The
         infrastructure building blocks for orchestrating and building software engineering
@@ -4717,6 +4940,36 @@ domains:
       - AIE
       verified: false
       website_url: https://riza.io/
+    - date_added: 06/06/2025
+      description: AI Infrastructure for the Future of Software Engineering
+      icon_url: https://cdn.prod.website-files.com/673422e3112b332521ed4e9d/67b24d0178236f23dace530a_Favicon%20webflow%2032x32.png
+      name: Runloop
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Execution Sandbox
+      - AIE
+      verified: false
+      website_url: https://www.runloop.ai/
+    - date_added: 06/06/2025
+      description: 'Temporal delivers an open-source Durable Execution platform that
+        abstracts away the complexity of building scalable, reliable distributed systems.
+        It presents a development abstraction that preserves complete application
+        state so that in the case of a host or software failure it can seamlessly
+        migrate execution to another machine.
+
+        '
+      icon_url: https://temporal.io/apple-touch-icon.png
+      name: Temporal
+      oss: false
+      popular: false
+      tags:
+      - GA
+      - Execution Sandbox
+      - AIE
+      verified: false
+      website_url: https://temporal.io/
     - date_added: 24/03/2025
       description: 'Run your apps
 
@@ -4951,10 +5204,9 @@ domains:
         and connect directly to your IDE for smooth workflows.
       icon_url: https://raw.githubusercontent.com/port-labs/port-mcp-server/refs/heads/add-port-logo/assets/port_symbol_black.svg
       name: Port IO
-      oss: true
+      oss: false
       popular: false
       tags:
-      - OSS
       - GA
       - MCP
       - AIE
