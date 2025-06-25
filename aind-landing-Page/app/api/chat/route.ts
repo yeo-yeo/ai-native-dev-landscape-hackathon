@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { SYSTEM_PROMPT } from './system-prompt';
 
 export async function POST(request: NextRequest) {
   try {
@@ -19,7 +20,7 @@ export async function POST(request: NextRequest) {
         messages: [
           {
             role: 'system',
-            content: 'You are a helpful AI assistant that helps developers find the right tools for their projects. Based on what the user is trying to build, suggest relevant development tools, frameworks, or services that would be helpful.',
+            content: SYSTEM_PROMPT,
           },
           {
             role: 'user', 
@@ -31,12 +32,15 @@ export async function POST(request: NextRequest) {
       }),
     });
 
+
     if (!response.ok) {
       throw new Error(`OpenAI API error: ${response.status}`);
     }
 
     const data = await response.json();
     const aiResponse = data.choices[0]?.message?.content || 'Sorry, I could not generate a response.';
+    
+    console.log(JSON.stringify(data.choices, null, 2))
 
     return NextResponse.json({ response: aiResponse });
   } catch (error) {
