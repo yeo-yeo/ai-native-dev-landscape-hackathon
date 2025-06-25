@@ -10,7 +10,6 @@ import { cx } from "cva";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import Search from "../shared/search";
 import { getConsistentColor } from "@/util/get-consistent-color";
 import { GlobaleContext, type GlobaleContextType } from "./globale-context";
 import MobileDrawer from "../shared/mobile-drawer";
@@ -33,7 +32,6 @@ export default function GlobalLayout({
   );
   const [activeTags, setActiveTags] = useState(["all"]);
   const [isMounted, setIsMounted] = useState(false);
-  const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [showAllTags, setShowAllTags] = useState(true);
 
   // Client-side only code
@@ -213,7 +211,7 @@ export default function GlobalLayout({
           </div>
         </div>
       </section>
-      <Chatathon />
+      <Chatathon onSearch={handleSearch} />
       <section className="hidden lg:flex justify-between w-full items-start gap-12">
         <div className="w-full">
           <div
@@ -258,15 +256,11 @@ export default function GlobalLayout({
         </div>
         <div className="flex shrink-0 flex-col justify-between gap-2 items-center">
           <TabSelector pathname={pathname} />
-          <Search onSearch={handleSearch} initialValue={searchTerm} />
         </div>
       </section>
       <section className="lg:hidden relative px-4 flex items-center justify-between">
         <MobileDrawer
           numberActiveTags={numberActiveTags}
-          className={cx("transition-all duration-300", {
-            "opacity-0 pointer-events-none": isSearchOpen,
-          })}
           pathname={pathname}
         >
           {tagsWithAll.map((tag) => (
@@ -279,12 +273,6 @@ export default function GlobalLayout({
             />
           ))}
         </MobileDrawer>
-        <Search
-          onSearch={handleSearch}
-          initialValue={searchTerm}
-          isSearchOpen={isSearchOpen}
-          setIsSearchOpen={setIsSearchOpen}
-        />
       </section>
       <GlobaleContext.Provider value={contextValue}>
         {children}
