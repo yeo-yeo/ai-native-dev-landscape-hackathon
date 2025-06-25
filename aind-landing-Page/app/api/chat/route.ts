@@ -1,5 +1,17 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { SYSTEM_PROMPT } from './system-prompt';
+import { searchSimilarTools } from '@/util/pinecone';
+
+interface ToolMetadata {
+  name: string;
+  description: string;
+  website_url: string;
+  tags: string[];
+  domainName: string;
+  categoryName: string;
+  popular: boolean;
+  oss: boolean;
+  verified: boolean;
+}
 
 export async function POST(request: NextRequest) {
   try {
@@ -9,6 +21,26 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Message is required' }, { status: 400 });
     }
 
+    // Search for relevant tools using Pinecone
+    let relevantTools: any[] = [];
+    let contextPrompt = '';
+    
+    try {
+      const searchResults = await searchSimilarTools(message, 3);
+      relevantTools = searchResults
+        .filter(match => match.score && match.score > -0.1 && match.metadata) // Filter by similarity threshold (adjusted for cosine similarity)
+        .map(match => match.metadata);
+      
+      if (relevantTools.length > 0) {
+        contextPrompt = `\n\nBased on your query, here are some relevant AI development tools from our database:\n${relevantTools
+          .map(tool => `- ${tool?.name}: ${tool?.description} (${tool?.website_url})`)
+          .join('\n')}\n\nPlease incorporate these specific tools in your recommendations when relevant.`;
+      }
+    } catch (pineconeError) {
+      console.warn('Pinecone search failed, falling back to regular chat:', pineconeError);
+      // Continue with regular chat if Pinecone fails
+    }
+
     const response = await fetch('https://api.openai.com/v1/chat/completions', {
       method: 'POST',
       headers: {
@@ -16,11 +48,11 @@ export async function POST(request: NextRequest) {
         'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,
       },
       body: JSON.stringify({
-        model: 'gpt-3.5-turbo',
+        model: 'gpt-4o',
         messages: [
           {
             role: 'system',
-            content: SYSTEM_PROMPT,
+            content: `You are a helpful AI assistant that helps developers find the right tools for their projects. Based on what the user is trying to build, suggest relevant development tools, frameworks, or services that would be helpful.${contextPrompt}`,
           },
           {
             role: 'user', 
@@ -42,7 +74,10 @@ export async function POST(request: NextRequest) {
     
     console.log(JSON.stringify(data.choices, null, 2))
 
-    return NextResponse.json({ response: aiResponse });
+    return NextResponse.json({ 
+      response: aiResponse,
+      relevantTools: relevantTools.length > 0 ? relevantTools : undefined
+    });
   } catch (error) {
     console.error('Chat API error:', error);
     return NextResponse.json(
