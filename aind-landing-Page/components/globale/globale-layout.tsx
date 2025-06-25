@@ -35,7 +35,6 @@ export default function GlobalLayout({
   const [isMounted, setIsMounted] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [showAllTags, setShowAllTags] = useState(true);
-  const [placeholder, setPlaceholder] = useState("");
 
   // Client-side only code
   useEffect(() => {
