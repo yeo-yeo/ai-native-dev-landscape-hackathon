@@ -33,6 +33,7 @@ export default function GlobalLayout({
   const [activeTags, setActiveTags] = useState(["all"]);
   const [isMounted, setIsMounted] = useState(false);
   const [showAllTags, setShowAllTags] = useState(true);
+  const [cluckyFilter, setCluckyFilter] = useState<string[]>([]);
 
   // Client-side only code
   useEffect(() => {
@@ -71,6 +72,17 @@ export default function GlobalLayout({
   // Update search handler to be passed to Search component
   const handleSearch = (value: string) => {
     setSearchTerm(value);
+    // Clear clucky filter when doing regular search
+    if (value && cluckyFilter.length > 0) {
+      setCluckyFilter([]);
+    }
+  };
+
+  // Handle clucky filter
+  const handleCluckyFilter = (toolNames: string[]) => {
+    setCluckyFilter(toolNames);
+    // Clear search term when applying clucky filter
+    setSearchTerm("");
   };
 
   const uniqueTags = data?.domains
@@ -110,7 +122,7 @@ export default function GlobalLayout({
       }
     });
   };
-  const filteredData = searchTerm
+  const filteredData = searchTerm || cluckyFilter.length > 0
     ? {
         ...data,
         domains:
@@ -120,18 +132,27 @@ export default function GlobalLayout({
               categories: domain.categories
                 .map((category) => ({
                   ...category,
-                  tools: category.tools.filter(
-                    (tool) =>
-                      tool.name
-                        .toLowerCase()
-                        .includes(searchTerm.toLowerCase()) ||
-                      tool.description
-                        ?.toLowerCase()
-                        .includes(searchTerm.toLowerCase()) ||
-                      tool.tags?.some((tag) =>
-                        tag.toLowerCase().includes(searchTerm.toLowerCase())
-                      )
-                  ),
+                  tools: category.tools.filter((tool) => {
+                    // If clucky filter is active, filter by exact tool names
+                    if (cluckyFilter.length > 0) {
+                      return cluckyFilter.includes(tool.name);
+                    }
+                    // Otherwise, use search term filtering
+                    if (searchTerm) {
+                      return (
+                        tool.name
+                          .toLowerCase()
+                          .includes(searchTerm.toLowerCase()) ||
+                        tool.description
+                          ?.toLowerCase()
+                          .includes(searchTerm.toLowerCase()) ||
+                        tool.tags?.some((tag) =>
+                          tag.toLowerCase().includes(searchTerm.toLowerCase())
+                        )
+                      );
+                    }
+                    return true;
+                  }),
                 }))
                 .filter((category) => category.tools.length > 0),
             }))
@@ -211,7 +232,7 @@ export default function GlobalLayout({
           </div>
         </div>
       </section>
-      <Chatathon onSearch={handleSearch} />
+      <Chatathon onSearch={handleSearch} onCluckyFilter={handleCluckyFilter} />
       <section className="hidden lg:flex justify-between w-full items-start gap-12">
         <div className="w-full">
           <div

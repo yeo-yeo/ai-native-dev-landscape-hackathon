@@ -17,6 +17,8 @@
   --animate-mobile-slideout: mobile-slideout 300ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
   --animate-header-slidein: header-slidein 500ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
   --animate-header-slideout: header-slideout 300ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-fade-in: fade-in 600ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-clucky-entrance: clucky-entrance 1200ms cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
  
   @keyframes mobile-slidein {
     0% {opacity: 0; transform: translateY(400px);}
@@ -36,6 +38,38 @@
   @keyframes header-slideout {
     0% {opacity: 1; height: 100vh;}
     100% {opacity: 0; height: 0;}
+  }
+
+  @keyframes fade-in {
+    0% { 
+      opacity: 0; 
+      transform: translateY(20px) scale(0.95);
+    }
+    100% { 
+      opacity: 1; 
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  @keyframes clucky-entrance {
+    0% { 
+      opacity: 0; 
+      transform: translateY(30px) scale(0.1) rotate(0deg);
+    }
+    30% { 
+      opacity: 1; 
+      transform: translateY(10px) scale(0.3) rotate(180deg);
+    }
+    60% { 
+      transform: translateY(-5px) scale(0.8) rotate(360deg);
+    }
+    80% { 
+      transform: translateY(2px) scale(1.1) rotate(360deg);
+    }
+    100% { 
+      opacity: 1; 
+      transform: translateY(0) scale(1) rotate(360deg);
+    }
   }
 
 }
