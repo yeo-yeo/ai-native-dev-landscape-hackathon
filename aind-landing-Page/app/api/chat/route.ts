@@ -1,18 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { searchSimilarTools } from '@/util/pinecone';
 
-interface ToolMetadata {
-  name: string;
-  description: string;
-  website_url: string;
-  tags: string[];
-  domainName: string;
-  categoryName: string;
-  popular: boolean;
-  oss: boolean;
-  verified: boolean;
-}
-
 export async function POST(request: NextRequest) {
   try {
     const { message } = await request.json();
@@ -22,18 +10,22 @@ export async function POST(request: NextRequest) {
     }
 
     // Search for relevant tools using Pinecone
-    let relevantTools: any[] = [];
+    let relevantTools: unknown[] = [];
     let contextPrompt = '';
     
     try {
       const searchResults = await searchSimilarTools(message, 3);
       relevantTools = searchResults
         .filter(match => match.score && match.score > -0.1 && match.metadata) // Filter by similarity threshold (adjusted for cosine similarity)
-        .map(match => match.metadata);
+        .map(match => match.metadata)
+        .filter(metadata => metadata !== undefined);
       
       if (relevantTools.length > 0) {
         contextPrompt = `\n\nBased on your query, here are some relevant AI development tools from our database:\n${relevantTools
-          .map(tool => `- ${tool?.name}: ${tool?.description} (${tool?.website_url})`)
+          .map(tool => {
+            const t = tool as Record<string, unknown>;
+            return `- ${t?.name}: ${t?.description} (${t?.website_url})`;
+          })
           .join('\n')}\n\nPlease incorporate these specific tools in your recommendations when relevant.`;
       }
     } catch (pineconeError) {

@@ -1,8 +1,8 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 import { upsertToolsData } from '@/util/pinecone';
 import toolsData from '@/public/tools-data.json';
 
-export async function POST(request: NextRequest) {
+export async function POST() {
   try {
     // No authorization required for simplicity
 
