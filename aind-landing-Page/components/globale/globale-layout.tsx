@@ -16,6 +16,8 @@ import { GlobaleContext, type GlobaleContextType } from "./globale-context";
 import MobileDrawer from "../shared/mobile-drawer";
 import TabSelector from "../shared/tab-selector";
 import { Button } from "../shared/button";
+import Chatathon from "../shared/chatathon";
+
 
 export default function GlobalLayout({
   children,
@@ -33,6 +35,7 @@ export default function GlobalLayout({
   const [isMounted, setIsMounted] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [showAllTags, setShowAllTags] = useState(true);
+  const [placeholder, setPlaceholder] = useState("");
 
   // Client-side only code
   useEffect(() => {
@@ -181,6 +184,7 @@ export default function GlobalLayout({
             Your Guide to the AI Development Ecosystem
           </p>
         </div>
+    
         <div className="flex gap-12 items-start justify-between lg:justify-end ">
           <div className="body-sm">
             <div className="text-[#999999]">Stats</div>
@@ -210,6 +214,7 @@ export default function GlobalLayout({
           </div>
         </div>
       </section>
+      <Chatathon />
       <section className="hidden lg:flex justify-between w-full items-start gap-12">
         <div className="w-full">
           <div
