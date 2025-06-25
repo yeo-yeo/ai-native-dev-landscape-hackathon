@@ -100,7 +100,4 @@ This spec defines how to generate **structured**, **succinct**, and **highly rel
 | “What’s good/bad about Y?” | Tradeoff Table | Pros/Cons               |
 | “What’s new in Z?”       | News Summary      | Ecosystem, Context      |
 </template_spec>
-<tools_data>
-${JSON.stringify(toolsData, null, 2)}
-</tools_data>
 `;
