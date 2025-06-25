@@ -19,18 +19,53 @@ const PLACEHOLDER_SUGGESTIONS = [
 
 interface ChatathonProps {
   onSearch?: (value: string) => void;
+  onCluckyFilter?: (toolNames: string[]) => void;
 }
 
-export default function Chatathon({ onSearch }: ChatathonProps) {
+export default function Chatathon({ onSearch, onCluckyFilter }: ChatathonProps) {
   const [placeholder, setPlaceholder] = useState("");
   const [input, setInput] = useState("");
   const [response, setResponse] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [mode, setMode] = useState<'filter' | 'ask'>('filter');
+  const [showClucky, setShowClucky] = useState(false);
+  const [keySequence, setKeySequence] = useState<string[]>([]);
 
   useEffect(() => {
     setPlaceholder(PLACEHOLDER_SUGGESTIONS[Math.floor(Math.random() * PLACEHOLDER_SUGGESTIONS.length)]);
+    
+    // Check URL params for clucky activation
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('clucky') === 'true' || urlParams.get('demo') === 'clucky') {
+      setShowClucky(true);
+    }
   }, []);
+
+  // Secret keyboard shortcut: "cluck" + Enter
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      const newSequence = [...keySequence, e.key.toLowerCase()].slice(-5);
+      setKeySequence(newSequence);
+      
+      // Check for "cluck" sequence
+      if (newSequence.join('') === 'cluck') {
+        setShowClucky(true);
+        setKeySequence([]);
+        // Optional: Show a fun animation or notification
+        console.log('🐔 Clucky mode activated!');
+      }
+      
+      // Also check for "chicken" sequence for fun
+      if (newSequence.join('').includes('chicken')) {
+        setShowClucky(true);
+        setKeySequence([]);
+        console.log('🐔 Chicken mode activated!');
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [keySequence]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
@@ -77,6 +112,40 @@ export default function Chatathon({ onSearch }: ChatathonProps) {
     } catch (error) {
       console.error('Chat error:', error);
       setResponse('Sorry, something went wrong. Please try again.');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleCluckyClick = async () => {
+    if (isLoading) return;
+
+    setIsLoading(true);
+    setResponse("");
+
+    try {
+      const res = await fetch('/api/clucky', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error(data.error || 'Failed to get clucky response');
+      }
+
+      setResponse(data.response);
+      
+      // Apply the clucky filter if callback provided and tool names exist
+      if (onCluckyFilter && data.tool_names) {
+        onCluckyFilter(data.tool_names);
+      }
+    } catch (error) {
+      console.error('Clucky error:', error);
+      setResponse('Sorry, something went wrong with the clucky generator. Please try again.');
     } finally {
       setIsLoading(false);
     }
@@ -144,7 +213,21 @@ export default function Chatathon({ onSearch }: ChatathonProps) {
           )}
         </form>
 
-        {mode === 'ask' && response && (
+        {/* Clucky Button - Hidden until activated */}
+        {showClucky && (
+          <div className="flex justify-center pt-4 border-t border-gray-200">
+            <button
+              type="button"
+              onClick={handleCluckyClick}
+              disabled={isLoading}
+              className="px-6 py-3 bg-orange-500 text-white rounded-lg disabled:opacity-50 disabled:cursor-not-allowed hover:bg-orange-600 transition-colors flex items-center gap-2 font-medium animate-clucky-entrance"
+            >
+              I'm feeling clucky 🐔
+            </button>
+          </div>
+        )}
+
+        {response && (
           <div className="mt-6 p-4 bg-gray-50 rounded-md border">
             <h3 className="font-semibold mb-2">AI Suggestions:</h3>
             <p className="body-sm text-gray-700 whitespace-pre-wrap">{response}</p>
