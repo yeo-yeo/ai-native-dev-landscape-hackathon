@@ -16,21 +16,8 @@ import { GlobaleContext, type GlobaleContextType } from "./globale-context";
 import MobileDrawer from "../shared/mobile-drawer";
 import TabSelector from "../shared/tab-selector";
 import { Button } from "../shared/button";
+import Chatathon from "../shared/chatathon";
 
-const PLACEHOLDER_SUGGESTIONS = [
-  "I'm trying to build a recipe generator",
-  "I'm trying to build a chatbot",
-  "I'm trying to build a social media platform",
-  "I'm trying to build a e-commerce platform",
-  "I'm trying to build a blog",
-  "I'm trying to build a portfolio website",
-  "I'm trying to build a landing page",
-  "I'm trying to build a product",
-  "I'm trying to build a SaaS",
-  "I'm trying to build a mobile app",
-  "I'm trying to build a desktop app",
-  "I'm trying to build a game",
-];
 
 export default function GlobalLayout({
   children,
@@ -53,7 +40,6 @@ export default function GlobalLayout({
   // Client-side only code
   useEffect(() => {
     setIsMounted(true);
-    setPlaceholder(PLACEHOLDER_SUGGESTIONS[Math.floor(Math.random() * PLACEHOLDER_SUGGESTIONS.length)]);
 
     // Get search param from URL on initial load
     if (typeof window !== "undefined") {
@@ -228,16 +214,7 @@ export default function GlobalLayout({
           </div>
         </div>
       </section>
-      <section>
-      <div>
-        <h2 className="heading-m">👋 What are you trying to do?</h2>
-        <input
-          type="text"
-          placeholder={placeholder}
-          className="body-sm lg:body w-full border border-gray-300 rounded-md p-2"
-        />
-      </div>
-      </section>
+      <Chatathon />
       <section className="hidden lg:flex justify-between w-full items-start gap-12">
         <div className="w-full">
           <div
