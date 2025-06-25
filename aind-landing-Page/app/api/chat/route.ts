@@ -4,8 +4,6 @@ export async function POST(request: NextRequest) {
   try {
     const { message } = await request.json();
 
-    console.log(message);
-
     if (!message) {
       return NextResponse.json({ error: 'Message is required' }, { status: 400 });
     }
