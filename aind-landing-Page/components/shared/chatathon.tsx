@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import ReactMarkdown from "react-markdown";
 
 const PLACEHOLDER_SUGGESTIONS = [
   "I'm trying to build a recipe generator that suggests meals based on ingredients in my fridge",
@@ -230,7 +231,9 @@ export default function Chatathon({ onSearch, onCluckyFilter }: ChatathonProps) 
         {response && (
           <div className="mt-6 p-4 bg-gray-50 rounded-md border">
             <h3 className="font-semibold mb-2">AI Suggestions:</h3>
-            <p className="body-sm text-gray-700 whitespace-pre-wrap">{response}</p>
+            <div className="body-sm text-gray-700 prose prose-sm max-w-none">
+              <ReactMarkdown>{response}</ReactMarkdown>
+            </div>
           </div>
         )}
       </div>

@@ -35,7 +35,7 @@ export default function Search({
     if (initialValue !== searchQuery) {
       setSearchQuery(initialValue);
     }
-  }, [initialValue]);
+  }, [initialValue, searchQuery]);
 
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
